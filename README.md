@@ -1,55 +1,51 @@
 <div align="center">
 
-<h1>Rithm UI</h1>
+# Rithm UI
 
-<p>
-  Animated React components you can copy, install with the shadcn CLI,<br/>
-  or just ask your AI editor for.
-</p>
+Animated React components and UI blocks built with Tailwind CSS and Motion.
 
-<p>
-  <a href="/docs">Docs</a> ·
-  <a href="/docs/mcp">MCP Server</a> ·
-  <a href="/charts">Charts</a> ·
-  <a href="/blocks">Blocks</a>
-</p>
+Docs: https://github.com/aadiexii/Rithm-UI
 
 </div>
 
-## What it is
+## About
 
-Rithm UI is a free collection of React components built on shadcn/ui, Tailwind CSS, and Motion. Nothing is hidden behind a package. The source lands in your project, and from there it's yours to change.
+Rithm UI is a collection of accessible, copy-paste React components designed for modern web apps. Built on top of Radix UI, Tailwind CSS, and Motion. Components are added directly into your codebase, giving you complete ownership and control.
 
-There are 44 components in the docs today, plus page blocks and a few full templates. Every one has a live preview and its code sitting right underneath.
+## Installation
 
-## Getting a component
+You can integrate components using the MCP server, the shadcn CLI, or by copying source code directly.
 
-Pick whichever way suits you.
+### MCP Server
 
-**Ask your editor.** Connect the MCP server once and Claude Code, Cursor, or Windsurf can browse and install components for you:
+Add Rithm UI to your AI coding environment (Cursor, Claude Code, Windsurf):
 
 ```bash
 claude mcp add rithm-ui -- npx -y @rithmui/mcp
 ```
 
-Then just say what you want: _"add the kanban board and animated drawer to my project."_ Setup for the other editors is in the [MCP docs](/docs/mcp).
+### shadcn CLI
 
-**Use the shadcn CLI.** If your project already has shadcn/ui set up:
+Add individual components directly to your project:
 
 ```bash
 npx shadcn@latest add @rithmui/animated-drawer
 ```
 
-**Copy it.** Open a component page, hit copy, paste it in. That works too.
+### Direct Copy
 
-## What's in here
+Browse any component on the site and copy the code straight into your components folder.
 
-- **Components** — forms, cards, buttons, ratings, overlays, media, auth, feedback
-- **Blocks** — hero, pricing, FAQ, CTA and footer sections
-- **Templates** — dashboards and landing pages you can lift wholesale
-- **Colors** — a palette browser at [/colors](/colors)
+## Features
 
-## Running it locally
+Components: Forms, cards, buttons, drawers, dialogs, rating inputs, and media
+Blocks: Hero sections, pricing tables, FAQ layouts, footers
+Charts: Bar, line, radar, pie, candlestick, and composed charts
+Palette: Color browser and system themes
+
+## Local Development
+
+Clone the repository and run the local development server:
 
 ```bash
 git clone https://github.com/aadiexii/Rithm-UI.git
@@ -58,17 +54,21 @@ npm install
 npm run dev
 ```
 
-That's [localhost:3000](http://localhost:3000). Docs, components, and the registry all work out of the box.
+The application runs on http://localhost:3000.
 
-| Command | Does |
-|---|---|
-| `npm run dev` | Dev server |
-| `npm run build` | Production build |
-| `npm run lint` | ESLint |
-| `npm run test` | Checks the registry, catalog, metadata, and structured data line up |
+## Scripts
 
-Built with Next.js 14 (App Router), TypeScript, Tailwind, Radix, and Motion.
+`npm run dev` Starts the development server
+`npm run build` Builds the production bundle
+`npm run lint` Runs ESLint checks
+`npm run test` Runs registry and component integrity tests
 
 ## Author
 
-Created by **Shivam O Sharma**.
+Shivam O Sharma
+GitHub: https://github.com/aadiexii
+X: https://x.com/aadiexii
+
+## License
+
+MIT
