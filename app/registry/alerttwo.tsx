@@ -12,7 +12,7 @@ export default function Alert02() {
           <div className="relative h-10 w-10 shrink-0">
             <Image
               src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-              alt="Arihant jain"
+              alt="Shivam Sharma"
               fill
               className="rounded-full object-cover"
             />
@@ -26,7 +26,7 @@ export default function Alert02() {
                   Team Invitation
                 </p>
                 <p className="text-[13px] text-zinc-500 dark:text-zinc-400 mt-0.5">
-                  Arihant invited you to join{" "}
+                  Shivam invited you to join{" "}
                   <span className="font-medium text-zinc-700 dark:text-zinc-300">
                     Design Team
                   </span>

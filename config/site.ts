@@ -305,7 +305,7 @@ export const navigation = {
     {
       title: "Documentation",
       href: "/docs",
-      description: "Learn how to use Spectrum UI",
+      description: "Learn how to use Rithm UI",
     },
     {
       title: "Templates",

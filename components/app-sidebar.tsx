@@ -32,8 +32,8 @@ import { Icons } from "./icon";
 
 const data = {
   user: {
-    name: "Arihant Jain",
-    email: "m@example.com",
+    name: "Shivam O Sharma",
+    email: "shivam14052004@gmail.com",
     avatar: "/arihanticon.jpg",
   },
   navMain: [

@@ -79,7 +79,7 @@ export default function WalletProfile() {
             <div className="flex-1">
               <div className="flex items-center">
                 <h2 className="text-xl font-bold text-neutral-900 dark:text-white">
-                  Arihant Jain
+                  Shivam O Sharma
                 </h2>
                 <motion.div
                   className="ml-2 flex items-center justify-center w-5 h-5 bg-blue-500 rounded-full"
@@ -90,7 +90,7 @@ export default function WalletProfile() {
                 </motion.div>
               </div>
               <p className="text-neutral-500 dark:text-neutral-400 text-sm">
-                Product Designer • hey@arihantcodes.in
+                Product Designer • shivam14052004@gmail.com
               </p>
             </div>
             <motion.button
@@ -166,7 +166,7 @@ export default function WalletProfile() {
                     <div
                       className={`font-mono ${theme === "light" ? "text-neutral-800" : "text-white"}`}
                     >
-                      Arihant Jain
+                      Shivam O Sharma
                     </div>
                     <div
                       className={`ml-auto font-mono ${theme === "light" ? "text-neutral-800" : "text-white"}`}

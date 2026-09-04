@@ -49,7 +49,7 @@ const resources = [
   { label: "FAQ", href: "/faqs" },
   {
     label: "GitHub repository",
-    href: "https://github.com/arihantcodes/spectrum-ui",
+    href: "https://github.com/aadiexii/Rithm-UI",
     external: true,
   },
   { label: "llms.txt (for AI systems)", href: "/llms.txt", external: true },

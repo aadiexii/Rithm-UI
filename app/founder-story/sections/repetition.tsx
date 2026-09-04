@@ -193,7 +193,7 @@ export function RepetitionSection() {
               className="w-full h-[340px] border border-neutral-200/80 dark:border-neutral-800/80 rounded-2xl p-4 bg-white/50 dark:bg-neutral-950/20 backdrop-blur-xs flex flex-col justify-between shadow-xs"
             >
               <div className="flex justify-between items-center border-b border-neutral-100 dark:border-neutral-900 pb-2">
-                <span className="text-xs font-mono font-bold tracking-tight text-neutral-900 dark:text-white">Arihant J.</span>
+                <span className="text-xs font-mono font-bold tracking-tight text-neutral-900 dark:text-white">Shivam S.</span>
                 <motion.div layoutId="dropdown" className={tagClasses}>Dropdown</motion.div>
               </div>
               <div className="flex-1 flex gap-4 my-3">

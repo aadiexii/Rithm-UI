@@ -21,14 +21,14 @@ export default function FollowButtonDemo() {
           aria-hidden="true"
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-neutral-900 text-sm font-semibold text-white dark:bg-white dark:text-neutral-900"
         >
-          AJ
+          SS
         </div>
         <div className="min-w-0 flex-1">
           <p className="truncate text-sm font-semibold text-neutral-900 dark:text-neutral-100">
-            Arihant Jain
+            Shivam O Sharma
           </p>
           <p className="truncate text-sm text-neutral-500 dark:text-neutral-400">
-            @arihantcodes
+            @aadiexii
           </p>
           <p className="mt-0.5 flex items-baseline gap-1 text-xs text-neutral-500 dark:text-neutral-400">
             <span className="relative inline-flex overflow-hidden font-medium tabular-nums text-neutral-900 dark:text-neutral-100">

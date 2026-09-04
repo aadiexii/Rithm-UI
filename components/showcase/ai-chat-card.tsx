@@ -35,7 +35,7 @@ const DEFAULT_PROMPTS = [
 export function AIChatCard({
   title = "New Chat",
   subtitle = "How can I help you today?",
-  greeting = "Morning, Arihant!",
+  greeting = "Morning, Shivam!",
   prompt = "What are we working on today? Press send to start a new conversation",
   prompts = DEFAULT_PROMPTS,
   autoType = true,

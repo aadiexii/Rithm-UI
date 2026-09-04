@@ -19,21 +19,21 @@ export const metadata: Metadata = {
     'Next.js',
     'Spectrum UI blog',
   ],
-  authors: [{ name: 'Arihant Jain', url: 'https://ui.spectrumhq.in' }],
-  creator: 'Arihant Jain',
-  publisher: 'Spectrum UI',
+  authors: [{ name: 'Shivam O Sharma', url: siteConfig.url }],
+  creator: 'Shivam O Sharma',
+  publisher: 'Rithm UI',
   openGraph: {
-    title: 'Blog | Spectrum UI',
+    title: 'Blog | Rithm UI',
     description:
-      'UI components, React, design systems, and frontend engineering from Spectrum UI.',
-    url: 'https://ui.spectrumhq.in/blog',
-    siteName: 'Spectrum UI',
+      'UI components, React, design systems, and frontend engineering from Rithm UI.',
+    url: `${siteConfig.url}/blog`,
+    siteName: 'Rithm UI',
     images: [
       {
-        url: 'https://ui.spectrumhq.in/og.png',
+        url: `${siteConfig.url}/og.png`,
         width: 1200,
         height: 630,
-        alt: 'Spectrum UI Blog',
+        alt: 'Rithm UI Blog',
       },
     ],
     locale: 'en_US',
@@ -41,11 +41,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog | Spectrum UI',
+    title: 'Blog | Rithm UI',
     description:
-      'UI components, React, design systems, and frontend engineering from Spectrum UI.',
-    creator: '@arihantcodes',
-    images: ['https://ui.spectrumhq.in/og.png'],
+      'UI components, React, design systems, and frontend engineering from Rithm UI.',
+    creator: '@aadiexii',
+    images: [`${siteConfig.url}/og.png`],
   },
   alternates: {
     canonical: 'https://ui.spectrumhq.in/blog',

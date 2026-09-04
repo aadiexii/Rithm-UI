@@ -71,10 +71,10 @@ const PrivacyPolicyPage = () => {
 
           <h2 className="text-xl font-semibold mb-4 text-neutral-900 dark:text-[#F5F5F5]">Contact Us</h2>
           <p className="mb-6 text-neutral-600 dark:text-[#888] leading-relaxed">
-            For any privacy-related requests, reach out at <span className="text-neutral-900 dark:text-neutral-100 font-medium">jainari1208@gmail.com</span>
+            For any privacy-related requests, reach out at <span className="text-neutral-900 dark:text-neutral-100 font-medium">shivam14052004@gmail.com</span>
           </p>
           <Button variant="outline">
-            <a href="https://x.com/arihantcodes" target="_blank">
+            <a href="https://x.com/aadiexii" target="_blank">
               Contact Support
             </a>
           </Button>

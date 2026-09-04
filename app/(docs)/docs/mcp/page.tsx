@@ -409,8 +409,8 @@ export default function McpPage() {
                 href: "https://www.npmjs.com/package/@spectrumui/mcp",
               },
               {
-                label: "GitHub — spectrum-ui repo",
-                href: "https://github.com/arihantcodes/spectrum-ui",
+                label: "GitHub — Rithm UI repo",
+                href: "https://github.com/aadiexii/Rithm-UI",
               },
               {
                 label: "Model Context Protocol spec",

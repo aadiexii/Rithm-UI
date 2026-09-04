@@ -166,18 +166,18 @@ const COLORS = [
 ];
 
 const ABOUT_PARAGRAPHS = [
-  'Spectrum UI is an open-source library of 250+ animation-ready blocks, components, and variants for React and Next.js, built with Tailwind CSS, Motion, TypeScript, and shadcn/ui.',
-  'Every component ships as source code you own: copy it from the docs, install it with the shadcn CLI, or let your AI agent wire it in through the Spectrum UI MCP server.',
-  'Spectrum UI is built by Arihant Jain and maintained in the open on GitHub under the MIT license.',
+  'Rithm UI is an open-source library of 250+ animation-ready blocks, components, and variants for React and Next.js, built with Tailwind CSS, Motion, TypeScript, and shadcn/ui.',
+  'Every component ships as source code you own: copy it from the docs, install it with the shadcn CLI, or let your AI agent wire it in through the Rithm UI MCP server.',
+  'Rithm UI is built by Shivam O Sharma and maintained in the open on GitHub under the MIT license.',
 ];
 
 const FACTS = [
-  { label: 'Product', value: 'Spectrum UI' },
+  { label: 'Product', value: 'Rithm UI' },
   { label: 'Category', value: 'React component library' },
   { label: 'Library', value: '250+ blocks, components, and variants' },
   { label: 'Stack', value: 'Next.js, Tailwind CSS, Motion, TypeScript' },
   { label: 'License', value: 'MIT' },
-  { label: 'Author', value: 'Arihant Jain' },
+  { label: 'Author', value: 'Shivam O Sharma' },
 ];
 
 type IconProps = React.HTMLAttributes<SVGElement>;
@@ -197,25 +197,25 @@ const InstagramIcon = (props: IconProps) => (
 const SOCIALS = [
   {
     name: 'X (Twitter)',
-    handle: '@arihantcodes',
+    handle: '@aadiexii',
     href: siteConfig.links.twitter,
     Icon: Icons.twitter,
   },
   {
     name: 'GitHub',
-    handle: 'arihantcodes/spectrum-ui',
+    handle: 'aadiexii/Rithm-UI',
     href: siteConfig.links.github,
     Icon: Icons.gitHub,
   },
   {
     name: 'LinkedIn',
-    handle: 'in/arihantcodes',
+    handle: 'in/shivamosharma',
     href: siteConfig.links.linkedin,
     Icon: LinkedInIcon,
   },
   {
     name: 'Instagram',
-    handle: '@arihantjainn18',
+    handle: '@shivamosharma',
     href: siteConfig.links.instagram,
     Icon: InstagramIcon,
   },

@@ -400,7 +400,7 @@ export default function GitHubProfileCard() {
         <div className="text-neutral-600 dark:text-neutral-400 text-center max-w-md">
           <p className="text-lg mb-2">Enter a GitHub username to view their profile card</p>
           <p className="text-sm">
-            Try searching for popular users like &quot;arihantcodes&quot;, &quot;torvalds&quot;
+            Try searching for popular users like &quot;aadiexii&quot;, &quot;torvalds&quot;
           </p>
         </div>
       )}

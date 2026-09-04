@@ -184,7 +184,7 @@ export async function POST(request: NextRequest) {
     // Send to admin/owner
     await resend.emails.send({
       from: "onboarding@spectrumhq.in",
-      to: process.env.EMAIL || "arihantjain7000@gmail.com",
+      to: process.env.EMAIL || "shivam14052004@gmail.com",
       subject: `New ${purpose ? `${purpose} ` : ""}submission from ${safe(name) || "Unknown"}`,
       html: adminHtml,
     });

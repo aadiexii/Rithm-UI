@@ -44,15 +44,15 @@ inject();
 
 export const metadata: Metadata = {
   title: {
-    default: "Spectrum UI — Animated React Components & Blocks",
-    template: "%s | Spectrum UI",
+    default: "Rithm UI — Animated React Components & Blocks",
+    template: "%s | Rithm UI",
   },
   metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: [
     {
-      name: "Spectrum UI",
+      name: "Rithm UI",
       url: siteConfig.url,
     },
     {
@@ -60,8 +60,8 @@ export const metadata: Metadata = {
       url: siteConfig.author.url,
     },
   ],
-  creator: "Arihant Jain",
-  publisher: "Spectrum UI",
+  creator: "Shivam O Sharma",
+  publisher: "Rithm UI",
   alternates: {
     canonical: "/",
     languages: {
@@ -78,18 +78,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: siteConfig.locale,
     url: siteConfig.url,
-    title: "Spectrum UI — Animated React Components & Blocks",
+    title: "Rithm UI — Animated React Components & Blocks",
     description: siteConfig.description,
-    siteName: "Spectrum UI",
+    siteName: "Rithm UI",
     images: [siteConfig.ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spectrum UI — Animated React Components & Blocks",
+    title: "Rithm UI — Animated React Components & Blocks",
     description: siteConfig.description,
     images: [siteConfig.ogImage.url],
-    creator: "@arihantcodes",
-    site: "@spectrumui",
+    creator: "@aadiexii",
+    site: "@rithmui",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
   robots: {

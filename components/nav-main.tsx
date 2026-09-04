@@ -30,7 +30,7 @@ export function NavMain({
               variant="ghost"
             >
               <Inbox />
-              Arihant&apos;s Newsletter
+              Shivam&apos;s Newsletter
             </Button>
             <ChevronsUpDown className="h-4 w-4" />
           </SidebarMenuItem>

@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
     // Notify admin
     await resend.emails.send({
       from: "noreply@spectrumhq.in",
-      to: process.env.EMAIL || "arihantjain7000@gmail.com",
+      to: process.env.EMAIL || "shivam14052004@gmail.com",
       subject: "New Component Request",
       html: `
         <h1>New Component Request</h1>

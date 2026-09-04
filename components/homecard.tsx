@@ -661,13 +661,13 @@ export default function HomeCardCollection() {
             <Avatar>
               <AvatarImage
                 src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-                alt="@arihantcodes"
+                alt="@aadiexii"
               />
-              <AvatarFallback>SU</AvatarFallback>
+              <AvatarFallback>RU</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>Spectrum UI</CardTitle>
-              <CardDescription>@arihantcodes</CardDescription>
+              <CardTitle>Rithm UI</CardTitle>
+              <CardDescription>@aadiexii</CardDescription>
             </div>
           </div>
         </CardHeader>
@@ -675,7 +675,7 @@ export default function HomeCardCollection() {
           <div className="grid w-full items-center gap-4">
             <div className="flex flex-col space-y-1.5">
               <Label>Email</Label>
-              <p className="text-sm">hello@arihant.us</p>
+              <p className="text-sm">shivam14052004@gmail.com</p>
             </div>
             <div className="flex flex-col space-y-1.5">
               <Label>Location</Label>
@@ -1225,11 +1225,11 @@ function QuickNoteCard() {
       </CardHeader>
       <CardContent className="p-4 pt-0 flex items-center space-x-4">
         <Avatar>
-          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" alt="Arihant jain" />
+          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" alt="Shivam Sharma" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div>
-          <div className="font-semibold">Arihant</div>
+          <div className="font-semibold">Shivam</div>
           <p className="text-xs text-muted-foreground">Call | Message</p>
         </div>
       </CardContent>
@@ -1489,13 +1489,13 @@ export function ProfileCard() {
           <Avatar>
             <AvatarImage
               src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-              alt="@arihantcodes"
+              alt="@aadiexii"
             />
-            <AvatarFallback>SU</AvatarFallback>
+            <AvatarFallback>RU</AvatarFallback>
           </Avatar>
           <div>
-            <CardTitle>Spectrum UI</CardTitle>
-            <CardDescription>@arihantcodes</CardDescription>
+            <CardTitle>Rithm UI</CardTitle>
+            <CardDescription>@aadiexii</CardDescription>
           </div>
         </div>
       </CardHeader>
@@ -1503,7 +1503,7 @@ export function ProfileCard() {
         <div className="grid w-full items-center gap-4">
           <div className="flex flex-col space-y-1.5">
             <Label>Email</Label>
-            <p className="text-sm">hello@arihant.us</p>
+            <p className="text-sm">shivam14052004@gmail.com</p>
           </div>
           <div className="flex flex-col space-y-1.5">
             <Label>Location</Label>
@@ -2182,11 +2182,11 @@ export function QuickContactCard() {
       </CardHeader>
       <CardContent className="p-4 pt-0 flex items-center space-x-4">
         <Avatar>
-          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" alt="Arihant jain"/>
+          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" alt="Shivam Sharma"/>
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div>
-          <div className="font-semibold">Arihant</div>
+          <div className="font-semibold">Shivam</div>
           <p className="text-xs text-muted-foreground">Call | Message</p>
         </div>
       </CardContent>

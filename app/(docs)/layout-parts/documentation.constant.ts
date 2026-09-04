@@ -23,9 +23,9 @@ export const DOCS: Documentation[] = [
     groupValue: 'Follow for more updates',
     children: [
       {
-        label: 'Twitter @arihantcodes',
-        value: 'Twitter @arihantcodes',
-        url: 'https://x.com/arihantCodes',
+        label: 'Twitter @aadiexii',
+        value: 'Twitter @aadiexii',
+        url: 'https://x.com/aadiexii',
       },
     ],
   },

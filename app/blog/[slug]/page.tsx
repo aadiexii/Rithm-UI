@@ -89,7 +89,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       card: "summary_large_image",
       title: metadataTitle,
       description: metadataDescription,
-      creator: "@arihantcodes",
+      creator: "@aadiexii",
       images: [`${baseUrl}/og.png`],
     },
     alternates: {

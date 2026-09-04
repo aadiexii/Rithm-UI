@@ -168,12 +168,12 @@ export function CommandPalette({ isOpen, onClose, className }: CommandPalettePro
       {
         id: "cmd-github",
         title: "View GitHub Repository",
-        description: "Open the open-source spectrum-ui repo on GitHub",
+        description: "Open the open-source Rithm UI repo on GitHub",
         category: "Repository",
         shortcut: ["G", "R"],
         icon: <Github className="h-4 w-4" />,
         action: () => {
-          window.open("https://github.com/arihantcodes/spectrum-ui", "_blank")
+          window.open("https://github.com/aadiexii/Rithm-UI", "_blank")
           onClose()
         },
       },
