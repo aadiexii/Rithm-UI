@@ -1,5 +1,6 @@
 import { getAllBlogPosts, BLOG_TOPICS } from '@/lib/blog';
 import { Metadata } from 'next';
+import { siteConfig } from '@/config/site';
 import { generateBlogListingStructuredData, generateBlogBreadcrumbs } from '@/lib/seo-utils';
 import { JsonLd } from '@/components/seo/json-ld';
 import { PostCard } from '@/components/blog/post-card';

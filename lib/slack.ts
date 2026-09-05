@@ -1,5 +1,5 @@
-const BOT_TOKEN = process.env.SLACK_BOT_TOKEN!
-const CHANNEL_ID = process.env.SLACK_CHANNEL_ID!
+const BOT_TOKEN = process.env.SLACK_BOT_TOKEN || ""
+const CHANNEL_ID = process.env.SLACK_CHANNEL_ID || ""
 
 /**
  * Send a message to the configured Slack channel via Bot Token.

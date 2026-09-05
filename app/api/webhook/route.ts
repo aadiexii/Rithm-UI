@@ -3,7 +3,7 @@ import { handlePaymentSucceeded } from '@/lib/dodo-webhook'
 
 // ── Webhook Route ───────────────────────────────────────────────────────────
 export const POST = Webhooks({
-  webhookKey: process.env.DODO_PAYMENTS_WEBHOOK_SECRET!,
+  webhookKey: process.env.DODO_PAYMENTS_WEBHOOK_SECRET || "whsec_placeholder",
 
   onPaymentSucceeded: async (payload) => {
     await handlePaymentSucceeded(payload)

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
-const resend = new Resend(process.env.RESEND_API_KEY!);
+const resend = new Resend(process.env.RESEND_API_KEY || "re_placeholder_dummy_key");
 
 const rateLimitStore = new Map();
 const RATE_LIMIT_TIME_FRAME = 15 * 60 * 1000; // 15 minutes
