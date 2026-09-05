@@ -23,9 +23,9 @@ INSERT INTO templates (
   5900,
   'saas',
   ARRAY['Next.js', 'React', 'TailwindCSS', 'Supabase', 'Dodo Payments'],
-  'https://demo.spectrumhq.in/nova-saas',
-  'https://spectrumhq.in/thumbnails/nova-saas.png',
-  'spectrum-ui-pro/nova-saas',
+  'https://demo.rithmui.com/nova-saas',
+  'https://rithmui.com/thumbnails/nova-saas.png',
+  'rithm-ui-pro/nova-saas',
   true,
   1
 ) ON CONFLICT (slug) DO UPDATE 
