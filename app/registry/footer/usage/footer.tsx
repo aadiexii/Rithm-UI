@@ -64,7 +64,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.linkedin.com/in/shivamosharma"
+                    href="https://www.linkedin.com/in/aadiexii/"
                     className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white"
                   >
                     LinkedIn

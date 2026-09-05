@@ -17,7 +17,7 @@ const url = `${siteConfig.url}/brandkit`;
 export const metadata: Metadata = baseMetadata({
   title: 'Brand Kit',
   description:
-    'Official Spectrum UI brand assets: logo mark and wordmark as SVG and PNG for light and dark, plus product screenshots, typography, colors, and social links.',
+    'Official Rithm UI brand assets: logo mark and wordmark as SVG and PNG for light and dark, plus product screenshots, typography, colors, and social links.',
   canonicalUrl: url,
 });
 
@@ -209,7 +209,7 @@ const SOCIALS = [
   },
   {
     name: 'LinkedIn',
-    handle: 'in/shivamosharma',
+    handle: 'in/aadiexii',
     href: siteConfig.links.linkedin,
     Icon: LinkedInIcon,
   },
@@ -290,7 +290,7 @@ function LogoCard({ asset }: { asset: LogoAsset }) {
       >
         <Image
           src={`/brand/${asset.base}.svg`}
-          alt={`Spectrum UI ${asset.name.toLowerCase()}, ${asset.variant.toLowerCase()} version`}
+          alt={`Rithm UI ${asset.name.toLowerCase()}, ${asset.variant.toLowerCase()} version`}
           width={asset.width}
           height={asset.height}
           className={asset.imgClass}
@@ -343,11 +343,11 @@ export default function BrandKitPage() {
               </span>
             </span>
             <h1 className="mt-3 font-regular text-[32px] font-semibold leading-[1.1] tracking-[-1.2px] text-black dark:text-white md:text-[38px]">
-              Spectrum UI brand assets
+              Rithm UI brand assets
             </h1>
             <p className="mt-4 max-w-[600px] font-inter text-[14px] leading-[21px] text-[#646464] dark:text-neutral-400">
               Logos, product screenshots, type, color, and links — everything you need to write
-              about or link to Spectrum UI. Download files individually below, or grab the whole
+              about or link to Rithm UI. Download files individually below, or grab the whole
               kit at once.
             </p>
           </AnimateEnter>
@@ -409,7 +409,7 @@ export default function BrandKitPage() {
                   <div className={cn(CARD, 'overflow-hidden')}>
                     <Image
                       src={`/brand/${shot.base}.png`}
-                      alt={`Spectrum UI ${shot.name.toLowerCase()} screenshot, ${shot.variant.toLowerCase()} mode`}
+                      alt={`Rithm UI ${shot.name.toLowerCase()} screenshot, ${shot.variant.toLowerCase()} mode`}
                       width={1440}
                       height={900}
                       sizes="(min-width: 768px) 480px, 100vw"
@@ -526,7 +526,7 @@ export default function BrandKitPage() {
             <AnimateEnter>
               <SectionHeader
                 tag="Boilerplate"
-                heading="Describing Spectrum UI."
+                heading="Describing Rithm UI."
                 sub="Roundup post, newsletter, or model context — copy either description verbatim."
               />
             </AnimateEnter>

@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — FollowButton
+ * Rithm UI — FollowButton
  *
  * A morphing social follow/unfollow button. Following springs the pill's
  * width to fit the new label, crossfades the solid fill into an outline, and

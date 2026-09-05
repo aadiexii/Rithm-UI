@@ -1,6 +1,6 @@
 {
-  "name": "Spectrum UI",
-  "short_name": "SpectrumUI",
+  "name": "Rithm UI",
+  "short_name": "RithmUI",
   "description": "Beautiful React components for modern web applications",
   "start_url": "/",
   "display": "standalone",

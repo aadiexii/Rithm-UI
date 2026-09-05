@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Should you prototype in Figma or jump straight to code? It depends on what you're trying to learn. Here's a simple way to decide.",
   tagline: 'One prototype answers one question.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

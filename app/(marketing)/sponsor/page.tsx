@@ -11,9 +11,9 @@ import type { Metadata } from "next"
 import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata"
 
 export const metadata: Metadata = baseMetadata({
-  title: "Sponsor Spectrum UI | Frontend Developer Audience",
+  title: "Sponsor Rithm UI | Frontend Developer Audience",
   description:
-    "Reach developers while they browse Spectrum UI documentation and components. Review available sponsor placements across the site and newsletter.",
+    "Reach developers while they browse Rithm UI documentation and components. Review available sponsor placements across the site and newsletter.",
   canonicalUrl: "https://ui.spectrumhq.in/sponsor",
 })
 

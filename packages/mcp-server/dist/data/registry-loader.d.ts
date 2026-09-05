@@ -1,5 +1,5 @@
 /**
- * Fetches and caches the Spectrum UI registry index.
+ * Fetches and caches the Rithm UI registry index.
  *
  * The index lists every installable item; the shadcn CLI fetches per-item
  * payloads separately. Blocks and components share one flat namespace, because

@@ -101,7 +101,7 @@ export const CHANGELOG: ChangelogEntry[] = [
       {
         label: 'New',
         items: [
-          'The [Spectrum UI MCP server](/docs/mcp): one config line, and Cursor, Claude Code, or Windsurf can install any component by name.',
+          'The [Rithm UI MCP server](/docs/mcp): one config line, and Cursor, Claude Code, or Windsurf can install any component by name.',
         ],
       },
     ],

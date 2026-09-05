@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — LikeButton
+ * Rithm UI — LikeButton
  *
  * A heart like-button micro-interaction. Liking pops the heart with a spring
  * scale, fires a ring pulse plus a radial particle burst, and rolls the count

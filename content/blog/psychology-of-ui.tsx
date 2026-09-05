@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Understanding why users behave the way they do makes your UI components way better. Here are the design psychology principles every frontend developer should know.",
   tagline: 'Four perception rules you can ship today.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

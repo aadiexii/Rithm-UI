@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — UndoPill
+ * Rithm UI — UndoPill
  *
  * An inline undo pill with a draining countdown ring. When opened it springs
  * in from below, drains an SVG ring over the given duration while counting

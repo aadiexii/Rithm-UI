@@ -33,7 +33,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
   if (!post) {
     return createNoIndexMetadata({
       title: "Blog Post Not Found",
-      description: "The requested Spectrum UI blog post could not be found.",
+      description: "The requested Rithm UI blog post could not be found.",
       path: `/blog/${params.slug}`,
     })
   }
@@ -58,12 +58,12 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
     ].filter(Boolean),
     authors: [{ name: post.author.name, url: "https://ui.spectrumhq.in" }],
     creator: post.author.name,
-    publisher: "Spectrum UI",
+    publisher: "Rithm UI",
     openGraph: {
       title: metadataTitle,
       description: metadataDescription,
       url: blogUrl,
-      siteName: "Spectrum UI",
+      siteName: "Rithm UI",
       images: [
         {
           url: `${baseUrl}/og.png`,

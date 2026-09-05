@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — AnimatedSwitch
+ * Rithm UI — AnimatedSwitch
  *
  * An iOS-quality toggle switch. Pressing stretches the knob toward the far
  * side (anchored to the side it currently sits on) and releasing springs it

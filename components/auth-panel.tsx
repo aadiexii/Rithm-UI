@@ -14,7 +14,7 @@ export type AuthMode = 'signin' | 'signup';
 const COPY: Record<AuthMode, { heading: string; subheading: string; verb: string }> = {
   signin: {
     heading: 'Welcome back',
-    subheading: 'Sign in to continue to Spectrum UI.',
+    subheading: 'Sign in to continue to Rithm UI.',
     verb: 'Continue',
   },
   signup: {

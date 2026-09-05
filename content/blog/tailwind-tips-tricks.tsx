@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Most Tailwind tutorials cover the basics. Here are the patterns and tricks that experienced developers use every day to write cleaner, faster UI code.',
   tagline: 'The utilities that stop the margin wars.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     'Shadcn UI gives you great components out of the box, but the magic happens when you customize them. Here is how to make them fit your design without breaking everything.',
   tagline: 'You own the code, so bend it.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

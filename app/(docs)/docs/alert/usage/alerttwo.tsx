@@ -12,7 +12,7 @@ export default function Alert02() {
           <div className="relative h-10 w-10 shrink-0">
             <Image
               src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-              alt="Arihant jain"
+              alt="Shivam O Sharma"
               fill
               className="rounded-full object-cover"
             />

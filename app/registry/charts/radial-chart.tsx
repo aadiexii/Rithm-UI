@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Radial Chart
+ * Rithm UI — Radial Chart
  *
  * Full and semi-circle radial bars for share and progress.
  *

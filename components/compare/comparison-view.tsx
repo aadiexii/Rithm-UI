@@ -32,11 +32,11 @@ function Eyebrow({ label }: { label: string }) {
   );
 }
 
-/** "Spectrum UI vs X" rendered with an editorial, muted "vs". */
+/** "Rithm UI vs X" rendered with an editorial, muted "vs". */
 function VsHeading({ competitor }: { competitor: string }) {
   return (
     <h1 className="font-spectral text-[36px] leading-[1.02] tracking-[-1.6px] text-[#111110] dark:text-neutral-50 md:text-[56px]">
-      Spectrum UI
+      Rithm UI
       <span className="mx-2.5 align-middle font-mono text-[0.42em] font-medium uppercase tracking-[0.12em] text-[#080808]/40 dark:text-neutral-500 md:mx-3.5">
         vs
       </span>
@@ -117,7 +117,7 @@ export function ComparisonView({
               className="border-l-2 border-[#f9452d] pl-5 dark:border-[#E1F435]"
             >
               <div className="font-mono text-[11px] font-medium uppercase tracking-widest text-[#f9452d] dark:text-[#E1F435]">
-                Spectrum UI
+                Rithm UI
               </div>
               <p className="mt-2.5 font-inter text-[14.5px] leading-[1.6] tracking-[-0.2px] text-[#080808]/78 dark:text-neutral-300">
                 {data.spectrumPitch}
@@ -156,7 +156,7 @@ export function ComparisonView({
                     Feature
                   </th>
                   <th className="w-[26%] rounded-t-xl border-t-2 border-[#f9452d] bg-[#f9452d]/5 px-5 pb-4 pt-3.5 font-mono text-[11px] font-semibold uppercase tracking-[0.08em] text-[#f9452d] dark:border-[#E1F435] dark:bg-[#E1F435]/6 dark:text-[#E1F435]">
-                    Spectrum UI
+                    Rithm UI
                   </th>
                   <th className="w-[26%] px-5 pb-4 pt-3.5 font-mono text-[11px] font-medium uppercase tracking-[0.08em] text-[#080808]/45 dark:text-neutral-500">
                     {data.competitor}
@@ -199,7 +199,7 @@ export function ComparisonView({
         <section className="container grid gap-y-12 py-16 md:grid-cols-2 md:gap-x-16 md:py-20">
           <motion.div {...reveal(reduce)}>
             <h2 className="font-spectral text-[21px] leading-[1.2] tracking-[-0.6px] text-[#111110] dark:text-neutral-50">
-              Choose Spectrum UI when
+              Choose Rithm UI when
             </h2>
             <ul className="mt-6 space-y-4">
               {data.chooseSpectrum.map((item) => (
@@ -240,7 +240,7 @@ export function ComparisonView({
           eyebrow="FAQ"
           title={
             <>
-              Spectrum UI vs {data.competitor}
+              Rithm UI vs {data.competitor}
               <br />
               questions
             </>
@@ -258,7 +258,7 @@ export function ComparisonView({
           >
             <div className="max-w-[30ch]">
               <h2 className="font-spectral text-[30px] leading-[1.05] tracking-[-1.2px] text-[#111110] dark:text-neutral-50 md:text-[40px]">
-                Ship it with Spectrum UI
+                Ship it with Rithm UI
               </h2>
               <p className="mt-4 font-inter text-[15px] leading-[1.6] tracking-[-0.2px] text-[#080808]/62 dark:text-neutral-400">
                 Free, open source, copy-paste. Browse the components or install

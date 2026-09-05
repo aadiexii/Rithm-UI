@@ -323,7 +323,7 @@ function buildComponentDocs(component) {
       ? `shadcn/ui dependencies: ${shadcnDependencies.join(', ') || 'local UI primitives'}`
       : undefined,
     registryDependencies.some((dependency) => dependency.startsWith('@spectrumui/'))
-      ? `Spectrum UI registry dependencies: ${registryDependencies
+      ? `Rithm UI registry dependencies: ${registryDependencies
           .filter((dependency) => dependency.startsWith('@spectrumui/'))
           .join(', ')}`
       : undefined,

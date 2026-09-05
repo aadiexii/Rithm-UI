@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     'A practical rundown of the tools, extensions, and setups I use daily as a design engineer. No fluff, just what actually helps.',
   tagline: 'Tools that shorten the design-to-code loop.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

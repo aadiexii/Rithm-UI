@@ -84,7 +84,7 @@ export function CodeDrawer({ open, onOpenChange, name, slug, source }: CodeDrawe
 function McpSection({ slug }: { slug: string }) {
   const [copied, setCopied] = useState(false);
   const { isAuthenticated, openAuthModal } = useAuthGate();
-  const prompt = `Install the ${slug} block from Spectrum UI`;
+  const prompt = `Install the ${slug} block from Rithm UI`;
 
   function handleCopy() {
     if (!isAuthenticated) {

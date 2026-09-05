@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Forget media query spaghetti. Modern CSS gives you responsive layouts with way less code. Here's what you should be using right now.",
   tagline: 'Fluid type, container queries, fewer breakpoints.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

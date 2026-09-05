@@ -115,19 +115,19 @@ export const FAQS_PART_A: Record<string, { question: string; answer: string }[]>
   ],
   "spectrum-ui-development-speed": [
     {
-      question: "What is Spectrum UI and how does it speed up development?",
+      question: "What is Rithm UI and how does it speed up development?",
       answer:
-        "Spectrum UI is a set of 44 React components built on Tailwind and shadcn primitives, including dialogs, comboboxes, and data tables. You copy the source into your project via the shadcn CLI instead of installing a package, so a feature that used to cost a day of primitive-wrangling starts from working, accessible parts you own.",
+        "Rithm UI is a set of 44 React components built on Tailwind and shadcn primitives, including dialogs, comboboxes, and data tables. You copy the source into your project via the shadcn CLI instead of installing a package, so a feature that used to cost a day of primitive-wrangling starts from working, accessible parts you own.",
     },
     {
-      question: "How do you install Spectrum UI components?",
+      question: "How do you install Rithm UI components?",
       answer:
-        "Point the shadcn CLI at Spectrum UI's registry and run npx shadcn add with the component you want; its source is written straight into components/ui, fully editable. There's no package in node_modules and no wrapper API to learn, and upgrades work the same way you already know from shadcn.",
+        "Point the shadcn CLI at Rithm UI's registry and run npx shadcn add with the component you want; its source is written straight into components/ui, fully editable. There's no package in node_modules and no wrapper API to learn, and upgrades work the same way you already know from shadcn.",
     },
     {
-      question: "How does Spectrum UI keep design consistent?",
+      question: "How does Rithm UI keep design consistent?",
       answer:
-        "Every Spectrum UI component reads from the same CSS variables, so consistency is the default rather than a review comment. Set --primary once and all 44 components match; change the radius token and every corner in the app rounds together, so the components can't drift apart because they point at the same values.",
+        "Every Rithm UI component reads from the same CSS variables, so consistency is the default rather than a review comment. Set --primary once and all 44 components match; change the radius token and every corner in the app rounds together, so the components can't drift apart because they point at the same values.",
     },
   ],
   "tailwind-tips-tricks": [

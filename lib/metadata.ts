@@ -21,7 +21,7 @@ function truncateAtWord(value: string, maxLength: number) {
   return clipped + '…';
 }
 
-export function formatMetadataTitle(title: string, suffix = ' | Spectrum UI') {
+export function formatMetadataTitle(title: string, suffix = ' | Rithm UI') {
   const normalizedTitle = normalizeMetadataText(title);
   const availableLength = MAX_METADATA_TITLE_LENGTH - suffix.length;
   return truncateAtWord(normalizedTitle, availableLength) + suffix;

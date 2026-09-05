@@ -2,7 +2,7 @@ import { execSync } from "child_process";
 import { loadRegistry } from "../data/registry-loader.js";
 import { track } from "../utils/telemetry.js";
 /**
- * Installs a Spectrum UI component into the user's project.
+ * Installs a Rithm UI component into the user's project.
  * Tries `bunx --bun shadcn@latest add @spectrumui/<name>` first (faster),
  * falls back to `npx shadcn@latest add @spectrumui/<name>`.
  *
@@ -21,7 +21,7 @@ export async function installComponent(name, projectDir) {
             success: false,
             component: name,
             command: "",
-            error: `Component "${name}" not found in the Spectrum UI registry. Use search_components to find the correct name.`,
+            error: `Component "${name}" not found in the Rithm UI registry. Use search_components to find the correct name.`,
         };
     }
     // Both forms work — bunx is faster when bun is installed

@@ -27,7 +27,7 @@ export function ChartTypePage({
       componentName={chart.name}
       description={chart.description}
       url={url}
-      keywords={[chart.name, 'React chart', 'Recharts', 'Spectrum UI charts']}
+      keywords={[chart.name, 'React chart', 'Recharts', 'Rithm UI charts']}
       schemaType="techArticle"
     >
       <PageTemplate title={chart.name} description={chart.description} slug={chart.registryName}>

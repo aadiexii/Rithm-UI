@@ -34,7 +34,7 @@ export function generateComponentStructuredData({
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Spectrum UI',
+      name: 'Rithm UI',
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',

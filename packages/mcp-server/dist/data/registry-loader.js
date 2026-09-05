@@ -1,5 +1,5 @@
 /**
- * Fetches and caches the Spectrum UI registry index.
+ * Fetches and caches the Rithm UI registry index.
  *
  * The index lists every installable item; the shadcn CLI fetches per-item
  * payloads separately. Blocks and components share one flat namespace, because
@@ -88,7 +88,7 @@ export async function loadRegistry() {
         // answer when the user is mid-task.
         if (_cache)
             return _cache;
-        throw new Error(`Failed to load the Spectrum UI registry from ${REGISTRY_URL} ` +
+        throw new Error(`Failed to load the Rithm UI registry from ${REGISTRY_URL} ` +
             `(${error instanceof Error ? error.message : String(error)}) and no local snapshot was found.`);
     }
 }

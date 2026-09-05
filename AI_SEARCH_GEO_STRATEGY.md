@@ -1,6 +1,6 @@
-# Spectrum UI — AI Search (GEO/AEO) Strategy
+# Rithm UI — AI Search (GEO/AEO) Strategy
 
-> **Source:** Peec AI MCP (`api.peec.ai/mcp`), project "Spectrum UI" (`or_8b3159ec…`)
+> **Source:** Peec AI MCP (`api.peec.ai/mcp`), project "Rithm UI" (`or_8b3159ec…`)
 > **Baseline window:** 2026-06-19 → 2026-07-19 (30 days)
 > **Engines tracked & active:** ChatGPT, Gemini, Google AI Overview
 > **Prompts tracked:** 50 (React component libraries / UI blocks / animation templates / CLI / production-ready)
@@ -9,7 +9,7 @@
 
 ## 1. The Problem, Quantified
 
-When people ask AI engines for React UI component libraries, **Spectrum UI is effectively invisible.**
+When people ask AI engines for React UI component libraries, **Rithm UI is effectively invisible.**
 
 | Brand | Visibility | Responses appeared in | Share of Voice | Avg. position |
 |-------|-----------:|----------------------:|---------------:|--------------:|
@@ -22,9 +22,9 @@ When people ask AI engines for React UI component libraries, **Spectrum UI is ef
 | … | | | | |
 | 21st.dev | 7.5% | 53 / 706 | 1.8% | 5.2 |
 | Animate UI | 7.2% | 51 / 706 | 1.9% | 4.0 |
-| **Spectrum UI** | **0.14%** | **1 / 706** | **0.02%** | **9.0** |
+| **Rithm UI** | **0.14%** | **1 / 706** | **0.02%** | **9.0** |
 
-**Spectrum UI is dead last of 16 tracked brands.** It surfaced in exactly **one** answer in 30 days, at position 9. Even the smallest competitor (Animate UI) appears **50× more often**. The prompt set is a perfect match for Spectrum UI's positioning (animated copy-paste components, UI blocks, shadcn CLI, production-ready) — so this is *not* a targeting problem. It's a **presence problem**.
+**Rithm UI is dead last of 16 tracked brands.** It surfaced in exactly **one** answer in 30 days, at position 9. Even the smallest competitor (Animate UI) appears **50× more often**. The prompt set is a perfect match for Rithm UI's positioning (animated copy-paste components, UI blocks, shadcn CLI, production-ready) — so this is *not* a targeting problem. It's a **presence problem**.
 
 ---
 
@@ -32,7 +32,7 @@ When people ask AI engines for React UI component libraries, **Spectrum UI is ef
 
 The domain report shows what sources ChatGPT/Gemini/AI-Overview retrieve and cite for these prompts. This is the battleground:
 
-| Source domain | Type | Retrieved in | Citations | Spectrum UI mentioned? |
+| Source domain | Type | Retrieved in | Citations | Rithm UI mentioned? |
 |---------------|------|-------------:|----------:|:----------------------:|
 | youtube.com | UGC | **75.7%** | 628 | ❌ |
 | aceternity.com | Competitor site | 56.5% | 390 | ❌ |
@@ -50,22 +50,22 @@ The domain report shows what sources ChatGPT/Gemini/AI-Overview retrieve and cit
 **Key takeaways:**
 1. **AI answers in this niche are built from third-party UGC + "best X" roundup articles — not the libraries' own docs.** YouTube, Medium, dev.to, Reddit, and a dozen listicle/aggregator sites drive the citations.
 2. **Winners win by being name-dropped everywhere.** shadcn/ui, Aceternity, Magic UI appear across nearly every source. Aceternity even gets its *own* domain cited 56% of the time — proof a strong owned site *can* break in, but only after it's already famous.
-3. **Spectrum UI's total off-site footprint is 3 faint mentions** (dev.to, reddit.com, github.com). It's absent from every roundup and every UGC channel that feeds the models. That's why it never enters an answer.
+3. **Rithm UI's total off-site footprint is 3 faint mentions** (dev.to, reddit.com, github.com). It's absent from every roundup and every UGC channel that feeds the models. That's why it never enters an answer.
 
-**Conclusion:** On-site SEO is already strong (robots allow all AI bots; llms.txt / llms-full.txt / agents.md present; JSON-LD everywhere). The gap is **not** technical. **~90% of AI visibility here is won off-site**, by getting Spectrum UI *named* in the roundups and UGC the models retrieve.
+**Conclusion:** On-site SEO is already strong (robots allow all AI bots; llms.txt / llms-full.txt / agents.md present; JSON-LD everywhere). The gap is **not** technical. **~90% of AI visibility here is won off-site**, by getting Rithm UI *named* in the roundups and UGC the models retrieve.
 
 ---
 
 ## 3. Action Plan
 
 ### Prong A — On-site (this repo) — *table stakes + Google/citation surface*
-These make Spectrum UI a strong, quotable canonical source and help it rank in Google (which feeds AI Overview + gets scraped into roundups).
+These make Rithm UI a strong, quotable canonical source and help it rank in Google (which feeds AI Overview + gets scraped into roundups).
 
 1. **Comparison pages** (highest on-site leverage) — target exact prompt intents & the winning competitors:
    - `/compare` hub + `/compare/spectrum-ui-vs-aceternity`, `…-vs-magic-ui`, `…-vs-shadcn`
    - Each with a feature table, honest positioning, and `FAQPage` + `ItemList` JSON-LD.
-2. **Listicle-style landing page** — `best-animated-react-component-libraries` (2026), including Spectrum UI alongside Aceternity/Magic UI/shadcn. This is the format AI engines cite; owning our own version is a citable anchor.
-3. **Sharpen `llms.txt` / `llms-full.txt`** — add a one-paragraph "how Spectrum UI compares to Aceternity / Magic UI" and the differentiators (animated, copy-paste, shadcn CLI, TypeScript, accessible, free/MIT).
+2. **Listicle-style landing page** — `best-animated-react-component-libraries` (2026), including Rithm UI alongside Aceternity/Magic UI/shadcn. This is the format AI engines cite; owning our own version is a citable anchor.
+3. **Sharpen `llms.txt` / `llms-full.txt`** — add a one-paragraph "how Rithm UI compares to Aceternity / Magic UI" and the differentiators (animated, copy-paste, shadcn CLI, TypeScript, accessible, free/MIT).
 4. **Refresh stale keywords** — `config/site.ts` still says "2024" in several keywords; update to 2026 and fold in the real prompt phrasings ("pre-built UI blocks", "animation templates", "production-ready React components", "works with shadcn CLI").
 5. **Wire all new routes into `app/sitemap.ts`.**
 
@@ -73,17 +73,17 @@ These make Spectrum UI a strong, quotable canonical source and help it rank in G
 Ordered by citation weight from the data:
 
 1. **Get into the roundups/aggregators** that the models cite: pitch inclusion in / submit to reactbits.dev, shadcnblocks.com, uilora.com, dualite.dev, spell.sh, wrappixel, tailgrids, codedthemes, "awesome-react-components" lists, etc.
-2. **Publish on Medium + dev.to** (top-cited blog sources): e.g. "Best animated React component libraries in 2026" and "Spectrum UI vs Aceternity vs Magic UI". These can be drafted from the comparison pages.
+2. **Publish on Medium + dev.to** (top-cited blog sources): e.g. "Best animated React component libraries in 2026" and "Rithm UI vs Aceternity vs Magic UI". These can be drafted from the comparison pages.
 3. **Reddit** (r/reactjs, r/webdev, r/nextjs) — genuine participation in "best UI library" threads; heavily cited UGC.
 4. **YouTube** (the #1 citation source, 75.7%) — a short demo / comparison video; even one indexed video helps.
-5. **GitHub** — grow stars and add a comparison table to the README (github.com is already a citation source where Spectrum UI faintly appears).
+5. **GitHub** — grow stars and add a comparison table to the README (github.com is already a citation source where Rithm UI faintly appears).
 
 ---
 
 ## 4. How to Re-check Progress (Peec)
 
 Helper committed at `.context/peec.sh` (gitignored). Re-run monthly:
-- `get_brand_report` (aggregate) → track Spectrum UI visibility climbing off 0.14%.
+- `get_brand_report` (aggregate) → track Rithm UI visibility climbing off 0.14%.
 - `get_domain_report` → watch for ui.spectrumhq.in + our dev.to/Medium posts appearing as sources.
 - `list_prompts` → the 50 tracked queries to optimize against.
 
@@ -93,13 +93,13 @@ Helper committed at `.context/peec.sh` (gitignored). Re-run monthly:
 
 ## 5. Peec Action Engine — prioritized roadmap (`get_actions`, 2026-07-20)
 
-Peec's opportunity engine ranks source "slices" by `opportunity_score` (share of AI answers that slice appears in, weighted by our ~0% coverage). **Spectrum UI's coverage in every slice is ≈0.**
+Peec's opportunity engine ranks source "slices" by `opportunity_score` (share of AI answers that slice appears in, weighted by our ~0% coverage). **Rithm UI's coverage in every slice is ≈0.**
 
 ### Owned (build on our site) — Peec's top-scored actions (3/3)
 - **COMPARISON — ✅ DONE.** Peec's #1 owned recommendation is literally "create dedicated comparison pages vs alternatives" (it cites Aceternity's `/compare/aceternity-vs-shadcn` as the blueprint) plus a "Best React UI Component Libraries 2026" guide. Our `/compare/*` pages + `/best-animated-react-component-libraries` satisfy this exactly.
 - **HOMEPAGE (opp 0.1116).** Tune homepage copy to explicitly carry the phrases "React component library", "Tailwind CSS components", and "animation templates" so AI engines categorize us alongside MUI / shadcn / Aceternity.
-- **CATEGORY_PAGE (opp 0.0928) — ✅ partly done.** Built `/awesome` ("Awesome Spectrum UI"), a curated single-page index of every component + guides + resources with `CollectionPage`/`ItemList` JSON-LD. A dedicated **blocks gallery** — ✅ done: built `/blocks` (navigation, hero/marketing, pricing & auth, dashboards), linking to real component docs + `/templates`, with `ItemList` JSON-LD.
-- **Broad guide — ✅ done.** Built `/best-react-component-libraries` ("Best React UI Component Libraries 2026") — the broad guide Peec's #1 comparison action names, covering shadcn/ui, MUI, Chakra, Radix, Mantine, Ant Design, Aceternity, Magic UI, HeroUI + Spectrum UI.
+- **CATEGORY_PAGE (opp 0.0928) — ✅ partly done.** Built `/awesome` ("Awesome Rithm UI"), a curated single-page index of every component + guides + resources with `CollectionPage`/`ItemList` JSON-LD. A dedicated **blocks gallery** — ✅ done: built `/blocks` (navigation, hero/marketing, pricing & auth, dashboards), linking to real component docs + `/templates`, with `ItemList` JSON-LD.
+- **Broad guide — ✅ done.** Built `/best-react-component-libraries` ("Best React UI Component Libraries 2026") — the broad guide Peec's #1 comparison action names, covering shadcn/ui, MUI, Chakra, Radix, Mantine, Ant Design, Aceternity, Magic UI, HeroUI + Rithm UI.
 - **PRODUCT_PAGE (opp 0.0691), LISTICLE (owned 0.036)** — component pages + our roundup.
 
 ### Off-site (biggest overall opportunity) — UGC

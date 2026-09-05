@@ -11,11 +11,11 @@ import { siteConfig } from "@/config/site";
 const url = `${siteConfig.url}/compare`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Spectrum UI Comparisons & Alternatives" },
+  title: { absolute: "Rithm UI Comparisons & Alternatives" },
   description:
-    "Compare Spectrum UI with other React component libraries — Aceternity UI, Magic UI, and shadcn/ui. Honest, side-by-side feature comparisons for animated, copy-paste Next.js components.",
+    "Compare Rithm UI with other React component libraries — Aceternity UI, Magic UI, and shadcn/ui. Honest, side-by-side feature comparisons for animated, copy-paste Next.js components.",
   keywords: [
-    "Spectrum UI comparison",
+    "Rithm UI comparison",
     "React component library comparison",
     "shadcn alternative",
     "Aceternity UI alternative",
@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: url },
   openGraph: {
-    title: "Spectrum UI Comparisons & Alternatives",
+    title: "Rithm UI Comparisons & Alternatives",
     description:
-      "Side-by-side comparisons of Spectrum UI vs Aceternity UI, Magic UI, and shadcn/ui.",
+      "Side-by-side comparisons of Rithm UI vs Aceternity UI, Magic UI, and shadcn/ui.",
     url,
     type: "website",
-    siteName: "Spectrum UI",
+    siteName: "Rithm UI",
   },
 };
 
@@ -37,7 +37,7 @@ export default function CompareHubPage() {
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Spectrum UI comparisons",
+    name: "Rithm UI comparisons",
     itemListElement: comparisons.map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -76,11 +76,11 @@ export default function CompareHubPage() {
             </span>
           </div>
           <h1 className="mt-6 max-w-[16ch] font-spectral text-[36px] leading-[1.02] tracking-[-1.6px] text-[#111110] dark:text-neutral-50 md:text-[56px]">
-            How Spectrum UI compares
+            How Rithm UI compares
           </h1>
           <p className="mt-6 max-w-[58ch] font-inter text-[17px] leading-[1.65] tracking-[-0.2px] text-[#080808]/62 dark:text-neutral-400 md:text-[19px]">
             Honest, side-by-side comparisons with other React component
-            libraries. Spectrum UI is free, open source, animated, and installs
+            libraries. Rithm UI is free, open source, animated, and installs
             with the shadcn CLI.
           </p>
         </section>
@@ -98,7 +98,7 @@ export default function CompareHubPage() {
                 >
                   <div className="min-w-0 flex-1">
                     <h2 className="font-spectral text-[24px] leading-[1.12] tracking-[-0.8px] text-[#111110] transition-colors duration-200 group-hover:text-[#f9452d] dark:text-neutral-50 dark:group-hover:text-[#E1F435] md:text-[30px]">
-                      Spectrum UI
+                      Rithm UI
                       <span className="mx-2 align-middle font-mono text-[0.42em] font-medium uppercase tracking-[0.12em] text-[#080808]/40 dark:text-neutral-500">
                         vs
                       </span>

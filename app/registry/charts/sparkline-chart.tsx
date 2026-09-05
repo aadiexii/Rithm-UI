@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Sparkline
+ * Rithm UI — Sparkline
  *
  * Compact price marks for watchlists, token tables, and portfolio rows.
  * Color follows the series direction using the ink / zinc pair.

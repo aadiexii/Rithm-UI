@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Bar Chart
+ * Rithm UI — Bar Chart
  *
  * Recharts bars with per-series fill variants: default, hatched, duotone,
  * gradient, and stripped. Supports stacked / percent stacks, horizontal

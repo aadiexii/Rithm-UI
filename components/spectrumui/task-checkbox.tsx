@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — TaskCheckbox
+ * Rithm UI — TaskCheckbox
  *
  * A deeply satisfying todo checkbox row. Checking fills the box with a snappy
  * spring, draws the check in, pops the box and fires a tiny confetti burst

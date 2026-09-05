@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { createNoIndexMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createNoIndexMetadata({
-  title: "Spectrum UI Payment Confirmation",
-  description: "Confirm that a Spectrum UI payment was processed and review the support contact.",
+  title: "Rithm UI Payment Confirmation",
+  description: "Confirm that a Rithm UI payment was processed and review the support contact.",
   path: "/success",
 });
 
@@ -32,7 +32,7 @@ export default function PaymentSuccess() {
           <p className="mt-1">
             Need help?{" "}
             <a
-              href="mailto:jainari1208@gmail.com"
+              href="mailto:sharmashivam32622@gmail.com"
               className="text-blue-600 hover:underline"
             >
               Contact Support

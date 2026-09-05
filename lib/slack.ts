@@ -109,7 +109,7 @@ export async function notifyNewSignup({ name, email, githubUsername, avatarUrl, 
           },
           {
             type: 'mrkdwn',
-            text: `*${name ?? email}* just joined Spectrum UI`,
+            text: `*${name ?? email}* just joined Rithm UI`,
           },
         ],
       })

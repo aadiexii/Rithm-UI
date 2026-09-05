@@ -675,7 +675,7 @@ export default function HomeCardCollection() {
           <div className="grid w-full items-center gap-4">
             <div className="flex flex-col space-y-1.5">
               <Label>Email</Label>
-              <p className="text-sm">shivam14052004@gmail.com</p>
+              <p className="text-sm">sharmashivam32622@gmail.com</p>
             </div>
             <div className="flex flex-col space-y-1.5">
               <Label>Location</Label>
@@ -1503,7 +1503,7 @@ export function ProfileCard() {
         <div className="grid w-full items-center gap-4">
           <div className="flex flex-col space-y-1.5">
             <Label>Email</Label>
-            <p className="text-sm">shivam14052004@gmail.com</p>
+            <p className="text-sm">sharmashivam32622@gmail.com</p>
           </div>
           <div className="flex flex-col space-y-1.5">
             <Label>Location</Label>

@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — FaceRating
+ * Rithm UI — FaceRating
  *
  * A five-level feedback rating where one large SVG face morphs between moods.
  * Hovering a segment previews its mood — the mouth path, eye squash, eyebrows

@@ -21,13 +21,13 @@ async function sendFounderWelcomeEmail(email: string, name: string) {
   const firstName = name ? name.split(" ")[0] : "there";
 
   const { data, error } = await resend.emails.send({
-    from: "Arihant <arihant@spectrumhq.in>",
-    replyTo: "jainari1208@gmail.com",
+    from: "Shivam <sharmashivam32622@gmail.com>",
+    replyTo: "sharmashivam32622@gmail.com",
     to: [email],
-    subject: "welcome to spectrum ui / quick question",
+    subject: "welcome to rithm ui / quick question",
     text: `Hey ${firstName}, 
 
-Arihant here, founder of Spectrum UI. I just saw you create an account and wanted to personally welcome you. 
+Shivam here, founder of Rithm UI. I just saw you create an account and wanted to personally welcome you. 
 
 I built this project to help developers stop wasting time on repetitive styling and ship beautiful products faster. 
 
@@ -37,7 +37,7 @@ What are you currently building, and what's the biggest challenge slowing down y
 Just hit reply and let me know. I read every single email, and it helps me decide which components to build next.
 
 Happy coding,
-Arihant`,
+Shivam`,
   });
 
   if (error) {

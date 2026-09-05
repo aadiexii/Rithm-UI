@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Design tokens create a shared language between designers and developers for colors, spacing, and fonts. Learn how to set up a token system for your design system.',
   tagline: 'Name by purpose, sync to your Tailwind theme.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

@@ -12,7 +12,7 @@ export interface InstallResult {
 }
 
 /**
- * Installs a Spectrum UI component into the user's project.
+ * Installs a Rithm UI component into the user's project.
  * Tries `bunx --bun shadcn@latest add @spectrumui/<name>` first (faster),
  * falls back to `npx shadcn@latest add @spectrumui/<name>`.
  *
@@ -40,7 +40,7 @@ export async function installComponent(
       success: false,
       component: name,
       command: "",
-      error: `Component "${name}" not found in the Spectrum UI registry. Use search_components to find the correct name.`,
+      error: `Component "${name}" not found in the Rithm UI registry. Use search_components to find the correct name.`,
     };
   }
 

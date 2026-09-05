@@ -48,7 +48,7 @@ export const TOPIC_HUBS: readonly TopicHub[] = [
     metadataTitle: 'React Component Library Guide',
     title: 'Open-source React component library with copy-paste source',
     description:
-      'Learn how a copy-paste React component library works and browse Spectrum UI components for forms, navigation, feedback, data, and layouts.',
+      'Learn how a copy-paste React component library works and browse Rithm UI components for forms, navigation, feedback, data, and layouts.',
     keywords: [
       'React component library',
       'open source React components',
@@ -57,12 +57,12 @@ export const TOPIC_HUBS: readonly TopicHub[] = [
       'React UI source code',
     ],
     intro: [
-      'A React component library is a reusable set of interface primitives with documented behavior and APIs. This guide explains Spectrum UI’s open-source, copy-paste approach and connects the core components used for forms, navigation, feedback, overlays, and data display.',
+      'A React component library is a reusable set of interface primitives with documented behavior and APIs. This guide explains Rithm UI’s open-source, copy-paste approach and connects the core components used for forms, navigation, feedback, overlays, and data display.',
       'Instead of adding one runtime package that owns every visual decision, you install or copy individual component source files. The source then lives in your application, where it can follow your TypeScript, styling, accessibility, and release requirements.',
     ],
     definition: [
       'Component libraries reduce repeated interface work by giving teams named, testable building blocks. Useful libraries document installation, dependencies, props, behavior, and accessibility constraints so a component can be evaluated before it enters an application.',
-      'Spectrum UI combines local React source with Tailwind CSS and, where the implementation requires it, Motion or shadcn/ui primitives. Each component page identifies the actual technologies and dependencies used by that source rather than assigning one stack to the entire catalog.',
+      'Rithm UI combines local React source with Tailwind CSS and, where the implementation requires it, Motion or shadcn/ui primitives. Each component page identifies the actual technologies and dependencies used by that source rather than assigning one stack to the entire catalog.',
     ],
     whenToUse: [
       {
@@ -127,7 +127,7 @@ export function ProductFaq() {
         href: '/blog/component-api-design',
       },
       {
-        title: 'Install Spectrum UI',
+        title: 'Install Rithm UI',
         description: 'Initialize shadcn/ui and add the first local source file.',
         href: '/docs/installation',
       },
@@ -135,17 +135,17 @@ export function ProductFaq() {
     relatedSlugs: ['react-block-library', 'tailwind-component-library', 'nextjs-ui-library'],
     faqs: [
       {
-        question: 'What makes Spectrum UI a copy-paste React component library?',
+        question: 'What makes Rithm UI a copy-paste React component library?',
         answer:
           'Its documented components are installed as source files that remain in your project. You can inspect and edit the implementation instead of depending on a closed visual runtime.',
       },
       {
-        question: 'Do Spectrum UI React components stay in my repository?',
+        question: 'Do Rithm UI React components stay in my repository?',
         answer:
           'Yes. The CLI or manual installation places the relevant source in your application, along with any declared component dependencies.',
       },
       {
-        question: 'Can Spectrum UI components be used with React Server Components?',
+        question: 'Can Rithm UI components be used with React Server Components?',
         answer:
           'Static components can remain server-rendered. Interactive components keep their use client boundary, so place that boundary as low in the tree as the interaction allows.',
       },
@@ -162,7 +162,7 @@ export function ProductFaq() {
     metadataTitle: 'React Block Library Guide',
     title: 'React block library for complete interface sections',
     description:
-      'Understand React UI blocks and browse editable Spectrum UI compositions for authentication, dashboards, forms, navigation, and marketing pages.',
+      'Understand React UI blocks and browse editable Rithm UI compositions for authentication, dashboards, forms, navigation, and marketing pages.',
     keywords: [
       'React block library',
       'React UI blocks',
@@ -171,12 +171,12 @@ export function ProductFaq() {
       'authentication UI blocks',
     ],
     intro: [
-      'A React block library provides larger interface sections assembled from multiple components, such as a login card, calendar, kanban board, or testimonial section. This guide maps Spectrum UI’s composite examples to the application flows they can accelerate.',
+      'A React block library provides larger interface sections assembled from multiple components, such as a login card, calendar, kanban board, or testimonial section. This guide maps Rithm UI’s composite examples to the application flows they can accelerate.',
       'Blocks are useful starting points, not hidden page builders. Their source remains editable, and product teams still connect authentication, data loading, validation, analytics, and other application behavior.',
     ],
     definition: [
       'A component usually owns one focused interaction or visual primitive. A block combines several primitives with layout and sample content to demonstrate a complete section of a workflow.',
-      'Good blocks expose the structure clearly enough to remove, replace, or restyle their parts. Spectrum UI documents the source and dependencies for each composite example so teams can decide whether to adopt the full block or extract only the useful pieces.',
+      'Good blocks expose the structure clearly enough to remove, replace, or restyle their parts. Rithm UI documents the source and dependencies for each composite example so teams can decide whether to adopt the full block or extract only the useful pieces.',
     ],
     whenToUse: [
       {
@@ -236,12 +236,12 @@ export default function SignInPage() {
           'A component handles a focused behavior or primitive. A block composes multiple components into a larger section such as authentication, scheduling, or social proof.',
       },
       {
-        question: 'Can I remove parts of a Spectrum UI block?',
+        question: 'Can I remove parts of a Rithm UI block?',
         answer:
           'Yes. Blocks are delivered as local source, so you can remove sample content, replace primitives, and adapt the layout to your application.',
       },
       {
-        question: 'Do Spectrum UI blocks include a backend or data model?',
+        question: 'Do Rithm UI blocks include a backend or data model?',
         answer:
           'No. They are interface source. Connect forms, authentication, persistence, analytics, and data fetching to the services chosen by your application.',
       },
@@ -258,7 +258,7 @@ export default function SignInPage() {
     metadataTitle: 'Tailwind Component Library Guide',
     title: 'Tailwind component library with editable React source',
     description:
-      'Learn how Spectrum UI uses Tailwind CSS in local React components and browse practical controls, cards, forms, navigation, and status patterns.',
+      'Learn how Rithm UI uses Tailwind CSS in local React components and browse practical controls, cards, forms, navigation, and status patterns.',
     keywords: [
       'Tailwind component library',
       'Tailwind CSS React components',
@@ -267,7 +267,7 @@ export default function SignInPage() {
       'shadcn Tailwind components',
     ],
     intro: [
-      'A Tailwind component library packages reusable interface behavior with utility-class styling that can be inspected beside the JSX. This guide explains how Spectrum UI components use local Tailwind CSS source and where that approach fits forms, cards, navigation, status, and layout work.',
+      'A Tailwind component library packages reusable interface behavior with utility-class styling that can be inspected beside the JSX. This guide explains how Rithm UI components use local Tailwind CSS source and where that approach fits forms, cards, navigation, status, and layout work.',
       'Because the utilities live in the copied file, teams can replace spacing, color, typography, breakpoints, and state styles without waiting for a theme API. Component pages identify additional packages or shadcn/ui primitives when the source requires them.',
     ],
     definition: [
@@ -341,17 +341,17 @@ export function SaveActions() {
     relatedSlugs: ['react-component-library', 'nextjs-ui-library', 'motion-components'],
     faqs: [
       {
-        question: 'Does Spectrum UI ship compiled CSS for its Tailwind components?',
+        question: 'Does Rithm UI ship compiled CSS for its Tailwind components?',
         answer:
           'The documented components expose their source and Tailwind utility classes. Install any declared global styles or dependencies shown by the specific component.',
       },
       {
-        question: 'Can Spectrum UI components use my Tailwind design tokens?',
+        question: 'Can Rithm UI components use my Tailwind design tokens?',
         answer:
           'Yes. Replace or extend the copied utility classes so spacing, colors, type, radii, and breakpoints align with your project configuration.',
       },
       {
-        question: 'Are all Spectrum UI components tied to one Tailwind version?',
+        question: 'Are all Rithm UI components tied to one Tailwind version?',
         answer:
           'Use the source against the project setup documented by the repository, and review utility or configuration changes when upgrading Tailwind in your application.',
       },
@@ -368,7 +368,7 @@ export function SaveActions() {
     metadataTitle: 'Next.js UI Library Guide',
     title: 'Next.js UI library for App Router interfaces',
     description:
-      'Build Next.js App Router interfaces with editable Spectrum UI React source, clear client boundaries, Tailwind CSS, and documented dependencies.',
+      'Build Next.js App Router interfaces with editable Rithm UI React source, clear client boundaries, Tailwind CSS, and documented dependencies.',
     keywords: [
       'Next.js UI library',
       'Next.js App Router components',
@@ -377,18 +377,18 @@ export function SaveActions() {
       'copy paste Next.js UI',
     ],
     intro: [
-      'A Next.js UI library should work with the App Router’s server-first rendering model while isolating browser interactions in explicit client components. This guide shows how Spectrum UI’s editable React source fits route layouts, navigation, loading states, forms, overlays, and content pages.',
-      'Spectrum UI is not a replacement for Next.js routing, data fetching, caching, or image configuration. It supplies interface source that you place within those framework boundaries and connect to application data.',
+      'A Next.js UI library should work with the App Router’s server-first rendering model while isolating browser interactions in explicit client components. This guide shows how Rithm UI’s editable React source fits route layouts, navigation, loading states, forms, overlays, and content pages.',
+      'Rithm UI is not a replacement for Next.js routing, data fetching, caching, or image configuration. It supplies interface source that you place within those framework boundaries and connect to application data.',
     ],
     definition: [
       'Next.js App Router pages are Server Components by default. A practical UI library therefore avoids forcing an entire route into the client bundle just because one nested control needs state, gestures, or a browser API.',
-      'Spectrum UI component pages expose whether an implementation carries a use client directive and which packages it imports. Keep server-rendered content above that boundary, pass serializable props into interactive leaves, and use Next.js primitives where the route needs framework-aware links or images.',
+      'Rithm UI component pages expose whether an implementation carries a use client directive and which packages it imports. Keep server-rendered content above that boundary, pass serializable props into interactive leaves, and use Next.js primitives where the route needs framework-aware links or images.',
     ],
     whenToUse: [
       {
         title: 'You are building with the App Router',
         description:
-          'Use server-rendered route shells and place interactive Spectrum UI source only where a client boundary is required.',
+          'Use server-rendered route shells and place interactive Rithm UI source only where a client boundary is required.',
       },
       {
         title: 'You need framework-aware navigation',
@@ -439,7 +439,7 @@ export default function SettingsPage() {
         href: '/blog/react-19-server-actions-guide',
       },
       {
-        title: 'Spectrum UI installation',
+        title: 'Rithm UI installation',
         description: 'Initialize the project and add components through the registry.',
         href: '/docs/installation',
       },
@@ -447,17 +447,17 @@ export default function SettingsPage() {
     relatedSlugs: ['react-component-library', 'tailwind-component-library', 'ai-ui-components'],
     faqs: [
       {
-        question: 'Does Spectrum UI work with the Next.js App Router?',
+        question: 'Does Rithm UI work with the Next.js App Router?',
         answer:
-          'Yes. The Spectrum UI documentation site uses the App Router, and component source can be placed inside App Router pages and layouts with the documented client boundaries preserved.',
+          'Yes. The Rithm UI documentation site uses the App Router, and component source can be placed inside App Router pages and layouts with the documented client boundaries preserved.',
       },
       {
-        question: 'Do Next.js pages need to become client components to use Spectrum UI?',
+        question: 'Do Next.js pages need to become client components to use Rithm UI?',
         answer:
           'No. Keep the page and static composition server-rendered. Only interactive components that use state, effects, gestures, or browser APIs need a use client directive.',
       },
       {
-        question: 'Does Spectrum UI configure next/image or remote hosts?',
+        question: 'Does Rithm UI configure next/image or remote hosts?',
         answer:
           'No global image policy is applied by the library. Review image-using source and configure sizes, remote hosts, and optimization for your application.',
       },
@@ -474,7 +474,7 @@ export default function SettingsPage() {
     metadataTitle: 'Motion Components for React',
     title: 'Motion components for stateful React interactions',
     description:
-      'Browse Spectrum UI components that actually use Motion for switches, confirmations, reactions, ratings, notifications, and direct manipulation.',
+      'Browse Rithm UI components that actually use Motion for switches, confirmations, reactions, ratings, notifications, and direct manipulation.',
     keywords: [
       'motion components',
       'React motion components',
@@ -483,12 +483,12 @@ export default function SettingsPage() {
       'gesture components',
     ],
     intro: [
-      'Motion components use animation to explain state changes, direct manipulation, progress, or feedback inside a React interaction. This guide links only Spectrum UI components whose documented source or registry dependencies include Motion, including switches, confirmation controls, reactions, ratings, and notifications.',
+      'Motion components use animation to explain state changes, direct manipulation, progress, or feedback inside a React interaction. This guide links only Rithm UI components whose documented source or registry dependencies include Motion, including switches, confirmation controls, reactions, ratings, and notifications.',
       'Animation should support the interaction rather than delay it. Review the spring or tween values in the copied source, preserve keyboard behavior, and add or verify a reduced-motion path before production use.',
     ],
     definition: [
       'A motion component owns both interface state and the visual transition between states. Useful examples include a switch knob following a drag gesture, a hold control showing confirmation progress, or a reaction button acknowledging an action.',
-      'Spectrum UI uses Motion only where the implementation calls for it; the technology list on each component page is generated from source and registry evidence. That distinction helps teams avoid adding an animation dependency to components that do not need one.',
+      'Rithm UI uses Motion only where the implementation calls for it; the technology list on each component page is generated from source and registry evidence. That distinction helps teams avoid adding an animation dependency to components that do not need one.',
     ],
     whenToUse: [
       {
@@ -563,12 +563,12 @@ export function NotificationPreference() {
     relatedSlugs: ['animation-library', 'react-component-library', 'tailwind-component-library'],
     faqs: [
       {
-        question: 'Which Spectrum UI components require Motion?',
+        question: 'Which Rithm UI components require Motion?',
         answer:
           'The components on this page were selected because Motion usage was detected in their documented source or registry dependencies. Confirm the exact package on the individual component page.',
       },
       {
-        question: 'Do all Spectrum UI motion components handle reduced motion?',
+        question: 'Do all Rithm UI motion components handle reduced motion?',
         answer:
           'No universal claim is made. Each component page reports whether a reduced-motion marker was detected and calls out when a production implementation still needs one.',
       },
@@ -590,7 +590,7 @@ export function NotificationPreference() {
     metadataTitle: 'React Animation Library Guide',
     title: 'React animation library for interface transitions',
     description:
-      'Explore Spectrum UI animation patterns for charts, cards, drawers, text, navigation, media, testimonials, and responsive page sections.',
+      'Explore Rithm UI animation patterns for charts, cards, drawers, text, navigation, media, testimonials, and responsive page sections.',
     keywords: [
       'React animation library',
       'UI animation components',
@@ -599,7 +599,7 @@ export function NotificationPreference() {
       'Tailwind animation examples',
     ],
     intro: [
-      'A React animation library provides reusable transition patterns for content entry, navigation, data changes, media reveals, and interactive feedback. This guide groups Spectrum UI examples by what the animation communicates rather than treating every moving component as the same interaction.',
+      'A React animation library provides reusable transition patterns for content entry, navigation, data changes, media reveals, and interactive feedback. This guide groups Rithm UI examples by what the animation communicates rather than treating every moving component as the same interaction.',
       'Some linked components use Motion, while others combine SVG, CSS, pointer input, or Three.js. Check the Technologies and Accessibility sections on each component page before adopting its implementation.',
     ],
     definition: [
@@ -672,7 +672,7 @@ export default function AnalyticsPage() {
           'Motion components focus on stateful controls and gestures. This broader animation collection also covers content staging, media reveals, charts, navigation, and page-section transitions.',
       },
       {
-        question: 'Does every Spectrum UI animation use the same package?',
+        question: 'Does every Rithm UI animation use the same package?',
         answer:
           'No. Implementations vary. The component page lists detected technologies such as Motion, SVG, Three.js-related packages, Tailwind CSS, or local React code.',
       },
@@ -694,7 +694,7 @@ export default function AnalyticsPage() {
     metadataTitle: 'React Dashboard Components',
     title: 'React dashboard components for operational interfaces',
     description:
-      'Compose React dashboards with Spectrum UI charts, calendars, kanban boards, navigation, status, progress, profile, loading, and task components.',
+      'Compose React dashboards with Rithm UI charts, calendars, kanban boards, navigation, status, progress, profile, loading, and task components.',
     keywords: [
       'dashboard components',
       'React admin dashboard UI',
@@ -703,12 +703,12 @@ export default function AnalyticsPage() {
       'operations interface components',
     ],
     intro: [
-      'Dashboard components organize changing data, tasks, status, navigation, and actions for people operating a product. This guide groups Spectrum UI components for analytics, scheduling, kanban work, progress, notifications, profile access, and loading states in React dashboards and admin panels.',
+      'Dashboard components organize changing data, tasks, status, navigation, and actions for people operating a product. This guide groups Rithm UI components for analytics, scheduling, kanban work, progress, notifications, profile access, and loading states in React dashboards and admin panels.',
       'The components provide interface source, not an analytics or data platform. Connect them to typed application data, define loading and error states, and test dense layouts with realistic labels and values.',
     ],
     definition: [
       'A dashboard is an operational surface, so its components must support scanning and action rather than decoration alone. Information hierarchy, status language, data freshness, filters, and responsive behavior are part of the component decision.',
-      'Spectrum UI includes both focused primitives and larger examples. Use charts and calendars when the data shape matches, kanban for ordered work states, status and progress for compact feedback, and skeletons only when a predictable layout is genuinely loading.',
+      'Rithm UI includes both focused primitives and larger examples. Use charts and calendars when the data shape matches, kanban for ordered work states, status and progress for compact feedback, and skeletons only when a predictable layout is genuinely loading.',
     ],
     whenToUse: [
       {
@@ -772,7 +772,7 @@ export default function SprintPage() {
     relatedSlugs: ['react-block-library', 'ai-ui-components', 'authentication-components'],
     faqs: [
       {
-        question: 'Do Spectrum UI dashboard components fetch data?',
+        question: 'Do Rithm UI dashboard components fetch data?',
         answer:
           'No shared data client is imposed. The components provide interface source that you connect to server-rendered data, route handlers, APIs, or a client data layer.',
       },
@@ -799,7 +799,7 @@ export default function SprintPage() {
     metadataTitle: 'React Landing Page Components',
     title: 'React landing page components for product narratives',
     description:
-      'Build landing pages with Spectrum UI navigation, animated text, bento layouts, testimonials, cards, media reveals, social actions, and footers.',
+      'Build landing pages with Rithm UI navigation, animated text, bento layouts, testimonials, cards, media reveals, social actions, and footers.',
     keywords: [
       'landing page components',
       'React marketing components',
@@ -808,12 +808,12 @@ export default function SprintPage() {
       'copy paste landing sections',
     ],
     intro: [
-      'Landing page components turn a product narrative into scannable sections such as navigation, hero content, feature layouts, social proof, media, calls to action, and footers. This guide links Spectrum UI building blocks that can be composed into SaaS and product landing pages without adopting a fixed page template.',
+      'Landing page components turn a product narrative into scannable sections such as navigation, hero content, feature layouts, social proof, media, calls to action, and footers. This guide links Rithm UI building blocks that can be composed into SaaS and product landing pages without adopting a fixed page template.',
       'Start with content hierarchy and conversion intent, then add animation where it supports reading order. The linked source remains editable, so layout and motion can be reduced when the page’s copy, performance budget, or accessibility needs call for it.',
     ],
     definition: [
       'A landing page is a sequence, not a pile of unrelated effects. Each section should answer a specific question: what the product is, who it serves, how it works, why it is credible, and what action comes next.',
-      'Spectrum UI provides composable pieces rather than a single canonical landing page. Combine navigation and text with bento or card layouts, choose one social-proof pattern, use media reveals selectively, and close with clear follow-up navigation in the footer.',
+      'Rithm UI provides composable pieces rather than a single canonical landing page. Combine navigation and text with bento or card layouts, choose one social-proof pattern, use media reveals selectively, and close with clear follow-up navigation in the footer.',
     ],
     whenToUse: [
       {
@@ -878,7 +878,7 @@ export function FeatureSection() {
     relatedSlugs: ['hero-sections', 'pricing-sections', 'animation-library'],
     faqs: [
       {
-        question: 'Does Spectrum UI provide one complete landing page template?',
+        question: 'Does Rithm UI provide one complete landing page template?',
         answer:
           'This hub focuses on composable components and blocks. Assemble the sections that match your content instead of importing every example into one page.',
       },
@@ -905,7 +905,7 @@ export function FeatureSection() {
     metadataTitle: 'React Hero Section Guide',
     title: 'React hero sections built from focused components',
     description:
-      'Compose accessible React hero sections with Spectrum UI text effects, media, navigation, cards, buttons, and optional animation-ready components.',
+      'Compose accessible React hero sections with Rithm UI text effects, media, navigation, cards, buttons, and optional animation-ready components.',
     keywords: [
       'hero sections',
       'React hero component',
@@ -914,7 +914,7 @@ export function FeatureSection() {
       'landing page hero code',
     ],
     intro: [
-      'A hero section is the opening region of a page that identifies the product, audience, primary value, and next action. Spectrum UI currently provides focused building blocks for that composition—text effects, media reveals, navigation, cards, and buttons—rather than one fixed hero component.',
+      'A hero section is the opening region of a page that identifies the product, audience, primary value, and next action. Rithm UI currently provides focused building blocks for that composition—text effects, media reveals, navigation, cards, and buttons—rather than one fixed hero component.',
       'That distinction keeps the most important page content under your control. Use semantic headings and server-rendered copy first, then add an animated leaf only when it improves hierarchy without delaying comprehension.',
     ],
     definition: [
@@ -992,7 +992,7 @@ export function ProductHero() {
     relatedSlugs: ['landing-page-components', 'animation-library', 'pricing-sections'],
     faqs: [
       {
-        question: 'Does Spectrum UI have one dedicated hero section component?',
+        question: 'Does Rithm UI have one dedicated hero section component?',
         answer:
           'Not currently. This guide shows how to compose existing text, media, navigation, card, and button components into a hero that matches the page’s content.',
       },
@@ -1019,7 +1019,7 @@ export function ProductHero() {
     metadataTitle: 'React Pricing Section Guide',
     title: 'React pricing sections with clear plan comparison',
     description:
-      'Compose React pricing sections with Spectrum UI cards, buttons, status, quantity, disclosures, progress, and optional billing-period controls.',
+      'Compose React pricing sections with Rithm UI cards, buttons, status, quantity, disclosures, progress, and optional billing-period controls.',
     keywords: [
       'pricing sections',
       'React pricing cards',
@@ -1028,7 +1028,7 @@ export function ProductHero() {
       'subscription interface',
     ],
     intro: [
-      'A pricing section presents plan differences, billing units, included limits, and the next purchase or contact action. This guide shows how Spectrum UI card, button, status, quantity, disclosure, and switch components can be composed into an understandable React pricing interface.',
+      'A pricing section presents plan differences, billing units, included limits, and the next purchase or contact action. This guide shows how Rithm UI card, button, status, quantity, disclosure, and switch components can be composed into an understandable React pricing interface.',
       'The UI does not create products, prices, checkout sessions, taxes, or subscription state. Load authoritative plan data from your application and keep the displayed amount, billing period, and action destination consistent.',
     ],
     definition: [
@@ -1116,12 +1116,12 @@ export function PricingGrid() {
     relatedSlugs: ['landing-page-components', 'hero-sections', 'react-block-library'],
     faqs: [
       {
-        question: 'Does Spectrum UI include subscription billing logic?',
+        question: 'Does Rithm UI include subscription billing logic?',
         answer:
           'No. Pricing components are interface source. Your application remains responsible for products, prices, checkout, taxes, entitlements, and subscription lifecycle events.',
       },
       {
-        question: 'Is there a dedicated Spectrum UI pricing card?',
+        question: 'Is there a dedicated Rithm UI pricing card?',
         answer:
           'The Card collection includes pricing-oriented examples, and the local Card primitives can be composed around authoritative plan data as shown here.',
       },
@@ -1143,7 +1143,7 @@ export function PricingGrid() {
     metadataTitle: 'React Authentication Components',
     title: 'React authentication components for account flows',
     description:
-      'Compose sign-in, registration, password, verification, and recovery interfaces with editable Spectrum UI React form and feedback components.',
+      'Compose sign-in, registration, password, verification, and recovery interfaces with editable Rithm UI React form and feedback components.',
     keywords: [
       'authentication components',
       'React login components',
@@ -1152,12 +1152,12 @@ export function PricingGrid() {
       'Next.js authentication UI',
     ],
     intro: [
-      'Authentication components collect account identifiers, credentials, verification details, and recovery input while explaining validation and request state. This guide groups Spectrum UI login, input, password, multi-step, feedback, loading, and modal source for React and Next.js account flows.',
+      'Authentication components collect account identifiers, credentials, verification details, and recovery input while explaining validation and request state. This guide groups Rithm UI login, input, password, multi-step, feedback, loading, and modal source for React and Next.js account flows.',
       'These components do not authenticate users by themselves. Connect them to a reviewed identity provider or server-side authentication implementation, validate every request on the server, and avoid exposing account existence through inconsistent messages.',
     ],
     definition: [
       'Authentication UI is the visible boundary around a security-sensitive server workflow. The interface must preserve labels, autocomplete hints, password-manager behavior, error recovery, focus movement, and clear pending states while the server makes the actual decision.',
-      'Spectrum UI can supply the local presentation and interaction source. Your application still owns sessions, credentials, OAuth configuration, rate limits, verification, recovery tokens, authorization, and security logging.',
+      'Rithm UI can supply the local presentation and interaction source. Your application still owns sessions, credentials, OAuth configuration, rate limits, verification, recovery tokens, authorization, and security logging.',
     ],
     whenToUse: [
       {
@@ -1237,7 +1237,7 @@ export function CreatePasswordForm() {
     relatedSlugs: ['react-block-library', 'nextjs-ui-library', 'dashboard-components'],
     faqs: [
       {
-        question: 'Do Spectrum UI authentication components authenticate users?',
+        question: 'Do Rithm UI authentication components authenticate users?',
         answer:
           'No. They provide interface source. Credentials, sessions, OAuth, verification, recovery, authorization, and rate limiting must be implemented and validated by your application.',
       },
@@ -1264,7 +1264,7 @@ export function CreatePasswordForm() {
     metadataTitle: 'React AI UI Components',
     title: 'React AI UI components for prompt and result workflows',
     description:
-      'Compose AI application interfaces with Spectrum UI prompt inputs, command navigation, selection, feedback, loading, reactions, and result patterns.',
+      'Compose AI application interfaces with Rithm UI prompt inputs, command navigation, selection, feedback, loading, reactions, and result patterns.',
     keywords: [
       'AI UI components',
       'React AI interface',
@@ -1273,12 +1273,12 @@ export function CreatePasswordForm() {
       'generative AI application UI',
     ],
     intro: [
-      'AI UI components support prompt entry, context selection, command discovery, response loading, result browsing, feedback, and follow-up actions. This guide maps Spectrum UI inputs, selectors, command navigation, reactions, loading states, avatars, and infinite content patterns to React AI application workflows.',
+      'AI UI components support prompt entry, context selection, command discovery, response loading, result browsing, feedback, and follow-up actions. This guide maps Rithm UI inputs, selectors, command navigation, reactions, loading states, avatars, and infinite content patterns to React AI application workflows.',
       'The components do not call a model or implement streaming, persistence, safety, or usage accounting. Connect them to the AI SDK or backend selected by your project and represent pending, partial, completed, empty, and failed states explicitly.',
     ],
     definition: [
       'An AI interface is a stateful application surface, not just a textarea beside a send button. Users need to understand what context is selected, whether a request is running, which output belongs to which prompt, and what can be retried, copied, rated, or continued.',
-      'Spectrum UI provides general interface primitives that can be composed for those states. Keep model-specific data and streaming logic outside the visual component unless the component API explicitly owns that behavior.',
+      'Rithm UI provides general interface primitives that can be composed for those states. Keep model-specific data and streaming logic outside the visual component unless the component API explicitly owns that behavior.',
     ],
     whenToUse: [
       {
@@ -1356,7 +1356,7 @@ export function PromptComposer() {
         href: '/blog/performance-ui-engineering',
       },
       {
-        title: 'Set up the Spectrum UI MCP server',
+        title: 'Set up the Rithm UI MCP server',
         description: 'Let compatible editors search and install documented components.',
         href: '/docs/mcp',
       },
@@ -1364,7 +1364,7 @@ export function PromptComposer() {
     relatedSlugs: ['dashboard-components', 'nextjs-ui-library', 'react-component-library'],
     faqs: [
       {
-        question: 'Do Spectrum UI AI components connect to a model provider?',
+        question: 'Do Rithm UI AI components connect to a model provider?',
         answer:
           'No. They are interface source. Choose and configure the model SDK, server route, authentication, persistence, safety controls, and usage tracking separately.',
       },
@@ -1379,7 +1379,7 @@ export function PromptComposer() {
           'Represent idle, validating, submitted, streaming, completed, empty, cancelled, rate-limited, and failed states when they can occur in the selected backend.',
       },
       {
-        question: 'Can general Spectrum UI components be used in AI applications?',
+        question: 'Can general Rithm UI components be used in AI applications?',
         answer:
           'Yes. AI products still need ordinary inputs, navigation, status, feedback, profile, overlays, and data display. Compose only the components that match the workflow.',
       },

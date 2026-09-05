@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — StarRating
+ * Rithm UI — StarRating
  *
  * An animated star rating input. Hovering previews the rating with a spring
  * fill and a small scale wave around the pointer, clicking commits with a pop

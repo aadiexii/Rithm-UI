@@ -16,7 +16,7 @@ const url = `${siteConfig.url}/best-react-component-libraries`;
 export const metadata: Metadata = {
   title: { absolute: "Best React UI Component Libraries (2026)" },
   description:
-    "A practical, up-to-date guide to the best React UI component libraries in 2026 — Spectrum UI, shadcn/ui, MUI, Chakra UI, Radix UI, Mantine, Ant Design, Aceternity UI, Magic UI, and HeroUI. Compare price, styling, accessibility, and which to pick for your Next.js project.",
+    "A practical, up-to-date guide to the best React UI component libraries in 2026 — Rithm UI, shadcn/ui, MUI, Chakra UI, Radix UI, Mantine, Ant Design, Aceternity UI, Magic UI, and HeroUI. Compare price, styling, accessibility, and which to pick for your Next.js project.",
   keywords: [
     "best React UI component libraries",
     "best React component library 2026",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "The best React UI component libraries for Next.js in 2026, compared.",
     url,
     type: "article",
-    siteName: "Spectrum UI",
+    siteName: "Rithm UI",
   },
   twitter: {
     card: "summary_large_image",
@@ -57,7 +57,7 @@ interface Entry {
 
 const entries: Entry[] = [
   {
-    name: "Spectrum UI",
+    name: "Rithm UI",
     url: "https://ui.spectrumhq.in",
     internalHref: "/docs",
     internalLabel: "Browse components →",
@@ -70,7 +70,7 @@ const entries: Entry[] = [
     name: "shadcn/ui",
     url: "https://ui.shadcn.com",
     internalHref: "/compare/spectrum-ui-vs-shadcn",
-    internalLabel: "Compare with Spectrum UI →",
+    internalLabel: "Compare with Rithm UI →",
     summary:
       "The de-facto standard: unstyled, copy-paste components built on Radix UI and Tailwind CSS. You own the code and style it yourself. Minimal and unopinionated — a foundation you extend.",
     bestFor: "An unopinionated base component layer",
@@ -96,7 +96,7 @@ const entries: Entry[] = [
     name: "Radix UI",
     url: "https://www.radix-ui.com",
     summary:
-      "Unstyled, accessible React primitives (dialogs, menus, popovers) that handle behavior and a11y while you bring the styles. The accessibility layer under shadcn/ui and Spectrum UI.",
+      "Unstyled, accessible React primitives (dialogs, menus, popovers) that handle behavior and a11y while you bring the styles. The accessibility layer under shadcn/ui and Rithm UI.",
     bestFor: "Accessible primitives you style yourself",
     price: "Free (MIT)",
   },
@@ -120,7 +120,7 @@ const entries: Entry[] = [
     name: "Aceternity UI",
     url: "https://ui.aceternity.com",
     internalHref: "/compare/spectrum-ui-vs-aceternity",
-    internalLabel: "Compare with Spectrum UI →",
+    internalLabel: "Compare with Rithm UI →",
     summary:
       "Free, animation-heavy React components known for bold hero and landing-page effects, built with Tailwind and Framer Motion. Paid Pro templates available.",
     bestFor: "Marketing pages and hero animations",
@@ -130,7 +130,7 @@ const entries: Entry[] = [
     name: "Magic UI",
     url: "https://magicui.design",
     internalHref: "/compare/spectrum-ui-vs-magic-ui",
-    internalLabel: "Compare with Spectrum UI →",
+    internalLabel: "Compare with Rithm UI →",
     summary:
       "A free, open-source set of animated components and effects that complements shadcn/ui, built with Tailwind and Framer Motion. Paid Pro templates available.",
     bestFor: "A broad catalog of animated effects",
@@ -150,22 +150,22 @@ const faqs = [
   {
     question: "What is the best React UI component library in 2026?",
     answer:
-      "It depends on your goal. shadcn/ui is the most popular unstyled foundation; MUI, Chakra UI, Mantine, and Ant Design are full component suites; and Spectrum UI, Aceternity UI, and Magic UI focus on animated, copy-paste components. For animated components that work with shadcn/ui and install via its CLI, Spectrum UI is a strong pick — it's free, MIT-licensed, accessible, and ships an MCP server for AI assistants.",
+      "It depends on your goal. shadcn/ui is the most popular unstyled foundation; MUI, Chakra UI, Mantine, and Ant Design are full component suites; and Rithm UI, Aceternity UI, and Magic UI focus on animated, copy-paste components. For animated components that work with shadcn/ui and install via its CLI, Rithm UI is a strong pick — it's free, MIT-licensed, accessible, and ships an MCP server for AI assistants.",
   },
   {
     question: "Which React component libraries are free and open source?",
     answer:
-      "Spectrum UI, shadcn/ui, Chakra UI, Radix UI, Mantine, Ant Design, and HeroUI are free and open source. MUI has a free core with paid MUI X; Aceternity UI and Magic UI offer free components plus paid Pro templates.",
+      "Rithm UI, shadcn/ui, Chakra UI, Radix UI, Mantine, Ant Design, and HeroUI are free and open source. MUI has a free core with paid MUI X; Aceternity UI and Magic UI offer free components plus paid Pro templates.",
   },
   {
     question: "Which library is best with Tailwind CSS and shadcn/ui?",
     answer:
-      "Spectrum UI, Magic UI, and Aceternity UI are built with Tailwind and work alongside shadcn/ui. Spectrum UI installs with the shadcn CLI (npx shadcn add @spectrumui/…) and follows Radix conventions, so it drops into an existing shadcn project.",
+      "Rithm UI, Magic UI, and Aceternity UI are built with Tailwind and work alongside shadcn/ui. Rithm UI installs with the shadcn CLI (npx shadcn add @spectrumui/…) and follows Radix conventions, so it drops into an existing shadcn project.",
   },
   {
     question: "Which React component library works best with AI coding assistants?",
     answer:
-      "Spectrum UI ships an MCP server, so assistants like Cursor, Claude Code, and Windsurf can pull the exact component source with the right imports directly into your project.",
+      "Rithm UI ships an MCP server, so assistants like Cursor, Claude Code, and Windsurf can pull the exact component source with the right imports directly into your project.",
   },
 ];
 
@@ -245,7 +245,7 @@ export default function BestReactLibrariesPage() {
         <section className="container py-6 md:py-8">
           <ol className="max-w-[880px]">
             {entries.map((e, i) => {
-              const ours = e.name === "Spectrum UI";
+              const ours = e.name === "Rithm UI";
               return (
                 <li
                   key={e.name}

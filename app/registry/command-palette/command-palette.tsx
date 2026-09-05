@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — CommandPalette
+ * Rithm UI — CommandPalette
  * 
  * Dependencies: framer-motion, lucide-react, next-themes, @/lib/utils
  * 

@@ -6,10 +6,10 @@ import { PostCard } from '@/components/blog/post-card';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Blog | Spectrum UI',
+    absolute: 'Blog | Rithm UI',
   },
   description:
-    'UI components, React, design systems, and frontend engineering from Spectrum UI. Practical guides for shipping better Next.js interfaces.',
+    'UI components, React, design systems, and frontend engineering from Rithm UI. Practical guides for shipping better Next.js interfaces.',
   keywords: [
     'UI components blog',
     'React development',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'frontend development',
     'Tailwind CSS',
     'Next.js',
-    'Spectrum UI blog',
+    'Rithm UI blog',
   ],
   authors: [{ name: 'Shivam O Sharma', url: siteConfig.url }],
   creator: 'Shivam O Sharma',

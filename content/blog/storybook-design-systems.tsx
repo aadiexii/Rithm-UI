@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Storybook isn't just a component viewer. It's a development environment that changes how you build and maintain design systems.",
   tagline: 'Stories are the spec, tested on every PR.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

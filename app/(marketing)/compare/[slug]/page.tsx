@@ -35,7 +35,7 @@ export async function generateMetadata(
       description: data.metaDescription,
       url,
       type: "article",
-      siteName: "Spectrum UI",
+      siteName: "Rithm UI",
     },
     twitter: {
       card: "summary_large_image",

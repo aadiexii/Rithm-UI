@@ -159,7 +159,7 @@ for (const hub of TOPIC_HUBS) {
 const blog = generateBlogStructuredData({
   title: 'Example article',
   description: 'An example technical article.',
-  author: { name: 'Arihant Jain' },
+  author: { name: 'Shivam O Sharma' },
   datePublished: 'Mar 18, 2026',
   url: 'https://ui.spectrumhq.in/blog/example',
   image: 'https://ui.spectrumhq.in/og.png',

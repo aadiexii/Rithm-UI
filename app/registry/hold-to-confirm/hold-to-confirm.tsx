@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — HoldToConfirmButton
+ * Rithm UI — HoldToConfirmButton
  *
  * A press-and-hold confirmation button for destructive actions. Holding the
  * button (pointer, Space or Enter) fills a circular progress ring around the

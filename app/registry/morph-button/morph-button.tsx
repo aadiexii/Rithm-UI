@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — MorphButton
+ * Rithm UI — MorphButton
  *
  * A multi-state async action button. Clicking runs your action while the pill
  * morphs its width to fit each state's content: a rotating arc spinner while

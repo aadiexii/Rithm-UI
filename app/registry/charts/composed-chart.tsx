@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Composed Chart
+ * Rithm UI — Composed Chart
  *
  * Bars, a line, and an area on one plot. Mix bar fills, line dashes, and glow.
  * Bars grow from the baseline; the line wipes in behind a Motion SVG mask.

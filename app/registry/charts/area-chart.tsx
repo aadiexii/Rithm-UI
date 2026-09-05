@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Area Chart
+ * Rithm UI — Area Chart
  *
  * Filled Recharts areas with gradient, reverse-gradient, solid, hatched, and
  * dotted fills. Supports stacked / expanded stacks and dashed strokes. A

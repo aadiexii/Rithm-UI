@@ -12,7 +12,7 @@ const chart = findChartBySlug('candlestick');
 export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
-  keywords: [chart?.name ?? 'chart', 'React candlestick', 'OHLC', 'Solana chart', 'Spectrum UI'],
+  keywords: [chart?.name ?? 'chart', 'React candlestick', 'OHLC', 'Solana chart', 'Rithm UI'],
   canonicalUrl: `https://ui.spectrumhq.in/charts/candlestick`,
 });
 

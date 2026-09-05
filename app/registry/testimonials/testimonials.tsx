@@ -6,7 +6,7 @@ import { Card } from '@/components/ui/card';
 import Image from 'next/image';
 
 const mainTestimonial = {
-  quote: 'Using Spectrum UI made our design process much smoother.',
+  quote: 'Using Rithm UI made our design process much smoother.',
   author: 'Danielle M.',
   role: 'Senior UI Designer',
   videoThumbnail: '/test1.jpg',
@@ -16,7 +16,7 @@ const mainTestimonial = {
 const testimonials = [
   {
     id: 1,
-    quote: 'With Spectrum UI, we built a clean dashboard in just a few hours.',
+    quote: 'With Rithm UI, we built a clean dashboard in just a few hours.',
     author: 'Alex B.',
     role: 'Product Manager',
     avatar: '/headshot/Lummi Doodle 02.png',
@@ -25,7 +25,7 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "I've used Spectrum UI in 5 client projects so far. It’s super consistent and saves a lot of time during development.",
+      "I've used Rithm UI in 5 client projects so far. It’s super consistent and saves a lot of time during development.",
     author: 'Jasmine R.',
     role: 'Frontend Developer',
     avatar: '/headshot/Rectangle-1.png',
@@ -34,7 +34,7 @@ const testimonials = [
   {
     id: 3,
     quote:
-      'From first drafts to final product, Spectrum UI made everything easier. It just works well out of the box.',
+      'From first drafts to final product, Rithm UI made everything easier. It just works well out of the box.',
     author: 'Leo D.',
     role: 'Startup Founder',
     avatar: '/headshot/Lummi Doodle 06.png',
@@ -67,7 +67,7 @@ export default function Testimonial() {
           </div>
           <div>
             <p className="text-sm sm:text-base md:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-              Developers, designers, and teams trust Spectrum UI to build beautiful interfaces
+              Developers, designers, and teams trust Rithm UI to build beautiful interfaces
               faster.
             </p>
           </div>

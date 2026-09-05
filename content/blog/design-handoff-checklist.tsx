@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Bad handoffs waste everyone's time. Here's what a complete design handoff looks like and how to make sure nothing gets lost.",
   tagline: 'The ten-line handoff that saves a week.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

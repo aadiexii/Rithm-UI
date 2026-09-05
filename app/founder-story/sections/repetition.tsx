@@ -324,7 +324,7 @@ export function RepetitionSection() {
             </motion.div>
           )}
 
-          {/* Snapped Spectrum UI Card Layout */}
+          {/* Snapped Rithm UI Card Layout */}
           {step === 6 && (
             <motion.div 
               key="snapped"

@@ -3,12 +3,12 @@ import { Callout } from '@/components/blog/prose';
 import Link from 'next/link';
 
 const post: BlogPostInput = {
-  title: 'How Spectrum UI Accelerates Development Speed and Design Consistency',
+  title: 'How Rithm UI Accelerates Development Speed and Design Consistency',
   excerpt:
-    'We spend too much time rebuilding the same primitives. Spectrum UI solves this by providing composable, accessible components that you own, cutting development time without sacrificing quality.',
+    'We spend too much time rebuilding the same primitives. Rithm UI solves this by providing composable, accessible components that you own, cutting development time without sacrificing quality.',
   tagline: 'Copy the component, own the code.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
@@ -21,13 +21,13 @@ const post: BlogPostInput = {
       <p>
         Count the hours you’ve lost rebuilding a dropdown — the markup, the keyboard handling, the
         focus trap, the dark-mode colors, again. Most product work reinvents the same primitives on
-        every project. Spectrum UI removes that tax, and because you copy the code in,{' '}
+        every project. Rithm UI removes that tax, and because you copy the code in,{' '}
         <strong>you still own every line</strong>.
       </p>
 
       <h2 id="copy-in-not-install">Copy in, not install</h2>
       <p>
-        Spectrum UI isn’t a package you pull from <code>node_modules</code>. Point the shadcn CLI at
+        Rithm UI isn’t a package you pull from <code>node_modules</code>. Point the shadcn CLI at
         its registry and the component’s source is written straight into your project, where you can
         read it, edit it, and ship it like any other file you wrote.
       </p>
@@ -44,7 +44,7 @@ const post: BlogPostInput = {
 
       <h2 id="components-you-own">44 components you own</h2>
       <p>
-        <Link href="/components">Spectrum UI</Link> ships 44 React components built on Tailwind and
+        <Link href="/components">Rithm UI</Link> ships 44 React components built on Tailwind and
         shadcn primitives — dialogs, comboboxes, data tables, the pieces that are tedious and easy to
         get wrong. It’s the boring, must-get-right catalog, finished once.
       </p>

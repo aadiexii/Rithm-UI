@@ -37,7 +37,7 @@ export default function TemplatesIndexPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">Templates</h1>
         <p className="text-lg text-muted-foreground mt-2">
-          Browse and search through all available Spectrum UI templates.
+          Browse and search through all available Rithm UI templates.
         </p>
         <div className="flex items-center gap-4 mt-6">
           <div className="relative max-w-lg flex-1">

@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Forms are where most users drop off. Here's how to build forms that are easy to fill out, validate properly, and actually feel good to use.",
   tagline: 'Labels up, validate on blur, one column.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

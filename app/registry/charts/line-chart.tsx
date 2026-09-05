@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Line Chart
+ * Rithm UI — Line Chart
  *
  * Multi-series Recharts lines with solid / dashed / animated-dashed strokes,
  * bump and step curves, gradient strokes, and optional glow. A Motion SVG

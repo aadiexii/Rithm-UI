@@ -3,8 +3,8 @@ import { BreadcrumbNav } from '@/components/breadcrumb-nav'
 import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata'
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Terms of Service — Spectrum UI',
-  description: 'Read the Spectrum UI Terms of Service covering usage, licensing, payments, and refund policy.',
+  title: 'Terms of Service — Rithm UI',
+  description: 'Read the Rithm UI Terms of Service covering usage, licensing, payments, and refund policy.',
   canonicalUrl: 'https://ui.spectrumhq.in/tos',
 })
 
@@ -12,17 +12,17 @@ const sections = [
   {
     id: 'acceptance',
     title: '1. Acceptance of Terms',
-    content: `By accessing or using Spectrum UI (spectrumhq.in), you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform. These terms apply to all visitors, users, and anyone who accesses the service — including both the free component library and Spectrum UI Pro paid templates.`,
+    content: `By accessing or using Rithm UI (spectrumhq.in), you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform. These terms apply to all visitors, users, and anyone who accesses the service — including both the free component library and Rithm UI Pro paid templates.`,
   },
   {
     id: 'free-library',
     title: '2. Free Component Library',
-    content: `The Spectrum UI component library is provided free of charge. Components in the public repository are open-source under the Apache License 2.0. You may use, modify, and distribute them in personal and commercial projects subject to the license terms, including its notice and attribution requirements. See the repository LICENSE file for the complete terms.`,
+    content: `The Rithm UI component library is provided free of charge. Components in the public repository are open-source under the Apache License 2.0. You may use, modify, and distribute them in personal and commercial projects subject to the license terms, including its notice and attribution requirements. See the repository LICENSE file for the complete terms.`,
   },
   {
     id: 'pro-templates',
-    title: '3. Spectrum UI Pro — Paid Templates',
-    content: `Spectrum UI Pro templates are premium digital products sold as source code. Upon successful payment, you are granted a perpetual, non-exclusive, non-transferable license to use the purchased template source code for an unlimited number of personal and commercial projects.`,
+    title: '3. Rithm UI Pro — Paid Templates',
+    content: `Rithm UI Pro templates are premium digital products sold as source code. Upon successful payment, you are granted a perpetual, non-exclusive, non-transferable license to use the purchased template source code for an unlimited number of personal and commercial projects.`,
   },
   {
     id: 'license',
@@ -45,7 +45,7 @@ const sections = [
   {
     id: 'payment',
     title: '5. Payments & Access',
-    content: `All payments are processed securely via Dodo Payments. GitHub repository access is granted automatically after payment verification — typically within a few minutes. If access is not granted within 24 hours, contact support at jainari1208@gmail.com with your payment confirmation.`,
+    content: `All payments are processed securely via Dodo Payments. GitHub repository access is granted automatically after payment verification — typically within a few minutes. If access is not granted within 24 hours, contact support at sharmashivam32622@gmail.com with your payment confirmation.`,
   },
   {
     id: 'refunds',
@@ -61,12 +61,12 @@ const sections = [
   {
     id: 'ip',
     title: '8. Intellectual Property',
-    content: `All template designs, UI patterns, and associated assets remain the intellectual property of Spectrum UI. The license granted in Section 4 does not transfer ownership. The Spectrum UI name, logo, and brand assets may not be used without written permission.`,
+    content: `All template designs, UI patterns, and associated assets remain the intellectual property of Rithm UI. The license granted in Section 4 does not transfer ownership. The Rithm UI name, logo, and brand assets may not be used without written permission.`,
   },
   {
     id: 'disclaimer',
     title: '9. Disclaimer of Warranties',
-    content: `Spectrum UI is provided "as is" without warranties of any kind. We do not guarantee that the service will be uninterrupted, error-free, or that templates will be compatible with every framework version. Templates are tested against the versions listed in their documentation.`,
+    content: `Rithm UI is provided "as is" without warranties of any kind. We do not guarantee that the service will be uninterrupted, error-free, or that templates will be compatible with every framework version. Templates are tested against the versions listed in their documentation.`,
   },
   {
     id: 'changes',
@@ -89,7 +89,7 @@ export default function TermsOfServicePage() {
           Terms of Service
         </h1>
         <p className="text-neutral-500 dark:text-[#666] leading-relaxed">
-          Please read these terms carefully before using Spectrum UI or purchasing any Pro templates.
+          Please read these terms carefully before using Rithm UI or purchasing any Pro templates.
         </p>
         <p className="text-xs text-neutral-400 dark:text-[#555] mt-3">
           Last updated: June 2025
@@ -180,10 +180,10 @@ export default function TermsOfServicePage() {
         <p className="text-sm text-neutral-500 dark:text-[#666]">
           Questions about these terms?{' '}
           <a
-            href="mailto:jainari1208@gmail.com"
+            href="mailto:sharmashivam32622@gmail.com"
             className="text-neutral-900 dark:text-[#F5F5F5] underline underline-offset-2 hover:opacity-70 transition-opacity"
           >
-            jainari1208@gmail.com
+            sharmashivam32622@gmail.com
           </a>
         </p>
       </div>

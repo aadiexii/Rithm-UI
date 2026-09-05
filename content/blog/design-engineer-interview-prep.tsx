@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Design engineer interviews are different from regular frontend interviews. Here's what to expect and how to prepare for each stage.",
   tagline: 'Build live, talk tradeoffs, show details.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

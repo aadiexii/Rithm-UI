@@ -7,7 +7,7 @@ export interface InstallResult {
     nextSteps?: string;
 }
 /**
- * Installs a Spectrum UI component into the user's project.
+ * Installs a Rithm UI component into the user's project.
  * Tries `bunx --bun shadcn@latest add @spectrumui/<name>` first (faster),
  * falls back to `npx shadcn@latest add @spectrumui/<name>`.
  *

@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Typography makes or breaks your UI. Here's everything a developer needs to know about fonts, sizing, spacing, and readability.",
   tagline: 'Five decisions and your type just works.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

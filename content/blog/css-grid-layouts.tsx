@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Stop Googling CSS Grid every time. Here are the grid patterns that solve 90% of layout problems, with copy-paste code.",
   tagline: 'Four grid patterns, copy and paste.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

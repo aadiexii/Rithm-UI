@@ -7,7 +7,7 @@ import JSZip from 'jszip';
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputDir = path.join(projectRoot, 'public', 'brand');
 
-// The canonical Spectrum UI mark — same two paths as components/icon.tsx and
+// The canonical Rithm UI mark — same two paths as components/icon.tsx and
 // app/icon.svg, on the tight 35.2821 x 40.1001 bounding box.
 const MARK_W = 35.2821;
 const MARK_H = 40.1001;
@@ -100,7 +100,7 @@ const ASSETS = [
   },
 ];
 
-const README = `Spectrum UI brand assets
+const README = `Rithm UI brand assets
 ========================
 
 Logo mark and wordmark, each in dark (for light backgrounds) and light
@@ -112,8 +112,8 @@ redraw, recolor, or add effects.
 
 Website  https://ui.spectrumhq.in
 Brand    https://ui.spectrumhq.in/brandkit
-GitHub   https://github.com/arihantcodes/spectrum-ui
-X        https://x.com/arihantcodes
+GitHub   https://github.com/aadiexii/Rithm-UI
+X        https://x.com/aadiexii
 `;
 
 async function main() {

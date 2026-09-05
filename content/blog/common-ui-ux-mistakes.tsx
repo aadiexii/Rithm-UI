@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "These common UI mistakes are everywhere, and they are killing your user experience. Here is how to spot them and fix them before your users bounce.",
   tagline: 'The six things a design review always flags.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
@@ -61,7 +61,7 @@ const post: BlogPostInput = {
       <p>
         Run this list before your next review: four grays, live hover and focus states, 44px
         targets, optical nudges, one radii scale. Or start from a component library that bakes these
-        in — <Link href="/components">Spectrum UI</Link> ships accessible states and consistent radii,
+        in — <Link href="/components">Rithm UI</Link> ships accessible states and consistent radii,
         so you inherit the fixes instead of catching them one by one.
       </p>
     </>

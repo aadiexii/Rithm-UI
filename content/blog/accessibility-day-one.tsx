@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Accessibility isn't something you bolt on later. It's part of building good software. Learn how to bake a11y into your React components from the start.",
   tagline: 'Accessibility is a default, not an audit.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

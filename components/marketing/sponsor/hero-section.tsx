@@ -54,7 +54,7 @@ export function HeroSection({ className }: HeroSectionProps) {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-lg text-neutral-500 dark:text-neutral-400 leading-relaxed mb-8 max-w-md"
           >
-            Sponsor placements appear beside Spectrum UI documentation and components, where
+            Sponsor placements appear beside Rithm UI documentation and components, where
             developers are evaluating and copying source for their projects.
           </motion.p>
 

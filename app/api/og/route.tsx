@@ -6,7 +6,7 @@ export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
-    const title = searchParams.get('title') || 'Spectrum UI';
+    const title = searchParams.get('title') || 'Rithm UI';
     const description = searchParams.get('description') || 'Beautiful React Components';
 
     return new ImageResponse(
@@ -68,7 +68,7 @@ export async function GET(request: NextRequest) {
                 alignItems: 'center',
               }}
             >
-              Spectrum UI • React Components
+              Rithm UI • React Components
             </div>
           </div>
         </div>

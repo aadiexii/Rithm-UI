@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — SwipeToDelete
+ * Rithm UI — SwipeToDelete
  *
  * A swipeable list-item wrapper that reveals a delete action, iOS style. Drag
  * the row left to uncover a rose action zone; the trash icon pops the moment

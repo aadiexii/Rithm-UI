@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Design systems are not just for big companies. Here is how to build one that grows with your team, from startup to enterprise, without overthinking it.',
   tagline: 'Four layers, and governance that lives in PRs.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

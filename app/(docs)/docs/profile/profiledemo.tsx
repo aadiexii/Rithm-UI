@@ -90,7 +90,7 @@ export default function WalletProfile() {
                 </motion.div>
               </div>
               <p className="text-neutral-500 dark:text-neutral-400 text-sm">
-                Product Designer • shivam14052004@gmail.com
+                Product Designer • sharmashivam32622@gmail.com
               </p>
             </div>
             <motion.button
@@ -299,7 +299,7 @@ export default function WalletProfile() {
                     </svg>
                   </motion.div>
                   <span className="text-neutral-900 dark:text-white font-medium">
-                    Spectrum UI
+                    Rithm UI
                   </span>
                 </div>
                 <div className="text-neutral-500 dark:text-neutral-400 text-sm">

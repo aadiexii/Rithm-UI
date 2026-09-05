@@ -38,7 +38,7 @@ interface BaseMetadataProps {
 }
 
 function brandedMetadataTitle(title: string) {
-  return title.includes("Spectrum UI")
+  return title.includes("Rithm UI")
     ? formatMetadataTitle(title, "")
     : formatMetadataTitle(title);
 }
@@ -54,7 +54,7 @@ export function baseMetadata({
 }: BaseMetadataProps): Metadata {
   const component = title ? findComponentByName(title) : undefined;
   const brandedTitle = component
-    ? `${component.name} — React ${component.category} Component | Spectrum UI`
+    ? `${component.name} — React ${component.category} Component | Rithm UI`
     : title
       ? brandedMetadataTitle(title)
       : siteConfig.seo.title.default;
@@ -67,7 +67,7 @@ export function baseMetadata({
   const url = canonicalUrl || siteConfig.url;
   const ogImageUrl =
     openGraph?.images?.[0]?.url ||
-    `${siteConfig.url}/api/og?title=${encodeURIComponent(title || "Spectrum UI")}`;
+    `${siteConfig.url}/api/og?title=${encodeURIComponent(title || "Rithm UI")}`;
 
   const contextualKeywords = component
     ? [
@@ -87,11 +87,11 @@ export function baseMetadata({
     description: fullDescription,
     keywords: seoKeywords,
     authors: [
-      { name: "Arihant Jain", url: "https://ui.spectrumhq.in/" },
-      { name: "Spectrum UI", url: siteConfig.url },
+      { name: "Shivam O Sharma", url: siteConfig.url },
+      { name: "Rithm UI", url: siteConfig.url },
     ],
-    creator: "Arihant Jain",
-    publisher: "Spectrum UI",
+    creator: "Shivam O Sharma",
+    publisher: "Rithm UI",
     alternates: {
       canonical: url,
     },
@@ -105,7 +105,7 @@ export function baseMetadata({
       description: openGraph?.description
         ? formatMetadataDescription(openGraph.description)
         : fullDescription,
-      siteName: "Spectrum UI",
+      siteName: "Rithm UI",
       images: [
         {
           url: ogImageUrl,
@@ -113,7 +113,7 @@ export function baseMetadata({
           height: 630,
           alt:
             openGraph?.images?.[0]?.alt ||
-            `${title || "Spectrum UI"} — React UI Component`,
+            `${title || "Rithm UI"} — React UI Component`,
         },
       ],
       ...(article && {
@@ -126,7 +126,7 @@ export function baseMetadata({
     twitter: {
       card: "summary_large_image",
       site: "@spectrumui",
-      creator: "@arihantcodes",
+      creator: "@aadiexii",
       title: twitter?.title
         ? brandedMetadataTitle(twitter.title)
         : brandedTitle,

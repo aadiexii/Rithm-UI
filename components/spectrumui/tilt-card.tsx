@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — TiltCard
+ * Rithm UI — TiltCard
  *
  * A 3D perspective tilt card. The surface rotates toward the pointer with
  * spring smoothing, TiltCardItem children lift toward the viewer on their own

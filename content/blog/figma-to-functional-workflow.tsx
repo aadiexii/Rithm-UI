@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Turning Figma designs into clean React code doesn't have to be painful. Here's the exact workflow I use to go from mockup to production-ready Next.js components.",
   tagline: 'From frame to component without drift.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

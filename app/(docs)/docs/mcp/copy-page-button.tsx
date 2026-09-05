@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { Check } from "lucide-react";
 import { Copy1Icon } from "@/app/(docs)/layout-parts/docs-icons";
 
-const PAGE_MARKDOWN = `# Spectrum UI MCP Server
+const PAGE_MARKDOWN = `# Rithm UI MCP Server
 
-Use the Spectrum UI MCP server to browse, search, and install components from your AI assistant.
+Use the Rithm UI MCP server to browse, search, and install components from your AI assistant.
 
 ## Quick Start
 
@@ -57,9 +57,9 @@ Add to .vscode/mcp.json:
 
 ## Example prompts
 
-- "Show me all available components in the Spectrum UI registry"
+- "Show me all available components in the Rithm UI registry"
 - "Add the kanban board and animated drawer to my project"
-- "Build a testimonial section using Spectrum UI components"
+- "Build a testimonial section using Rithm UI components"
 
 Requirements: Node.js 18+, an MCP-compatible editor, and a Next.js + Tailwind CSS + shadcn/ui project for installs.
 `;

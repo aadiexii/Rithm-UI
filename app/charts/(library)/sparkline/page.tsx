@@ -11,7 +11,7 @@ const chart = findChartBySlug('sparkline');
 export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
-  keywords: [chart?.name ?? 'chart', 'watchlist', 'token table', 'React sparkline', 'Spectrum UI'],
+  keywords: [chart?.name ?? 'chart', 'watchlist', 'token table', 'React sparkline', 'Rithm UI'],
   canonicalUrl: `https://ui.spectrumhq.in/charts/sparkline`,
 });
 

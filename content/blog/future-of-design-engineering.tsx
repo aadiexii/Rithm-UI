@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "AI tools, no-code platforms, and new workflows are reshaping how we build UIs. Here's what's coming for design engineers and the skills you'll actually need.",
   tagline: 'As typing gets cheap, taste appreciates.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

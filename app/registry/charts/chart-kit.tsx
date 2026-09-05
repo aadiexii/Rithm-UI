@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Chart kit
+ * Rithm UI — Chart kit
  *
  * Shared data, colors, SVG fills, Motion intro, tooltip, and axis chrome for
  * the Charts collection. Copy this file with any chart you install.

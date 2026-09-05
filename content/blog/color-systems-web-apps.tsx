@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "You don't need a designer to have great colors. Here's a practical system for choosing, organizing, and using colors in your web app.",
   tagline: 'Build ramps, not one-off colors.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
@@ -74,7 +74,7 @@ const post: BlogPostInput = {
       <p>
         Generate two ramps, alias five semantic tokens, check every pair against 4.5:1, and you have
         a color system a designer would sign off on. Component libraries like{' '}
-        <Link href="/components">Spectrum UI</Link> ship these tokens by default, so you can borrow
+        <Link href="/components">Rithm UI</Link> ship these tokens by default, so you can borrow
         the structure instead of hand-rolling it. Either way: ramps first, aliases second, raw hex
         never.
       </p>

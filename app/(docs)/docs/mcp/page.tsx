@@ -14,10 +14,10 @@ import CopyPageButton from "./copy-page-button";
 export const metadata: Metadata = baseMetadata({
   title: "MCP Server",
   description:
-    "Use Spectrum UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @spectrumui/mcp server.",
+    "Use Rithm UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @spectrumui/mcp server.",
   keywords: [
     "MCP server",
-    "Spectrum UI MCP",
+    "Rithm UI MCP",
     "AI component installer",
     "Claude components",
     "Cursor MCP",
@@ -132,7 +132,7 @@ export default function McpPage() {
   return (
     <SEOWrapper
       componentName="MCP Server"
-      description="Use Spectrum UI with AI coding assistants via the Model Context Protocol."
+      description="Use Rithm UI with AI coding assistants via the Model Context Protocol."
       url="https://ui.spectrumhq.in/docs/mcp"
       schemaType="techArticle"
       keywords={["MCP server", "Claude", "Cursor", "AI components"]}
@@ -146,21 +146,21 @@ export default function McpPage() {
           <CopyPageButton />
         </div>
         <p className="mt-1.5 max-w-xl text-base leading-[26px] text-neutral-500 dark:text-neutral-400">
-          Use the Spectrum UI MCP server to browse, search, and install
+          Use the Rithm UI MCP server to browse, search, and install
           components from your AI assistant.
         </p>
 
         {/* Intro */}
         <div className="mt-8">
           <P>
-            The Spectrum UI MCP server lets AI assistants interact with the
+            The Rithm UI MCP server lets AI assistants interact with the
             component registry. You can browse available components, search for
             specific ones, and install them directly into your project using
             natural language.
           </P>
           <P>
             For example, you can ask an AI assistant to &quot;Build a landing
-            page using Spectrum UI components&quot; or &quot;Add the kanban
+            page using Rithm UI components&quot; or &quot;Add the kanban
             board to my project&quot;.
           </P>
           <P>
@@ -174,7 +174,7 @@ export default function McpPage() {
         <Section title="Quick Start">
           <P>
             Select your MCP client and follow the instructions to configure the
-            Spectrum UI MCP server. If you&apos;d like to do it manually, see
+            Rithm UI MCP server. If you&apos;d like to do it manually, see
             the <A href="#configuration">Configuration</A> section.
           </P>
           <QuickStart />
@@ -187,13 +187,13 @@ export default function McpPage() {
               Model Context Protocol (MCP)
             </A>{" "}
             is an open protocol that enables AI assistants to securely connect
-            to external data sources and tools. With the Spectrum UI MCP
+            to external data sources and tools. With the Rithm UI MCP
             server, your AI assistant gains direct access to:
           </P>
           <Ul>
             <li>
               <Strong>Browse Components</Strong> — list every component in the
-              Spectrum UI registry, optionally filtered by category
+              Rithm UI registry, optionally filtered by category
             </li>
             <li>
               <Strong>Search the Registry</Strong> — find components by name or
@@ -313,17 +313,17 @@ export default function McpPage() {
           <PageSectionTitle className="mt-4">Browse & Search</PageSectionTitle>
           <Ul>
             <li>
-              &quot;Show me all available components in the Spectrum UI
+              &quot;Show me all available components in the Rithm UI
               registry&quot;
             </li>
-            <li>&quot;Search for an animated card in Spectrum UI&quot;</li>
-            <li>&quot;What categories does Spectrum UI have?&quot;</li>
+            <li>&quot;Search for an animated card in Rithm UI&quot;</li>
+            <li>&quot;What categories does Rithm UI have?&quot;</li>
           </Ul>
 
           <PageSectionTitle>Install Components</PageSectionTitle>
           <Ul>
             <li>
-              &quot;Install the kanban board from Spectrum UI into my
+              &quot;Install the kanban board from Rithm UI into my
               project&quot;
             </li>
             <li>
@@ -331,7 +331,7 @@ export default function McpPage() {
               project&quot;
             </li>
             <li>
-              &quot;Create a contact form using Spectrum UI components&quot;
+              &quot;Create a contact form using Rithm UI components&quot;
             </li>
           </Ul>
 

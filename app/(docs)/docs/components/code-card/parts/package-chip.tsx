@@ -42,7 +42,7 @@ const PackageChip = ({ cli, componentName, className }: PackageChipProps) => {
   const slug = cli.replace(/^@spectrumui\//, "");
   const activePm = PACKAGE_MANAGERS.find((p) => p.id === pm)!;
   const command = `${activePm.command} ${cli}`;
-  const prompt = `Install the ${slug} component from Spectrum UI`;
+  const prompt = `Install the ${slug} component from Rithm UI`;
 
   const handleCopyCommand = () => {
     if (!isAuthenticated) {

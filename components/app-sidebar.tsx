@@ -33,7 +33,7 @@ import { Icons } from "./icon";
 const data = {
   user: {
     name: "Shivam O Sharma",
-    email: "shivam14052004@gmail.com",
+    email: "sharmashivam32622@gmail.com",
     avatar: "/arihanticon.jpg",
   },
   navMain: [
@@ -166,7 +166,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <Icons.logo />
-                <span className="text-base font-semibold">Spectrum UI</span>
+                <span className="text-base font-semibold">Rithm UI</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

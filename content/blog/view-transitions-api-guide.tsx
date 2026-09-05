@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Learn how the View Transitions API enables native-feeling page transitions in web apps. Build cinematic route animations, shared element transitions, and smooth state changes with minimal code.',
   tagline: 'Native crossfades, one function call.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

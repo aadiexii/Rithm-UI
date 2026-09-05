@@ -180,7 +180,7 @@ export const siteConfig = {
   links: {
     twitter: "https://x.com/aadiexii",
     github: "https://github.com/aadiexii/Rithm-UI",
-    linkedin: "https://www.linkedin.com/in/shivamosharma",
+    linkedin: "https://www.linkedin.com/in/aadiexii/",
     instagram: "https://www.instagram.com/shivamosharma",
     discord: "https://discord.gg/rithm-ui",
   },

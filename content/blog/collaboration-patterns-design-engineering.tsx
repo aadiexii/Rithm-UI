@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Design engineers bridge the gap between design and engineering teams. Here are the collaboration patterns that actually work for shipping better products.',
   tagline: 'Stop handing off. Work in one loop.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

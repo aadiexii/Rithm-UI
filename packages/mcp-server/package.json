@@ -1,14 +1,14 @@
 {
   "name": "@spectrumui/mcp",
   "version": "0.2.0",
-  "description": "MCP server for Spectrum UI — lets AI assistants browse, search, and install Spectrum UI components directly into your codebase",
+  "description": "MCP server for Rithm UI — lets AI assistants browse, search, and install Rithm UI components directly into your codebase",
   "keywords": ["mcp", "spectrum-ui", "components", "ai", "claude", "cursor"],
   "author": "Aman Jain <aman.044063@tmu.ac.in>",
   "license": "MIT",
   "homepage": "https://spectrumhq.in",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arihantcodes/spectrum-ui"
+    "url": "https://github.com/aadiexii/Rithm-UI"
   },
   "type": "module",
   "main": "dist/index.js",

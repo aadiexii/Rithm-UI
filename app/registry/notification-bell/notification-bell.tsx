@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — NotificationBell
+ * Rithm UI — NotificationBell
  *
  * A bell icon button micro-interaction. When the unread count increases the
  * bell swings from its hinge like a settling pendulum while the clapper

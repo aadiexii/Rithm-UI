@@ -22,7 +22,7 @@ const NEXT_STEPS = [
   {
     href: '/docs/mcp',
     title: 'Set up the MCP server',
-    description: 'Let your AI editor add Spectrum UI components for you.',
+    description: 'Let your AI editor add Rithm UI components for you.',
   },
 ];
 
@@ -99,7 +99,7 @@ export default function InstallationPage() {
           Installation
         </h1>
         <p className="mt-2 text-[15px] tracking-wide text-neutral-400 dark:text-neutral-400">
-          Set up Spectrum UI in a new or existing Next.js project. It only takes a few minutes.
+          Set up Rithm UI in a new or existing Next.js project. It only takes a few minutes.
         </p>
       </div>
 
@@ -191,7 +191,7 @@ export default function InstallationPage() {
 
         <Step number={4} title="Add components" id="add-components" isLast>
           <p className="mt-2 max-w-2xl text-sm leading-6 tracking-wide text-neutral-500 dark:text-neutral-400">
-            That is it. You can now add any Spectrum UI component with one command. Here is an
+            That is it. You can now add any Rithm UI component with one command. Here is an
             example for the Accordion.
           </p>
           <CommandFigure

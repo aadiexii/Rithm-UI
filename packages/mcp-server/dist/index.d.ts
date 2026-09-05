@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Spectrum UI MCP Server
+ * Rithm UI MCP Server
  *
  * Lets AI assistants (Claude, Cursor, Windsurf, etc.) browse, search,
- * and install Spectrum UI components directly into user projects.
+ * and install Rithm UI components directly into user projects.
  *
  * Usage:
  *   npx @spectrumui/mcp

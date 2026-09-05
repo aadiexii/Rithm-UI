@@ -12,9 +12,9 @@ import { siteConfig } from "@/config/site";
 const url = `${siteConfig.url}/awesome`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Awesome Spectrum UI — Components, Guides & Resources" },
+  title: { absolute: "Awesome Rithm UI — Components, Guides & Resources" },
   description:
-    "The complete Awesome Spectrum UI list: every free, copy-paste React & Next.js component, plus installation, the MCP server, comparisons, and resources. A curated reference for building with Tailwind CSS and shadcn/ui.",
+    "The complete Awesome Rithm UI list: every free, copy-paste React & Next.js component, plus installation, the MCP server, comparisons, and resources. A curated reference for building with Tailwind CSS and shadcn/ui.",
   keywords: [
     "awesome spectrum ui",
     "awesome shadcn ui",
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: url },
   openGraph: {
-    title: "Awesome Spectrum UI — Components, Guides & Resources",
+    title: "Awesome Rithm UI — Components, Guides & Resources",
     description:
-      "A curated list of every Spectrum UI component, guide, and resource.",
+      "A curated list of every Rithm UI component, guide, and resource.",
     url,
     type: "website",
-    siteName: "Spectrum UI",
+    siteName: "Rithm UI",
   },
 };
 
@@ -84,13 +84,13 @@ export default function AwesomePage() {
   const itemListLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Awesome Spectrum UI",
+    name: "Awesome Rithm UI",
     url,
     description:
-      "A curated list of every Spectrum UI component, guide, and resource.",
+      "A curated list of every Rithm UI component, guide, and resource.",
     mainEntity: {
       "@type": "ItemList",
-      name: "Spectrum UI components",
+      name: "Rithm UI components",
       itemListElement: components.map((c, i) => ({
         "@type": "ListItem",
         position: i + 1,
@@ -101,7 +101,7 @@ export default function AwesomePage() {
   };
   const breadcrumbLd = generateBreadcrumbStructuredData([
     { name: "Home", url: siteConfig.url },
-    { name: "Awesome Spectrum UI", url },
+    { name: "Awesome Rithm UI", url },
   ]);
 
   return (
@@ -120,7 +120,7 @@ export default function AwesomePage() {
       {/* Hero */}
       <FrameBand>
         <section className="container py-16 md:py-24">
-          <BreadcrumbNav items={[{ label: "Awesome Spectrum UI" }]} className="mb-10" />
+          <BreadcrumbNav items={[{ label: "Awesome Rithm UI" }]} className="mb-10" />
           <div className="flex items-center gap-2.5">
             <span aria-hidden className="-rotate-90">
               <span className="block size-[9px] border-b-2 border-r-2 border-[#f9452d] dark:border-[#E1F435]" />
@@ -130,10 +130,10 @@ export default function AwesomePage() {
             </span>
           </div>
           <h1 className="mt-6 max-w-[16ch] font-spectral text-[36px] leading-[1.02] tracking-[-1.6px] text-[#111110] dark:text-neutral-50 md:text-[56px]">
-            Awesome Spectrum UI
+            Awesome Rithm UI
           </h1>
           <p className="mt-6 max-w-[60ch] font-inter text-[17px] leading-[1.65] tracking-[-0.2px] text-[#080808]/62 dark:text-neutral-400 md:text-[19px]">
-            A curated, single-page index of everything in Spectrum UI — every
+            A curated, single-page index of everything in Rithm UI — every
             free, copy-paste React &amp; Next.js component, plus installation, the
             MCP server, comparisons, and resources. Built with Tailwind CSS,
             Radix UI, and Framer Motion.
@@ -193,9 +193,9 @@ export default function AwesomePage() {
           <SectionHeading eyebrow="Compare" title="Comparisons & guides" />
           <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
             {[
-              { label: "How Spectrum UI compares", href: "/compare" },
+              { label: "How Rithm UI compares", href: "/compare" },
               ...comparisons.map((c) => ({
-                label: `Spectrum UI vs ${c.competitor}`,
+                label: `Rithm UI vs ${c.competitor}`,
                 href: `/compare/${c.slug}`,
               })),
               {

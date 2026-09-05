@@ -65,7 +65,7 @@ export function DocsCatalog() {
             React components and blocks
           </h1>
           <p className="mt-3 tracking-wide text-[15px] text-neutral-600  font-normal dark:text-neutral-300 leading-7">
-            Spectrum UI is an open-source React component and block library featuring
+            Rithm UI is an open-source React component and block library featuring
             animation-ready, copy-paste components built with React, Next.js, Tailwind CSS, Motion,
             TypeScript, and shadcn/ui for SaaS dashboards, landing pages, AI applications, and admin
             panels.
@@ -82,7 +82,7 @@ export function DocsCatalog() {
               href="/docs/mcp"
               className="font-medium text-neutral-800 underline decoration-neutral-300 underline-offset-2 transition-colors hover:decoration-neutral-500 dark:text-neutral-200 dark:decoration-neutral-600 dark:hover:decoration-neutral-400"
             >
-              Spectrum UI MCP server
+              Rithm UI MCP server
             </Link>{' '}
             so your AI editor can add components for you.
           </p>

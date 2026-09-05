@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Radar Chart
+ * Rithm UI — Radar Chart
  *
  * Radar plots with filled or outline series, polygon or circle grids, and glow.
  *

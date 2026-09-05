@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     'Master React 19 Server Actions to build full-stack components that handle data mutations, form submissions, and server-side logic without writing API routes.',
   tagline: 'Forms that submit straight to the server.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

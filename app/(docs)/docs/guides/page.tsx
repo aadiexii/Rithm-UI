@@ -9,7 +9,7 @@ import { TOPIC_HUB_LINKS, topicHubPath } from '@/lib/topic-hub-links';
 export const metadata: Metadata = baseMetadata({
   title: 'Guides & Tutorials',
   description:
-    'Learn how to build modern React applications with Spectrum UI. Step-by-step tutorials, best practices, and real-world examples.',
+    'Learn how to build modern React applications with Rithm UI. Step-by-step tutorials, best practices, and real-world examples.',
   keywords: [
     'React tutorials',
     'UI component guide',
@@ -24,7 +24,7 @@ export const metadata: Metadata = baseMetadata({
 
 const GUIDES = [
   {
-    title: 'Install Spectrum UI',
+    title: 'Install Rithm UI',
     description: 'Set up Next.js and shadcn/ui, then add your first component in a few minutes.',
     icon: Zap,
     href: '/docs/installation',
@@ -54,7 +54,7 @@ const GUIDES = [
 ];
 
 const LEARNING_POINTS = [
-  'How to add Spectrum UI components to a React or Next.js app',
+  'How to add Rithm UI components to a React or Next.js app',
   'How to keep your pages fast and easy to use for everyone',
   'How to change a component so it matches your design',
   'Patterns that real production apps use',
@@ -64,7 +64,7 @@ const LEARNING_POINTS = [
 const POPULAR_PAGES = [
   {
     title: 'Installation',
-    description: 'Install and set up Spectrum UI',
+    description: 'Install and set up Rithm UI',
     href: '/docs/installation',
   },
   {
@@ -87,7 +87,7 @@ export default function GuidesPage() {
   return (
     <SEOWrapper
       componentName="Guides & Tutorials"
-      description="Learn how to build modern React applications with Spectrum UI. Step-by-step tutorials, best practices, and real-world examples."
+      description="Learn how to build modern React applications with Rithm UI. Step-by-step tutorials, best practices, and real-world examples."
       url="https://ui.spectrumhq.in/docs/guides"
       schemaType="collectionPage"
       keywords={[
@@ -110,7 +110,7 @@ export default function GuidesPage() {
             Guides
           </h1>
           <p className="mt-2 text-[15px] tracking-wide text-neutral-400 dark:text-neutral-400">
-            Short guides that help you learn Spectrum UI and get more out of it.
+            Short guides that help you learn Rithm UI and get more out of it.
           </p>
         </div>
 
@@ -152,7 +152,7 @@ export default function GuidesPage() {
             Topic guides
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 tracking-wide text-neutral-500 dark:text-neutral-400">
-            Learn a UI category, compare when to use it, browse matching Spectrum UI components, and
+            Learn a UI category, compare when to use it, browse matching Rithm UI components, and
             start from a working code example.
           </p>
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
@@ -188,13 +188,13 @@ export default function GuidesPage() {
           </ul>
         </section>
 
-        {/* Why Spectrum UI */}
+        {/* Why Rithm UI */}
         <section className="animate-fade-up" style={{ animationDelay: '180ms' }}>
           <h2 id="why-spectrum-ui" className={`mt-14 ${sectionTitle}`}>
-            Why Spectrum UI?
+            Why Rithm UI?
           </h2>
           <p className="mt-4 max-w-2xl text-sm leading-6 tracking-wide text-neutral-500 dark:text-neutral-400">
-            Spectrum UI is a collection of React components for modern web apps. It is built with
+            Rithm UI is a collection of React components for modern web apps. It is built with
             TypeScript and Tailwind CSS, and it cares about accessibility from the start. You get
             beautiful and responsive interfaces without writing all the boilerplate yourself. And
             since the code lives in your project, there is nothing extra to maintain.

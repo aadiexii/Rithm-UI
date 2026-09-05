@@ -1,6 +1,6 @@
-# Building World-Class Components for Spectrum UI
+# Building World-Class Components for Rithm UI
 
-This guide outlines the core philosophy, design principles, and technical steps required to build and integrate "world-class" components into the Spectrum UI library. Our goal is to raise the industry bar—creating components that feel like they belong on the homepages of elite tech companies like Vercel, Linear, and Stripe.
+This guide outlines the core philosophy, design principles, and technical steps required to build and integrate "world-class" components into the Rithm UI library. Our goal is to raise the industry bar—creating components that feel like they belong on the homepages of elite tech companies like Vercel, Linear, and Stripe.
 
 ---
 
@@ -37,7 +37,7 @@ Don't just build static UI representations. Build **miniature, working replicas*
 
 ## Part 2: Technical Integration Workflow
 
-Follow these exact steps when adding a new component to Spectrum UI.
+Follow these exact steps when adding a new component to Rithm UI.
 
 ### Step 1: Create the Component in the Registry
 1. Place the core component code in `app/registry/[component-name]/`.
@@ -86,4 +86,4 @@ If the component is meant to be installable via a CLI tool:
 
 ---
 
-By adhering to these strict aesthetics and workflow processes, you ensure that every addition to Spectrum UI maintains a flawless, world-class standard.
+By adhering to these strict aesthetics and workflow processes, you ensure that every addition to Rithm UI maintains a flawless, world-class standard.

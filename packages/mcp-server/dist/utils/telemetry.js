@@ -1,5 +1,5 @@
 /**
- * Anonymous telemetry for Spectrum UI MCP.
+ * Anonymous telemetry for Rithm UI MCP.
  *
  * Fires-and-forgets — never blocks the user response.
  * No personal data is collected (no IP, no user ID, no machine info).

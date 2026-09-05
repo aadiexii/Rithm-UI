@@ -26,9 +26,9 @@ const VSCODE_CONFIG = `{
 }`;
 
 const PROMPTS = [
-  "Show me all available components in the Spectrum UI registry",
+  "Show me all available components in the Rithm UI registry",
   "Add the kanban board and animated drawer to my project",
-  "Build a testimonial section using Spectrum UI components",
+  "Build a testimonial section using Rithm UI components",
 ];
 
 function Lead({ strong, rest }: { strong: string; rest: string }) {

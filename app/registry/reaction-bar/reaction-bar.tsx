@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — ReactionBar
+ * Rithm UI — ReactionBar
  *
  * A Slack-style emoji reaction row. Chips toggle your reaction with a quick
  * emoji pop and a direction-aware rolling count; hovering a chip springs the

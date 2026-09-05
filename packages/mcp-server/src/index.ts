@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Spectrum UI MCP Server
+ * Rithm UI MCP Server
  *
  * Lets AI assistants (Claude, Cursor, Windsurf, etc.) browse, search,
- * and install Spectrum UI components directly into user projects.
+ * and install Rithm UI components directly into user projects.
  *
  * Usage:
  *   npx @spectrumui/mcp
@@ -37,7 +37,7 @@ const server = new McpServer({
 // ─── Tool: list_components ──────────────────────────────────────────────────
 server.tool(
   "list_components",
-  "List all available Spectrum UI components. Optionally filter by category (e.g. 'AI', 'Forms', 'Animation').",
+  "List all available Rithm UI components. Optionally filter by category (e.g. 'AI', 'Forms', 'Animation').",
   {
     category: z
       .string()
@@ -70,7 +70,7 @@ server.tool(
 // ─── Tool: search_components ────────────────────────────────────────────────
 server.tool(
   "search_components",
-  "Search Spectrum UI components by keyword. Returns ranked results by relevance.",
+  "Search Rithm UI components by keyword. Returns ranked results by relevance.",
   {
     query: z
       .string()
@@ -106,7 +106,7 @@ server.tool(
 // ─── Tool: get_component ────────────────────────────────────────────────────
 server.tool(
   "get_component",
-  "Get full details and install instructions for a specific Spectrum UI component.",
+  "Get full details and install instructions for a specific Rithm UI component.",
   {
     name: z
       .string()
@@ -145,7 +145,7 @@ server.tool(
 // ─── Tool: list_categories ──────────────────────────────────────────────────
 server.tool(
   "list_categories",
-  "List all Spectrum UI component categories with component counts.",
+  "List all Rithm UI component categories with component counts.",
   {},
   async () => {
     const categories = await listCategories();
@@ -163,7 +163,7 @@ server.tool(
 // ─── Tool: install_component ────────────────────────────────────────────────
 server.tool(
   "install_component",
-  "Install a Spectrum UI component into the user's project using the shadcn CLI. This runs `npx shadcn@latest add` with the Spectrum UI registry URL.",
+  "Install a Rithm UI component into the user's project using the shadcn CLI. This runs `npx shadcn@latest add` with the Rithm UI registry URL.",
   {
     name: z
       .string()
@@ -196,4 +196,4 @@ server.tool(
 const transport = new StdioServerTransport();
 await server.connect(transport);
 
-console.error("Spectrum UI MCP server running on stdio");
+console.error("Rithm UI MCP server running on stdio");

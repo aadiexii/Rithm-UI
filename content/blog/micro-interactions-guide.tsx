@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "The small details make the big difference. Here are the micro-interactions that turn a functional app into one people actually enjoy using.",
   tagline: 'Fast feedback, calm transitions.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

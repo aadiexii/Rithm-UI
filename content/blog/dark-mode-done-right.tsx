@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Dark mode is more than inverting colors. Here's how to build dark mode that actually looks good and doesn't break your UI.",
   tagline: 'Semantic tokens, not inverted colors.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

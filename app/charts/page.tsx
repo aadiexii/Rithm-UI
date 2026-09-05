@@ -11,7 +11,7 @@ import { ChartStage } from './chart-stage';
 export const metadata: Metadata = baseMetadata({
   title: 'Animated React Charts',
   description:
-    'A full-viewport gallery of Spectrum UI chart components. Copy-paste React source for Next.js, Tailwind CSS, Recharts, and Motion. Built for product, trading, and onchain dashboards.',
+    'A full-viewport gallery of Rithm UI chart components. Copy-paste React source for Next.js, Tailwind CSS, Recharts, and Motion. Built for product, trading, and onchain dashboards.',
   keywords: [
     'React charts',
     'animated chart components',

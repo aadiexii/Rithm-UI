@@ -7,8 +7,8 @@ import { createNoIndexMetadata } from '@/lib/metadata';
 import { BookmarksView } from './bookmarks-view';
 
 export const metadata: Metadata = createNoIndexMetadata({
-  title: 'Spectrum UI Bookmarks',
-  description: 'Review components and templates saved to the current Spectrum UI account.',
+  title: 'Rithm UI Bookmarks',
+  description: 'Review components and templates saved to the current Rithm UI account.',
   path: '/bookmarks',
 });
 

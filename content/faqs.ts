@@ -37,6 +37,6 @@ export const faqs: Array<{ question: string; answer: string }> = [
   {
     question: 'Is it free to try?',
     answer:
-      'Yes. Spectrum UI is free and open source. Connect the MCP and start pulling components in minutes.',
+      'Yes. Rithm UI is free and open source. Connect the MCP and start pulling components in minutes.',
   },
 ];

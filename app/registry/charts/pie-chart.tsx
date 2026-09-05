@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Pie Chart
+ * Rithm UI — Pie Chart
  *
  * Pie and donut charts with padded sectors, labels, and optional glow.
  * Hover dims sibling slices; intro stays under 300ms.

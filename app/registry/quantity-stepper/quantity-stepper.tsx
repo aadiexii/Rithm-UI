@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — QuantityStepper
+ * Rithm UI — QuantityStepper
  *
  * An animated quantity input for carts and forms. A rounded pill holds a
  * minus button, a rolling value and a plus button. Changing the value rolls

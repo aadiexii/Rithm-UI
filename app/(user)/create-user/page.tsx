@@ -8,8 +8,8 @@ import { createNoIndexMetadata } from '@/lib/metadata';
 import { OnboardingForm } from './onboarding-form';
 
 export const metadata: Metadata = createNoIndexMetadata({
-  title: 'Complete Your Spectrum UI Profile',
-  description: 'Complete the account details required to use Spectrum UI account features.',
+  title: 'Complete Your Rithm UI Profile',
+  description: 'Complete the account details required to use Rithm UI account features.',
   path: '/create-user',
 });
 

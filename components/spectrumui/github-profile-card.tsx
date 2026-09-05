@@ -103,20 +103,20 @@ function organizeContributionsByWeek(contributions: ContributionDay[]) {
 }
 
 function shareToTwitter() {
-  const text = `I have generated my GitHub card from Spectrum UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #SpectrumUI #Developer`;
+  const text = `I have generated my GitHub card from Rithm UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #RithmUI #Developer`;
   const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
 }
 
 function shareToLinkedIn() {
   const text =
-    'I have generated my GitHub card from Spectrum UI! Check out this tool to showcase your GitHub profile.';
+    'I have generated my GitHub card from Rithm UI! Check out this tool to showcase your GitHub profile.';
   const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}&summary=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
 }
 
 function copyShareLink() {
-  const text = `I have generated my GitHub card from Spectrum UI! Generate yours: ${window.location.href}`;
+  const text = `I have generated my GitHub card from Rithm UI! Generate yours: ${window.location.href}`;
   navigator.clipboard.writeText(text);
   alert('Link copied to clipboard!');
 }
@@ -358,7 +358,7 @@ export default function GitHubProfileCard() {
                 Share Your GitHub Card
               </h3>
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                I have generated my GitHub card from Spectrum UI! Generate yours and showcase your
+                I have generated my GitHub card from Rithm UI! Generate yours and showcase your
                 profile.
               </p>
             </div>

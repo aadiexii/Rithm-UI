@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Price Chart
+ * Rithm UI — Price Chart
  *
  * Token or stock price with ticker chrome: last price, signed delta, and a
  * Motion SVG wipe. Same component for SOL, NVDA, or protocol TVL.

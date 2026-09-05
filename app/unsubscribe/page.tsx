@@ -56,7 +56,7 @@ function UnsubscribeForm() {
             <p className="text-muted-foreground text-sm">
               Are you sure you want to unsubscribe
               {email ? <span className="font-medium text-foreground"> {email}</span> : null} from
-              Spectrum UI updates?
+              Rithm UI updates?
             </p>
             <Button
               onClick={handleUnsubscribe}
@@ -77,7 +77,7 @@ function UnsubscribeForm() {
             <p className="text-muted-foreground text-sm">{message}</p>
             <Link href="/">
               <Button variant="outline" className="rounded-lg mt-2">
-                Back to Spectrum UI
+                Back to Rithm UI
               </Button>
             </Link>
           </>
@@ -88,7 +88,7 @@ function UnsubscribeForm() {
             <p className="text-sm text-red-600 dark:text-red-400">{message}</p>
             <Link href="/">
               <Button variant="outline" className="rounded-lg mt-2">
-                Back to Spectrum UI
+                Back to Rithm UI
               </Button>
             </Link>
           </>

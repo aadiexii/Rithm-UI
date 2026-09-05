@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — KbdKey & KbdCombo
+ * Rithm UI — KbdKey & KbdCombo
  *
  * A semantic <kbd> element rendered as a 3D keycap that physically depresses
  * when the real key is pressed — via a global keydown listener or a pointer

@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'Discover what a design engineer does, the essential skills needed, and why this hybrid role is transforming modern product teams. A complete career guide for 2026.',
   tagline: 'You own the seam between design and code.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

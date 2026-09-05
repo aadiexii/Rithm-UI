@@ -22,13 +22,13 @@ export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken
     const unsubscribeUrl = `https://ui.spectrumhq.in/unsubscribe?token=${unsubscribeToken}&email=${encodeURIComponent(email)}`;
 
     const { data, error } = await getResend().emails.send({
-      from: 'Spectrum UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@spectrumhq.in>',
       to: [email],
-      subject: 'Welcome to Spectrum UI — You\'re in!',
+      subject: "Welcome to Rithm UI — You're in!",
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px; color: #1a1a1a;">
           <div style="margin-bottom: 32px;">
-            <strong style="font-size: 18px;">Spectrum UI</strong>
+            <strong style="font-size: 18px;">Rithm UI</strong>
           </div>
 
           <h1 style="font-size: 24px; font-weight: 600; margin-bottom: 16px;">
@@ -36,7 +36,7 @@ export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken
           </h1>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444;">
-            You'll be the first to know about new components, templates, and updates from Spectrum UI.
+            You'll be the first to know about new components, templates, and updates from Rithm UI.
           </p>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444;">
@@ -51,7 +51,7 @@ export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken
 
           <p style="font-size: 15px; line-height: 1.6; color: #444; margin-top: 24px;">
             Welcome aboard,<br/>
-            Arihant — Spectrum UI
+            Shivam — Rithm UI
           </p>
 
           <hr style="border: none; border-top: 1px solid #e5e5e5; margin: 32px 0;" />
@@ -94,7 +94,7 @@ export async function sendPurchaseEmail({
     const escapedGithub = escapeHtml(githubUsername);
 
     const { data, error } = await getResend().emails.send({
-      from: 'Spectrum UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@spectrumhq.in>',
       to: [email],
       subject: `Welcome to ${escapedTemplate} - Access Granted!`,
       html: `
@@ -141,13 +141,13 @@ export async function sendProWaitlistEmail({
     const escapedGithub = escapeHtml(githubUsername);
 
     const { data, error } = await getResend().emails.send({
-      from: 'Spectrum UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@spectrumhq.in>',
       to: [email],
-      subject: "You're on the Spectrum Pro waitlist!",
+      subject: "You're on the Rithm Pro waitlist!",
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 560px; margin: 0 auto; padding: 40px 20px; color: #1a1a1a;">
           <div style="margin-bottom: 32px;">
-            <strong style="font-size: 18px;">Spectrum UI</strong>
+            <strong style="font-size: 18px;">Rithm UI</strong>
           </div>
 
           <h1 style="font-size: 24px; font-weight: 600; margin-bottom: 16px;">
@@ -155,7 +155,7 @@ export async function sendProWaitlistEmail({
           </h1>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444;">
-            Thanks for reserving your spot on Spectrum Pro. We received your payment of <strong>${escapeHtml(amountLabel)}</strong>.
+            Thanks for reserving your spot on Rithm Pro. We received your payment of <strong>${escapeHtml(amountLabel)}</strong>.
           </p>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444;">
@@ -163,12 +163,12 @@ export async function sendProWaitlistEmail({
           </p>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444;">
-            We'll email you the moment Pro goes live — no extra steps needed.
+            We'll email you the moment the private GitHub repo and component registry are live.
           </p>
 
-          <p style="font-size: 15px; line-height: 1.6; color: #444; margin-top: 24px;">
-            — Arihant, Spectrum UI
-          </p>
+          <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #eee; font-size: 13px; color: #888;">
+            The Rithm UI Team
+          </div>
         </div>
       `,
     });
@@ -192,13 +192,13 @@ export async function sendFounderWelcomeEmail(email: string, name: string) {
     // We use a verified domain sender, but set the reply-to as the personal inbox
     // so all replies go directly to the founder's Gmail.
     const { data, error } = await getResend().emails.send({
-      from: 'Arihant <arihant@spectrumhq.in>',
-      replyTo: 'jainari1208@gmail.com',
+      from: 'Shivam <sharmashivam32622@gmail.com>',
+      replyTo: 'sharmashivam32622@gmail.com',
       to: [email],
-      subject: 'welcome to spectrum ui / quick question',
+      subject: 'welcome to rithm ui / quick question',
       text: `Hey ${firstName}, 
 
-Arihant here, founder of Spectrum UI. I just saw you create an account and wanted to personally welcome you. 
+Shivam here, founder of Rithm UI. I just saw you create an account and wanted to personally welcome you. 
 
 I built this project to help developers stop wasting time on repetitive styling and ship beautiful products faster. 
 
@@ -208,7 +208,7 @@ What are you currently building, and what's the biggest challenge slowing down y
 Just hit reply and let me know. I read every single email, and it helps me decide which components to build next.
 
 Happy coding,
-Arihant`,
+Shivam`,
     });
 
     if (error) {

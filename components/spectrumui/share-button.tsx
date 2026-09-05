@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — ShareButton
+ * Rithm UI — ShareButton
  *
  * A share trigger that fans out into a row of action buttons. Opening springs
  * each action out from behind the trigger with a 30ms stagger while the share

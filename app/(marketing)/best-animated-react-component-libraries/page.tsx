@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     absolute: "Best Animated React Component Libraries (2026)",
   },
   description:
-    "A practical roundup of the best animated React component libraries in 2026 — Spectrum UI, Aceternity UI, Magic UI, shadcn/ui, React Bits, and Animate UI. Free, copy-paste, Tailwind + Framer Motion components for Next.js.",
+    "A practical roundup of the best animated React component libraries in 2026 — Rithm UI, Aceternity UI, Magic UI, shadcn/ui, React Bits, and Animate UI. Free, copy-paste, Tailwind + Framer Motion components for Next.js.",
   keywords: [
     "best animated React component libraries",
     "animated React components 2026",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "The best free, copy-paste animated React component libraries for Next.js in 2026.",
     url,
     type: "article",
-    siteName: "Spectrum UI",
+    siteName: "Rithm UI",
   },
   twitter: {
     card: "summary_large_image",
@@ -57,7 +57,7 @@ interface Entry {
 
 const entries: Entry[] = [
   {
-    name: "Spectrum UI",
+    name: "Rithm UI",
     url: "https://ui.spectrumhq.in",
     internalHref: "/docs",
     summary:
@@ -88,7 +88,7 @@ const entries: Entry[] = [
     url: "https://ui.shadcn.com",
     internalHref: "/compare/spectrum-ui-vs-shadcn",
     summary:
-      "The widely adopted, unstyled foundation of copy-paste React components on Radix UI and Tailwind CSS. Minimal by design — pair it with an animated layer like Spectrum UI for motion.",
+      "The widely adopted, unstyled foundation of copy-paste React components on Radix UI and Tailwind CSS. Minimal by design — pair it with an animated layer like Rithm UI for motion.",
     bestFor: "Your unopinionated base component layer",
     price: "Free (MIT)",
   },
@@ -114,22 +114,22 @@ const faqs = [
   {
     question: "What is the best animated React component library in 2026?",
     answer:
-      "There's no single winner — it depends on your goal. Spectrum UI is best for animated, accessible components in real products (free, MIT, installs with the shadcn CLI, ships an MCP server). Aceternity UI is best for bold landing-page hero effects, Magic UI for a broad catalog of effects, and shadcn/ui as the unstyled base layer you add animation on top of.",
+      "There's no single winner — it depends on your goal. Rithm UI is best for animated, accessible components in real products (free, MIT, installs with the shadcn CLI, ships an MCP server). Aceternity UI is best for bold landing-page hero effects, Magic UI for a broad catalog of effects, and shadcn/ui as the unstyled base layer you add animation on top of.",
   },
   {
     question: "Are these animated React component libraries free?",
     answer:
-      "Spectrum UI, shadcn/ui, React Bits, and Animate UI are free and open source. Aceternity UI and Magic UI offer free components plus paid Pro templates.",
+      "Rithm UI, shadcn/ui, React Bits, and Animate UI are free and open source. Aceternity UI and Magic UI offer free components plus paid Pro templates.",
   },
   {
     question: "Can I use these libraries with shadcn/ui and Next.js?",
     answer:
-      "Yes. Spectrum UI, Magic UI, and Animate UI are designed to work alongside shadcn/ui, and all of these ship copy-paste React and Tailwind components that drop into a Next.js project. Spectrum UI installs with the shadcn CLI (npx shadcn add @spectrumui/…).",
+      "Yes. Rithm UI, Magic UI, and Animate UI are designed to work alongside shadcn/ui, and all of these ship copy-paste React and Tailwind components that drop into a Next.js project. Rithm UI installs with the shadcn CLI (npx shadcn add @spectrumui/…).",
   },
   {
     question: "Which library works best with AI coding assistants?",
     answer:
-      "Spectrum UI ships an MCP server, so assistants like Cursor, Claude Code, and Windsurf can pull the exact component source with the right imports directly into your project.",
+      "Rithm UI ships an MCP server, so assistants like Cursor, Claude Code, and Windsurf can pull the exact component source with the right imports directly into your project.",
   },
 ];
 
@@ -202,7 +202,7 @@ export default function BestAnimatedLibrariesPage() {
         <section className="container py-6 md:py-8">
           <ol className="max-w-[880px]">
             {entries.map((e, i) => {
-              const ours = e.name === "Spectrum UI";
+              const ours = e.name === "Rithm UI";
               return (
                 <li
                   key={e.name}
@@ -251,7 +251,7 @@ export default function BestAnimatedLibrariesPage() {
                           className="font-inter text-[13px] font-medium text-[#f9452d] underline-offset-4 hover:underline dark:text-[#E1F435]"
                         >
                           {e.internalHref.startsWith("/compare")
-                            ? "Compare with Spectrum UI →"
+                            ? "Compare with Rithm UI →"
                             : "Browse components →"}
                         </Link>
                       )}

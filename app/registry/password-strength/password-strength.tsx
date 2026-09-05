@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — PasswordStrengthInput
+ * Rithm UI — PasswordStrengthInput
  *
  * A password input with an animated strength meter and requirements
  * checklist. Typing fills a four-segment meter sequentially with a spring,

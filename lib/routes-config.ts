@@ -220,8 +220,8 @@ export const ROUTES: RoutesProps[] = [
     icon: ShieldUser,
     children: [
       {
-        label: "Arihant Jain",
-        value: "arihant-jain",
+        label: "Shivam O Sharma",
+        value: "shivam-o-sharma",
         url: siteConfig.links.twitter,
       },
     ],

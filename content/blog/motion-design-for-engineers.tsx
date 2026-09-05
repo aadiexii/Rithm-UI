@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Good animations aren't just pretty. They guide users, give feedback, and make your React app feel polished. Here's how to do motion right with CSS and Framer Motion.",
   tagline: 'Easing is 90 percent of good motion.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

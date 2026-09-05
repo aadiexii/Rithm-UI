@@ -14,19 +14,19 @@ const handwritten = Mynerve({ subsets: ['latin'], weight: '400' });
 const url = `${siteConfig.url}/changelog`;
 
 export const metadata: Metadata = {
-  title: { absolute: 'Changelog — What’s New in Spectrum UI' },
+  title: { absolute: 'Changelog — What’s New in Rithm UI' },
   description:
-    'Short, dated notes on every Spectrum UI release: new AI blocks, component updates, MCP server improvements, and docs changes.',
+    'Short, dated notes on every Rithm UI release: new AI blocks, component updates, MCP server improvements, and docs changes.',
   alternates: {
     canonical: url,
     types: { 'application/rss+xml': `${url}/feed.xml` },
   },
   openGraph: {
-    title: 'Spectrum UI Changelog',
-    description: 'Short, dated notes on every Spectrum UI release.',
+    title: 'Rithm UI Changelog',
+    description: 'Short, dated notes on every Rithm UI release.',
     url,
     type: 'website',
-    siteName: 'Spectrum UI',
+    siteName: 'Rithm UI',
   },
 };
 

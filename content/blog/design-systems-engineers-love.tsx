@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Most design systems fail because engineers hate using them. Here's how to build a React component library with Tailwind CSS that devs actually enjoy and adopt.",
   tagline: 'Adoption comes from ownership, not enforcement.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
@@ -34,7 +34,7 @@ const post: BlogPostInput = {
       <p>
         Copy-paste ownership flips that. The component lands in <code>components/ui</code> as plain
         source you can read, edit, and delete. This is the model shadcn/ui popularized, and it’s why
-        libraries like <Link href="/components">Spectrum UI</Link> hand you the code instead of a
+        libraries like <Link href="/components">Rithm UI</Link> hand you the code instead of a
         dependency to version-bump.
       </p>
 

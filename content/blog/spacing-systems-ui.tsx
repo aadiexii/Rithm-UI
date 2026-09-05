@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Inconsistent spacing is the #1 reason UIs look unprofessional. Here's how to set up a spacing system that makes everything look clean and aligned.",
   tagline: 'Build every gap on a 4px unit.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     'A complete guide to building, packaging, and shipping your own component library on top of shadcn/ui primitives. Learn monorepo setup, versioning, documentation, testing, and distribution strategies.',
   tagline: 'A folder of components is not a product.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

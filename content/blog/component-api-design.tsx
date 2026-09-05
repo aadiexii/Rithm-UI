@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "The difference between a component library people love and one they avoid is the API. Here's how to design component interfaces that just make sense.",
   tagline: "Compose, don't configure. Leave an exit.",
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
@@ -66,7 +66,7 @@ const post: BlogPostInput = {
         </li>
       </ul>
       <p>
-        This is why copy-paste libraries feel so flexible. <Link href="/components">Spectrum UI</Link>{' '}
+        This is why copy-paste libraries feel so flexible. <Link href="/components">Rithm UI</Link>{' '}
         wires <code>className</code> and <code>asChild</code> in by default, so the hatch is there
         before you reach for it. You inherit the flexibility without having to design for it.
       </p>

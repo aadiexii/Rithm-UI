@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     "Users don't care about your Lighthouse score. They care about how fast your app feels. Here's how to make your UI feel instant.",
   tagline: 'Fast is a feeling, not a score.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

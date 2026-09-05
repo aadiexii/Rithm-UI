@@ -1,11 +1,11 @@
 # @spectrumui/mcp
 
-**Model Context Protocol server for [Spectrum UI](https://spectrumhq.in)**
+**Model Context Protocol server for [Rithm UI](https://spectrumhq.in)**
 
-Lets AI assistants (Claude, Cursor, Windsurf, Zed) browse, search, and install Spectrum UI components directly into your codebase — no copy-pasting.
+Lets AI assistants (Claude, Cursor, Windsurf, Zed) browse, search, and install Rithm UI components directly into your codebase — no copy-pasting.
 
 ```
-You: "Add the AnimatedDrawer from Spectrum UI to my project"
+You: "Add the AnimatedDrawer from Rithm UI to my project"
 
 Claude (via MCP):
   → calls spectrum_ui.search_components("animated drawer")
@@ -82,10 +82,10 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 
 ## Example prompts
 
-- *"Show me all Spectrum UI animation components"*
-- *"Find a date picker in Spectrum UI"*
-- *"Install the kanban board component from Spectrum UI"*
-- *"What categories does Spectrum UI have?"*
+- *"Show me all Rithm UI animation components"*
+- *"Find a date picker in Rithm UI"*
+- *"Install the kanban board component from Rithm UI"*
+- *"What categories does Rithm UI have?"*
 - *"Get details for the event-calendar component"*
 
 ---
@@ -101,8 +101,8 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 
 - **Website**: https://spectrumhq.in
 - **Docs**: https://spectrumhq.in/docs
-- **GitHub**: https://github.com/arihantcodes/spectrum-ui
+- **GitHub**: https://github.com/aadiexii/Rithm-UI
 
 ---
 
-MIT License © Arihant Jain
+MIT License © Shivam O Sharma

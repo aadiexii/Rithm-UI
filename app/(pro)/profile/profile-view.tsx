@@ -152,7 +152,7 @@ export function ProfileView({
           style={{ animationDelay: '240ms' }}
         >
           <a
-            href="mailto:jainari1208@gmail.com"
+            href="mailto:sharmashivam32622@gmail.com"
             className="inline-flex items-center gap-2 rounded-md text-sm text-muted-foreground outline-hidden transition-colors duration-150 hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring"
           >
             <IconlyEmailDocument className="size-4" />

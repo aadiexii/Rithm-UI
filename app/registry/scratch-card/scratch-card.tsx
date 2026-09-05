@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — ScratchCard
+ * Rithm UI — ScratchCard
  *
  * A scratch-to-reveal card. An HTML5 canvas foil covers the content and is
  * erased on pointer drag, emitting dust particles while scratching. Once the

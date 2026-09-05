@@ -7,7 +7,7 @@ const post: BlogPostInput = {
     'From AI-generated components to intelligent design systems, discover how large language models are revolutionizing frontend development and what it means for the future of UI engineering.',
   tagline: 'Treat AI like a fast, literal junior.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

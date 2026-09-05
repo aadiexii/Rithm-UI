@@ -13,7 +13,7 @@ const chart = findChartBySlug('composed');
 export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
-  keywords: [chart?.name ?? 'chart', 'React chart', 'Recharts', 'Spectrum UI'],
+  keywords: [chart?.name ?? 'chart', 'React chart', 'Recharts', 'Rithm UI'],
   canonicalUrl: `https://ui.spectrumhq.in/charts/composed`,
 });
 

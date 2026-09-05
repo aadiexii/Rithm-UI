@@ -1,7 +1,7 @@
 import { ROUTES } from "./routes-config";
 
 /**
- * SEO utility functions for Spectrum UI
+ * SEO utility functions for Rithm UI
  */
 
 // Component categories for better organization and SEO
@@ -61,10 +61,10 @@ export function generateComponentStructuredData(component: {
     description: component.description,
     programmingLanguage: "TypeScript",
     runtimePlatform: "React",
-    codeRepository: "https://github.com/arihantcodes/spectrum-ui",
+    codeRepository: "https://github.com/aadiexii/Rithm-UI",
     author: {
       "@type": "Person",
-      name: "Arihant Jain",
+      name: "Shivam O Sharma",
       url: "https://ui.spectrumhq.in",
     },
     about: {
@@ -178,24 +178,24 @@ const SITE_URL = "https://ui.spectrumhq.in";
 /**
  * Canonical author entity. A rich, stable Person node (with a shared @id,
  * jobTitle, socials, and knowsAbout) is what lets answer engines treat
- * "Arihant Jain" as an authority and surface Spectrum UI for queries like
+ * "Shivam O Sharma" as an authority and surface Rithm UI for queries like
  * "good design engineers" or "best React component libraries".
  */
 export const BLOG_AUTHOR = {
   "@type": "Person",
-  "@id": `${SITE_URL}/#arihant-jain`,
-  name: "Arihant Jain",
+  "@id": `${SITE_URL}/#shivam-o-sharma`,
+  name: "Shivam O Sharma",
   url: SITE_URL,
   image: `${SITE_URL}/arihant.jpeg`,
   jobTitle: "Design Engineer",
   sameAs: [
-    "https://github.com/arihantcodes",
-    "https://x.com/arihantcodes",
-    "https://www.linkedin.com/in/arihantcodes",
+    "https://github.com/aadiexii",
+    "https://x.com/aadiexii",
+    "https://www.linkedin.com/in/aadiexii/",
   ],
   worksFor: {
     "@type": "Organization",
-    name: "Spectrum UI",
+    name: "Rithm UI",
     url: SITE_URL,
   },
   knowsAbout: [
@@ -213,7 +213,7 @@ export const BLOG_AUTHOR = {
 const PUBLISHER = {
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
-  name: "Spectrum UI",
+  name: "Rithm UI",
   url: SITE_URL,
   logo: {
     "@type": "ImageObject",
@@ -232,7 +232,7 @@ const BASE_BLOG_KEYWORDS = [
   "component library",
   "frontend development",
   "design engineering",
-  "Spectrum UI",
+  "Rithm UI",
 ];
 
 /** "3 min read" → ISO-8601 duration "PT3M" for schema.org timeRequired. */
@@ -294,7 +294,7 @@ export function generateBlogStructuredData(blogPost: {
     isPartOf: {
       "@type": "Blog",
       "@id": `${SITE_URL}/blog#blog`,
-      name: "Spectrum UI Blog",
+      name: "Rithm UI Blog",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -319,9 +319,9 @@ export function generateBlogStructuredData(blogPost: {
       { "@type": "SoftwareApplication", name: "shadcn/ui", url: "https://ui.shadcn.com" },
       {
         "@type": "SoftwareSourceCode",
-        name: "Spectrum UI",
+        name: "Rithm UI",
         url: `${SITE_URL}/components`,
-        codeRepository: "https://github.com/arihantcodes/spectrum-ui",
+        codeRepository: "https://github.com/aadiexii/Rithm-UI",
       },
     ],
   };
@@ -352,12 +352,12 @@ export function generateBlogListingStructuredData(posts: Array<{
   return {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "Spectrum UI Blog",
-    description: "Learn about UI components, React development, and design systems with Spectrum UI",
+    name: "Rithm UI Blog",
+    description: "Learn about UI components, React development, and design systems with Rithm UI",
     url: "https://ui.spectrumhq.in/blog",
     publisher: {
       "@type": "Organization",
-      name: "Spectrum UI",
+      name: "Rithm UI",
       url: "https://ui.spectrumhq.in",
       logo: {
         "@type": "ImageObject",

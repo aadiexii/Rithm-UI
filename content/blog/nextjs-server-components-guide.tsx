@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     'Server Components are changing everything about how we build React apps. Here is how to use them properly and why they are so much better than the old way.',
   tagline: 'Server by default, client where you must.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },

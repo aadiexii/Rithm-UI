@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — AvatarStack
+ * Rithm UI — AvatarStack
  *
  * An overlapping avatar row that fans apart on hover. Hovering or focusing a
  * single avatar lifts it and springs a name tooltip in above it; a "+N" pill

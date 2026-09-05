@@ -14,8 +14,8 @@ import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata";
 export const metadata: Metadata = baseMetadata({
   title: "Privacy Policy",
   description:
-    "Learn what personal, payment, and account data Spectrum UI collects, how third-party processors are used, and how to request access or deletion.",
-  canonicalUrl: "https://ui.spectrumhq.in/privacy-policy",
+    "Learn what personal, payment, and account data Rithm UI collects, how third-party processors are used, and how to request access or deletion.",
+  canonicalUrl: "https://rithmui.com/privacy-policy",
 });
 
 const PrivacyPolicyPage = () => {
@@ -71,7 +71,7 @@ const PrivacyPolicyPage = () => {
 
           <h2 className="text-xl font-semibold mb-4 text-neutral-900 dark:text-[#F5F5F5]">Contact Us</h2>
           <p className="mb-6 text-neutral-600 dark:text-[#888] leading-relaxed">
-            For any privacy-related requests, reach out at <span className="text-neutral-900 dark:text-neutral-100 font-medium">shivam14052004@gmail.com</span>
+            For any privacy-related requests, reach out at <span className="text-neutral-900 dark:text-neutral-100 font-medium">sharmashivam32622@gmail.com</span>
           </p>
           <Button variant="outline">
             <a href="https://x.com/aadiexii" target="_blank">

@@ -1,5 +1,5 @@
 /**
- * Spectrum UI — Candlestick Chart
+ * Rithm UI — Candlestick Chart
  *
  * OHLC candles with optional volume, hollow-up bodies, and a Motion grow-in.
  * Built for trading desks, token pages, and market dashboards.

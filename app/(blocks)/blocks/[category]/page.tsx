@@ -35,11 +35,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: category.description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${category.name} Blocks — Spectrum UI`,
+      title: `${category.name} Blocks — Rithm UI`,
       description: category.tagline,
       url,
       type: 'website',
-      siteName: 'Spectrum UI',
+      siteName: 'Rithm UI',
     },
   };
 }

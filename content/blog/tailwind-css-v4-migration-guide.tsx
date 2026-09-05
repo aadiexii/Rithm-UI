@@ -8,7 +8,7 @@ const post: BlogPostInput = {
     "Tailwind CSS v4 is the biggest release in the framework's history, replacing JavaScript configuration with a CSS-first approach. Here is everything you need to know to migrate your project and take advantage of the powerful new features.",
   tagline: 'Config moves from JS into CSS.',
   author: {
-    name: 'Arihant Jain',
+    name: 'Shivam O Sharma',
     role: 'Design Engineer',
     avatar: '/arihant.jpeg',
   },
