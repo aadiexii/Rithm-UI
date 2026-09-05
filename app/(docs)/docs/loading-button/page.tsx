@@ -30,7 +30,7 @@ export const metadata: Metadata = baseMetadata({
     "spinner button",
     "disabled button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/loading-button",
+  canonicalUrl: "https://rithmui.com/docs/loading-button",
 });
 
 const LoadingButtonPage = () => {
@@ -38,7 +38,7 @@ const LoadingButtonPage = () => {
     <SEOWrapper
       componentName="Loading Button"
       description="A shadcn/ui button with a built-in loading spinner state."
-      url="https://ui.spectrumhq.in/docs/loading-button"
+      url="https://rithmui.com/docs/loading-button"
       keywords={[
         "loading button",
         "button with spinner",
@@ -61,7 +61,7 @@ const LoadingButtonPage = () => {
 
       <PreviewCodeCard
         path="app/(docs)/docs/loading-button/loading-button-demo.tsx"
-        cli="@spectrumui/loading-button-demo"
+        cli="@rithmui/loading-button-demo"
       
         installScript="npm i class-variance-authority @radix-ui/react-slot"
         installCodePath="components/ui/loading-button.tsx"
@@ -72,14 +72,14 @@ const LoadingButtonPage = () => {
       <PageSubTitle>Usage</PageSubTitle>
       <Usage
         path="app/(docs)/docs/loading-button/loading-button-usage.tsx"
-        cli="@spectrumui/loading-button-usage"
+        cli="@rithmui/loading-button-usage"
       >
         <LoadingButtonUsage />
       </Usage>
       <Usage
         title="asChild"
         path="app/(docs)/docs/loading-button/loading-button-as-child.tsx"
-        cli="@spectrumui/loading-button-as-child"
+        cli="@rithmui/loading-button-as-child"
       >
         <LoadingButtonAsChild />
       </Usage>

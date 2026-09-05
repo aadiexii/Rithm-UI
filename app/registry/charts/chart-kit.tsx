@@ -210,21 +210,21 @@ export function seriesDelta(values: number[]) {
 }
 
 export const SERIES = {
-  desktop: { label: 'Desktop', color: 'var(--spectrum-chart-1)' },
-  mobile: { label: 'Mobile', color: 'var(--spectrum-chart-2)' },
+  desktop: { label: 'Desktop', color: 'var(--rithm-chart-1)' },
+  mobile: { label: 'Mobile', color: 'var(--rithm-chart-2)' },
 } as const;
 
 export const CHART_COLORS = [
-  'var(--spectrum-chart-1)',
-  'var(--spectrum-chart-2)',
-  'var(--spectrum-chart-3)',
-  'var(--spectrum-chart-4)',
-  'var(--spectrum-chart-5)',
+  'var(--rithm-chart-1)',
+  'var(--rithm-chart-2)',
+  'var(--rithm-chart-3)',
+  'var(--rithm-chart-4)',
+  'var(--rithm-chart-5)',
 ] as const;
 
 /** Ink / zinc / slate — two or three colors developers actually ship. Up/down alias the same pair. */
 export const chartVarsClassName =
-  '[--spectrum-chart-1:#171717] [--spectrum-chart-2:#737373] [--spectrum-chart-3:#52525b] [--spectrum-chart-4:#a3a3a3] [--spectrum-chart-5:#d4d4d8] [--spectrum-chart-surface:#fff] [--spectrum-chart-up:var(--spectrum-chart-1)] [--spectrum-chart-down:var(--spectrum-chart-2)] dark:[--spectrum-chart-1:#f5f5f5] dark:[--spectrum-chart-2:#a3a3a3] dark:[--spectrum-chart-3:#d4d4d8] dark:[--spectrum-chart-4:#737373] dark:[--spectrum-chart-5:#52525b] dark:[--spectrum-chart-surface:#0a0a0a]';
+  '[--rithm-chart-1:#171717] [--rithm-chart-2:#737373] [--rithm-chart-3:#52525b] [--rithm-chart-4:#a3a3a3] [--rithm-chart-5:#d4d4d8] [--rithm-chart-surface:#fff] [--rithm-chart-up:var(--rithm-chart-1)] [--rithm-chart-down:var(--rithm-chart-2)] dark:[--rithm-chart-1:#f5f5f5] dark:[--rithm-chart-2:#a3a3a3] dark:[--rithm-chart-3:#d4d4d8] dark:[--rithm-chart-4:#737373] dark:[--rithm-chart-5:#52525b] dark:[--rithm-chart-surface:#0a0a0a]';
 
 export const EASE_OUT = [0.23, 1, 0.32, 1] as const;
 export const BAR_STAGGER = 0.04;
@@ -549,7 +549,7 @@ export function ChartRestingDot({
       cy={cy}
       r={r}
       fill={color}
-      stroke="var(--spectrum-chart-surface)"
+      stroke="var(--rithm-chart-surface)"
       strokeWidth={1.5}
       mask={maskId ? `url(#${maskId})` : undefined}
     />
@@ -568,7 +568,7 @@ export function ChartActiveDot({
   if (cx == null || cy == null) return null;
   return (
     <g>
-      <circle cx={cx} cy={cy} r={6.5} fill="var(--spectrum-chart-surface)" />
+      <circle cx={cx} cy={cy} r={6.5} fill="var(--rithm-chart-surface)" />
       <circle cx={cx} cy={cy} r={3.25} fill={color ?? SERIES.desktop.color} />
     </g>
   );
@@ -737,7 +737,7 @@ export function createGrowBarShape(options: GrowBarOptions) {
   function Shape(props: unknown) {
     return <GrowBar {...(props as GrowAxis)} {...options} />;
   }
-  Shape.displayName = 'SpectrumGrowBar';
+  Shape.displayName = 'RithmGrowBar';
   return Shape;
 }
 

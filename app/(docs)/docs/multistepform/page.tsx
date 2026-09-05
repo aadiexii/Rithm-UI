@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "progressive form",
     "form wizard",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/multistepform",
+  canonicalUrl: "https://rithmui.com/docs/multistepform",
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="Multistep Form"
       description="A multi-step form with progress indicators for registration and checkout flows."
-      url="https://ui.spectrumhq.in/docs/multistepform"
+      url="https://rithmui.com/docs/multistepform"
       keywords={[
         "multistep form",
         "multi step form",
@@ -48,7 +48,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/multistepform/multistepdemo.tsx"
-          cli="@spectrumui/multiple-step-form-demo"
+          cli="@rithmui/multiple-step-form-demo"
         
         installScript="npx shadcn@latest add sonner card input label textarea select checkbox radio-group"
         installCodePath="lib/utils.ts"

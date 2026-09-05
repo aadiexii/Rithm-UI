@@ -183,7 +183,7 @@ export async function POST(request: NextRequest) {
 
     // Send to admin/owner
     await resend.emails.send({
-      from: "onboarding@spectrumhq.in",
+      from: "onboarding@rithmui.com",
       to: process.env.EMAIL || "sharmashivam32622@gmail.com",
       subject: `New ${purpose ? `${purpose} ` : ""}submission from ${safe(name) || "Unknown"}`,
       html: adminHtml,
@@ -192,7 +192,7 @@ export async function POST(request: NextRequest) {
     // Send confirmation to user if email provided
     if (email && typeof email === "string") {
       await resend.emails.send({
-        from: "onboarding@spectrumhq.in",
+        from: "onboarding@rithmui.com",
         to: email,
         subject: "We received your message — Rithm UI",
         html: userHtml,

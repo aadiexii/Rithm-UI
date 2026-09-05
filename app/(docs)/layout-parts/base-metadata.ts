@@ -125,7 +125,7 @@ export function baseMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      site: "@spectrumui",
+      site: "@rithmui",
       creator: "@aadiexii",
       title: twitter?.title
         ? brandedMetadataTitle(twitter.title)

@@ -8,8 +8,8 @@ export interface InstallResult {
 }
 /**
  * Installs a Rithm UI component into the user's project.
- * Tries `bunx --bun shadcn@latest add @spectrumui/<name>` first (faster),
- * falls back to `npx shadcn@latest add @spectrumui/<name>`.
+ * Tries `bunx --bun shadcn@latest add @rithmui/<name>` first (faster),
+ * falls back to `npx shadcn@latest add @rithmui/<name>`.
  *
  * @param name       Component name (e.g. "animated-card", "alert-1")
  * @param projectDir Absolute path to the project root (defaults to cwd)

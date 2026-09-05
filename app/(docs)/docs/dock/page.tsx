@@ -27,7 +27,7 @@ export const metadata: Metadata = baseMetadata({
     "Framer Motion navigation",
     "interactive dock navbar",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/dock",
+  canonicalUrl: "https://rithmui.com/docs/dock",
 });
 
 const DockPage = () => {
@@ -48,7 +48,7 @@ const DockPage = () => {
     <SEOWrapper
       componentName="Dock Menu"
       description="A macOS-style dock menu that magnifies icons on hover with tooltips."
-      url="https://ui.spectrumhq.in/docs/dock"
+      url="https://rithmui.com/docs/dock"
       keywords={[
         "dock menu",
         "macOS dock",
@@ -66,7 +66,7 @@ const DockPage = () => {
       >
         <PreviewCodeCard
           path="app/(docs)/docs/dock/dock-demo.tsx"
-          cli="@spectrumui/dock-demo"
+          cli="@rithmui/dock-demo"
           installScript="npm i framer-motion"
           installCodePath="components/ui/dock.tsx"
           installContent={installContent}
@@ -78,7 +78,7 @@ const DockPage = () => {
         <Usage
           title="Glassmorphism Variant"
           path="app/(docs)/docs/dock/usage/dock-glass.tsx"
-          cli="@spectrumui/dock-glass"
+          cli="@rithmui/dock-glass"
         >
           <DockGlassDemo />
         </Usage>

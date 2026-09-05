@@ -22,7 +22,7 @@ export const metadata: Metadata = baseMetadata({
     "3D event card",
     "WebGL badge",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/badge",
+  canonicalUrl: "https://rithmui.com/docs/badge",
 });
 
 const DualRangeSliderPage = () => {
@@ -30,7 +30,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="3D Event Badge"
       description="An interactive 3D event badge rendered with Three.js and React Three Fiber."
-      url="https://ui.spectrumhq.in/docs/badge"
+      url="https://rithmui.com/docs/badge"
       keywords={[
         "3D badge",
         "event badge",
@@ -49,7 +49,7 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/badge/badgedemo.tsx"
-        cli="@spectrumui/event-badge-3d"
+        cli="@rithmui/event-badge-3d"
       
         installScript="npm install three @react-three/fiber @react-three/drei @react-three/rapier meshline"
         installCodePath="app/(docs)/docs/badge/badgedemo.tsx"

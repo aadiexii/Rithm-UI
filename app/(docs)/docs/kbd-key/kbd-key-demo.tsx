@@ -2,7 +2,7 @@
 
 import React from "react"
 import { motion, useAnimationControls } from "framer-motion"
-import { KbdCombo } from "@/components/spectrumui/kbd-key"
+import { KbdCombo } from "@/components/rithmui/kbd-key"
 
 export default function KbdKeyDemo() {
   const controls = useAnimationControls()

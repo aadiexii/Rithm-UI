@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion button",
     "Next.js share button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/share-button",
+  canonicalUrl: "https://rithmui.com/docs/share-button",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Share Button"
       description={description}
-      url="https://ui.spectrumhq.in/docs/share-button"
+      url="https://rithmui.com/docs/share-button"
       keywords={[
         "share button component",
         "share menu animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/share-button/share-button-demo.tsx"
-          installCodePath="components/spectrumui/share-button.tsx"
-          cli="@spectrumui/share-button"
+          installCodePath="components/rithmui/share-button.tsx"
+          cli="@rithmui/share-button"
           installScript="npm i framer-motion lucide-react"
         >
           <ShareButtonDemo />
@@ -63,12 +63,12 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { ShareButton } from "@/components/spectrumui/share-button"`}
+            code={`import { ShareButton } from "@/components/rithmui/share-button"`}
             requireAuth={false}
           />
           <CodeHighlight
             code={`<ShareButton
-  copyValue="https://ui.spectrumhq.in"
+  copyValue="https://rithmui.com"
   actions={[
     { icon: <Twitter size={15} />, label: "Share on X", onSelect: () => shareOnX() },
   ]}

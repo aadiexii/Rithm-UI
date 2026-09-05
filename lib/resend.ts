@@ -19,10 +19,10 @@ function escapeHtml(str: string) {
 
 export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken: string) {
   try {
-    const unsubscribeUrl = `https://ui.spectrumhq.in/unsubscribe?token=${unsubscribeToken}&email=${encodeURIComponent(email)}`;
+    const unsubscribeUrl = `https://rithmui.com/unsubscribe?token=${unsubscribeToken}&email=${encodeURIComponent(email)}`;
 
     const { data, error } = await getResend().emails.send({
-      from: 'Rithm UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@rithmui.com>',
       to: [email],
       subject: "Welcome to Rithm UI — You're in!",
       html: `
@@ -44,9 +44,9 @@ export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken
           </p>
 
           <ul style="font-size: 15px; line-height: 1.8; color: #444; padding-left: 20px;">
-            <li><a href="https://ui.spectrumhq.in/docs" style="color: #000; font-weight: 500;">Browse 250+ free components</a></li>
-            <li><a href="https://ui.spectrumhq.in/pro" style="color: #000; font-weight: 500;">Check out Pro templates</a></li>
-            <li><a href="https://ui.spectrumhq.in/blog" style="color: #000; font-weight: 500;">Read our engineering blog</a></li>
+            <li><a href="https://rithmui.com/docs" style="color: #000; font-weight: 500;">Browse 250+ free components</a></li>
+            <li><a href="https://rithmui.com/pro" style="color: #000; font-weight: 500;">Check out Pro templates</a></li>
+            <li><a href="https://rithmui.com/blog" style="color: #000; font-weight: 500;">Read our engineering blog</a></li>
           </ul>
 
           <p style="font-size: 15px; line-height: 1.6; color: #444; margin-top: 24px;">
@@ -57,7 +57,7 @@ export async function sendWelcomeNewsletterEmail(email: string, unsubscribeToken
           <hr style="border: none; border-top: 1px solid #e5e5e5; margin: 32px 0;" />
 
           <p style="font-size: 12px; color: #999; line-height: 1.5;">
-            You received this because you subscribed at ui.spectrumhq.in.<br/>
+            You received this because you subscribed at rithmui.com.<br/>
             <a href="${unsubscribeUrl}" style="color: #999;">Unsubscribe</a>
           </p>
         </div>
@@ -94,7 +94,7 @@ export async function sendPurchaseEmail({
     const escapedGithub = escapeHtml(githubUsername);
 
     const { data, error } = await getResend().emails.send({
-      from: 'Rithm UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@rithmui.com>',
       to: [email],
       subject: `Welcome to ${escapedTemplate} - Access Granted!`,
       html: `
@@ -141,7 +141,7 @@ export async function sendProWaitlistEmail({
     const escapedGithub = escapeHtml(githubUsername);
 
     const { data, error } = await getResend().emails.send({
-      from: 'Rithm UI <noreply@spectrumhq.in>',
+      from: 'Rithm UI <noreply@rithmui.com>',
       to: [email],
       subject: "You're on the Rithm Pro waitlist!",
       html: `

@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion drag",
     "Next.js swipe to delete",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/swipe-to-delete",
+  canonicalUrl: "https://rithmui.com/docs/swipe-to-delete",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Swipe to Delete"
       description={description}
-      url="https://ui.spectrumhq.in/docs/swipe-to-delete"
+      url="https://rithmui.com/docs/swipe-to-delete"
       keywords={[
         "swipe to delete component",
         "swipeable list item",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/swipe-to-delete/swipe-to-delete-demo.tsx"
-          installCodePath="components/spectrumui/swipe-to-delete.tsx"
-          cli="@spectrumui/swipe-to-delete"
+          installCodePath="components/rithmui/swipe-to-delete.tsx"
+          cli="@rithmui/swipe-to-delete"
           installScript="npm i framer-motion lucide-react"
         >
           <SwipeToDeleteDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { SwipeToDelete } from "@/components/spectrumui/swipe-to-delete"`}
+            code={`import { SwipeToDelete } from "@/components/rithmui/swipe-to-delete"`}
             requireAuth={false}
           />
           <CodeHighlight

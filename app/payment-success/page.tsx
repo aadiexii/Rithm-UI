@@ -168,7 +168,7 @@ export default async function PaymentSuccessPage(props: PaymentSuccessPageProps)
           </p>
         ) : isProWaitlist ? (
           <p className="text-muted-foreground text-sm mb-8 leading-relaxed max-w-sm mx-auto">
-            You&apos;re on the Spectrum Pro waitlist. Check your email for
+            You&apos;re on the Rithm Pro waitlist. Check your email for
             confirmation — we&apos;ll notify you the moment Pro launches.
           </p>
         ) : (
@@ -190,7 +190,7 @@ export default async function PaymentSuccessPage(props: PaymentSuccessPageProps)
             {(isProWaitlist
               ? [
                   'Check your inbox for waitlist confirmation',
-                  'We will email you when Spectrum Pro launches',
+                  'We will email you when Rithm Pro launches',
                   'Your early-bird price is locked in',
                 ]
               : [

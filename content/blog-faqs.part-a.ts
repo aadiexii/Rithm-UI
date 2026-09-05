@@ -113,7 +113,7 @@ export const FAQS_PART_A: Record<string, { question: string; answer: string }[]>
         "Add a variant by adding a key to the component's cva call, which TypeScript infers as a new prop with zero new files. Fork only when you're fighting the structure itself, such as a different root element or accessibility wiring the primitive doesn't expose. For app-specific behavior, wrap the primitive instead of editing it.",
     },
   ],
-  "spectrum-ui-development-speed": [
+  "rithm-ui-development-speed": [
     {
       question: "What is Rithm UI and how does it speed up development?",
       answer:

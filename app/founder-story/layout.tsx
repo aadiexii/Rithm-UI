@@ -5,7 +5,7 @@ export const metadata: Metadata = baseMetadata({
   title: 'Why Rithm UI Exists',
   description:
     'Read the founder story behind Rithm UI, from repeated interface work to an open-source library of animation-ready React components and blocks.',
-  canonicalUrl: 'https://ui.spectrumhq.in/founder-story',
+  canonicalUrl: 'https://rithmui.com/founder-story',
 });
 
 export default function FounderStoryLayout({ children }: { children: React.ReactNode }) {

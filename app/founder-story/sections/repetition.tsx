@@ -203,10 +203,10 @@ export function RepetitionSection() {
                   <div className="relative aspect-video w-full rounded-lg bg-neutral-100 dark:bg-neutral-850 overflow-hidden border border-neutral-200/50 dark:border-neutral-800/50 flex items-center justify-center">
                     {/* Visual Placeholder Pattern */}
                     <div className="absolute inset-0 bg-linear-to-tr from-neutral-200/50 to-transparent dark:from-neutral-900/50" />
-                    <span className="text-[9px] font-mono text-neutral-400">spectrum-ui.jpg</span>
+                    <span className="text-[9px] font-mono text-neutral-400">rithm-ui.jpg</span>
                   </div>
                   <div className="space-y-1 mt-2">
-                    <h5 className="text-[11px] font-semibold text-neutral-900 dark:text-white leading-none">Spectrum Design System</h5>
+                    <h5 className="text-[11px] font-semibold text-neutral-900 dark:text-white leading-none">Rithm Design System</h5>
                     <p className="text-[9px] text-neutral-400 font-serif">Designing premium modular interfaces.</p>
                   </div>
                 </motion.div>

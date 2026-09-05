@@ -14,7 +14,7 @@ import CopyPageButton from "./copy-page-button";
 export const metadata: Metadata = baseMetadata({
   title: "MCP Server",
   description:
-    "Use Rithm UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @spectrumui/mcp server.",
+    "Use Rithm UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @rithmui/mcp server.",
   keywords: [
     "MCP server",
     "Rithm UI MCP",
@@ -24,7 +24,7 @@ export const metadata: Metadata = baseMetadata({
     "Model Context Protocol",
     "install React components AI",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/mcp",
+  canonicalUrl: "https://rithmui.com/docs/mcp",
 });
 
 /* ── Typographic primitives (docs scale) ─────────────────────────────────── */
@@ -133,7 +133,7 @@ export default function McpPage() {
     <SEOWrapper
       componentName="MCP Server"
       description="Use Rithm UI with AI coding assistants via the Model Context Protocol."
-      url="https://ui.spectrumhq.in/docs/mcp"
+      url="https://rithmui.com/docs/mcp"
       schemaType="techArticle"
       keywords={["MCP server", "Claude", "Cursor", "AI components"]}
     >
@@ -165,7 +165,7 @@ export default function McpPage() {
           </P>
           <P>
             The server runs via <InlineCode>npx</InlineCode> from the{" "}
-            <InlineCode>@spectrumui/mcp</InlineCode> package — no global
+            <InlineCode>@rithmui/mcp</InlineCode> package — no global
             install needed.
           </P>
         </div>
@@ -216,14 +216,14 @@ export default function McpPage() {
           <P>
             When you ask your assistant for a component, it calls one of the
             MCP tools. The server fetches the latest registry from{" "}
-            <InlineCode>spectrumhq.in</InlineCode>, and for installs it runs
+            <InlineCode>rithmui.com</InlineCode>, and for installs it runs
             the shadcn CLI under the hood — trying{" "}
             <InlineCode>bunx</InlineCode> first, then falling back to{" "}
             <InlineCode>npx</InlineCode> automatically:
           </P>
           <div className="my-5">
             <CodeHighlight
-              code={`# What runs behind the scenes (Bun):\nbunx --bun shadcn@latest add @spectrumui/<component-name>\n\n# Fallback (npm/pnpm/yarn):\nnpx shadcn@latest add @spectrumui/<component-name>`}
+              code={`# What runs behind the scenes (Bun):\nbunx --bun shadcn@latest add @rithmui/<component-name>\n\n# Fallback (npm/pnpm/yarn):\nnpx shadcn@latest add @rithmui/<component-name>`}
               lang="bash"
               requireAuth={false}
             />
@@ -388,7 +388,7 @@ export default function McpPage() {
           <PageSectionTitle>Registry Access Issues</PageSectionTitle>
           <P>
             The MCP server fetches the latest registry from{" "}
-            <InlineCode>spectrumhq.in</InlineCode>. Check your internet
+            <InlineCode>rithmui.com</InlineCode>. Check your internet
             connection, or open an issue on GitHub.
           </P>
 
@@ -405,8 +405,8 @@ export default function McpPage() {
           <div className="flex flex-col gap-3">
             {[
               {
-                label: "npm — @spectrumui/mcp",
-                href: "https://www.npmjs.com/package/@spectrumui/mcp",
+                label: "npm — @rithmui/mcp",
+                href: "https://www.npmjs.com/package/@rithmui/mcp",
               },
               {
                 label: "GitHub — Rithm UI repo",

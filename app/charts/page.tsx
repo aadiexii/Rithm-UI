@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     'Next.js charts',
     'dashboard charts',
   ],
-  canonicalUrl: 'https://ui.spectrumhq.in/charts',
+  canonicalUrl: 'https://rithmui.com/charts',
 });
 
 export const revalidate = 3600;
@@ -35,7 +35,7 @@ async function getGithubStars(): Promise<number | null> {
       next: { revalidate: 3600 },
       headers: {
         Accept: 'application/vnd.github+json',
-        'User-Agent': 'spectrum-ui',
+        'User-Agent': 'rithm-ui',
       },
     });
     if (!res.ok) return null;
@@ -58,7 +58,7 @@ export default async function ChartsLandingPage() {
               <Icons.logo className="h-full w-full text-white dark:text-black" />
             </span>
             <span className="font-spectral text-[2rem] leading-none font-light tracking-[-0.04em] text-neutral-950 dark:text-white">
-              Spectrum Charts
+              Rithm Charts
             </span>
           </h1>
           <p className="text-[15px] leading-relaxed text-neutral-500 dark:text-neutral-400">

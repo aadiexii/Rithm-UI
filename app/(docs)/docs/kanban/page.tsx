@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "trello board",
     "workflow board",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/kanban",
+  canonicalUrl: "https://rithmui.com/docs/kanban",
 });
 
 const KanbanBoard = () => {
@@ -28,7 +28,7 @@ const KanbanBoard = () => {
     <SEOWrapper
       componentName="Kanban Board"
       description="A drag-and-drop kanban board for organizing tasks into columns."
-      url="https://ui.spectrumhq.in/docs/kanban"
+      url="https://rithmui.com/docs/kanban"
       keywords={[
         "kanban board",
         "drag and drop",
@@ -46,9 +46,9 @@ const KanbanBoard = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/kanban/kanban01.tsx"
-        cli="@spectrumui/kanbanboard"
+        cli="@rithmui/kanbanboard"
       
-        installScript="npx shadcn@latest add @spectrumui/kanbanboard"
+        installScript="npx shadcn@latest add @rithmui/kanbanboard"
         installCodePath="app/(docs)/docs/kanban/kanban01.tsx"
       >
         <KanbanGlassForest />

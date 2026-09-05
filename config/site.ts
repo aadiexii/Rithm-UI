@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Rithm UI",
-  url: "https://ui.spectrumhq.in",
+  url: "https://rithmui.com",
   ogImage: {
-    url: "https://ui.spectrumhq.in/og.png",
+    url: "https://rithmui.com/og.png",
     width: 1200,
     height: 630,
     alt: "Rithm UI — React UI components for Next.js with Tailwind CSS",
@@ -186,13 +186,13 @@ export const siteConfig = {
   },
   author: {
     name: "Shivam O Sharma",
-    url: "https://ui.spectrumhq.in",
+    url: "https://rithmui.com",
     twitter: "@aadiexii",
     github: "aadiexii",
   },
   creator: {
     name: "Shivam O Sharma",
-    url: "https://ui.spectrumhq.in",
+    url: "https://rithmui.com",
   },
   locale: "en-US",
   version: "1.0.0",

@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
 
     // Notify admin
     await resend.emails.send({
-      from: "noreply@spectrumhq.in",
+      from: "noreply@rithmui.com",
       to: process.env.EMAIL || "sharmashivam32622@gmail.com",
       subject: "New Component Request",
       html: `
@@ -97,7 +97,7 @@ export async function POST(request: NextRequest) {
     // Send confirmation email to the user
     if (email) {
       await resend.emails.send({
-        from: "noreply@spectrumhq.in",
+        from: "noreply@rithmui.com",
         to: email,
         subject: "We got your component request — Rithm UI",
         html: `

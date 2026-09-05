@@ -38,7 +38,7 @@ import {
 export type RadarFillVariant = 'filled' | 'lines';
 export type RadarGridType = 'polygon' | 'circle';
 
-export interface SpectrumRadarChartProps {
+export interface RithmRadarChartProps {
   className?: string;
   data?: typeof RADAR_METRICS;
   variant?: RadarFillVariant;
@@ -56,7 +56,7 @@ export function RadarChart({
   glowing = false,
   isLoading = false,
   showLegend = true,
-}: SpectrumRadarChartProps) {
+}: RithmRadarChartProps) {
   const id = useChartId('radar');
   const { isAnimationActive, animationDuration } = useChartMotion();
   const [activeKey, setActiveKey] = React.useState<string | null>(null);
@@ -126,18 +126,18 @@ export function RadarChart({
   );
 }
 
-export function DefaultRadarChart(props: SpectrumRadarChartProps) {
+export function DefaultRadarChart(props: RithmRadarChartProps) {
   return <RadarChart variant="filled" {...props} />;
 }
 
-export function LinesRadarChart(props: SpectrumRadarChartProps) {
+export function LinesRadarChart(props: RithmRadarChartProps) {
   return <RadarChart variant="lines" {...props} />;
 }
 
-export function CircleGridRadarChart(props: SpectrumRadarChartProps) {
+export function CircleGridRadarChart(props: RithmRadarChartProps) {
   return <RadarChart gridType="circle" {...props} />;
 }
 
-export function GlowingRadarChart(props: SpectrumRadarChartProps) {
+export function GlowingRadarChart(props: RithmRadarChartProps) {
   return <RadarChart glowing {...props} />;
 }

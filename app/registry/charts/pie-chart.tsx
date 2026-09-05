@@ -27,7 +27,7 @@ import {
   useChartMotion,
 } from './chart-kit';
 
-export interface SpectrumPieChartProps {
+export interface RithmPieChartProps {
   className?: string;
   data?: typeof BROWSER_SHARE;
   innerRadius?: number;
@@ -49,7 +49,7 @@ export function PieChart({
   glowing = false,
   isLoading = false,
   showLegend = true,
-}: SpectrumPieChartProps) {
+}: RithmPieChartProps) {
   const id = useChartId('pie');
   const { isAnimationActive, animationDuration } = useChartMotion();
   const [activeName, setActiveName] = React.useState<string | null>(null);
@@ -96,7 +96,7 @@ export function PieChart({
                   <Cell
                     key={item.name}
                     fill={item.fill}
-                    stroke="var(--spectrum-chart-surface)"
+                    stroke="var(--rithm-chart-surface)"
                     strokeWidth={1.5}
                     style={{
                       opacity: markOpacity(activeName, item.name),
@@ -115,22 +115,22 @@ export function PieChart({
   );
 }
 
-export function DefaultPieChart(props: SpectrumPieChartProps) {
+export function DefaultPieChart(props: RithmPieChartProps) {
   return <PieChart {...props} />;
 }
 
-export function DonutPieChart(props: SpectrumPieChartProps) {
+export function DonutPieChart(props: RithmPieChartProps) {
   return <PieChart innerRadius={62} {...props} />;
 }
 
-export function PaddedPieChart(props: SpectrumPieChartProps) {
+export function PaddedPieChart(props: RithmPieChartProps) {
   return <PieChart innerRadius={58} paddingAngle={6} cornerRadius={10} {...props} />;
 }
 
-export function LabeledPieChart(props: SpectrumPieChartProps) {
+export function LabeledPieChart(props: RithmPieChartProps) {
   return <PieChart innerRadius={54} showLabels {...props} />;
 }
 
-export function GlowingPieChart(props: SpectrumPieChartProps) {
+export function GlowingPieChart(props: RithmPieChartProps) {
   return <PieChart innerRadius={62} glowing {...props} />;
 }

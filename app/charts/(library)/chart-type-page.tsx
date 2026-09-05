@@ -20,7 +20,7 @@ export function ChartTypePage({
   const chart = findChartBySlug(slug);
   if (!chart) return null;
 
-  const url = `https://ui.spectrumhq.in/charts/${chart.slug}`;
+  const url = `https://rithmui.com/charts/${chart.slug}`;
 
   return (
     <SEOWrapper
@@ -39,7 +39,7 @@ export function ChartTypePage({
             <PreviewCodeCard
               className="mt-3"
               path={example.path}
-              cli={index === 0 ? `@spectrumui/${chart.registryName}` : undefined}
+              cli={index === 0 ? `@rithmui/${chart.registryName}` : undefined}
               installScript={index === 0 ? 'npm i recharts framer-motion' : undefined}
               installCodePath={
                 index === 0 ? `app/registry/charts/${chart.registryName}.tsx` : undefined

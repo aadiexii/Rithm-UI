@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { KbdCombo, KbdKey } from "@/components/spectrumui/kbd-key"
+import { KbdCombo, KbdKey } from "@/components/rithmui/kbd-key"
 
 export default function KbdKeyArrowsDemo() {
   return (

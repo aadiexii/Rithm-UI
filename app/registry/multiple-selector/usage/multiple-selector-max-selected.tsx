@@ -3,8 +3,8 @@ import React from "react";
 
 import MultipleSelector, {
   Option,
-} from "@/app/registry/spectrumui/multiple-selector-dependencies";
-import { toast } from "@/app/registry/spectrumui/use-toast";
+} from "@/app/registry/rithmui/multiple-selector-dependencies";
+import { toast } from "@/app/registry/rithmui/use-toast";
 
 const OPTIONS: Option[] = [
   { label: "nextjs", value: "Nextjs" },

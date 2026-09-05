@@ -13,7 +13,7 @@ export type CellValue = boolean | string;
 
 export interface CompareRow {
   feature: string;
-  spectrum: CellValue;
+  rithm: CellValue;
   competitor: CellValue;
 }
 
@@ -28,21 +28,21 @@ export interface Comparison {
   heading: string;
   /** Lead paragraph, also used verbatim in JSON-LD / summaries */
   intro: string;
-  spectrumPitch: string;
+  rithmPitch: string;
   competitorPitch: string;
   rows: CompareRow[];
-  chooseSpectrum: string[];
+  chooseRithm: string[];
   chooseCompetitor: string[];
   faqs: { question: string; answer: string }[];
   keywords: string[];
 }
 
-const SPECTRUM_TAGLINE =
+const RITHM_TAGLINE =
   "Ship animated, accessible React & Next.js UIs in minutes. You get production-ready components that already move, own every line (copy-pasted into your repo), install with the shadcn CLI, and can add them from your editor via an MCP server — free and open source (MIT).";
 
 export const comparisons: Comparison[] = [
   {
-    slug: "spectrum-ui-vs-aceternity",
+    slug: "rithm-ui-vs-aceternity",
     competitor: "Aceternity UI",
     competitorUrl: "https://ui.aceternity.com",
     title: "Rithm UI vs Aceternity UI — Animated React Components Compared",
@@ -51,22 +51,22 @@ export const comparisons: Comparison[] = [
     heading: "Rithm UI vs Aceternity UI",
     intro:
       "Rithm UI and Aceternity UI are both free, animated React component libraries built with Tailwind CSS and Framer Motion. Aceternity is known for bold, marketing-grade hero animations; Rithm UI focuses on animated components you can drop into a real product, install through the shadcn CLI, and pull straight into your editor with an MCP server.",
-    spectrumPitch: SPECTRUM_TAGLINE,
+    rithmPitch: RITHM_TAGLINE,
     competitorPitch:
       "A free collection of eye-catching, animation-heavy React components popular for landing pages and hero sections, with paid Pro templates.",
     rows: [
-      { feature: "Price", spectrum: "Free (MIT)", competitor: "Free · paid Pro templates" },
-      { feature: "You own the code (copy-paste)", spectrum: true, competitor: true },
-      { feature: "Animated (Framer Motion)", spectrum: true, competitor: true },
-      { feature: "Install via shadcn CLI", spectrum: "npx shadcn add @spectrumui/…", competitor: "Copy-paste / registry" },
-      { feature: "Built on shadcn/ui + Radix conventions", spectrum: true, competitor: "Partial" },
-      { feature: "Accessibility from Radix primitives", spectrum: true, competitor: "Varies by component" },
-      { feature: "MCP server for AI assistants (Cursor, Claude, Windsurf)", spectrum: true, competitor: false },
-      { feature: "TypeScript-first", spectrum: true, competitor: true },
-      { feature: "Dark mode", spectrum: true, competitor: true },
-      { feature: "Best fit", spectrum: "Product UI + polished animation", competitor: "Landing-page hero effects" },
+      { feature: "Price", rithm: "Free (MIT)", competitor: "Free · paid Pro templates" },
+      { feature: "You own the code (copy-paste)", rithm: true, competitor: true },
+      { feature: "Animated (Framer Motion)", rithm: true, competitor: true },
+      { feature: "Install via shadcn CLI", rithm: "npx shadcn add @rithmui/…", competitor: "Copy-paste / registry" },
+      { feature: "Built on shadcn/ui + Radix conventions", rithm: true, competitor: "Partial" },
+      { feature: "Accessibility from Radix primitives", rithm: true, competitor: "Varies by component" },
+      { feature: "MCP server for AI assistants (Cursor, Claude, Windsurf)", rithm: true, competitor: false },
+      { feature: "TypeScript-first", rithm: true, competitor: true },
+      { feature: "Dark mode", rithm: true, competitor: true },
+      { feature: "Best fit", rithm: "Product UI + polished animation", competitor: "Landing-page hero effects" },
     ],
-    chooseSpectrum: [
+    chooseRithm: [
       "You want animated components that still fit a real product, not just a landing page.",
       "You already use shadcn/ui and want components that install with the same CLI.",
       "You want your AI assistant to pull components directly via an MCP server.",
@@ -81,7 +81,7 @@ export const comparisons: Comparison[] = [
       {
         question: "Is Rithm UI a free alternative to Aceternity UI?",
         answer:
-          "Yes. Rithm UI is free and open source under the MIT license. Components are copy-paste React and Tailwind files that you own, and you can install them with the shadcn CLI (npx shadcn add @spectrumui/…).",
+          "Yes. Rithm UI is free and open source under the MIT license. Components are copy-paste React and Tailwind files that you own, and you can install them with the shadcn CLI (npx shadcn add @rithmui/…).",
       },
       {
         question: "What is the main difference between Rithm UI and Aceternity UI?",
@@ -104,7 +104,7 @@ export const comparisons: Comparison[] = [
     ],
   },
   {
-    slug: "spectrum-ui-vs-magic-ui",
+    slug: "rithm-ui-vs-magic-ui",
     competitor: "Magic UI",
     competitorUrl: "https://magicui.design",
     title: "Rithm UI vs Magic UI — Animated Component Libraries Compared",
@@ -113,22 +113,22 @@ export const comparisons: Comparison[] = [
     heading: "Rithm UI vs Magic UI",
     intro:
       "Rithm UI and Magic UI are both free, open-source libraries of animated React components designed to sit alongside shadcn/ui and Tailwind CSS. They overlap heavily; the practical differences are in install flow, accessibility posture, and Rithm UI's MCP server for AI-assisted installs.",
-    spectrumPitch: SPECTRUM_TAGLINE,
+    rithmPitch: RITHM_TAGLINE,
     competitorPitch:
       "A free, open-source set of animated components and effects that complements shadcn/ui, with a paid Pro template offering.",
     rows: [
-      { feature: "Price", spectrum: "Free (MIT)", competitor: "Free (MIT) · paid Pro" },
-      { feature: "You own the code (copy-paste)", spectrum: true, competitor: true },
-      { feature: "Animated (Framer Motion)", spectrum: true, competitor: true },
-      { feature: "Works alongside shadcn/ui", spectrum: true, competitor: true },
-      { feature: "Install via shadcn CLI", spectrum: "npx shadcn add @spectrumui/…", competitor: "npx shadcn add / copy-paste" },
-      { feature: "Radix-based accessibility", spectrum: true, competitor: "Varies by component" },
-      { feature: "MCP server for AI assistants", spectrum: true, competitor: false },
-      { feature: "TypeScript-first", spectrum: true, competitor: true },
-      { feature: "Dark mode", spectrum: true, competitor: true },
-      { feature: "Focus", spectrum: "Product-ready animated UI", competitor: "Landing & marketing effects" },
+      { feature: "Price", rithm: "Free (MIT)", competitor: "Free (MIT) · paid Pro" },
+      { feature: "You own the code (copy-paste)", rithm: true, competitor: true },
+      { feature: "Animated (Framer Motion)", rithm: true, competitor: true },
+      { feature: "Works alongside shadcn/ui", rithm: true, competitor: true },
+      { feature: "Install via shadcn CLI", rithm: "npx shadcn add @rithmui/…", competitor: "npx shadcn add / copy-paste" },
+      { feature: "Radix-based accessibility", rithm: true, competitor: "Varies by component" },
+      { feature: "MCP server for AI assistants", rithm: true, competitor: false },
+      { feature: "TypeScript-first", rithm: true, competitor: true },
+      { feature: "Dark mode", rithm: true, competitor: true },
+      { feature: "Focus", rithm: "Product-ready animated UI", competitor: "Landing & marketing effects" },
     ],
-    chooseSpectrum: [
+    chooseRithm: [
       "You want animated components plus an MCP server for AI-assisted installs.",
       "You value Radix primitives and accessibility conventions.",
       "You want a single shadcn-style CLI flow for everything.",
@@ -165,7 +165,7 @@ export const comparisons: Comparison[] = [
     ],
   },
   {
-    slug: "spectrum-ui-vs-shadcn",
+    slug: "rithm-ui-vs-shadcn",
     competitor: "shadcn/ui",
     competitorUrl: "https://ui.shadcn.com",
     title: "Rithm UI vs shadcn/ui — How They Compare (and Work Together)",
@@ -174,22 +174,22 @@ export const comparisons: Comparison[] = [
     heading: "Rithm UI vs shadcn/ui",
     intro:
       "shadcn/ui is the de-facto foundation for React + Tailwind UIs — copy-paste, unstyled primitives built on Radix. Rithm UI is built on the same conventions and extends them with animated, higher-level, production-ready components. This isn't really either/or: Rithm UI installs with the shadcn CLI and drops into an existing shadcn project.",
-    spectrumPitch: SPECTRUM_TAGLINE,
+    rithmPitch: RITHM_TAGLINE,
     competitorPitch:
       "The widely adopted, free, open-source foundation of copy-paste React components built on Radix UI and Tailwind CSS — minimal and unopinionated by design.",
     rows: [
-      { feature: "Price", spectrum: "Free (MIT)", competitor: "Free (MIT)" },
-      { feature: "You own the code (copy-paste)", spectrum: true, competitor: true },
-      { feature: "Built on Radix UI + Tailwind", spectrum: true, competitor: true },
-      { feature: "Install via shadcn CLI", spectrum: true, competitor: true },
-      { feature: "Animated components (Framer Motion) out of the box", spectrum: true, competitor: false },
-      { feature: "Higher-level / composed components", spectrum: true, competitor: "Primitives-focused" },
-      { feature: "MCP server for AI assistants", spectrum: true, competitor: false },
-      { feature: "Drops into an existing shadcn project", spectrum: true, competitor: "—" },
-      { feature: "Ecosystem size", spectrum: "Growing", competitor: "Very large" },
-      { feature: "Best used as", spectrum: "Animated layer on top of shadcn", competitor: "Your base component layer" },
+      { feature: "Price", rithm: "Free (MIT)", competitor: "Free (MIT)" },
+      { feature: "You own the code (copy-paste)", rithm: true, competitor: true },
+      { feature: "Built on Radix UI + Tailwind", rithm: true, competitor: true },
+      { feature: "Install via shadcn CLI", rithm: true, competitor: true },
+      { feature: "Animated components (Framer Motion) out of the box", rithm: true, competitor: false },
+      { feature: "Higher-level / composed components", rithm: true, competitor: "Primitives-focused" },
+      { feature: "MCP server for AI assistants", rithm: true, competitor: false },
+      { feature: "Drops into an existing shadcn project", rithm: true, competitor: "—" },
+      { feature: "Ecosystem size", rithm: "Growing", competitor: "Very large" },
+      { feature: "Best used as", rithm: "Animated layer on top of shadcn", competitor: "Your base component layer" },
     ],
-    chooseSpectrum: [
+    chooseRithm: [
       "You already use shadcn/ui and want animated, ready-made components on top.",
       "You want motion and polish without wiring Framer Motion yourself.",
       "You want AI assistants to add components via MCP.",
@@ -203,7 +203,7 @@ export const comparisons: Comparison[] = [
       {
         question: "Is Rithm UI built on shadcn/ui?",
         answer:
-          "Yes. Rithm UI follows shadcn/ui and Radix conventions, installs with the shadcn CLI (npx shadcn add @spectrumui/…), and drops straight into an existing shadcn project.",
+          "Yes. Rithm UI follows shadcn/ui and Radix conventions, installs with the shadcn CLI (npx shadcn add @rithmui/…), and drops straight into an existing shadcn project.",
       },
       {
         question: "Should I use Rithm UI or shadcn/ui?",

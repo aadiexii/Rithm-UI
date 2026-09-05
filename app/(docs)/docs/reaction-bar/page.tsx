@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion reactions",
     "Next.js reaction bar",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/reaction-bar",
+  canonicalUrl: "https://rithmui.com/docs/reaction-bar",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Reaction Bar"
       description={description}
-      url="https://ui.spectrumhq.in/docs/reaction-bar"
+      url="https://rithmui.com/docs/reaction-bar"
       keywords={[
         "reaction bar component",
         "React emoji reactions",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/reaction-bar/reaction-bar-demo.tsx"
-          installCodePath="components/spectrumui/reaction-bar.tsx"
-          cli="@spectrumui/reaction-bar"
+          installCodePath="components/rithmui/reaction-bar.tsx"
+          cli="@rithmui/reaction-bar"
           installScript="npm i framer-motion lucide-react"
         >
           <ReactionBarDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { ReactionBar } from "@/components/spectrumui/reaction-bar"`}
+            code={`import { ReactionBar } from "@/components/rithmui/reaction-bar"`}
             requireAuth={false}
           />
           <CodeHighlight

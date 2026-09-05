@@ -5,7 +5,7 @@ import { Mail, MessageCircle, Twitter } from "lucide-react"
 import {
   ShareButton,
   type ShareAction,
-} from "@/components/spectrumui/share-button"
+} from "@/components/rithmui/share-button"
 
 const actions: ShareAction[] = [
   { icon: <Twitter size={15} />, label: "Share on X", onSelect: () => {} },
@@ -21,7 +21,7 @@ export default function ShareButtonDemo() {
           Designing calmer micro-interactions
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <ShareButton copyValue="https://ui.spectrumhq.in" actions={actions} />
+          <ShareButton copyValue="https://rithmui.com" actions={actions} />
           <span className="text-sm text-neutral-500 dark:text-neutral-400">
             128 likes
           </span>

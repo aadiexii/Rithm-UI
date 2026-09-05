@@ -20,20 +20,20 @@ export const metadata: Metadata = baseMetadata({
     "chart component",
     "Framer Motion chart",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animatedchart",
+  canonicalUrl: "https://rithmui.com/docs/animatedchart",
 });
 
 const page = () => {
   let baseurl =
     process.env.NODE_ENV === "development"
-      ? "https://ui.spectrumhq.in"
-      : "https://ui.spectrumhq.in";
+      ? "https://rithmui.com"
+      : "https://rithmui.com";
 
   return (
     <SEOWrapper
       componentName="Animated SVG Chart"
       description="An animated SVG chart for visualizing data on dashboards and reports."
-      url="https://ui.spectrumhq.in/docs/animatedchart"
+      url="https://rithmui.com/docs/animatedchart"
       keywords={[
         "animated chart",
         "SVG chart",
@@ -54,7 +54,7 @@ const page = () => {
         <PreviewCodeCard
           className=""
           path="app/(docs)/docs/animatedchart/animateddemo.tsx"
-          cli="@spectrumui/animated-SVG-chart"
+          cli="@rithmui/animated-SVG-chart"
         
         installScript="npm i framer-motion mini-svg-data-uri"
         installCodePath="lib/sample.ts"

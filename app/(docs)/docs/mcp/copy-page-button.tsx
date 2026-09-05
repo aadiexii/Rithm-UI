@@ -13,7 +13,7 @@ Use the Rithm UI MCP server to browse, search, and install components from your 
 ### Claude Code
 
 \`\`\`bash
-claude mcp add spectrum-ui -- npx -y @spectrumui/mcp
+claude mcp add rithm-ui -- npx -y @rithmui/mcp
 \`\`\`
 
 ### Claude Desktop / Cursor / Windsurf
@@ -23,9 +23,9 @@ Add to claude_desktop_config.json, .cursor/mcp.json, or ~/.codeium/windsurf/mcp_
 \`\`\`json
 {
   "mcpServers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }
@@ -38,10 +38,10 @@ Add to .vscode/mcp.json:
 \`\`\`json
 {
   "servers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }

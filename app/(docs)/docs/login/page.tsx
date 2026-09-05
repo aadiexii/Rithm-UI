@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "login UI",
     "auth component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/login",
+  canonicalUrl: "https://rithmui.com/docs/login",
 });
 
 const Loginpage = () => {
@@ -28,7 +28,7 @@ const Loginpage = () => {
     <SEOWrapper
       componentName="Login Card"
       description="A login form card for authentication pages and SaaS apps."
-      url="https://ui.spectrumhq.in/docs/login"
+      url="https://rithmui.com/docs/login"
       keywords={[
         "login card",
         "login form",
@@ -46,7 +46,7 @@ const Loginpage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/login/login-demo.tsx"
-        cli="@spectrumui/login-card"
+        cli="@rithmui/login-card"
       
         installScript="npm i lucide-react framer-motion"
         installCodePath="app/(docs)/docs/login/login-demo.tsx"

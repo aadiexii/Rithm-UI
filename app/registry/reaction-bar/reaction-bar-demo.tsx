@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { ReactionBar } from "@/components/spectrumui/reaction-bar"
+import { ReactionBar } from "@/components/rithmui/reaction-bar"
 
 export default function ReactionBarDemo() {
   return (

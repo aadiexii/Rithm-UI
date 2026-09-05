@@ -3,8 +3,8 @@ import { loadRegistry } from "../data/registry-loader.js";
 import { track } from "../utils/telemetry.js";
 /**
  * Installs a Rithm UI component into the user's project.
- * Tries `bunx --bun shadcn@latest add @spectrumui/<name>` first (faster),
- * falls back to `npx shadcn@latest add @spectrumui/<name>`.
+ * Tries `bunx --bun shadcn@latest add @rithmui/<name>` first (faster),
+ * falls back to `npx shadcn@latest add @rithmui/<name>`.
  *
  * @param name       Component name (e.g. "animated-card", "alert-1")
  * @param projectDir Absolute path to the project root (defaults to cwd)
@@ -25,8 +25,8 @@ export async function installComponent(name, projectDir) {
         };
     }
     // Both forms work — bunx is faster when bun is installed
-    const bunxCommand = `bunx --bun shadcn@latest add @spectrumui/${item.name}`;
-    const npxCommand = `npx shadcn@latest add @spectrumui/${item.name}`;
+    const bunxCommand = `bunx --bun shadcn@latest add @rithmui/${item.name}`;
+    const npxCommand = `npx shadcn@latest add @rithmui/${item.name}`;
     const cwd = projectDir ?? process.cwd();
     let usedCommand = bunxCommand;
     let output = "";
@@ -86,9 +86,9 @@ export async function installComponent(name, projectDir) {
                 : "",
             ``,
             `Import it with:`,
-            `  import { ... } from "@/components/spectrumui/${item.files[0]?.target.split("/").pop()?.replace(".tsx", "") ?? item.name}"`,
+            `  import { ... } from "@/components/rithmui/${item.files[0]?.target.split("/").pop()?.replace(".tsx", "") ?? item.name}"`,
             ``,
-            `Full docs: ${item.docsUrl ?? "https://ui.spectrumhq.in/docs"}`,
+            `Full docs: ${item.docsUrl ?? "https://rithmui.com/docs"}`,
         ]
             .filter(Boolean)
             .join("\n"),

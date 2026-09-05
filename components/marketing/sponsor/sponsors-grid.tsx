@@ -29,7 +29,7 @@ export function SponsorsGrid({ className }: SponsorsGridProps) {
 
           {/* shadcnblocks.com — past sponsor with backlink */}
           <a
-            href="https://www.shadcnblocks.com/?utm_source=spectrum-ui&utm_medium=referral&utm_campaign=sponsor"
+            href="https://www.shadcnblocks.com/?utm_source=rithm-ui&utm_medium=referral&utm_campaign=sponsor"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900/40 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors"

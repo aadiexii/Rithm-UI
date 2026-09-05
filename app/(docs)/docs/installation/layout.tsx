@@ -15,7 +15,7 @@ export const metadata: Metadata = baseMetadata({
     "UI library setup",
     "component library installation",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/installation",
+  canonicalUrl: "https://rithmui.com/docs/installation",
 });
 
 export default function InstallationLayout({
@@ -27,7 +27,7 @@ export default function InstallationLayout({
     <SEOWrapper
       componentName="Installation"
       description="Install Rithm UI in a Next.js project with Tailwind CSS and shadcn/ui."
-      url="https://ui.spectrumhq.in/docs/installation"
+      url="https://rithmui.com/docs/installation"
       schemaType="techArticle"
       keywords={[
         "Rithm UI installation",

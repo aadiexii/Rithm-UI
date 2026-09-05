@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
-import { HoldToConfirmButton } from "@/components/spectrumui/hold-to-confirm"
+import { HoldToConfirmButton } from "@/components/rithmui/hold-to-confirm"
 
 export default function HoldToConfirmDemo() {
   const [deleted, setDeleted] = useState(false)

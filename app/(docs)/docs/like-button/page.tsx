@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion button",
     "Next.js like button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/like-button",
+  canonicalUrl: "https://rithmui.com/docs/like-button",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Like Button"
       description={description}
-      url="https://ui.spectrumhq.in/docs/like-button"
+      url="https://rithmui.com/docs/like-button"
       keywords={[
         "like button component",
         "heart button animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/like-button/like-button-demo.tsx"
-          installCodePath="components/spectrumui/like-button.tsx"
-          cli="@spectrumui/like-button"
+          installCodePath="components/rithmui/like-button.tsx"
+          cli="@rithmui/like-button"
           installScript="npm i framer-motion"
         >
           <LikeButtonDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { LikeButton } from "@/components/spectrumui/like-button"`}
+            code={`import { LikeButton } from "@/components/rithmui/like-button"`}
             requireAuth={false}
           />
           <CodeHighlight

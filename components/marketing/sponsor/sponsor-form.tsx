@@ -286,13 +286,13 @@ export function SponsorForm({ className }: SponsorFormProps) {
                 <label htmlFor="product_link" className="text-[10px] font-mono uppercase tracking-wider text-neutral-400 dark:text-neutral-600">
                   Product Link
                 </label>
-                <p className="text-[10px] text-neutral-500 mb-1">Link of your product. E.g spectrumhq.in</p>
+                <p className="text-[10px] text-neutral-500 mb-1">Link of your product. E.g rithmui.com</p>
                 <div className="relative">
                   <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-neutral-400 dark:text-neutral-600" />
                   <input
                     id="product_link"
                     type="url"
-                    placeholder="https://spectrumhq.in"
+                    placeholder="https://rithmui.com"
                     {...register("product_link")}
                     className={cn(
                       "w-full pl-9 pr-3 py-2.5 rounded-lg border bg-transparent text-xs placeholder:text-neutral-400 focus:outline-hidden transition-colors",

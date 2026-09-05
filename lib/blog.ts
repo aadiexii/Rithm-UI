@@ -1,5 +1,5 @@
 import type React from "react"
-import spectrumUiDevelopmentSpeed from "@/content/blog/spectrum-ui-development-speed"
+import rithmUiDevelopmentSpeed from "@/content/blog/rithm-ui-development-speed"
 import shadcnCustomizationGuide from "@/content/blog/shadcn-customization-guide"
 import nextjsServerComponentsGuide from "@/content/blog/nextjs-server-components-guide"
 import commonUiUxMistakes from "@/content/blog/common-ui-ux-mistakes"
@@ -73,7 +73,7 @@ export interface BlogPost {
 export type BlogPostInput = Omit<BlogPost, "slug">
 
 const blogPosts: Record<string, BlogPostInput> = {
-  "spectrum-ui-development-speed": spectrumUiDevelopmentSpeed,
+  "rithm-ui-development-speed": rithmUiDevelopmentSpeed,
   "shadcn-customization-guide": shadcnCustomizationGuide,
   "nextjs-server-components-guide": nextjsServerComponentsGuide,
   "common-ui-ux-mistakes": commonUiUxMistakes,

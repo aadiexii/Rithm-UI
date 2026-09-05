@@ -13,7 +13,7 @@ export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
   keywords: [chart?.name ?? 'chart', 'React candlestick', 'OHLC', 'Solana chart', 'Rithm UI'],
-  canonicalUrl: `https://ui.spectrumhq.in/charts/candlestick`,
+  canonicalUrl: `https://rithmui.com/charts/candlestick`,
 });
 
 export default function Page() {

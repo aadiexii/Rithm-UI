@@ -1,12 +1,12 @@
-import GitHubProfileCard from '@/components/spectrumui/github-profile-card';
+import GitHubProfileCard from '@/components/rithmui/github-profile-card';
 import PreviewCodeCard from '@/app/(docs)/docs/components/preview-code-card';
 
 export default function GitHubProfileCardPage() {
   return (
     <PreviewCodeCard
       path="app/(docs)/docs/github-card/page.tsx"
-      cli="@spectrumui/github-profile-card"
-      installCodePath="components/spectrumui/github-profile-card.tsx"
+      cli="@rithmui/github-profile-card"
+      installCodePath="components/rithmui/github-profile-card.tsx"
     >
       <GitHubProfileCard />
     </PreviewCodeCard>

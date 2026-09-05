@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "user feedback",
     "survey component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/feedback",
+  canonicalUrl: "https://rithmui.com/docs/feedback",
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="Feedback Card"
       description="A feedback card that collects ratings and comments with emoji reactions."
-      url="https://ui.spectrumhq.in/docs/feedback"
+      url="https://rithmui.com/docs/feedback"
       keywords={[
         "feedback card",
         "feedback component",
@@ -48,7 +48,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/feedback/feedbackdemo.tsx"
-          cli="@spectrumui/feedback-demo"
+          cli="@rithmui/feedback-demo"
         
         installScript="npm i framer-motion lucide-react"
         installCodePath="lib/utils.ts"

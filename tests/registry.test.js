@@ -43,7 +43,7 @@ function getFiles(dir, files = []) {
   return files;
 }
 
-console.log('--- Spectrum UI Registry Validation Tests ---');
+console.log('--- Rithm UI Registry Validation Tests ---');
 
 // 1. Validate registry.json structure and file existence
 if (!fs.existsSync(registryPath)) {
@@ -120,16 +120,16 @@ for (const file of tsxFiles) {
 
     docsChecked++;
 
-    if (val.startsWith('@spectrumui/')) {
-      const compName = val.replace('@spectrumui/', '');
+    if (val.startsWith('@rithmui/')) {
+      const compName = val.replace('@rithmui/', '');
       if (!registeredNames.has(compName)) {
-        logError(`In "${relativePath}": CLI command points to "@spectrumui/${compName}", but "${compName}" is not registered in registry.json!`);
+        logError(`In "${relativePath}": CLI command points to "@rithmui/${compName}", but "${compName}" is not registered in registry.json!`);
       }
     } else {
       if (!shadcnComponents.has(val) && !registeredNames.has(val)) {
         logError(`In "${relativePath}": CLI command "${val}" is neither a standard shadcn component nor a valid registry item.`);
       } else {
-        console.warn(`\x1b[33m[WARN]\x1b[0m In "${relativePath}": CLI command "${val}" is missing the "@spectrumui/" prefix but is a custom component.`);
+        console.warn(`\x1b[33m[WARN]\x1b[0m In "${relativePath}": CLI command "${val}" is missing the "@rithmui/" prefix but is a custom component.`);
       }
     }
   }

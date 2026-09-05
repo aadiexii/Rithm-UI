@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "status page",
     "error component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/statuscode",
+  canonicalUrl: "https://rithmui.com/docs/statuscode",
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="HTTP Status Code"
       description="An HTTP status code display for building 404 and error pages."
-      url="https://ui.spectrumhq.in/docs/statuscode"
+      url="https://rithmui.com/docs/statuscode"
       keywords={[
         "HTTP status code",
         "status code component",
@@ -48,7 +48,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/statuscode/demostatus.tsx"
-          cli="@spectrumui/http-status-code"
+          cli="@rithmui/http-status-code"
         >
           <Ststuscodelist />
         </PreviewCodeCard>

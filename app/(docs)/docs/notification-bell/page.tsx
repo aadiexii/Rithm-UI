@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion bell",
     "Next.js notification bell",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/notification-bell",
+  canonicalUrl: "https://rithmui.com/docs/notification-bell",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Notification Bell"
       description={description}
-      url="https://ui.spectrumhq.in/docs/notification-bell"
+      url="https://rithmui.com/docs/notification-bell"
       keywords={[
         "notification bell component",
         "bell shake animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/notification-bell/notification-bell-demo.tsx"
-          installCodePath="components/spectrumui/notification-bell.tsx"
-          cli="@spectrumui/notification-bell"
+          installCodePath="components/rithmui/notification-bell.tsx"
+          cli="@rithmui/notification-bell"
           installScript="npm i framer-motion"
         >
           <NotificationBellDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { NotificationBell } from "@/components/spectrumui/notification-bell"`}
+            code={`import { NotificationBell } from "@/components/rithmui/notification-bell"`}
             requireAuth={false}
           />
           <CodeHighlight

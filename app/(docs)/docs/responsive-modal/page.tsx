@@ -25,7 +25,7 @@ export const metadata: Metadata = baseMetadata({
     "responsive dialog",
     "Radix dialog",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/responsive-modal",
+  canonicalUrl: "https://rithmui.com/docs/responsive-modal",
 });
 
 const ResponsiveModalPage = () => {
@@ -33,7 +33,7 @@ const ResponsiveModalPage = () => {
     <SEOWrapper
       componentName="Responsive Modal"
       description="A dialog that centers on desktop and slides up as a sheet on mobile."
-      url="https://ui.spectrumhq.in/docs/responsive-modal"
+      url="https://rithmui.com/docs/responsive-modal"
       keywords={[
         "responsive modal",
         "modal component",
@@ -51,7 +51,7 @@ const ResponsiveModalPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/responsive-modal/responsive-modal-demo.tsx"
-        cli="@spectrumui/responsive-modal"
+        cli="@rithmui/responsive-modal"
       
         installCodePath="components/ui/responsive-modal.tsx"
       >
@@ -62,7 +62,7 @@ const ResponsiveModalPage = () => {
       <Usage
         title="Side"
         path="app/(docs)/docs//responsive-modal/usage/responsive-modal-side.tsx"
-        cli="@spectrumui/responsive-modal-side"
+        cli="@rithmui/responsive-modal-side"
       >
         <ResponsiveModalSide />
       </Usage>

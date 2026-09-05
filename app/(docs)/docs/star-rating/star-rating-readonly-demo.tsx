@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { StarRating } from "@/components/spectrumui/star-rating"
+import { StarRating } from "@/components/rithmui/star-rating"
 
 export default function StarRatingReadonlyDemo() {
   return (

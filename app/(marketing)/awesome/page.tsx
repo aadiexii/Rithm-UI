@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   description:
     "The complete Awesome Rithm UI list: every free, copy-paste React & Next.js component, plus installation, the MCP server, comparisons, and resources. A curated reference for building with Tailwind CSS and shadcn/ui.",
   keywords: [
-    "awesome spectrum ui",
+    "awesome rithm ui",
     "awesome shadcn ui",
-    "spectrum ui components list",
+    "rithm ui components list",
     "react component library resources",
     "shadcn components list",
     "tailwind components list",

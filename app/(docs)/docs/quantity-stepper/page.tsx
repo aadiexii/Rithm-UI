@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion stepper",
     "Next.js quantity stepper",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/quantity-stepper",
+  canonicalUrl: "https://rithmui.com/docs/quantity-stepper",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Quantity Stepper"
       description={description}
-      url="https://ui.spectrumhq.in/docs/quantity-stepper"
+      url="https://rithmui.com/docs/quantity-stepper"
       keywords={[
         "quantity stepper component",
         "React quantity input",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/quantity-stepper/quantity-stepper-demo.tsx"
-          installCodePath="components/spectrumui/quantity-stepper.tsx"
-          cli="@spectrumui/quantity-stepper"
+          installCodePath="components/rithmui/quantity-stepper.tsx"
+          cli="@rithmui/quantity-stepper"
           installScript="npm i framer-motion lucide-react"
         >
           <QuantityStepperDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { QuantityStepper } from "@/components/spectrumui/quantity-stepper"`}
+            code={`import { QuantityStepper } from "@/components/rithmui/quantity-stepper"`}
             requireAuth={false}
           />
           <CodeHighlight

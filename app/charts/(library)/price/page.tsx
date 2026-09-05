@@ -13,7 +13,7 @@ export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
   keywords: [chart?.name ?? 'chart', 'token price', 'stock chart', 'TVL', 'Rithm UI'],
-  canonicalUrl: `https://ui.spectrumhq.in/charts/price`,
+  canonicalUrl: `https://rithmui.com/charts/price`,
 });
 
 export default function Page() {

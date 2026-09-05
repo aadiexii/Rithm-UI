@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
-import { CommandPalette } from "@/components/spectrumui/command-palette"
+import { CommandPalette } from "@/components/rithmui/command-palette"
 import { Button } from "@/components/ui/button"
 
 export function CommandPaletteDemo() {

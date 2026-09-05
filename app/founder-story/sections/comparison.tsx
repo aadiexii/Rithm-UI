@@ -63,7 +63,7 @@ function ClarityWindow() {
           <div className="w-2.5 h-2.5 rounded-full bg-neutral-200 dark:bg-neutral-800" />
           <div className="w-2.5 h-2.5 rounded-full bg-neutral-200 dark:bg-neutral-800" />
         </div>
-        <span className="text-xs font-mono text-neutral-400 dark:text-neutral-500">spectrum-ui</span>
+        <span className="text-xs font-mono text-neutral-400 dark:text-neutral-500">rithm-ui</span>
       </div>
       
       {/* Content */}

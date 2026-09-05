@@ -14,8 +14,8 @@ import type { Metadata } from 'next'
 import { createNoIndexMetadata } from '@/lib/metadata'
 
 export const metadata: Metadata = createNoIndexMetadata({
-  title: 'Spectrum Pro Dashboard',
-  description: 'View purchased Spectrum Pro templates and manage private repository access.',
+  title: 'Rithm Pro Dashboard',
+  description: 'View purchased Rithm Pro templates and manage private repository access.',
   path: '/dashboard',
 })
 

@@ -5,7 +5,7 @@ import { Mail, MessageCircle, Twitter } from "lucide-react"
 import {
   ShareButton,
   type ShareAction,
-} from "@/components/spectrumui/share-button"
+} from "@/components/rithmui/share-button"
 
 const actions: ShareAction[] = [
   { icon: <Twitter size={15} />, label: "Share on X", onSelect: () => {} },
@@ -19,14 +19,14 @@ export default function ShareButtonDirectionDemo() {
       <div className="flex w-full max-w-sm items-center justify-end">
         <ShareButton
           direction="left"
-          copyValue="https://ui.spectrumhq.in"
+          copyValue="https://rithmui.com"
           actions={actions}
         />
       </div>
       <div className="flex flex-wrap items-center justify-center gap-12">
-        <ShareButton size="sm" copyValue="https://ui.spectrumhq.in" />
-        <ShareButton size="md" copyValue="https://ui.spectrumhq.in" />
-        <ShareButton size="lg" copyValue="https://ui.spectrumhq.in" />
+        <ShareButton size="sm" copyValue="https://rithmui.com" />
+        <ShareButton size="md" copyValue="https://rithmui.com" />
+        <ShareButton size="lg" copyValue="https://rithmui.com" />
       </div>
       <p className="text-sm text-neutral-500 dark:text-neutral-400">
         Fans out to the left, plus the three trigger sizes

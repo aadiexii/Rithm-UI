@@ -15,18 +15,18 @@ export const metadata: Metadata = {
   description:
     "Open-source, animation-ready React components and blocks built with Next.js, Tailwind CSS, Motion, TypeScript, and shadcn/ui for SaaS and AI apps.",
   alternates: {
-    canonical: "https://ui.spectrumhq.in",
+    canonical: "https://rithmui.com",
   },
   openGraph: {
     title: "Rithm UI — Animated React Components & Blocks",
     description:
       "Open-source, animation-ready React components and blocks built with Next.js, Tailwind CSS, Motion, TypeScript, and shadcn/ui for SaaS and AI apps.",
-    url: "https://ui.spectrumhq.in",
+    url: "https://rithmui.com",
     type: "website",
     siteName: "Rithm UI",
     images: [
       {
-        url: "https://ui.spectrumhq.in/og.png",
+        url: "https://rithmui.com/og.png",
         width: 1200,
         height: 630,
         alt: "Rithm UI — React UI components for Next.js",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Rithm UI — Animated React Components & Blocks",
     description:
       "Open-source, animation-ready React components and blocks built with Next.js, Tailwind CSS, Motion, TypeScript, and shadcn/ui for SaaS and AI apps.",
-    images: ["https://ui.spectrumhq.in/og.png"],
+    images: ["https://rithmui.com/og.png"],
   },
 };
 

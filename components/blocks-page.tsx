@@ -93,7 +93,7 @@ export function BlocksPage({
       const blob = await zip.generateAsync({ type: "blob" });
       const downloadName = blockName
         ? `${blockName.toLowerCase().replace(/\s+/g, "-")}.zip`
-        : "spectrum-ui-block.zip";
+        : "rithm-ui-block.zip";
       saveAs(blob, downloadName);
 
       posthog.capture("block_downloaded", {

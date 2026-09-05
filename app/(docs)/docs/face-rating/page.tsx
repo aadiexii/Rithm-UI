@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion rating",
     "Next.js rating component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/face-rating",
+  canonicalUrl: "https://rithmui.com/docs/face-rating",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Face Rating"
       description={description}
-      url="https://ui.spectrumhq.in/docs/face-rating"
+      url="https://rithmui.com/docs/face-rating"
       keywords={[
         "face rating component",
         "emoji rating widget",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/face-rating/face-rating-demo.tsx"
-          installCodePath="components/spectrumui/face-rating.tsx"
-          cli="@spectrumui/face-rating"
+          installCodePath="components/rithmui/face-rating.tsx"
+          cli="@rithmui/face-rating"
           installScript="npm i framer-motion"
         >
           <FaceRatingDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { FaceRating } from "@/components/spectrumui/face-rating"`}
+            code={`import { FaceRating } from "@/components/rithmui/face-rating"`}
             requireAuth={false}
           />
           <CodeHighlight

@@ -12,7 +12,7 @@ type Props = {
 }
 
 export function HologramText({
-  text = "SPECTRUM UI",
+  text = "RITHM UI",
   scanDuration = 1800,
   chromaJitter = 0.8
 }: Props) {

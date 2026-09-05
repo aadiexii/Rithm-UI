@@ -94,7 +94,7 @@ export const TOPIC_HUBS: readonly TopicHub[] = [
       title: 'Compose an accessible product FAQ',
       description:
         'The Accordion installation provides the local primitive used by this minimal React example.',
-      installCommands: ['npx shadcn@latest add @spectrumui/accordion'],
+      installCommands: ['npx shadcn@latest add @rithmui/accordion'],
       code: `import {
   Accordion,
   AccordionContent,
@@ -200,8 +200,8 @@ export function ProductFaq() {
       title: 'Place the login block on an authentication route',
       description:
         'The installed login card is a client-side UI example; connect its controls to your own authentication service.',
-      installCommands: ['npx shadcn@latest add @spectrumui/login-card'],
-      code: `import LoginCard from '@/components/spectrumui/logincard';
+      installCommands: ['npx shadcn@latest add @rithmui/login-card'],
+      code: `import LoginCard from '@/components/rithmui/logincard';
 
 export default function SignInPage() {
   return (
@@ -525,11 +525,11 @@ export default function SettingsPage() {
       title: 'Control an animated preference switch',
       description:
         'The switch exposes a controlled checked state while its installed source owns the drag and transition behavior.',
-      installCommands: ['npx shadcn@latest add @spectrumui/animated-switch'],
+      installCommands: ['npx shadcn@latest add @rithmui/animated-switch'],
       code: `'use client';
 
 import { useState } from 'react';
-import { AnimatedSwitch } from '@/components/spectrumui/animated-switch';
+import { AnimatedSwitch } from '@/components/rithmui/animated-switch';
 
 export function NotificationPreference() {
   const [enabled, setEnabled] = useState(false);
@@ -635,8 +635,8 @@ export function NotificationPreference() {
       title: 'Render the animated chart as a client leaf',
       description:
         'The installed chart owns its animation; the surrounding route can remain a Server Component.',
-      installCommands: ['npx shadcn@latest add @spectrumui/animated-SVG-chart'],
-      code: `import { Chart } from '@/components/spectrumui/animatedemo';
+      installCommands: ['npx shadcn@latest add @rithmui/animated-SVG-chart'],
+      code: `import { Chart } from '@/components/rithmui/animatedemo';
 
 export default function AnalyticsPage() {
   return (
@@ -738,8 +738,8 @@ export default function AnalyticsPage() {
       title: 'Add a kanban board to a dashboard',
       description:
         'The board supplies the UI; load and format tasks through your application layer.',
-      installCommands: ['npx shadcn@latest add @spectrumui/kanbanboard'],
-      code: `import KanbanBoard from '@/components/spectrumui/kanbanboard';
+      installCommands: ['npx shadcn@latest add @rithmui/kanbanboard'],
+      code: `import KanbanBoard from '@/components/rithmui/kanbanboard';
 
 export default function SprintPage() {
   return (
@@ -837,9 +837,9 @@ export default function SprintPage() {
       title: 'Build a compact feature section with Bento Grid',
       description:
         'Bento Grid supplies the responsive structure while each card keeps its own title and description.',
-      installCommands: ['npx shadcn@latest add @spectrumui/bento-grid'],
-      code: `import { BentoCard } from '@/components/spectrumui/bento-card';
-import { BentoGrid } from '@/components/spectrumui/bento-grid';
+      installCommands: ['npx shadcn@latest add @rithmui/bento-grid'],
+      code: `import { BentoCard } from '@/components/rithmui/bento-card';
+import { BentoGrid } from '@/components/rithmui/bento-grid';
 
 export function FeatureSection() {
   return (
@@ -951,16 +951,16 @@ export function FeatureSection() {
       description:
         'The semantic heading remains readable content; the hologram treatment acts as a separate visual label.',
       installCommands: [
-        'npx shadcn@latest add @spectrumui/holographic',
+        'npx shadcn@latest add @rithmui/holographic',
         'npx shadcn@latest add button',
       ],
-      code: `import { HologramText } from '@/components/spectrumui/hologram-text';
+      code: `import { HologramText } from '@/components/rithmui/hologram-text';
 import { Button } from '@/components/ui/button';
 
 export function ProductHero() {
   return (
     <section aria-labelledby="product-heading" className="py-20">
-      <HologramText text="SPECTRUM UI" />
+      <HologramText text="RITHM UI" />
       <h1 id="product-heading" className="mt-6 text-5xl font-medium">
         Build interface motion from editable React source
       </h1>
@@ -1192,13 +1192,13 @@ export function PricingGrid() {
       description:
         'The component handles the input presentation and meter; the form action still validates the submitted password on the server.',
       installCommands: [
-        'npx shadcn@latest add @spectrumui/password-strength',
+        'npx shadcn@latest add @rithmui/password-strength',
         'npx shadcn@latest add button',
       ],
       code: `'use client';
 
 import { useState } from 'react';
-import { PasswordStrengthInput } from '@/components/spectrumui/password-strength';
+import { PasswordStrengthInput } from '@/components/rithmui/password-strength';
 import { Button } from '@/components/ui/button';
 
 export function CreatePasswordForm() {
@@ -1314,13 +1314,13 @@ export function CreatePasswordForm() {
       description:
         'The autosizing input owns its height behavior while the application owns submission, streaming, persistence, and request state.',
       installCommands: [
-        'npx shadcn@latest add @spectrumui/autosize-textarea-demo',
+        'npx shadcn@latest add @rithmui/autosize-textarea-demo',
         'npx shadcn@latest add button',
       ],
       code: `'use client';
 
 import { useState } from 'react';
-import { AutosizeTextarea } from '@/components/spectrumui/autosize-textarea';
+import { AutosizeTextarea } from '@/components/rithmui/autosize-textarea';
 import { Button } from '@/components/ui/button';
 
 export function PromptComposer() {

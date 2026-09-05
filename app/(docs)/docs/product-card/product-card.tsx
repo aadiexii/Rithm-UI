@@ -36,7 +36,7 @@ export default function Productcard() {
     {
       id: 3,
       name: 'PureShield SPF 50+ Sunscreen',
-      description: 'Broad-spectrum sun protection with a non-greasy, invisible finish.',
+      description: 'Broad-coverage sun protection with a non-greasy, invisible finish.',
       price: 22,
       rating: 5,
       reviews: 210,

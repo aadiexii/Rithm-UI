@@ -13,7 +13,7 @@ export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
   keywords: [chart?.name ?? 'chart', 'React chart', 'Recharts', 'Rithm UI'],
-  canonicalUrl: `https://ui.spectrumhq.in/charts/radar`,
+  canonicalUrl: `https://rithmui.com/charts/radar`,
 });
 
 export default function Page() {

@@ -11,7 +11,7 @@ interface PreviewCodeCardProps {
   /** Path to the demo component file (shown in Code tab) */
   path: string;
   children?: React.ReactNode;
-  /** spectrum-ui CLI slug e.g. "@spectrumui/animated-card" */
+  /** rithm-ui CLI slug e.g. "@rithmui/animated-card" */
   cli?: string;
   /** Bash install command shown in the Installation section, e.g. "npm i framer-motion" */
   installScript?: string;

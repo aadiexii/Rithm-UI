@@ -5,8 +5,8 @@ export interface ComponentSummary {
   title: string;
   description: string;
   category: string;
-  cliCommand: string;      // bunx --bun shadcn@latest add @spectrumui/<name>
-  cliCommandNpx: string;  // npx shadcn@latest add @spectrumui/<name>
+  cliCommand: string;      // bunx --bun shadcn@latest add @rithmui/<name>
+  cliCommandNpx: string;  // npx shadcn@latest add @rithmui/<name>
   docsUrl: string;
   dependencies: string[];
 }
@@ -18,9 +18,9 @@ function toSummary(item: RegistryItem): ComponentSummary {
     description: item.description,
     category: inferCategory(item),
     // Primary: bunx (bun users) — Secondary: npx (everyone else)
-    cliCommand: `bunx --bun shadcn@latest add @spectrumui/${item.name}`,
-    cliCommandNpx: `npx shadcn@latest add @spectrumui/${item.name}`,
-    docsUrl: item.docsUrl ?? "https://ui.spectrumhq.in/docs",
+    cliCommand: `bunx --bun shadcn@latest add @rithmui/${item.name}`,
+    cliCommandNpx: `npx shadcn@latest add @rithmui/${item.name}`,
+    docsUrl: item.docsUrl ?? "https://rithmui.com/docs",
     dependencies: item.dependencies ?? [],
   };
 }

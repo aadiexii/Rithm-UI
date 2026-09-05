@@ -22,7 +22,7 @@ export const metadata: Metadata = baseMetadata({
     "Next.js product card",
     "Tailwind product card",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/product-card",
+  canonicalUrl: "https://rithmui.com/docs/product-card",
 });
 
 const DualRangeSliderPage = () => {
@@ -30,7 +30,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Product Card"
       description="A product card that displays an image, title, price, and rating."
-      url="https://ui.spectrumhq.in/docs/product-card"
+      url="https://rithmui.com/docs/product-card"
       keywords={[
         "product card",
         "React product card",
@@ -48,9 +48,9 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/product-card/product-card.tsx"
-        cli="@spectrumui/product-card"
+        cli="@rithmui/product-card"
       
-        installScript="npx shadcn@latest add @spectrumui/product-card"
+        installScript="npx shadcn@latest add @rithmui/product-card"
         installCodePath="app/(docs)/docs/product-card/product-card.tsx"
       >
         <Productcard />

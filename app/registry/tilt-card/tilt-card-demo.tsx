@@ -2,7 +2,7 @@
 
 import React from "react"
 import Image from "next/image"
-import { TiltCard, TiltCardItem } from "@/components/spectrumui/tilt-card"
+import { TiltCard, TiltCardItem } from "@/components/rithmui/tilt-card"
 
 export default function TiltCardDemo() {
   return (

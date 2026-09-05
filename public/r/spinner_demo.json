@@ -5,14 +5,14 @@
   "title": "Spinner Demo",
   "description": "component for the Spinner Demo",
   "registryDependencies": [
-    "@spectrumui/spinner-dependencies"
+    "@rithmui/spinner-dependencies"
   ],
   "files": [
     {
       "path": "app/registry/spinner/spinner-demo.tsx",
       "content": "import React from \"react\";\nimport { Spinner } from \"@/components/ui/spinner\";\n\nconst SpinnerDemo = () => {\n  return <Spinner />;\n};\n\nexport default SpinnerDemo;\n",
       "type": "registry:component",
-      "target": "components/spectrumui/spinner-demo.tsx"
+      "target": "components/rithmui/spinner-demo.tsx"
     }
   ]
 }

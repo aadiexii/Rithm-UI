@@ -58,7 +58,7 @@ interface Entry {
 const entries: Entry[] = [
   {
     name: "Rithm UI",
-    url: "https://ui.spectrumhq.in",
+    url: "https://rithmui.com",
     internalHref: "/docs",
     internalLabel: "Browse components →",
     summary:
@@ -69,7 +69,7 @@ const entries: Entry[] = [
   {
     name: "shadcn/ui",
     url: "https://ui.shadcn.com",
-    internalHref: "/compare/spectrum-ui-vs-shadcn",
+    internalHref: "/compare/rithm-ui-vs-shadcn",
     internalLabel: "Compare with Rithm UI →",
     summary:
       "The de-facto standard: unstyled, copy-paste components built on Radix UI and Tailwind CSS. You own the code and style it yourself. Minimal and unopinionated — a foundation you extend.",
@@ -119,7 +119,7 @@ const entries: Entry[] = [
   {
     name: "Aceternity UI",
     url: "https://ui.aceternity.com",
-    internalHref: "/compare/spectrum-ui-vs-aceternity",
+    internalHref: "/compare/rithm-ui-vs-aceternity",
     internalLabel: "Compare with Rithm UI →",
     summary:
       "Free, animation-heavy React components known for bold hero and landing-page effects, built with Tailwind and Framer Motion. Paid Pro templates available.",
@@ -129,7 +129,7 @@ const entries: Entry[] = [
   {
     name: "Magic UI",
     url: "https://magicui.design",
-    internalHref: "/compare/spectrum-ui-vs-magic-ui",
+    internalHref: "/compare/rithm-ui-vs-magic-ui",
     internalLabel: "Compare with Rithm UI →",
     summary:
       "A free, open-source set of animated components and effects that complements shadcn/ui, built with Tailwind and Framer Motion. Paid Pro templates available.",
@@ -160,7 +160,7 @@ const faqs = [
   {
     question: "Which library is best with Tailwind CSS and shadcn/ui?",
     answer:
-      "Rithm UI, Magic UI, and Aceternity UI are built with Tailwind and work alongside shadcn/ui. Rithm UI installs with the shadcn CLI (npx shadcn add @spectrumui/…) and follows Radix conventions, so it drops into an existing shadcn project.",
+      "Rithm UI, Magic UI, and Aceternity UI are built with Tailwind and work alongside shadcn/ui. Rithm UI installs with the shadcn CLI (npx shadcn add @rithmui/…) and follows Radix conventions, so it drops into an existing shadcn project.",
   },
   {
     question: "Which React component library works best with AI coding assistants?",

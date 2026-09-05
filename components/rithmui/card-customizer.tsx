@@ -215,11 +215,11 @@ export function CardCustomizer({ children }: { children: ReactNode }) {
         </div>
       </div>
 
-      <div style={style} className="spectrum-cards-preview">
+      <div style={style} className="rithm-cards-preview">
         {activeGradient && (
           <style
             dangerouslySetInnerHTML={{
-              __html: `.spectrum-cards-preview .bg-primary{background-image:linear-gradient(135deg,${activeGradient[0]},${activeGradient[1]})}`,
+              __html: `.rithm-cards-preview .bg-primary{background-image:linear-gradient(135deg,${activeGradient[0]},${activeGradient[1]})}`,
             }}
           />
         )}

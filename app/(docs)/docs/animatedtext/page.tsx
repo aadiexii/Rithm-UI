@@ -21,7 +21,7 @@ export const metadata: Metadata = baseMetadata({
     "orbital text",
     "Framer Motion text",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animatedtext",
+  canonicalUrl: "https://rithmui.com/docs/animatedtext",
 });
 
 const Textanimation = () => {
@@ -29,7 +29,7 @@ const Textanimation = () => {
     <SEOWrapper
       componentName="Text Animations"
       description="A collection of text effects including holographic, ink morph, and orbital reveals."
-      url="https://ui.spectrumhq.in/docs/animatedtext"
+      url="https://rithmui.com/docs/animatedtext"
       keywords={[
         "text animations",
         "animated text",
@@ -50,9 +50,9 @@ const Textanimation = () => {
 
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/hologram-text.tsx"
-        cli="@spectrumui/holographic"
+        cli="@rithmui/holographic"
       
-        installScript="npx shadcn@latest add @spectrumui/holographic"
+        installScript="npx shadcn@latest add @rithmui/holographic"
         installCodePath="app/(docs)/docs/animatedtext/usage/holo.tsx"
       >
         <ReloadableHologram />
@@ -62,9 +62,9 @@ const Textanimation = () => {
 
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/orbital-text.tsx"
-        cli="@spectrumui/orbital-letters"
+        cli="@rithmui/orbital-letters"
       
-        installScript="npx shadcn@latest add @spectrumui/orbital-letters"
+        installScript="npx shadcn@latest add @rithmui/orbital-letters"
         installCodePath="app/(docs)/docs/animatedtext/usage/orbital.tsx"
       >
         <ReloadableOrbital />
@@ -74,9 +74,9 @@ const Textanimation = () => {
 
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/ink-morph.tsx"
-        cli="@spectrumui/ink"
+        cli="@rithmui/ink"
       
-        installScript="npx shadcn@latest add @spectrumui/ink"
+        installScript="npx shadcn@latest add @rithmui/ink"
         installCodePath="app/(docs)/docs/animatedtext/usage/ink.tsx"
       >
         <ReloadableInk />

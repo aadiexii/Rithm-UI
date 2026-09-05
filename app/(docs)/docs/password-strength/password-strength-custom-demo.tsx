@@ -5,7 +5,7 @@ import {
   DEFAULT_RULES,
   PasswordStrengthInput,
   type PasswordRule,
-} from "@/components/spectrumui/password-strength"
+} from "@/components/rithmui/password-strength"
 
 const CUSTOM_RULES: PasswordRule[] = [
   ...DEFAULT_RULES,

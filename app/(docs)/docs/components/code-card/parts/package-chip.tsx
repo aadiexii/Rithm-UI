@@ -22,7 +22,7 @@ import {
 } from "@/app/(docs)/docs/components/code-card/parts/command-figure";
 
 interface PackageChipProps {
-  /** Registry slug, e.g. "@spectrumui/input" */
+  /** Registry slug, e.g. "@rithmui/input" */
   cli: string;
   componentName?: string;
   className?: string;
@@ -39,7 +39,7 @@ const PackageChip = ({ cli, componentName, className }: PackageChipProps) => {
   const [copiedPrompt, setCopiedPrompt] = useState(false);
   const { isAuthenticated, openAuthModal } = useAuthGate();
 
-  const slug = cli.replace(/^@spectrumui\//, "");
+  const slug = cli.replace(/^@rithmui\//, "");
   const activePm = PACKAGE_MANAGERS.find((p) => p.id === pm)!;
   const command = `${activePm.command} ${cli}`;
   const prompt = `Install the ${slug} component from Rithm UI`;

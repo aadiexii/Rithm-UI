@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "spectrumui",
-  "homepage": "https://ui.spectrumhq.in",
+  "name": "rithmui",
+  "homepage": "https://rithmui.com",
   "items": [
     {
       "name": "agent-plan",
@@ -10,9 +10,9 @@
       "description": "An editable plan checklist the agent proposes before running.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/agent-plan.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/agent-plan.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/agent-plan.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/agent-plan.tsx"
         }
       ],
       "dependencies": [
@@ -32,14 +32,14 @@
       "description": "A timeline of tool calls with status, arguments, results, and parallel sub-steps.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/agent-steps.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/agent-steps.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/agent-steps.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/agent-steps.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -59,9 +59,9 @@
       "description": "A human-in-the-loop approval for an action an agent wants to take.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/approval-card.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/approval-card.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/approval-card.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/approval-card.tsx"
         }
       ],
       "dependencies": [
@@ -81,14 +81,14 @@
       "description": "A first-run greeting with staggered suggestion chips.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/chat-empty-state.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/chat-empty-state.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/chat-empty-state.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/chat-empty-state.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -109,14 +109,14 @@
       "description": "Inline citation markers with hover previews or a footnote list.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/citation-sources.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/citation-sources.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/citation-sources.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/citation-sources.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "category": "AI Assistants",
@@ -133,9 +133,9 @@
       "description": "An AI code block with a file header, copy, and line collapse.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/code-block.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/code-block.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/code-block.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/code-block.tsx"
         }
       ],
       "dependencies": [
@@ -155,9 +155,9 @@
       "description": "A date-grouped conversation sidebar with pinning.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/conversation-list.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/conversation-list.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/conversation-list.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/conversation-list.tsx"
         }
       ],
       "dependencies": [
@@ -177,9 +177,9 @@
       "description": "Proposed file changes with per-file accept and reject.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/diff-view.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/diff-view.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/diff-view.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/diff-view.tsx"
         }
       ],
       "dependencies": [
@@ -199,9 +199,9 @@
       "description": "An image reveal component with animated sliding door panels.",
       "files": [
         {
-          "path": "components/spectrumui/discloseimage.tsx",
+          "path": "components/rithmui/discloseimage.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/discloseimage.tsx"
+          "target": "components/rithmui/discloseimage.tsx"
         }
       ]
     },
@@ -212,9 +212,9 @@
       "description": "A failed-generation state with a preserved prompt and retry.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/error-state.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/error-state.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/error-state.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/error-state.tsx"
         }
       ],
       "dependencies": [
@@ -234,9 +234,9 @@
       "description": "A GitHub profile card with account stats, a contribution graph, and social links.",
       "files": [
         {
-          "path": "components/spectrumui/github-profile-card.tsx",
+          "path": "components/rithmui/github-profile-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/github-profile-card.tsx"
+          "target": "components/rithmui/github-profile-card.tsx"
         },
         {
           "path": "components/icon.tsx",
@@ -263,7 +263,7 @@
         {
           "path": "app/registry/alertdemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/alertdemo.tsx"
+          "target": "components/rithmui/alertdemo.tsx"
         }
       ],
       "dependencies": [
@@ -282,7 +282,7 @@
         {
           "path": "app/registry/alerttwo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/alerttwo.tsx"
+          "target": "components/rithmui/alerttwo.tsx"
         }
       ],
       "registryDependencies": [
@@ -299,7 +299,7 @@
         {
           "path": "app/registry/alertthree.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/alertthree.tsx"
+          "target": "components/rithmui/alertthree.tsx"
         }
       ],
       "dependencies": [
@@ -315,7 +315,7 @@
         {
           "path": "app/registry/alertfour.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/alertfour.tsx"
+          "target": "components/rithmui/alertfour.tsx"
         }
       ],
       "dependencies": [
@@ -334,19 +334,19 @@
         {
           "path": "app/registry/animatedcard/animatedcard.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animatedcard.tsx"
+          "target": "components/rithmui/animatedcard.tsx"
         },
         {
           "path": "app/registry/animatedcard/animatedcarddemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animatedcarddemo.tsx"
+          "target": "components/rithmui/animatedcarddemo.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Card",
-      "docsUrl": "https://ui.spectrumhq.in/docs/animatedcard"
+      "docsUrl": "https://rithmui.com/docs/animatedcard"
     },
     {
       "name": "animated-SVG-chart",
@@ -357,7 +357,7 @@
         {
           "path": "app/registry/animatedchart/animateddemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animatedemo.tsx"
+          "target": "components/rithmui/animatedemo.tsx"
         }
       ],
       "dependencies": [
@@ -373,7 +373,7 @@
         {
           "path": "app/registry/demousages.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animated_testimonials.tsx"
+          "target": "components/rithmui/animated_testimonials.tsx"
         }
       ],
       "dependencies": [
@@ -390,13 +390,13 @@
       "description": "component for the Autosize Textarea Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/autosize-textarea.tsx",
+          "path": "app/registry/rithmui/autosize-textarea.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea.tsx"
+          "target": "components/rithmui/autosize-textarea.tsx"
         }
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/autosize-textarea"
+      "docsUrl": "https://rithmui.com/docs/autosize-textarea"
     },
     {
       "name": "autosize-textarea-demo",
@@ -407,14 +407,14 @@
         {
           "path": "app/registry/autosize-textarea/autosize-textarea-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-demo.tsx"
+          "target": "components/rithmui/autosize-textarea-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/autosize-textarea-dependecies"
+        "@rithmui/autosize-textarea-dependecies"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/autosize-textarea"
+      "docsUrl": "https://rithmui.com/docs/autosize-textarea"
     },
     {
       "name": "autosize-textarea-max-height",
@@ -425,11 +425,11 @@
         {
           "path": "app/registry/autosize-textarea/usage/autosize-textarea-with-max-height.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-with-max-height.tsx"
+          "target": "components/rithmui/autosize-textarea-with-max-height.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/autosize-textarea-dependecies"
+        "@rithmui/autosize-textarea-dependecies"
       ]
     },
     {
@@ -441,11 +441,11 @@
         {
           "path": "app/registry/autosize-textarea/usage/autosize-textarea-with-ref.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-with-ref.tsx"
+          "target": "components/rithmui/autosize-textarea-with-ref.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/autosize-textarea-dependecies"
+        "@rithmui/autosize-textarea-dependecies"
       ]
     },
     {
@@ -457,11 +457,11 @@
         {
           "path": "app/registry/autosize-textarea/usage/autosize-textarea-form.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-form.tsx"
+          "target": "components/rithmui/autosize-textarea-form.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/autosize-textarea-dependecies"
+        "@rithmui/autosize-textarea-dependecies"
       ]
     },
     {
@@ -473,11 +473,11 @@
         {
           "path": "app/registry/autosize-textarea/usage/autosize-textarea-customize.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-customize.tsx"
+          "target": "components/rithmui/autosize-textarea-customize.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/autosize-textarea-dependecies"
+        "@rithmui/autosize-textarea-dependecies"
       ]
     },
     {
@@ -489,14 +489,14 @@
         {
           "path": "app/registry/datetime-picker/datetime-picker-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/autosize-textarea-customize.tsx"
+          "target": "components/rithmui/autosize-textarea-customize.tsx"
         }
       ],
       "registryDependencies": [
         "datetime-picker"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/datetime-picker"
+      "docsUrl": "https://rithmui.com/docs/datetime-picker"
     },
     {
       "name": "datetime-picker-hour-cycle",
@@ -507,7 +507,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-hour-cycle.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/datetime-picker-form.tsx"
+          "target": "components/rithmui/datetime-picker-form.tsx"
         }
       ],
       "registryDependencies": [
@@ -523,7 +523,7 @@
         {
           "path": "app/registry/datetime-picker/usage/date-picker-and-time-input.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-and-time-input.tsx"
+          "target": "components/rithmui/date-picker-and-time-input.tsx"
         }
       ],
       "registryDependencies": [
@@ -539,7 +539,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-year-range.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/datetime-picker-year-range.tsx"
+          "target": "components/rithmui/datetime-picker-year-range.tsx"
         }
       ],
       "registryDependencies": [
@@ -555,7 +555,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-locale.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/datetime-picker-locale.tsx"
+          "target": "components/rithmui/datetime-picker-locale.tsx"
         }
       ],
       "registryDependencies": [
@@ -571,7 +571,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-calendar-settings.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/datetime-picker-calendar-settings.tsx"
+          "target": "components/rithmui/datetime-picker-calendar-settings.tsx"
         }
       ],
       "registryDependencies": [
@@ -587,7 +587,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-display-format.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/datetime-picker-display-format.tsx"
+          "target": "components/rithmui/datetime-picker-display-format.tsx"
         }
       ],
       "registryDependencies": [
@@ -603,7 +603,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-placeholder.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-placeholder.tsx"
+          "target": "components/rithmui/date-picker-placeholder.tsx"
         }
       ],
       "registryDependencies": [
@@ -619,7 +619,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-granularity.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-granularity.tsx"
+          "target": "components/rithmui/date-picker-granularity.tsx"
         }
       ],
       "registryDependencies": [
@@ -635,7 +635,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-disabled.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-disabled.tsx"
+          "target": "components/rithmui/date-picker-disabled.tsx"
         }
       ],
       "registryDependencies": [
@@ -651,7 +651,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-ref.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-ref.tsx"
+          "target": "components/rithmui/date-picker-ref.tsx"
         }
       ],
       "registryDependencies": [
@@ -667,7 +667,7 @@
         {
           "path": "app/registry/datetime-picker/usage/datetime-picker-form.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/date-picker-form.tsx"
+          "target": "components/rithmui/date-picker-form.tsx"
         }
       ],
       "registryDependencies": [
@@ -681,16 +681,16 @@
       "description": "component for the Dual Range Slider Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/dual-range-slider-dependecies.tsx",
+          "path": "app/registry/rithmui/dual-range-slider-dependecies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dual-range-slider-dependecies.tsx"
+          "target": "components/rithmui/dual-range-slider-dependecies.tsx"
         }
       ],
       "dependencies": [
         "@radix-ui/react-slider"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/dual-range-slider"
+      "docsUrl": "https://rithmui.com/docs/dual-range-slider"
     },
     {
       "name": "dual-range-slider-demo",
@@ -701,14 +701,14 @@
         {
           "path": "app/registry/dual-range-slider/dual-range-slider-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dual-range-slider-demo.tsx"
+          "target": "components/rithmui/dual-range-slider-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/dual-range-slider-dependecies"
+        "@rithmui/dual-range-slider-dependecies"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/dual-range-slider"
+      "docsUrl": "https://rithmui.com/docs/dual-range-slider"
     },
     {
       "name": "dual-range-slider-custom-label",
@@ -719,11 +719,11 @@
         {
           "path": "app/registry/dual-range-slider/usage/dual-range-slider-custom-label.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dual-range-slider-custom-label.tsx"
+          "target": "components/rithmui/dual-range-slider-custom-label.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/dual-range-slider-dependecies"
+        "@rithmui/dual-range-slider-dependecies"
       ]
     },
     {
@@ -735,11 +735,11 @@
         {
           "path": "app/registry/dual-range-slider/usage/dual-range-slider-label-position.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dual-range-slider-label-position.tsx"
+          "target": "components/rithmui/dual-range-slider-label-position.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/dual-range-slider-dependecies"
+        "@rithmui/dual-range-slider-dependecies"
       ]
     },
     {
@@ -751,11 +751,11 @@
         {
           "path": "app/registry/dual-range-slider/usage/dual-range-slider-single.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dual-range-slider-single.tsx"
+          "target": "components/rithmui/dual-range-slider-single.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/dual-range-slider-dependecies"
+        "@rithmui/dual-range-slider-dependecies"
       ]
     },
     {
@@ -767,7 +767,7 @@
         {
           "path": "app/registry/badge/badgedemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/event_badge-3d.tsx"
+          "target": "components/rithmui/event_badge-3d.tsx"
         }
       ],
       "dependencies": [
@@ -787,7 +787,7 @@
         {
           "path": "app/registry/eventcalendar/demoevent.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/event-calendar"
+          "target": "components/rithmui/event-calendar"
         }
       ],
       "dependencies": [
@@ -811,7 +811,7 @@
         {
           "path": "app/registry/feedback/feedbackdemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/feedback-demo.tsx"
+          "target": "components/rithmui/feedback-demo.tsx"
         }
       ],
       "dependencies": [
@@ -820,7 +820,7 @@
         "tailwind-merge"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/feedback"
+      "docsUrl": "https://rithmui.com/docs/feedback"
     },
     {
       "name": "floating-label-input",
@@ -829,9 +829,9 @@
       "description": "component for the Floating Label Input",
       "files": [
         {
-          "path": "app/registry/spectrumui/floating-label-input.tsx",
+          "path": "app/registry/rithmui/floating-label-input.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floating-label-input.tsx"
+          "target": "components/rithmui/floating-label-input.tsx"
         }
       ],
       "registryDependencies": [
@@ -839,7 +839,7 @@
         "label"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/floating-label-input"
+      "docsUrl": "https://rithmui.com/docs/floating-label-input"
     },
     {
       "name": "floating-label-input-demo",
@@ -850,14 +850,14 @@
         {
           "path": "app/registry/floating-label-input/floating-label-input-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floating-label-input-demo.tsx"
+          "target": "components/rithmui/floating-label-input-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/floating-label-input"
+        "@rithmui/floating-label-input"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/floating-label-input"
+      "docsUrl": "https://rithmui.com/docs/floating-label-input"
     },
     {
       "name": "floating-label-customize",
@@ -868,11 +868,11 @@
         {
           "path": "app/registry/floating-label-input/usage/floating-label-customize.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floating-label-customize.tsx"
+          "target": "components/rithmui/floating-label-customize.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/floating-label-input"
+        "@rithmui/floating-label-input"
       ]
     },
     {
@@ -884,11 +884,11 @@
         {
           "path": "app/registry/floating-label-input/usage/floating-label-input-form.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floating-label-input-form.tsx"
+          "target": "components/rithmui/floating-label-input-form.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/floating-label-input"
+        "@rithmui/floating-label-input"
       ]
     },
     {
@@ -900,7 +900,7 @@
         {
           "path": "app/registry/footer/footerdemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/footer-demo.tsx"
+          "target": "components/rithmui/footer-demo.tsx"
         }
       ],
       "dependencies": [
@@ -924,7 +924,7 @@
         {
           "path": "app/registry/footer/usage/animatefooter.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animate-footer.tsx"
+          "target": "components/rithmui/animate-footer.tsx"
         }
       ],
       "dependencies": [
@@ -943,9 +943,9 @@
       "description": "A selection-anchored AI edit: suggestion toolbar, word diff, accept or reject.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/inline-edit.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/inline-edit.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/inline-edit.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/inline-edit.tsx"
         }
       ],
       "dependencies": [
@@ -965,9 +965,9 @@
       "description": "Metric cards with spark bars, trend deltas, and an AI note.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/insight-cards.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/insight-cards.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/insight-cards.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/insight-cards.tsx"
         }
       ],
       "dependencies": [
@@ -987,9 +987,9 @@
       "description": "A pixel-grid loader with a shimmering label and live elapsed timer.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/loading-state.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/loading-state.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/loading-state.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/loading-state.tsx"
         }
       ],
       "category": "AI Assistants",
@@ -1008,9 +1008,9 @@
       "description": "What the assistant remembers, as removable chips.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/memory-chips.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/memory-chips.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/memory-chips.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/memory-chips.tsx"
         }
       ],
       "dependencies": [
@@ -1030,14 +1030,14 @@
       "description": "Per-message controls — copy, regenerate, and thumb feedback.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/message-actions.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/message-actions.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/message-actions.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/message-actions.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -1057,14 +1057,14 @@
       "description": "A model picker as a radio list or segmented control, with badges and disabled states.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/model-selector.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/model-selector.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/model-selector.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/model-selector.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "category": "AI Assistants",
@@ -1081,14 +1081,14 @@
       "description": "A prompt input with attachments, a model picker, and a stop state.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/prompt-composer.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/prompt-composer.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/prompt-composer.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/prompt-composer.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -1108,9 +1108,9 @@
       "description": "A message-quota banner with a live reset countdown.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/quota-banner.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/quota-banner.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/quota-banner.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/quota-banner.tsx"
         }
       ],
       "dependencies": [
@@ -1130,14 +1130,14 @@
       "description": "An expandable chain-of-thought trace with a live thinking timer.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/reasoning-trace.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/reasoning-trace.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/reasoning-trace.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/reasoning-trace.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -1161,7 +1161,7 @@
         {
           "path": "app/registry/footer/usage/stackedfooter.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/stacked-footer.tsx"
+          "target": "components/rithmui/stacked-footer.tsx"
         }
       ],
       "dependencies": [
@@ -1183,7 +1183,7 @@
         {
           "path": "app/registry/footer/usage/particlefooter.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floatingparticle-footer.tsx"
+          "target": "components/rithmui/floatingparticle-footer.tsx"
         }
       ],
       "dependencies": [
@@ -1204,12 +1204,12 @@
         {
           "path": "app/registry/footer/usage/footer.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/footer.tsx"
+          "target": "components/rithmui/footer.tsx"
         }
       ],
       "registryDependencies": [
         "button",
-        "@spectrumui/icon-dependencies"
+        "@rithmui/icon-dependencies"
       ]
     },
     {
@@ -1234,7 +1234,7 @@
         {
           "path": "app/registry/statuscode/demostatus.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/http-status-code.tsx"
+          "target": "components/rithmui/http-status-code.tsx"
         }
       ],
       "dependencies": [
@@ -1255,7 +1255,7 @@
         {
           "path": "app/registry/imagepreview/image-preview-dependecies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/image-preview-dependecies.tsx"
+          "target": "components/rithmui/image-preview-dependecies.tsx"
         }
       ],
       "dependencies": [
@@ -1263,7 +1263,7 @@
         "@radix-ui/react-dialog"
       ],
       "category": "Media",
-      "docsUrl": "https://ui.spectrumhq.in/docs/imagepreview"
+      "docsUrl": "https://rithmui.com/docs/imagepreview"
     },
     {
       "name": "image-preview",
@@ -1274,14 +1274,14 @@
         {
           "path": "app/registry/imagepreview/usages/useone.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/image-preview.tsx"
+          "target": "components/rithmui/image-preview.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/image-preview-dependencies"
+        "@rithmui/image-preview-dependencies"
       ],
       "category": "Media",
-      "docsUrl": "https://ui.spectrumhq.in/docs/imagepreview"
+      "docsUrl": "https://rithmui.com/docs/imagepreview"
     },
     {
       "name": "infinite-scroll-dependecies",
@@ -1290,13 +1290,13 @@
       "description": "component for the Infinite Scroll Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/infinite-scroll-dependecies.tsx",
+          "path": "app/registry/rithmui/infinite-scroll-dependecies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/infinite-scroll-dependecies.tsx"
+          "target": "components/rithmui/infinite-scroll-dependecies.tsx"
         }
       ],
       "category": "Data",
-      "docsUrl": "https://ui.spectrumhq.in/docs/infinite-scroll"
+      "docsUrl": "https://rithmui.com/docs/infinite-scroll"
     },
     {
       "name": "infinite-scroll-demo",
@@ -1307,14 +1307,14 @@
         {
           "path": "app/registry/infinite-scroll/infinite-scroll-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/infinite-scroll.tsx"
+          "target": "components/rithmui/infinite-scroll.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/infinite-scroll-dependecies"
+        "@rithmui/infinite-scroll-dependecies"
       ],
       "category": "Data",
-      "docsUrl": "https://ui.spectrumhq.in/docs/infinite-scroll"
+      "docsUrl": "https://rithmui.com/docs/infinite-scroll"
     },
     {
       "name": "loading-button-dependencies",
@@ -1323,9 +1323,9 @@
       "description": "component for the Loading Button Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/loading-button-dependencies.tsx",
+          "path": "app/registry/rithmui/loading-button-dependencies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/loading-button-dependencies.tsx"
+          "target": "components/rithmui/loading-button-dependencies.tsx"
         }
       ],
       "dependencies": [
@@ -1334,7 +1334,7 @@
         "lucide-react"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/loading-button"
+      "docsUrl": "https://rithmui.com/docs/loading-button"
     },
     {
       "name": "loading-button-demo",
@@ -1345,14 +1345,14 @@
         {
           "path": "app/registry/loading-button/loading-button-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/loading-button-demo.tsx"
+          "target": "components/rithmui/loading-button-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/loading-button-dependencies"
+        "@rithmui/loading-button-dependencies"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/loading-button"
+      "docsUrl": "https://rithmui.com/docs/loading-button"
     },
     {
       "name": "loading-button-usage",
@@ -1363,14 +1363,14 @@
         {
           "path": "app/registry/loading-button/loading-button-usage.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/loading-button-usage.tsx"
+          "target": "components/rithmui/loading-button-usage.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/loading-button-dependencies"
+        "@rithmui/loading-button-dependencies"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/loading-button"
+      "docsUrl": "https://rithmui.com/docs/loading-button"
     },
     {
       "name": "loading-button-as-child",
@@ -1381,14 +1381,14 @@
         {
           "path": "app/registry/loading-button/loading-button-as-child.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/loading-button-as-child.tsx"
+          "target": "components/rithmui/loading-button-as-child.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/loading-button-dependencies"
+        "@rithmui/loading-button-dependencies"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/loading-button"
+      "docsUrl": "https://rithmui.com/docs/loading-button"
     },
     {
       "name": "multiple-selector-dependencies",
@@ -1397,9 +1397,9 @@
       "description": "component for the Multiple Selector Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/multiple-selector-dependencies.tsx",
+          "path": "app/registry/rithmui/multiple-selector-dependencies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-dependencies.tsx"
+          "target": "components/rithmui/multiple-selector-dependencies.tsx"
         }
       ],
       "dependencies": [
@@ -1411,7 +1411,7 @@
         "command"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/multiple-selector"
+      "docsUrl": "https://rithmui.com/docs/multiple-selector"
     },
     {
       "name": "inline-code",
@@ -1420,9 +1420,9 @@
       "description": "component for the Inline Code",
       "files": [
         {
-          "path": "app/registry/spectrumui/inline-code.tsx",
+          "path": "app/registry/rithmui/inline-code.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/inline-code.tsx"
+          "target": "components/rithmui/inline-code.tsx"
         }
       ]
     },
@@ -1435,7 +1435,7 @@
         {
           "path": "app/registry/input-model/inputmodel.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/inputmodel.tsx"
+          "target": "components/rithmui/inputmodel.tsx"
         }
       ],
       "registryDependencies": [
@@ -1448,7 +1448,7 @@
         "badge"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/input-model"
+      "docsUrl": "https://rithmui.com/docs/input-model"
     },
     {
       "name": "multiple-selector-demo",
@@ -1459,14 +1459,14 @@
         {
           "path": "app/registry/multiple-selector/multiple-selector-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-demo.tsx"
+          "target": "components/rithmui/multiple-selector-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/multiple-selector"
+      "docsUrl": "https://rithmui.com/docs/multiple-selector"
     },
     {
       "name": "multiple-selector-with-disable-options",
@@ -1477,11 +1477,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-disable-options.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-disable-options.tsx"
+          "target": "components/rithmui/multiple-selector-with-disable-options.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1493,11 +1493,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-disabled.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-disabled.tsx"
+          "target": "components/rithmui/multiple-selector-disabled.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1509,11 +1509,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-no-default-select.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-no-default-select.tsx"
+          "target": "components/rithmui/multiple-selector-no-default-select.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1525,11 +1525,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-controlled.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-controlled.tsx"
+          "target": "components/rithmui/multiple-selector-controlled.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1541,11 +1541,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-hide-clear-all.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-hide-clear-all.tsx"
+          "target": "components/rithmui/multiple-selector-hide-clear-all.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1557,11 +1557,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-creatable.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-creatable.tsx"
+          "target": "components/rithmui/multiple-selector-creatable.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1573,12 +1573,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-async-search.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-async-search.tsx"
+          "target": "components/rithmui/multiple-selector-with-async-search.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/inline-code"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/inline-code"
       ]
     },
     {
@@ -1590,12 +1590,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-async-search-and-onfocus.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-async-search-and-onfocus.tsx"
+          "target": "components/rithmui/multiple-selector-with-async-search-and-onfocus.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/inline-code"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/inline-code"
       ]
     },
     {
@@ -1607,12 +1607,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-async-search-and-creatable.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-async-search-and-creatable.tsx"
+          "target": "components/rithmui/multiple-selector-with-async-search-and-creatable.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/inline-code"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/inline-code"
       ]
     },
     {
@@ -1624,12 +1624,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-async-search-and-creatable-and-group.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-async-search-and-creatable-and-group.tsx"
+          "target": "components/rithmui/multiple-selector-with-async-search-and-creatable-and-group.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/inline-code"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/inline-code"
       ]
     },
     {
@@ -1639,9 +1639,9 @@
       "description": "component for the Heading With Anchor",
       "files": [
         {
-          "path": "app/registry/spectrumui/heading-with-anchor.tsx",
+          "path": "app/registry/rithmui/heading-with-anchor.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/heading-with-anchor.tsx"
+          "target": "components/rithmui/heading-with-anchor.tsx"
         }
       ],
       "dependencies": [
@@ -1658,12 +1658,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-sync-search.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-sync-search.tsx"
+          "target": "components/rithmui/multiple-selector-with-sync-search.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/heading-with-anchor"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/heading-with-anchor"
       ]
     },
     {
@@ -1675,12 +1675,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-manually-controlled.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-manually-controlled.tsx"
+          "target": "components/rithmui/multiple-selector-manually-controlled.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/loading-button-dependencies"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/loading-button-dependencies"
       ]
     },
     {
@@ -1692,11 +1692,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-group.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-group.tsx"
+          "target": "components/rithmui/multiple-selector-with-group.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1706,9 +1706,9 @@
       "description": "A staged progress tracker for long-running AI jobs.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/status-tracker.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/status-tracker.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/status-tracker.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/status-tracker.tsx"
         }
       ],
       "dependencies": [
@@ -1728,14 +1728,14 @@
       "description": "A streamed answer with inline citations, sources, and follow-ups.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/streaming-text.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/streaming-text.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/streaming-text.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/streaming-text.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "dependencies": [
@@ -1755,9 +1755,9 @@
       "description": "An inline AI suggestion with apply and dismiss.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/suggestion-banner.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/suggestion-banner.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/suggestion-banner.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/suggestion-banner.tsx"
         }
       ],
       "dependencies": [
@@ -1777,9 +1777,9 @@
       "description": "Live agent task rows with status badges and expandable notes.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/task-rows.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/task-rows.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/task-rows.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/task-rows.tsx"
         }
       ],
       "dependencies": [
@@ -1799,9 +1799,9 @@
       "description": "A minimal typing indicator — bouncing dots or a sliding bar.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/thinking-dots.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/thinking-dots.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/thinking-dots.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/thinking-dots.tsx"
         }
       ],
       "category": "AI Assistants",
@@ -1818,14 +1818,14 @@
       "description": "Compact tool-call chips that expand into their arguments and result.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/tool-chips.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/tool-chips.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/tool-chips.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/tool-chips.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "category": "AI Assistants",
@@ -1842,14 +1842,14 @@
       "description": "A context-window meter with token counts and estimated cost.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/usage-meter.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/usage-meter.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/usage-meter.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/usage-meter.tsx"
         },
         {
-          "path": "components/spectrumui/blocks/ai-assistants/types.ts",
+          "path": "components/rithmui/blocks/ai-assistants/types.ts",
           "type": "registry:file",
-          "target": "components/spectrumui/blocks/ai-assistants/types.ts"
+          "target": "components/rithmui/blocks/ai-assistants/types.ts"
         }
       ],
       "category": "AI Assistants",
@@ -1866,9 +1866,9 @@
       "description": "component for the Use Toast",
       "files": [
         {
-          "path": "app/registry/spectrumui/use-toast.ts",
+          "path": "app/registry/rithmui/use-toast.ts",
           "type": "registry:component",
-          "target": "components/spectrumui/use-toast.ts"
+          "target": "components/rithmui/use-toast.ts"
         }
       ]
     },
@@ -1881,12 +1881,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-max-selected.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-max-selected.tsx"
+          "target": "components/rithmui/multiple-selector-max-selected.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/use-toast"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/use-toast"
       ]
     },
     {
@@ -1898,11 +1898,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-max-text-length.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-max-text-length.tsx"
+          "target": "components/rithmui/multiple-selector-max-text-length.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1914,11 +1914,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-no-placeholder-when-selected.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-no-placeholder-when-selected.tsx"
+          "target": "components/rithmui/multiple-selector-no-placeholder-when-selected.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1930,11 +1930,11 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-fixed-option.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-fixed-option.tsx"
+          "target": "components/rithmui/multiple-selector-fixed-option.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -1946,13 +1946,13 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-ref.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-ref.tsx"
+          "target": "components/rithmui/multiple-selector-ref.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/use-toast",
-        "@spectrumui/loading-button-dependencies"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/use-toast",
+        "@rithmui/loading-button-dependencies"
       ]
     },
     {
@@ -1964,12 +1964,12 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-commandprops.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-commandprops.tsx"
+          "target": "components/rithmui/multiple-selector-commandprops.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/multiple-selector-dependencies",
-        "@spectrumui/inline-code"
+        "@rithmui/multiple-selector-dependencies",
+        "@rithmui/inline-code"
       ]
     },
     {
@@ -1981,7 +1981,7 @@
         {
           "path": "app/registry/multiple-selector/usage/multiple-selector-with-form.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multiple-selector-with-form.tsx"
+          "target": "components/rithmui/multiple-selector-with-form.tsx"
         }
       ],
       "dependencies": [
@@ -1991,9 +1991,9 @@
       ],
       "registryDependencies": [
         "form",
-        "@spectrumui/use-toast",
-        "@spectrumui/loading-button-dependencies",
-        "@spectrumui/multiple-selector-dependencies"
+        "@rithmui/use-toast",
+        "@rithmui/loading-button-dependencies",
+        "@rithmui/multiple-selector-dependencies"
       ]
     },
     {
@@ -2005,7 +2005,7 @@
         {
           "path": "app/registry/multistepform/multistepdemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/multistepformdemo.tsx"
+          "target": "components/rithmui/multistepformdemo.tsx"
         }
       ],
       "dependencies": [
@@ -2032,7 +2032,7 @@
         {
           "path": "app/registry/navbar/navbardemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/navbar.tsx"
+          "target": "components/rithmui/navbar.tsx"
         }
       ],
       "dependencies": [
@@ -2053,7 +2053,7 @@
         {
           "path": "app/registry/navbar/usage/circular.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/circularnavbar.tsx"
+          "target": "components/rithmui/circularnavbar.tsx"
         }
       ],
       "dependencies": [
@@ -2073,7 +2073,7 @@
         {
           "path": "app/registry/navbar/usage/tabnavbar.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/tabnavbar.tsx"
+          "target": "components/rithmui/tabnavbar.tsx"
         }
       ],
       "dependencies": [
@@ -2095,7 +2095,7 @@
         {
           "path": "app/registry/navbar/usage/floatingnavbar.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/floatingnavbar.tsx"
+          "target": "components/rithmui/floatingnavbar.tsx"
         }
       ],
       "dependencies": [
@@ -2115,7 +2115,7 @@
         {
           "path": "app/registry/navbar/usage/sidenav.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/sidebarnavbar.tsx"
+          "target": "components/rithmui/sidebarnavbar.tsx"
         }
       ],
       "dependencies": [
@@ -2136,7 +2136,7 @@
         {
           "path": "app/registry/login-card/logincard.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/logincard.tsx"
+          "target": "components/rithmui/logincard.tsx"
         }
       ],
       "dependencies": [
@@ -2154,7 +2154,7 @@
         {
           "path": "app/registry/kanban/kanbanboard.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/kanbanboard.tsx"
+          "target": "components/rithmui/kanbanboard.tsx"
         }
       ],
       "dependencies": [
@@ -2180,7 +2180,7 @@
         {
           "path": "app/registry/profile/profiledemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/profiledropdown.tsx"
+          "target": "components/rithmui/profiledropdown.tsx"
         }
       ],
       "dependencies": [
@@ -2198,7 +2198,7 @@
         {
           "path": "app/registry/product-card/product-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/product-card.tsx"
+          "target": "components/rithmui/product-card.tsx"
         }
       ],
       "dependencies": [
@@ -2218,16 +2218,16 @@
       "description": "component for the Progress With Value Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/progress-with-value-dependencies.tsx",
+          "path": "app/registry/rithmui/progress-with-value-dependencies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/progress-with-value-dependencies.tsx"
+          "target": "components/rithmui/progress-with-value-dependencies.tsx"
         }
       ],
       "dependencies": [
         "@radix-ui/react-progress"
       ],
       "category": "Progress",
-      "docsUrl": "https://ui.spectrumhq.in/docs/progress-with-value"
+      "docsUrl": "https://rithmui.com/docs/progress-with-value"
     },
     {
       "name": "progress-with-value",
@@ -2238,14 +2238,14 @@
         {
           "path": "app/registry/progress-with-value/progress-with-value-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/progresswithvalue.tsx"
+          "target": "components/rithmui/progresswithvalue.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/progress-with-value-dependencies"
+        "@rithmui/progress-with-value-dependencies"
       ],
       "category": "Progress",
-      "docsUrl": "https://ui.spectrumhq.in/docs/progress-with-value"
+      "docsUrl": "https://rithmui.com/docs/progress-with-value"
     },
     {
       "name": "value-position",
@@ -2256,11 +2256,11 @@
         {
           "path": "app/registry/progress-with-value/usage/progress-with-value-position.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/progress-with-value-position.tsx"
+          "target": "components/rithmui/progress-with-value-position.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/progress-with-value-dependencies"
+        "@rithmui/progress-with-value-dependencies"
       ]
     },
     {
@@ -2272,11 +2272,11 @@
         {
           "path": "app/registry/progress-with-value/usage/progress-with-value-label.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/progress-with-value-label.tsx"
+          "target": "components/rithmui/progress-with-value-label.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/progress-with-value-dependencies"
+        "@rithmui/progress-with-value-dependencies"
       ]
     },
     {
@@ -2286,9 +2286,9 @@
       "description": "component for the Responsive Modal Dependencies",
       "files": [
         {
-          "path": "app/registry/spectrumui/responsive-modal-dependencies.tsx",
+          "path": "app/registry/rithmui/responsive-modal-dependencies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/responsive-modal-dependencies.tsx"
+          "target": "components/rithmui/responsive-modal-dependencies.tsx"
         }
       ],
       "dependencies": [
@@ -2306,11 +2306,11 @@
         {
           "path": "app/registry/responsive-modal/responsive-modal-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/responsive-modal-demo.tsx"
+          "target": "components/rithmui/responsive-modal-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/responsive-modal-dependencies",
+        "@rithmui/responsive-modal-dependencies",
         "button"
       ]
     },
@@ -2323,11 +2323,11 @@
         {
           "path": "app/registry/responsive-modal/usage/responsive-modal-side.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/responsive-modal-side.tsx"
+          "target": "components/rithmui/responsive-modal-side.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/responsive-modal-dependencies",
+        "@rithmui/responsive-modal-dependencies",
         "button"
       ]
     },
@@ -2340,14 +2340,14 @@
         {
           "path": "app/registry/accordion/accordion-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/accordion-demo.tsx"
+          "target": "components/rithmui/accordion-demo.tsx"
         }
       ],
       "registryDependencies": [
         "accordion"
       ],
       "category": "Disclosure",
-      "docsUrl": "https://ui.spectrumhq.in/docs/accordion"
+      "docsUrl": "https://rithmui.com/docs/accordion"
     },
     {
       "name": "skeleton",
@@ -2358,7 +2358,7 @@
         {
           "path": "app/registry/skeleton/skeleton-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/skeleton-demo.tsx"
+          "target": "components/rithmui/skeleton-demo.tsx"
         }
       ],
       "registryDependencies": [
@@ -2374,7 +2374,7 @@
         {
           "path": "app/registry/skeleton/usage/skeleton-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/skeleton-card.tsx"
+          "target": "components/rithmui/skeleton-card.tsx"
         }
       ],
       "registryDependencies": [
@@ -2388,9 +2388,9 @@
       "description": "component for the Skeleton Card",
       "files": [
         {
-          "path": "app/registry/spectrumui/spinner-dependencies.tsx",
+          "path": "app/registry/rithmui/spinner-dependencies.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spinner-dependencies.tsx"
+          "target": "components/rithmui/spinner-dependencies.tsx"
         }
       ],
       "dependencies": [
@@ -2398,7 +2398,7 @@
         "lucide-react"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/spinner"
+      "docsUrl": "https://rithmui.com/docs/spinner"
     },
     {
       "name": "spinner-demo",
@@ -2409,14 +2409,14 @@
         {
           "path": "app/registry/spinner/spinner-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spinner-demo.tsx"
+          "target": "components/rithmui/spinner-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/spinner-dependencies"
+        "@rithmui/spinner-dependencies"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/spinner"
+      "docsUrl": "https://rithmui.com/docs/spinner"
     },
     {
       "name": "spinner-size",
@@ -2427,11 +2427,11 @@
         {
           "path": "app/registry/spinner/usage/spinner-size.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spinner-size.tsx"
+          "target": "components/rithmui/spinner-size.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/spinner-dependencies"
+        "@rithmui/spinner-dependencies"
       ]
     },
     {
@@ -2443,11 +2443,11 @@
         {
           "path": "app/registry/spinner/usage/spinner-with-text.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spinner-with-text.tsx"
+          "target": "components/rithmui/spinner-with-text.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/spinner-dependencies"
+        "@rithmui/spinner-dependencies"
       ]
     },
     {
@@ -2459,11 +2459,11 @@
         {
           "path": "app/registry/spinner/usage/spinner-toggle.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spinner-toggle.tsx"
+          "target": "components/rithmui/spinner-toggle.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/spinner-dependencies"
+        "@rithmui/spinner-dependencies"
       ]
     },
     {
@@ -2475,14 +2475,14 @@
         {
           "path": "app/registry/status-badge/statusdemo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/statusdemo.tsx"
+          "target": "components/rithmui/statusdemo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/status-badge"
+      "docsUrl": "https://rithmui.com/docs/status-badge"
     },
     {
       "name": "testimonials",
@@ -2493,7 +2493,7 @@
         {
           "path": "app/registry/testimonials/testimonials.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/testimonials.tsx"
+          "target": "components/rithmui/testimonials.tsx"
         }
       ],
       "dependencies": [
@@ -2513,7 +2513,7 @@
         {
           "path": "app/registry/animatedtext/components/hologram-text.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/hologram-text.tsx"
+          "target": "components/rithmui/hologram-text.tsx"
         }
       ],
       "dependencies": [
@@ -2530,12 +2530,12 @@
         {
           "path": "app/registry/animatedtext/components/orbital-text.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/orbital-text.tsx"
+          "target": "components/rithmui/orbital-text.tsx"
         },
         {
           "path": "app/registry/animatedtext/components/orbital-char.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/orbital-char.tsx"
+          "target": "components/rithmui/orbital-char.tsx"
         }
       ],
       "dependencies": [
@@ -2551,7 +2551,7 @@
         {
           "path": "app/registry/animatedtext/components/ink-morph.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/ink-morph.tsx"
+          "target": "components/rithmui/ink-morph.tsx"
         }
       ],
       "dependencies": [
@@ -2567,7 +2567,7 @@
         {
           "path": "app/registry/animateddrawer/demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animateddrawer.tsx"
+          "target": "components/rithmui/animateddrawer.tsx"
         }
       ],
       "dependencies": [
@@ -2577,7 +2577,7 @@
         "react-use-measure"
       ],
       "category": "Overlay",
-      "docsUrl": "https://ui.spectrumhq.in/docs/animateddrawer",
+      "docsUrl": "https://rithmui.com/docs/animateddrawer",
       "new": true
     },
     {
@@ -2589,7 +2589,7 @@
         {
           "path": "app/registry/command-palette/command-palette.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/command-palette.tsx"
+          "target": "components/rithmui/command-palette.tsx"
         }
       ],
       "dependencies": [
@@ -2607,11 +2607,11 @@
         {
           "path": "app/registry/command-palette/command-palette-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/command-palette-demo.tsx"
+          "target": "components/rithmui/command-palette-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/command-palette",
+        "@rithmui/command-palette",
         "button"
       ]
     },
@@ -2624,14 +2624,14 @@
         {
           "path": "app/registry/scratch-card/scratch-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/scratch-card.tsx"
+          "target": "components/rithmui/scratch-card.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Media",
-      "docsUrl": "https://ui.spectrumhq.in/docs/scratch-card",
+      "docsUrl": "https://rithmui.com/docs/scratch-card",
       "new": true
     },
     {
@@ -2643,17 +2643,17 @@
         {
           "path": "app/registry/scratch-card/scratch-card-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/scratch-card-demo.tsx"
+          "target": "components/rithmui/scratch-card-demo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/scratch-card"
+        "@rithmui/scratch-card"
       ],
       "category": "Media",
-      "docsUrl": "https://ui.spectrumhq.in/docs/scratch-card",
+      "docsUrl": "https://rithmui.com/docs/scratch-card",
       "new": true
     },
     {
@@ -2663,9 +2663,9 @@
       "description": "A premium macOS-Style Animated Dock Menu component",
       "files": [
         {
-          "path": "app/registry/spectrumui/dock.tsx",
+          "path": "app/registry/rithmui/dock.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dock.tsx"
+          "target": "components/rithmui/dock.tsx"
         }
       ],
       "dependencies": [
@@ -2682,14 +2682,14 @@
         {
           "path": "app/registry/dock/dock-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dock-demo.tsx"
+          "target": "components/rithmui/dock-demo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/dock"
+        "@rithmui/dock"
       ]
     },
     {
@@ -2701,14 +2701,14 @@
         {
           "path": "app/registry/dock/usage/dock-glass.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/dock-glass.tsx"
+          "target": "components/rithmui/dock-glass.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/dock"
+        "@rithmui/dock"
       ]
     },
     {
@@ -2720,22 +2720,22 @@
         {
           "path": "app/registry/bento-grid/bento-grid.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/bento-grid.tsx"
+          "target": "components/rithmui/bento-grid.tsx"
         },
         {
           "path": "app/registry/bento-grid/bento-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/bento-card.tsx"
+          "target": "components/rithmui/bento-card.tsx"
         },
         {
           "path": "app/registry/bento-grid/spotlight.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/spotlight.tsx"
+          "target": "components/rithmui/spotlight.tsx"
         },
         {
           "path": "app/registry/bento-grid/border-beam.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/border-beam.tsx"
+          "target": "components/rithmui/border-beam.tsx"
         }
       ],
       "dependencies": [
@@ -2752,14 +2752,14 @@
         {
           "path": "app/registry/like-button/like-button.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/like-button.tsx"
+          "target": "components/rithmui/like-button.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/like-button",
+      "docsUrl": "https://rithmui.com/docs/like-button",
       "new": true
     },
     {
@@ -2771,14 +2771,14 @@
         {
           "path": "app/registry/like-button/like-button-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/like-button-demo.tsx"
+          "target": "components/rithmui/like-button-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/like-button"
+        "@rithmui/like-button"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/like-button",
+      "docsUrl": "https://rithmui.com/docs/like-button",
       "new": true
     },
     {
@@ -2790,14 +2790,14 @@
         {
           "path": "app/registry/tilt-card/tilt-card.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/tilt-card.tsx"
+          "target": "components/rithmui/tilt-card.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Card",
-      "docsUrl": "https://ui.spectrumhq.in/docs/tilt-card",
+      "docsUrl": "https://rithmui.com/docs/tilt-card",
       "new": true
     },
     {
@@ -2809,14 +2809,14 @@
         {
           "path": "app/registry/tilt-card/tilt-card-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/tilt-card-demo.tsx"
+          "target": "components/rithmui/tilt-card-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/tilt-card"
+        "@rithmui/tilt-card"
       ],
       "category": "Card",
-      "docsUrl": "https://ui.spectrumhq.in/docs/tilt-card",
+      "docsUrl": "https://rithmui.com/docs/tilt-card",
       "new": true
     },
     {
@@ -2828,7 +2828,7 @@
         {
           "path": "app/registry/hold-to-confirm/hold-to-confirm.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/hold-to-confirm.tsx"
+          "target": "components/rithmui/hold-to-confirm.tsx"
         }
       ],
       "dependencies": [
@@ -2836,7 +2836,7 @@
         "lucide-react"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/hold-to-confirm",
+      "docsUrl": "https://rithmui.com/docs/hold-to-confirm",
       "new": true
     },
     {
@@ -2848,14 +2848,14 @@
         {
           "path": "app/registry/hold-to-confirm/hold-to-confirm-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/hold-to-confirm-demo.tsx"
+          "target": "components/rithmui/hold-to-confirm-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/hold-to-confirm"
+        "@rithmui/hold-to-confirm"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/hold-to-confirm",
+      "docsUrl": "https://rithmui.com/docs/hold-to-confirm",
       "new": true
     },
     {
@@ -2867,7 +2867,7 @@
         {
           "path": "app/registry/reaction-bar/reaction-bar.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/reaction-bar.tsx"
+          "target": "components/rithmui/reaction-bar.tsx"
         }
       ],
       "dependencies": [
@@ -2875,7 +2875,7 @@
         "lucide-react"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/reaction-bar",
+      "docsUrl": "https://rithmui.com/docs/reaction-bar",
       "new": true
     },
     {
@@ -2887,14 +2887,14 @@
         {
           "path": "app/registry/reaction-bar/reaction-bar-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/reaction-bar-demo.tsx"
+          "target": "components/rithmui/reaction-bar-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/reaction-bar"
+        "@rithmui/reaction-bar"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/reaction-bar",
+      "docsUrl": "https://rithmui.com/docs/reaction-bar",
       "new": true
     },
     {
@@ -2906,14 +2906,14 @@
         {
           "path": "app/registry/star-rating/star-rating.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/star-rating.tsx"
+          "target": "components/rithmui/star-rating.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Rating",
-      "docsUrl": "https://ui.spectrumhq.in/docs/star-rating",
+      "docsUrl": "https://rithmui.com/docs/star-rating",
       "new": true
     },
     {
@@ -2925,14 +2925,14 @@
         {
           "path": "app/registry/star-rating/star-rating-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/star-rating-demo.tsx"
+          "target": "components/rithmui/star-rating-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/star-rating"
+        "@rithmui/star-rating"
       ],
       "category": "Rating",
-      "docsUrl": "https://ui.spectrumhq.in/docs/star-rating",
+      "docsUrl": "https://rithmui.com/docs/star-rating",
       "new": true
     },
     {
@@ -2944,7 +2944,7 @@
         {
           "path": "app/registry/quantity-stepper/quantity-stepper.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/quantity-stepper.tsx"
+          "target": "components/rithmui/quantity-stepper.tsx"
         }
       ],
       "dependencies": [
@@ -2952,7 +2952,7 @@
         "lucide-react"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/quantity-stepper"
+      "docsUrl": "https://rithmui.com/docs/quantity-stepper"
     },
     {
       "name": "quantity-stepper-demo",
@@ -2963,17 +2963,17 @@
         {
           "path": "app/registry/quantity-stepper/quantity-stepper-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/quantity-stepper-demo.tsx"
+          "target": "components/rithmui/quantity-stepper-demo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/quantity-stepper"
+        "@rithmui/quantity-stepper"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/quantity-stepper"
+      "docsUrl": "https://rithmui.com/docs/quantity-stepper"
     },
     {
       "name": "follow-button",
@@ -2984,7 +2984,7 @@
         {
           "path": "app/registry/follow-button/follow-button.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/follow-button.tsx"
+          "target": "components/rithmui/follow-button.tsx"
         }
       ],
       "dependencies": [
@@ -2992,7 +2992,7 @@
         "lucide-react"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/follow-button",
+      "docsUrl": "https://rithmui.com/docs/follow-button",
       "new": true
     },
     {
@@ -3004,14 +3004,14 @@
         {
           "path": "app/registry/follow-button/follow-button-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/follow-button-demo.tsx"
+          "target": "components/rithmui/follow-button-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/follow-button"
+        "@rithmui/follow-button"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/follow-button",
+      "docsUrl": "https://rithmui.com/docs/follow-button",
       "new": true
     },
     {
@@ -3023,14 +3023,14 @@
         {
           "path": "app/registry/notification-bell/notification-bell.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/notification-bell.tsx"
+          "target": "components/rithmui/notification-bell.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/notification-bell",
+      "docsUrl": "https://rithmui.com/docs/notification-bell",
       "new": true
     },
     {
@@ -3042,14 +3042,14 @@
         {
           "path": "app/registry/notification-bell/notification-bell-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/notification-bell-demo.tsx"
+          "target": "components/rithmui/notification-bell-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/notification-bell"
+        "@rithmui/notification-bell"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/notification-bell",
+      "docsUrl": "https://rithmui.com/docs/notification-bell",
       "new": true
     },
     {
@@ -3061,14 +3061,14 @@
         {
           "path": "app/registry/face-rating/face-rating.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/face-rating.tsx"
+          "target": "components/rithmui/face-rating.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Rating",
-      "docsUrl": "https://ui.spectrumhq.in/docs/face-rating",
+      "docsUrl": "https://rithmui.com/docs/face-rating",
       "new": true
     },
     {
@@ -3080,14 +3080,14 @@
         {
           "path": "app/registry/face-rating/face-rating-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/face-rating-demo.tsx"
+          "target": "components/rithmui/face-rating-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/face-rating"
+        "@rithmui/face-rating"
       ],
       "category": "Rating",
-      "docsUrl": "https://ui.spectrumhq.in/docs/face-rating",
+      "docsUrl": "https://rithmui.com/docs/face-rating",
       "new": true
     },
     {
@@ -3099,14 +3099,14 @@
         {
           "path": "app/registry/undo-pill/undo-pill.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/undo-pill.tsx"
+          "target": "components/rithmui/undo-pill.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/undo-pill",
+      "docsUrl": "https://rithmui.com/docs/undo-pill",
       "new": true
     },
     {
@@ -3118,17 +3118,17 @@
         {
           "path": "app/registry/undo-pill/undo-pill-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/undo-pill-demo.tsx"
+          "target": "components/rithmui/undo-pill-demo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/undo-pill"
+        "@rithmui/undo-pill"
       ],
       "category": "Feedback",
-      "docsUrl": "https://ui.spectrumhq.in/docs/undo-pill",
+      "docsUrl": "https://rithmui.com/docs/undo-pill",
       "new": true
     },
     {
@@ -3140,7 +3140,7 @@
         {
           "path": "app/registry/password-strength/password-strength.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/password-strength.tsx"
+          "target": "components/rithmui/password-strength.tsx"
         }
       ],
       "dependencies": [
@@ -3148,7 +3148,7 @@
         "lucide-react"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/password-strength",
+      "docsUrl": "https://rithmui.com/docs/password-strength",
       "new": true
     },
     {
@@ -3160,14 +3160,14 @@
         {
           "path": "app/registry/password-strength/password-strength-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/password-strength-demo.tsx"
+          "target": "components/rithmui/password-strength-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/password-strength"
+        "@rithmui/password-strength"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/password-strength",
+      "docsUrl": "https://rithmui.com/docs/password-strength",
       "new": true
     },
     {
@@ -3179,7 +3179,7 @@
         {
           "path": "app/registry/swipe-to-delete/swipe-to-delete.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/swipe-to-delete.tsx"
+          "target": "components/rithmui/swipe-to-delete.tsx"
         }
       ],
       "dependencies": [
@@ -3187,7 +3187,7 @@
         "lucide-react"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/swipe-to-delete",
+      "docsUrl": "https://rithmui.com/docs/swipe-to-delete",
       "new": true
     },
     {
@@ -3199,14 +3199,14 @@
         {
           "path": "app/registry/swipe-to-delete/swipe-to-delete-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/swipe-to-delete-demo.tsx"
+          "target": "components/rithmui/swipe-to-delete-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/swipe-to-delete"
+        "@rithmui/swipe-to-delete"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/swipe-to-delete",
+      "docsUrl": "https://rithmui.com/docs/swipe-to-delete",
       "new": true
     },
     {
@@ -3218,14 +3218,14 @@
         {
           "path": "app/registry/task-checkbox/task-checkbox.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/task-checkbox.tsx"
+          "target": "components/rithmui/task-checkbox.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/task-checkbox",
+      "docsUrl": "https://rithmui.com/docs/task-checkbox",
       "new": true
     },
     {
@@ -3237,14 +3237,14 @@
         {
           "path": "app/registry/task-checkbox/task-checkbox-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/task-checkbox-demo.tsx"
+          "target": "components/rithmui/task-checkbox-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/task-checkbox"
+        "@rithmui/task-checkbox"
       ],
       "category": "Form",
-      "docsUrl": "https://ui.spectrumhq.in/docs/task-checkbox",
+      "docsUrl": "https://rithmui.com/docs/task-checkbox",
       "new": true
     },
     {
@@ -3256,14 +3256,14 @@
         {
           "path": "app/registry/morph-button/morph-button.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/morph-button.tsx"
+          "target": "components/rithmui/morph-button.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/morph-button"
+      "docsUrl": "https://rithmui.com/docs/morph-button"
     },
     {
       "name": "morph-button-demo",
@@ -3274,14 +3274,14 @@
         {
           "path": "app/registry/morph-button/morph-button-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/morph-button-demo.tsx"
+          "target": "components/rithmui/morph-button-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/morph-button"
+        "@rithmui/morph-button"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/morph-button"
+      "docsUrl": "https://rithmui.com/docs/morph-button"
     },
     {
       "name": "animated-switch",
@@ -3292,14 +3292,14 @@
         {
           "path": "app/registry/animated-switch/animated-switch.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animated-switch.tsx"
+          "target": "components/rithmui/animated-switch.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Control",
-      "docsUrl": "https://ui.spectrumhq.in/docs/animated-switch"
+      "docsUrl": "https://rithmui.com/docs/animated-switch"
     },
     {
       "name": "animated-switch-demo",
@@ -3310,14 +3310,14 @@
         {
           "path": "app/registry/animated-switch/animated-switch-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/animated-switch-demo.tsx"
+          "target": "components/rithmui/animated-switch-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/animated-switch"
+        "@rithmui/animated-switch"
       ],
       "category": "Control",
-      "docsUrl": "https://ui.spectrumhq.in/docs/animated-switch"
+      "docsUrl": "https://rithmui.com/docs/animated-switch"
     },
     {
       "name": "avatar-stack",
@@ -3328,14 +3328,14 @@
         {
           "path": "app/registry/avatar-stack/avatar-stack.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/avatar-stack.tsx"
+          "target": "components/rithmui/avatar-stack.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Profile",
-      "docsUrl": "https://ui.spectrumhq.in/docs/avatar-stack",
+      "docsUrl": "https://rithmui.com/docs/avatar-stack",
       "new": true
     },
     {
@@ -3347,14 +3347,14 @@
         {
           "path": "app/registry/avatar-stack/avatar-stack-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/avatar-stack-demo.tsx"
+          "target": "components/rithmui/avatar-stack-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/avatar-stack"
+        "@rithmui/avatar-stack"
       ],
       "category": "Profile",
-      "docsUrl": "https://ui.spectrumhq.in/docs/avatar-stack",
+      "docsUrl": "https://rithmui.com/docs/avatar-stack",
       "new": true
     },
     {
@@ -3366,14 +3366,14 @@
         {
           "path": "app/registry/kbd-key/kbd-key.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/kbd-key.tsx"
+          "target": "components/rithmui/kbd-key.tsx"
         }
       ],
       "dependencies": [
         "framer-motion"
       ],
       "category": "Input",
-      "docsUrl": "https://ui.spectrumhq.in/docs/kbd-key"
+      "docsUrl": "https://rithmui.com/docs/kbd-key"
     },
     {
       "name": "kbd-key-demo",
@@ -3384,14 +3384,14 @@
         {
           "path": "app/registry/kbd-key/kbd-key-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/kbd-key-demo.tsx"
+          "target": "components/rithmui/kbd-key-demo.tsx"
         }
       ],
       "registryDependencies": [
-        "@spectrumui/kbd-key"
+        "@rithmui/kbd-key"
       ],
       "category": "Input",
-      "docsUrl": "https://ui.spectrumhq.in/docs/kbd-key"
+      "docsUrl": "https://rithmui.com/docs/kbd-key"
     },
     {
       "name": "share-button",
@@ -3402,7 +3402,7 @@
         {
           "path": "app/registry/share-button/share-button.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/share-button.tsx"
+          "target": "components/rithmui/share-button.tsx"
         }
       ],
       "dependencies": [
@@ -3410,7 +3410,7 @@
         "lucide-react"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/share-button"
+      "docsUrl": "https://rithmui.com/docs/share-button"
     },
     {
       "name": "share-button-demo",
@@ -3421,17 +3421,17 @@
         {
           "path": "app/registry/share-button/share-button-demo.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/share-button-demo.tsx"
+          "target": "components/rithmui/share-button-demo.tsx"
         }
       ],
       "dependencies": [
         "lucide-react"
       ],
       "registryDependencies": [
-        "@spectrumui/share-button"
+        "@rithmui/share-button"
       ],
       "category": "Action",
-      "docsUrl": "https://ui.spectrumhq.in/docs/share-button"
+      "docsUrl": "https://rithmui.com/docs/share-button"
     },
     {
       "name": "voice-input",
@@ -3440,9 +3440,9 @@
       "description": "A voice recorder pill with animated level bars and a live timer.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/voice-input.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/voice-input.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/voice-input.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/voice-input.tsx"
         }
       ],
       "dependencies": [
@@ -3462,9 +3462,9 @@
       "description": "Agent search results with a live reading indicator.",
       "files": [
         {
-          "path": "components/spectrumui/blocks/ai-assistants/web-search.tsx",
+          "path": "components/rithmui/blocks/ai-assistants/web-search.tsx",
           "type": "registry:block",
-          "target": "components/spectrumui/blocks/ai-assistants/web-search.tsx"
+          "target": "components/rithmui/blocks/ai-assistants/web-search.tsx"
         }
       ],
       "dependencies": [
@@ -3481,12 +3481,12 @@
       "name": "chart-kit",
       "type": "registry:component",
       "title": "Chart Kit",
-      "description": "Shared data, fills, tooltip, and axis chrome for Spectrum Charts.",
+      "description": "Shared data, fills, tooltip, and axis chrome for Rithm Charts.",
       "files": [
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         }
       ],
       "dependencies": [
@@ -3498,7 +3498,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts"
+      "docsUrl": "https://rithmui.com/charts"
     },
     {
       "name": "bar-chart",
@@ -3509,12 +3509,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/bar-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/bar-chart.tsx"
+          "target": "components/rithmui/charts/bar-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3526,7 +3526,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/bar"
+      "docsUrl": "https://rithmui.com/charts/bar"
     },
     {
       "name": "line-chart",
@@ -3537,12 +3537,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/line-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/line-chart.tsx"
+          "target": "components/rithmui/charts/line-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3554,7 +3554,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/line"
+      "docsUrl": "https://rithmui.com/charts/line"
     },
     {
       "name": "area-chart",
@@ -3565,12 +3565,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/area-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/area-chart.tsx"
+          "target": "components/rithmui/charts/area-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3582,7 +3582,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/area"
+      "docsUrl": "https://rithmui.com/charts/area"
     },
     {
       "name": "pie-chart",
@@ -3593,12 +3593,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/pie-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/pie-chart.tsx"
+          "target": "components/rithmui/charts/pie-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3610,7 +3610,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/pie"
+      "docsUrl": "https://rithmui.com/charts/pie"
     },
     {
       "name": "radar-chart",
@@ -3621,12 +3621,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/radar-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/radar-chart.tsx"
+          "target": "components/rithmui/charts/radar-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3638,7 +3638,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/radar"
+      "docsUrl": "https://rithmui.com/charts/radar"
     },
     {
       "name": "radial-chart",
@@ -3649,12 +3649,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/radial-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/radial-chart.tsx"
+          "target": "components/rithmui/charts/radial-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3666,7 +3666,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/radial"
+      "docsUrl": "https://rithmui.com/charts/radial"
     },
     {
       "name": "composed-chart",
@@ -3677,12 +3677,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/composed-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/composed-chart.tsx"
+          "target": "components/rithmui/charts/composed-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3694,7 +3694,7 @@
         "chart",
         "recharts"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/composed"
+      "docsUrl": "https://rithmui.com/charts/composed"
     },
     {
       "name": "candlestick-chart",
@@ -3705,12 +3705,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/candlestick-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/candlestick-chart.tsx"
+          "target": "components/rithmui/charts/candlestick-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3724,7 +3724,7 @@
         "candlestick",
         "trading"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/candlestick"
+      "docsUrl": "https://rithmui.com/charts/candlestick"
     },
     {
       "name": "price-chart",
@@ -3735,12 +3735,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/price-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/price-chart.tsx"
+          "target": "components/rithmui/charts/price-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3754,7 +3754,7 @@
         "price",
         "token"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/price"
+      "docsUrl": "https://rithmui.com/charts/price"
     },
     {
       "name": "sparkline-chart",
@@ -3765,12 +3765,12 @@
         {
           "path": "app/registry/charts/chart-kit.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/chart-kit.tsx"
+          "target": "components/rithmui/charts/chart-kit.tsx"
         },
         {
           "path": "app/registry/charts/sparkline-chart.tsx",
           "type": "registry:component",
-          "target": "components/spectrumui/charts/sparkline-chart.tsx"
+          "target": "components/rithmui/charts/sparkline-chart.tsx"
         }
       ],
       "dependencies": [
@@ -3784,7 +3784,7 @@
         "sparkline",
         "watchlist"
       ],
-      "docsUrl": "https://ui.spectrumhq.in/charts/sparkline"
+      "docsUrl": "https://rithmui.com/charts/sparkline"
     }
   ]
 }

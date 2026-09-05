@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion button",
     "Next.js confirm button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/hold-to-confirm",
+  canonicalUrl: "https://rithmui.com/docs/hold-to-confirm",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Hold to Confirm"
       description={description}
-      url="https://ui.spectrumhq.in/docs/hold-to-confirm"
+      url="https://rithmui.com/docs/hold-to-confirm"
       keywords={[
         "hold to confirm button",
         "press and hold button",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/hold-to-confirm/hold-to-confirm-demo.tsx"
-          installCodePath="components/spectrumui/hold-to-confirm.tsx"
-          cli="@spectrumui/hold-to-confirm"
+          installCodePath="components/rithmui/hold-to-confirm.tsx"
+          cli="@rithmui/hold-to-confirm"
           installScript="npm i framer-motion lucide-react"
         >
           <HoldToConfirmDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { HoldToConfirmButton } from "@/components/spectrumui/hold-to-confirm"`}
+            code={`import { HoldToConfirmButton } from "@/components/rithmui/hold-to-confirm"`}
             requireAuth={false}
           />
           <CodeHighlight

@@ -77,7 +77,7 @@ assertSerializable(siteSchema, 'Site schema');
 
 const docsRoot = path.join(projectRoot, 'app', '(docs)', 'docs');
 for (const component of catalog) {
-  const url = `https://ui.spectrumhq.in/docs/${component.slug}`;
+  const url = `https://rithmui.com/docs/${component.slug}`;
   const schema = generateComponentStructuredData({
     name: component.name,
     description: component.description,
@@ -124,13 +124,13 @@ for (const component of catalog) {
 
 const installation = generateTechArticleStructuredData({
   name: 'Installation',
-  description: 'Install Spectrum UI.',
-  url: 'https://ui.spectrumhq.in/docs/installation',
+  description: 'Install Rithm UI.',
+  url: 'https://rithmui.com/docs/installation',
 });
 const guides = generateCollectionPageStructuredData({
   name: 'Guides',
-  description: 'Spectrum UI guides.',
-  url: 'https://ui.spectrumhq.in/docs/guides',
+  description: 'Rithm UI guides.',
+  url: 'https://rithmui.com/docs/guides',
 });
 assert.equal(installation['@type'], 'TechArticle');
 assert.equal(guides['@type'], 'CollectionPage');
@@ -161,8 +161,8 @@ const blog = generateBlogStructuredData({
   description: 'An example technical article.',
   author: { name: 'Shivam O Sharma' },
   datePublished: 'Mar 18, 2026',
-  url: 'https://ui.spectrumhq.in/blog/example',
-  image: 'https://ui.spectrumhq.in/og.png',
+  url: 'https://rithmui.com/blog/example',
+  image: 'https://rithmui.com/og.png',
   category: 'Engineering',
 });
 assert.ok(blog['@type'].includes('TechArticle'));

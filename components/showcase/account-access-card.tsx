@@ -37,7 +37,7 @@ export interface AccountAccessCardProps {
 }
 
 const DEFAULT_CREDENTIALS: AccountCredential[] = [
-  { email: "alfa@spectrum.com", passwordLength: 14 },
+  { email: "alfa@rithmui.com", passwordLength: 14 },
   { email: "john.doe@gmail.com", passwordLength: 10 },
   { email: "emma@example.com", passwordLength: 16 },
 ];
@@ -67,7 +67,7 @@ export function AccountAccessCard({
   dangerDescription = "Archive account and remove access",
   credentials = DEFAULT_CREDENTIALS,
   animated = true,
-  emailValue = "alfa@spectrum.com",
+  emailValue = "alfa@rithmui.com",
   passwordValue = "••••••••••••••••••••••••",
   onSubmit,
   onForgot,

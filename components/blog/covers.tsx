@@ -659,7 +659,7 @@ const COVERS: Record<string, { tone: Tone; art: (ink: boolean) => React.ReactNod
   'component-api-design': { tone: 'ink', art: (i) => <ArtSizes ink={i} /> },
   'building-production-component-library': { tone: 'paper', art: (i) => <ArtLayers ink={i} /> },
   'shadcn-customization-guide': { tone: 'ink', art: (i) => <ArtTokens ink={i} /> },
-  'spectrum-ui-development-speed': { tone: 'paper', art: (i) => <ArtTerminal ink={i} line="npx shadcn add tilted-card" /> },
+  'rithm-ui-development-speed': { tone: 'paper', art: (i) => <ArtTerminal ink={i} line="npx shadcn add tilted-card" /> },
 
   /* Interface craft */
   'typography-for-developers': { tone: 'paper', art: (i) => <ArtSpecimen ink={i} /> },

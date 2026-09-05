@@ -5,7 +5,7 @@ export const metadata: Metadata = baseMetadata({
   title: 'React Dashboard Templates',
   description:
     'Browse Rithm UI dashboard templates with copyable Next.js, TypeScript, Tailwind CSS, and shadcn/ui source for product interfaces.',
-  canonicalUrl: 'https://ui.spectrumhq.in/templates',
+  canonicalUrl: 'https://rithmui.com/templates',
 });
 
 export default function TemplatesLayout({ children }: { children: React.ReactNode }) {

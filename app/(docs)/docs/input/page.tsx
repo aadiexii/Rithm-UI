@@ -34,7 +34,7 @@ export const metadata: Metadata = baseMetadata({
     "UI input component",
     "React form components",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/input",
+  canonicalUrl: "https://rithmui.com/docs/input",
 });
 
 const page = () => {
@@ -42,7 +42,7 @@ const page = () => {
     <SEOWrapper
       componentName="Input"
       description="Displays a form input field or a component that looks like an input field."
-      url="https://ui.spectrumhq.in/docs/input"
+      url="https://rithmui.com/docs/input"
       keywords={[
         "React input",
         "Next.js input",

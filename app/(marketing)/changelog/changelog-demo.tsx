@@ -1,9 +1,9 @@
 'use client';
 
-import { LoadingState } from '@/components/spectrumui/blocks/ai-assistants/loading-state';
-import { ThinkingDots } from '@/components/spectrumui/blocks/ai-assistants/thinking-dots';
-import { VoiceInput } from '@/components/spectrumui/blocks/ai-assistants/voice-input';
-import { CodeBlock } from '@/components/spectrumui/blocks/ai-assistants/code-block';
+import { LoadingState } from '@/components/rithmui/blocks/ai-assistants/loading-state';
+import { ThinkingDots } from '@/components/rithmui/blocks/ai-assistants/thinking-dots';
+import { VoiceInput } from '@/components/rithmui/blocks/ai-assistants/voice-input';
+import { CodeBlock } from '@/components/rithmui/blocks/ai-assistants/code-block';
 import type { ChangelogMediaKind } from '@/content/changelog';
 
 const CARD_SNIPPET = `export function PricingCard({ plan }: { plan: Plan }) {
@@ -41,7 +41,7 @@ export function ChangelogMedia({ media }: { media: ChangelogMediaKind }) {
           {['#f9452d', '#febc2e', '#28c840'].map((color) => (
             <span key={color} aria-hidden className="size-2.5 rounded-full opacity-80" style={{ backgroundColor: color }} />
           ))}
-          <span className="ml-2 font-mono text-[11px] text-neutral-500">spectrum-ui — zsh</span>
+          <span className="ml-2 font-mono text-[11px] text-neutral-500">rithm-ui — zsh</span>
         </div>
         <div className="overflow-x-auto px-5 py-10 md:py-12">
           <code className="block whitespace-nowrap font-mono text-[13px] leading-relaxed md:text-[14px]">

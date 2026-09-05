@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { Headphones } from "lucide-react"
-import { QuantityStepper } from "@/components/spectrumui/quantity-stepper"
+import { QuantityStepper } from "@/components/rithmui/quantity-stepper"
 
 const UNIT_PRICE = 129
 

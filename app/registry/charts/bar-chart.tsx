@@ -44,7 +44,7 @@ export type BarLayout = 'vertical' | 'horizontal';
 const VERTICAL_RADIUS = [4, 4, 0, 0] as [number, number, number, number];
 const HORIZONTAL_RADIUS = [0, 4, 4, 0] as [number, number, number, number];
 
-export interface SpectrumBarChartProps {
+export interface RithmBarChartProps {
   className?: string;
   data?: typeof MONTHLY_TRAFFIC;
   variant?: BarFillVariant;
@@ -70,7 +70,7 @@ export function BarChart({
   isLoading = false,
   showLegend = true,
   showGrid = true,
-}: SpectrumBarChartProps) {
+}: RithmBarChartProps) {
   const id = useChartId('bar');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -184,42 +184,42 @@ export function BarChart({
   );
 }
 
-export function DefaultBarChart(props: SpectrumBarChartProps) {
+export function DefaultBarChart(props: RithmBarChartProps) {
   return <BarChart variant="default" {...props} />;
 }
 
-export function HatchedBarChart(props: SpectrumBarChartProps) {
+export function HatchedBarChart(props: RithmBarChartProps) {
   return <BarChart variant="hatched" {...props} />;
 }
 
-export function DuotoneBarChart(props: SpectrumBarChartProps) {
+export function DuotoneBarChart(props: RithmBarChartProps) {
   return <BarChart variant="duotone" {...props} />;
 }
 
-export function DuotoneReverseBarChart(props: SpectrumBarChartProps) {
+export function DuotoneReverseBarChart(props: RithmBarChartProps) {
   return <BarChart variant="duotone-reverse" {...props} />;
 }
 
-export function GradientBarChart(props: SpectrumBarChartProps) {
+export function GradientBarChart(props: RithmBarChartProps) {
   return <BarChart variant="gradient" {...props} />;
 }
 
-export function StrippedBarChart(props: SpectrumBarChartProps) {
+export function StrippedBarChart(props: RithmBarChartProps) {
   return <BarChart variant="stripped" {...props} />;
 }
 
-export function StackedBarChart(props: SpectrumBarChartProps) {
+export function StackedBarChart(props: RithmBarChartProps) {
   return <BarChart stackType="stacked" {...props} />;
 }
 
-export function PercentBarChart(props: SpectrumBarChartProps) {
+export function PercentBarChart(props: RithmBarChartProps) {
   return <BarChart stackType="percent" {...props} />;
 }
 
-export function HorizontalBarChart(props: SpectrumBarChartProps) {
+export function HorizontalBarChart(props: RithmBarChartProps) {
   return <BarChart layout="horizontal" {...props} />;
 }
 
-export function GlowingBarChart(props: SpectrumBarChartProps) {
+export function GlowingBarChart(props: RithmBarChartProps) {
   return <BarChart glowing {...props} />;
 }

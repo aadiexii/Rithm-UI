@@ -42,7 +42,7 @@ export function CodeDrawer({ open, onOpenChange, name, slug, source }: CodeDrawe
         <SheetHeader className="text-left">
           <SheetTitle className="text-[17px] tracking-[-0.2px]">{name}</SheetTitle>
           <SheetDescription className="font-mono text-[11.5px]">
-            components/spectrumui/blocks/ai-assistants/{slug}.tsx
+            components/rithmui/blocks/ai-assistants/{slug}.tsx
           </SheetDescription>
         </SheetHeader>
 
@@ -54,7 +54,7 @@ export function CodeDrawer({ open, onOpenChange, name, slug, source }: CodeDrawe
           >
             Installation
           </h3>
-          <InstallFigure cli={`@spectrumui/${slug}`} componentName={slug} />
+          <InstallFigure cli={`@rithmui/${slug}`} componentName={slug} />
         </section>
 
         {/* 2 — MCP: the prompt an agent turns into an install. */}
@@ -152,7 +152,7 @@ function McpSection({ slug }: { slug: string }) {
 
         <figcaption className="border-t border-neutral-200 px-3.5 py-2.5 dark:border-neutral-800">
           <p className="text-xs leading-[1.6] text-neutral-500 dark:text-neutral-400">
-            Paste into Cursor, Claude Code, or any editor connected to the Spectrum
+            Paste into Cursor, Claude Code, or any editor connected to the Rithm
             UI MCP server — the agent installs the block for you.{' '}
             <Link
               href="/docs/mcp"

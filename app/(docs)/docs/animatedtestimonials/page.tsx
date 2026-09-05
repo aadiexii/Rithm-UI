@@ -21,7 +21,7 @@ export const metadata: Metadata = baseMetadata({
     "Framer Motion testimonials",
     "social proof",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animatedtestimonials",
+  canonicalUrl: "https://rithmui.com/docs/animatedtestimonials",
 });
 
 const page = () => {
@@ -30,7 +30,7 @@ const page = () => {
     <SEOWrapper
       componentName="Animated Testimonials"
       description="An animated testimonials section for showcasing customer reviews and social proof."
-      url="https://ui.spectrumhq.in/docs/animatedtestimonials"
+      url="https://rithmui.com/docs/animatedtestimonials"
       keywords={[
         "animated testimonials",
         "testimonials component",
@@ -50,7 +50,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/animatedtestimonials/usages/demousages.tsx"
-          cli="@spectrumui/animated-testimonials"
+          cli="@rithmui/animated-testimonials"
         
         installScript="npm i lucide-react framer-motion"
         installCodePath="app/(docs)/docs/animatedtestimonials/usages/demousages.tsx"

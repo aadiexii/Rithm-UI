@@ -153,7 +153,7 @@ gtag('config', 'G-K7ZP6JB4MG');
           }}
         />
         <JsonLd
-          id="spectrum-ui-structured-data"
+          id="rithm-ui-structured-data"
           data={generateSiteStructuredData()}
         />
         <Script

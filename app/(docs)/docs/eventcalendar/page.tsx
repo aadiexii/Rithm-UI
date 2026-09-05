@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "booking calendar",
     "schedule component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/eventcalendar",
+  canonicalUrl: "https://rithmui.com/docs/eventcalendar",
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="Event Calendar"
       description="An interactive calendar for displaying events, appointments, and daily schedules."
-      url="https://ui.spectrumhq.in/docs/eventcalendar"
+      url="https://rithmui.com/docs/eventcalendar"
       keywords={[
         "event calendar",
         "calendar component",
@@ -48,7 +48,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/eventcalendar/demoevent.tsx"
-          cli="@spectrumui/event-calendar"
+          cli="@rithmui/event-calendar"
         
         installScript="npm i lucide-react framer-motion date-fns"
         installCodePath="lib/utils.ts"

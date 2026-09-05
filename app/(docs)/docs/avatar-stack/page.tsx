@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion avatars",
     "Next.js avatar stack",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/avatar-stack",
+  canonicalUrl: "https://rithmui.com/docs/avatar-stack",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Avatar Stack"
       description={description}
-      url="https://ui.spectrumhq.in/docs/avatar-stack"
+      url="https://rithmui.com/docs/avatar-stack"
       keywords={[
         "avatar stack component",
         "React avatar group",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/avatar-stack/avatar-stack-demo.tsx"
-          installCodePath="components/spectrumui/avatar-stack.tsx"
-          cli="@spectrumui/avatar-stack"
+          installCodePath="components/rithmui/avatar-stack.tsx"
+          cli="@rithmui/avatar-stack"
           installScript="npm i framer-motion"
         >
           <AvatarStackDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { AvatarStack } from "@/components/spectrumui/avatar-stack"`}
+            code={`import { AvatarStack } from "@/components/rithmui/avatar-stack"`}
             requireAuth={false}
           />
           <CodeHighlight

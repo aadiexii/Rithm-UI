@@ -120,7 +120,7 @@ export function ComparisonView({
                 Rithm UI
               </div>
               <p className="mt-2.5 font-inter text-[14.5px] leading-[1.6] tracking-[-0.2px] text-[#080808]/78 dark:text-neutral-300">
-                {data.spectrumPitch}
+                {data.rithmPitch}
               </p>
             </motion.div>
             <motion.div
@@ -180,7 +180,7 @@ export function ComparisonView({
                           last && "rounded-b-xl"
                         )}
                       >
-                        <ValueCell value={row.spectrum} own />
+                        <ValueCell value={row.rithm} own />
                       </td>
                       <td className="border-t border-border/70 px-5 py-4 align-middle">
                         <ValueCell value={row.competitor} />
@@ -202,7 +202,7 @@ export function ComparisonView({
               Choose Rithm UI when
             </h2>
             <ul className="mt-6 space-y-4">
-              {data.chooseSpectrum.map((item) => (
+              {data.chooseRithm.map((item) => (
                 <li key={item} className="flex gap-3.5">
                   <span className="mt-[3px] inline-flex size-[18px] shrink-0 items-center justify-center rounded-full bg-[#f9452d]/12 text-[#f9452d] dark:bg-[#E1F435]/12 dark:text-[#E1F435]">
                     <Check className="size-[11px]" strokeWidth={3} />

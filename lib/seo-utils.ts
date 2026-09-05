@@ -65,7 +65,7 @@ export function generateComponentStructuredData(component: {
     author: {
       "@type": "Person",
       name: "Shivam O Sharma",
-      url: "https://ui.spectrumhq.in",
+      url: "https://rithmui.com",
     },
     about: {
       "@type": "Thing",
@@ -173,7 +173,7 @@ export function toIsoDate(value: string) {
   return Number.isNaN(parsedDate.getTime()) ? undefined : parsedDate.toISOString();
 }
 
-const SITE_URL = "https://ui.spectrumhq.in";
+const SITE_URL = "https://rithmui.com";
 
 /**
  * Canonical author entity. A rich, stable Person node (with a shared @id,
@@ -354,14 +354,14 @@ export function generateBlogListingStructuredData(posts: Array<{
     "@type": "Blog",
     name: "Rithm UI Blog",
     description: "Learn about UI components, React development, and design systems with Rithm UI",
-    url: "https://ui.spectrumhq.in/blog",
+    url: "https://rithmui.com/blog",
     publisher: {
       "@type": "Organization",
       name: "Rithm UI",
-      url: "https://ui.spectrumhq.in",
+      url: "https://rithmui.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://ui.spectrumhq.in/logo.svg",
+        url: "https://rithmui.com/logo.svg",
       },
     },
     blogPost: posts.map(post => ({

@@ -3,7 +3,7 @@
  *
  * Fires-and-forgets — never blocks the user response.
  * No personal data is collected (no IP, no user ID, no machine info).
- * Opt-out: set SPECTRUM_NO_TELEMETRY=1 in your environment.
+ * Opt-out: set RITHM_NO_TELEMETRY=1 in your environment.
  *
  * What is collected:
  *  - event name (search, search_no_results, get_component, component_not_found, install)
@@ -11,7 +11,7 @@
  *  - whether the request was satisfied (found: true/false)
  */
 
-const ENDPOINT = "https://ui.spectrumhq.in/api/mcp-events";
+const ENDPOINT = "https://rithmui.com/api/mcp-events";
 
 /**
  * Kept in step with package.json by hand — package.json is not importable from
@@ -53,8 +53,8 @@ interface TelemetryPayload {
 
 function isOptedOut(): boolean {
   return (
-    process.env.SPECTRUM_NO_TELEMETRY === "1" ||
-    process.env.SPECTRUM_NO_TELEMETRY === "true" ||
+    process.env.RITHM_NO_TELEMETRY === "1" ||
+    process.env.RITHM_NO_TELEMETRY === "true" ||
     process.env.DO_NOT_TRACK === "1"
   );
 }
@@ -70,7 +70,7 @@ export function track(payload: TelemetryPayload): void {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "User-Agent": `spectrumui-mcp/${SERVER_VERSION}`,
+      "User-Agent": `rithmui-mcp/${SERVER_VERSION}`,
     },
     body: JSON.stringify({ editor: detectEditor(), ...payload }),
     signal: AbortSignal.timeout(3000), // 3s max — never block the user

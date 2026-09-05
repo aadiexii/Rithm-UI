@@ -7,7 +7,7 @@ export function InkMorphTextUse() {
     <div>
       <InkMorphText
         key={0}
-        text="SPECTRUM UI"
+        text="RITHM UI"
         intensityFrom={0.28}
         intensityTo={0.002}
         settleMs={2000}

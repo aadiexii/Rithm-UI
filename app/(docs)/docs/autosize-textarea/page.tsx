@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "auto height textarea",
     "form textarea",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/autosize-textarea",
+  canonicalUrl: "https://rithmui.com/docs/autosize-textarea",
 });
 
 const AutosizeTextareaPage = () => {
@@ -37,7 +37,7 @@ const AutosizeTextareaPage = () => {
     <SEOWrapper
       componentName="Autosize Textarea"
       description="A textarea that automatically grows and shrinks to fit its content."
-      url="https://ui.spectrumhq.in/docs/autosize-textarea"
+      url="https://rithmui.com/docs/autosize-textarea"
       keywords={[
         "autosize textarea",
         "auto resize textarea",
@@ -55,7 +55,7 @@ const AutosizeTextareaPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/autosize-textarea/autosize-textarea-demo.tsx"
-        cli="@spectrumui/autosize-textarea-demo"
+        cli="@rithmui/autosize-textarea-demo"
       
         installCodePath="components/ui/autosize-textarea.tsx"
       >
@@ -66,21 +66,21 @@ const AutosizeTextareaPage = () => {
       <Usage
         title="Max height"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-with-max-height.tsx"
-        cli="@spectrumui/autosize-textarea-max-height"
+        cli="@rithmui/autosize-textarea-max-height"
       >
         <AutosizeTextareaWithMaxHeight />
       </Usage>
       <Usage
         title="ref"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-with-ref.tsx"
-        cli="@spectrumui/autosize-textarea-ref"
+        cli="@rithmui/autosize-textarea-ref"
       >
         <AutosizeTextareaWithRef />
       </Usage>
       <Usage
         title="Form"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-form.tsx"
-        cli="@spectrumui/autosize-textarea-form"
+        cli="@rithmui/autosize-textarea-form"
       >
         <AutosizeTextareaForm />
       </Usage>
@@ -101,7 +101,7 @@ const AutosizeTextareaPage = () => {
           </>
         }
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-customize.tsx"
-        cli="@spectrumui/autosize-textarea-customize"
+        cli="@rithmui/autosize-textarea-customize"
       >
         <AutosizeTextareaCustomize />
       </Usage>

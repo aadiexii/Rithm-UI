@@ -15,7 +15,7 @@ export const metadata: Metadata = baseMetadata({
     'free UI components',
     'shadcn alternative components',
   ],
-  canonicalUrl: 'https://ui.spectrumhq.in/docs',
+  canonicalUrl: 'https://rithmui.com/docs',
 })
 
 export default function DocsPage() {

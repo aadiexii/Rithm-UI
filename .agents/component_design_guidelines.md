@@ -565,7 +565,7 @@ Each section block must include:
  * Optional: lucide-react (for check icons)
  * 
  * Usage:
- *   import { PricingSection } from "@/components/spectrum/pricing-section"
+ *   import { PricingSection } from "@/components/rithmui/pricing-section"
  *   <PricingSection plans={myPlans} />
  */
 ```

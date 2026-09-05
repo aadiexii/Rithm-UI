@@ -12,7 +12,7 @@ export const metadata: Metadata = baseMetadata({
   title: chart?.name ?? 'Chart',
   description: chart?.description,
   keywords: [chart?.name ?? 'chart', 'watchlist', 'token table', 'React sparkline', 'Rithm UI'],
-  canonicalUrl: `https://ui.spectrumhq.in/charts/sparkline`,
+  canonicalUrl: `https://rithmui.com/charts/sparkline`,
 });
 
 export default function Page() {

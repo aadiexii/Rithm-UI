@@ -8,19 +8,19 @@ import { InlineCode } from "@/components/ui/inline-code";
 
 export const MCP_CONFIG = `{
   "mcpServers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }`;
 
 const VSCODE_CONFIG = `{
   "servers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }`;
@@ -62,7 +62,7 @@ const CLIENTS = [
     content: (
       <div className="flex flex-col gap-4">
         <Lead strong="Run the following command" rest=" in your project:" />
-        <CommandFigure command="claude mcp add spectrum-ui -- npx -y @spectrumui/mcp" />
+        <CommandFigure command="claude mcp add rithm-ui -- npx -y @rithmui/mcp" />
         <PromptList restart="Claude Code" />
         <p className="text-[15px] leading-[26px] text-neutral-600 dark:text-neutral-400">
           <strong className="font-medium text-neutral-900 dark:text-neutral-50">
@@ -94,7 +94,7 @@ const CLIENTS = [
           <strong className="font-medium text-neutral-900 dark:text-neutral-50">
             Note:
           </strong>{" "}
-          You should see <InlineCode>spectrum-ui</InlineCode> listed in the
+          You should see <InlineCode>rithm-ui</InlineCode> listed in the
           tools panel (hammer icon) after restarting.
         </p>
       </div>

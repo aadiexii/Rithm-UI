@@ -3,7 +3,7 @@
 import React, { useCallback, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { Trash2 } from "lucide-react"
-import { UndoPill } from "@/components/spectrumui/undo-pill"
+import { UndoPill } from "@/components/rithmui/undo-pill"
 
 const MESSAGES = [
   { id: 1, sender: "Ana Wells", preview: "The homepage mock is ready for review" },

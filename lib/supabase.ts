@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
- *  Spectrum Chat — Supabase Client (browser-side singleton)
+ *  Rithm Chat — Supabase Client (browser-side singleton)
  * ───────────────────────────────────────────────────────────── */
 
 import { createClient } from "@supabase/supabase-js";

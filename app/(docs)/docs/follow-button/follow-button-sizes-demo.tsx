@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { FollowButton } from "@/components/spectrumui/follow-button"
+import { FollowButton } from "@/components/rithmui/follow-button"
 
 export default function FollowButtonSizesDemo() {
   return (

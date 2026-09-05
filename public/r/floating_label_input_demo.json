@@ -5,14 +5,14 @@
   "title": "Floating Label Input Demo",
   "description": "component for the Floating Label Input Demo",
   "registryDependencies": [
-    "@spectrumui/floating-label-input"
+    "@rithmui/floating-label-input"
   ],
   "files": [
     {
       "path": "app/registry/floating-label-input/floating-label-input-demo.tsx",
       "content": "import React from \"react\";\nimport { FloatingLabelInput } from \"@/components/ui/floating-label-input\";\n\nconst FloatingLabelInputDemo = () => {\n  return <FloatingLabelInput id=\"floating-demo\" label=\"floating Label\" />;\n};\n\nexport default FloatingLabelInputDemo;\n",
       "type": "registry:component",
-      "target": "components/spectrumui/floating-label-input-demo.tsx"
+      "target": "components/rithmui/floating-label-input-demo.tsx"
     }
   ]
 }

@@ -3,7 +3,7 @@
  *
  * The index lists every installable item; the shadcn CLI fetches per-item
  * payloads separately. Blocks and components share one flat namespace, because
- * `@spectrumui/<name>` resolves to https://ui.spectrumhq.in/r/<name>.json — so
+ * `@rithmui/<name>` resolves to https://rithmui.com/r/<name>.json — so
  * `type` is what distinguishes them, not the URL.
  */
 export interface RegistryFile {

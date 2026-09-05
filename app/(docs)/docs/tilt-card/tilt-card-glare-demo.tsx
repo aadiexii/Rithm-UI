@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { TiltCard, TiltCardItem } from "@/components/spectrumui/tilt-card"
+import { TiltCard, TiltCardItem } from "@/components/rithmui/tilt-card"
 
 export default function TiltCardGlareDemo() {
   return (

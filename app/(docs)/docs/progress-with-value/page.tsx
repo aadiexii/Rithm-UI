@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "Radix progress",
     "upload progress",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/progress-with-value",
+  canonicalUrl: "https://rithmui.com/docs/progress-with-value",
 });
 
 const DualRangeSliderPage = () => {
@@ -37,7 +37,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Progress With Value"
       description="A progress bar that displays the current value."
-      url="https://ui.spectrumhq.in/docs/progress-with-value"
+      url="https://rithmui.com/docs/progress-with-value"
       keywords={[
         "progress bar",
         "progress component",
@@ -58,7 +58,7 @@ const DualRangeSliderPage = () => {
       </ReferenceBorder>
       <PreviewCodeCard
         path="app/(docs)/docs/progress-with-value/progress-with-value-demo.tsx"
-        cli="@spectrumui/progress-with-value"
+        cli="@rithmui/progress-with-value"
       
         installScript="npm i @radix-ui/react-progress"
         installCodePath="components/ui/progress-with-value.tsx"
@@ -70,14 +70,14 @@ const DualRangeSliderPage = () => {
       <Usage
         title="Value Position"
         path="app/(docs)/docs/progress-with-value/usage/progress-with-value-position.tsx"
-        cli="@spectrumui/value-position"
+        cli="@rithmui/value-position"
       >
         <ProgressWithValuePosition />
       </Usage>
       <Usage
         title="Custom Label"
         path="app/(docs)/docs/progress-with-value/usage/progress-with-value-label.tsx"
-        cli="@spectrumui/custom-label"
+        cli="@rithmui/custom-label"
       >
         <ProgressWithValueLabel />
       </Usage>

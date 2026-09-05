@@ -38,7 +38,7 @@ async function getGitHubProfile(username: string): Promise<GitHubProfile | null>
     const response = await fetch(`https://api.github.com/users/${encodeURIComponent(username)}`, {
       headers: {
         Accept: 'application/vnd.github+json',
-        'User-Agent': 'SpectrumUI',
+        'User-Agent': 'RithmUI',
       },
       next: { revalidate: 3600 },
       signal: AbortSignal.timeout(3000),

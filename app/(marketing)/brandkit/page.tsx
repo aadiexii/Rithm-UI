@@ -44,7 +44,7 @@ const LOGO_ASSETS: LogoAsset[] = [
     name: 'Logo mark',
     variant: 'Dark',
     note: 'Use on light backgrounds.',
-    base: 'spectrum-ui-mark-dark',
+    base: 'rithm-ui-mark-dark',
     pngSize: '901×1024',
     width: 35,
     height: 40,
@@ -54,7 +54,7 @@ const LOGO_ASSETS: LogoAsset[] = [
     name: 'Logo mark',
     variant: 'Light',
     note: 'Use on dark backgrounds.',
-    base: 'spectrum-ui-mark-light',
+    base: 'rithm-ui-mark-light',
     pngSize: '901×1024',
     width: 35,
     height: 40,
@@ -64,7 +64,7 @@ const LOGO_ASSETS: LogoAsset[] = [
     name: 'Wordmark',
     variant: 'Dark',
     note: 'Use on light backgrounds.',
-    base: 'spectrum-ui-wordmark-dark',
+    base: 'rithm-ui-wordmark-dark',
     pngSize: '2400×452',
     width: 594,
     height: 112,
@@ -74,7 +74,7 @@ const LOGO_ASSETS: LogoAsset[] = [
     name: 'Wordmark',
     variant: 'Light',
     note: 'Use on dark backgrounds.',
-    base: 'spectrum-ui-wordmark-light',
+    base: 'rithm-ui-wordmark-light',
     pngSize: '2400×452',
     width: 594,
     height: 112,
@@ -88,25 +88,25 @@ const SCREENSHOTS = [
   {
     name: 'Homepage',
     variant: 'Light',
-    base: 'spectrum-ui-screenshot-home-light',
+    base: 'rithm-ui-screenshot-home-light',
     size: '2880×1800',
   },
   {
     name: 'Homepage',
     variant: 'Dark',
-    base: 'spectrum-ui-screenshot-home-dark',
+    base: 'rithm-ui-screenshot-home-dark',
     size: '2880×1800',
   },
   {
     name: 'AI blocks',
     variant: 'Light',
-    base: 'spectrum-ui-screenshot-blocks-light',
+    base: 'rithm-ui-screenshot-blocks-light',
     size: '2880×1800',
   },
   {
     name: 'AI blocks',
     variant: 'Dark',
-    base: 'spectrum-ui-screenshot-blocks-dark',
+    base: 'rithm-ui-screenshot-blocks-dark',
     size: '2880×1800',
   },
 ];
@@ -369,7 +369,7 @@ export default function BrandKitPage() {
                   </p>
                 </div>
               </div>
-              <a href="/brand/spectrum-ui-brand-kit.zip" download className={cn(PILL_BUTTON, 'w-full sm:w-auto')}>
+              <a href="/brand/rithm-ui-brand-kit.zip" download className={cn(PILL_BUTTON, 'w-full sm:w-auto')}>
                 <Download className="size-4" />
                 Download ZIP
               </a>

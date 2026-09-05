@@ -2,7 +2,7 @@
 
 import React from "react"
 import { Archive } from "lucide-react"
-import { HoldToConfirmButton } from "@/components/spectrumui/hold-to-confirm"
+import { HoldToConfirmButton } from "@/components/rithmui/hold-to-confirm"
 
 export default function HoldToConfirmSizesDemo() {
   return (

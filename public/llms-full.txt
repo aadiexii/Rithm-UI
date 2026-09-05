@@ -2,7 +2,7 @@
 
 > Rithm UI is an open-source React component and block library featuring animation-ready, copy-paste components built with React, Next.js, Tailwind CSS, Motion, TypeScript, and shadcn/ui — for SaaS dashboards, landing pages, AI applications, and admin panels.
 
-- Website: https://ui.spectrumhq.in
+- Website: https://rithmui.com
 - Source: https://github.com/aadiexii/Rithm-UI
 - License: [Apache License 2.0](https://github.com/aadiexii/Rithm-UI/blob/main/LICENSE)
 - Stack: React, Next.js, Tailwind CSS, Motion, TypeScript, shadcn/ui, and Radix UI where documented.
@@ -15,13 +15,13 @@
 2. Initialize shadcn/ui: `npx shadcn@latest init`
 3. Open the component documentation and run its verified CLI command, when one is provided.
 4. Otherwise copy the documented source and install only its listed dependencies.
-5. AI coding tools can use the Rithm UI MCP server: https://ui.spectrumhq.in/docs/mcp
+5. AI coding tools can use the Rithm UI MCP server: https://rithmui.com/docs/mcp
 
 ## Verified usage examples
 
 ### Accordion
 
-Install: `npx shadcn@latest add @spectrumui/accordion`
+Install: `npx shadcn@latest add @rithmui/accordion`
 
 ```tsx
 import {
@@ -45,10 +45,10 @@ export function FAQ() {
 
 ### Animated Switch
 
-Install: `npx shadcn@latest add @spectrumui/animated-switch`
+Install: `npx shadcn@latest add @rithmui/animated-switch`
 
 ```tsx
-import { AnimatedSwitch } from "@/components/spectrumui/animated-switch";
+import { AnimatedSwitch } from "@/components/rithmui/animated-switch";
 
 export function NotificationSetting() {
   return (
@@ -80,79 +80,79 @@ export function SaveAction() {
 A vertically stacked set of interactive headings that each reveal a section of content.
 
 - Category: Disclosure
-- Documentation: https://ui.spectrumhq.in/docs/accordion
-- Verified install command: `npx shadcn@latest add @spectrumui/accordion`
+- Documentation: https://rithmui.com/docs/accordion
+- Verified install command: `npx shadcn@latest add @rithmui/accordion`
 
 ### Animated Alert
 
 An animated alert that displays notifications, warnings, and success messages.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/alert
-- Verified install command: `npx shadcn@latest add @spectrumui/alert-1`
+- Documentation: https://rithmui.com/docs/alert
+- Verified install command: `npx shadcn@latest add @rithmui/alert-1`
 
 ### Animated Switch
 
 An iOS-style toggle switch with a stretchy knob you can drag or flick.
 
 - Category: Control
-- Documentation: https://ui.spectrumhq.in/docs/animated-switch
-- Verified install command: `npx shadcn@latest add @spectrumui/animated-switch`
+- Documentation: https://rithmui.com/docs/animated-switch
+- Verified install command: `npx shadcn@latest add @rithmui/animated-switch`
 
 ### Animated Card
 
 A card that animates on hover to showcase tools, technologies, and features.
 
 - Category: Card
-- Documentation: https://ui.spectrumhq.in/docs/animatedcard
-- Verified install command: `npx shadcn@latest add @spectrumui/animated-card`
+- Documentation: https://rithmui.com/docs/animatedcard
+- Verified install command: `npx shadcn@latest add @rithmui/animated-card`
 
 ### Animated SVG Chart
 
 An animated SVG chart for visualizing data on dashboards and reports.
 
 - Category: Data
-- Documentation: https://ui.spectrumhq.in/docs/animatedchart
-- Verified install command: `npx shadcn@latest add @spectrumui/animated-SVG-chart`
+- Documentation: https://rithmui.com/docs/animatedchart
+- Verified install command: `npx shadcn@latest add @rithmui/animated-SVG-chart`
 
 ### Animated Drawer
 
 A drawer panel that slides in smoothly for menus, settings, and sidebars.
 
 - Category: Overlay
-- Documentation: https://ui.spectrumhq.in/docs/animateddrawer
-- Verified install command: `npx shadcn@latest add @spectrumui/animated-drawer`
+- Documentation: https://rithmui.com/docs/animateddrawer
+- Verified install command: `npx shadcn@latest add @rithmui/animated-drawer`
 
 ### Autosize Textarea
 
 A textarea that automatically grows and shrinks to fit its content.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/autosize-textarea
-- Verified install command: `npx shadcn@latest add @spectrumui/autosize-textarea-demo`
+- Documentation: https://rithmui.com/docs/autosize-textarea
+- Verified install command: `npx shadcn@latest add @rithmui/autosize-textarea-demo`
 
 ### Avatar Stack
 
 An overlapping avatar row that fans apart on hover with springy name tooltips.
 
 - Category: Profile
-- Documentation: https://ui.spectrumhq.in/docs/avatar-stack
-- Verified install command: `npx shadcn@latest add @spectrumui/avatar-stack`
+- Documentation: https://rithmui.com/docs/avatar-stack
+- Verified install command: `npx shadcn@latest add @rithmui/avatar-stack`
 
 ### 3D Event Badge
 
 An interactive 3D event badge rendered with Three.js and React Three Fiber.
 
 - Category: Media
-- Documentation: https://ui.spectrumhq.in/docs/badge
-- Verified install command: `npx shadcn@latest add @spectrumui/event-badge-3d`
+- Documentation: https://rithmui.com/docs/badge
+- Verified install command: `npx shadcn@latest add @rithmui/event-badge-3d`
 
 ### Button
 
 A set of pre-designed buttons including gradient, outline, loading, and icon styles.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/button
+- Documentation: https://rithmui.com/docs/button
 - Verified install command: `npx shadcn@latest add button`
 
 ### Card
@@ -160,7 +160,7 @@ A set of pre-designed buttons including gradient, outline, loading, and icon sty
 A set of pre-designed cards for login, signup, pricing, and dashboards.
 
 - Category: Card
-- Documentation: https://ui.spectrumhq.in/docs/card
+- Documentation: https://rithmui.com/docs/card
 - Verified install command: `npx shadcn@latest add card`
 
 ### Datetime Picker
@@ -168,274 +168,274 @@ A set of pre-designed cards for login, signup, pricing, and dashboards.
 A date and time picker built on shadcn/ui with no extra dependencies.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/datetime-picker
-- Verified install command: `npx shadcn@latest add @spectrumui/datetime-picker-demo`
+- Documentation: https://rithmui.com/docs/datetime-picker
+- Verified install command: `npx shadcn@latest add @rithmui/datetime-picker-demo`
 
 ### Dual Range Slider
 
 A slider with two draggable thumbs for selecting a range of values.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/dual-range-slider
-- Verified install command: `npx shadcn@latest add @spectrumui/dual-range-slider-demo`
+- Documentation: https://rithmui.com/docs/dual-range-slider
+- Verified install command: `npx shadcn@latest add @rithmui/dual-range-slider-demo`
 
 ### Face Rating
 
 A five-level rating input where an SVG face morphs between moods.
 
 - Category: Rating
-- Documentation: https://ui.spectrumhq.in/docs/face-rating
-- Verified install command: `npx shadcn@latest add @spectrumui/face-rating`
+- Documentation: https://rithmui.com/docs/face-rating
+- Verified install command: `npx shadcn@latest add @rithmui/face-rating`
 
 ### Feedback Card
 
 A feedback card that collects ratings and comments with emoji reactions.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/feedback
-- Verified install command: `npx shadcn@latest add @spectrumui/feedback-demo`
+- Documentation: https://rithmui.com/docs/feedback
+- Verified install command: `npx shadcn@latest add @rithmui/feedback-demo`
 
 ### Floating Label Input
 
 An input whose label floats above the field when focused or filled.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/floating-label-input
-- Verified install command: `npx shadcn@latest add @spectrumui/floating-label-input-demo`
+- Documentation: https://rithmui.com/docs/floating-label-input
+- Verified install command: `npx shadcn@latest add @rithmui/floating-label-input-demo`
 
 ### Follow Button
 
 A follow button that morphs its width, fill, and label between states.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/follow-button
-- Verified install command: `npx shadcn@latest add @spectrumui/follow-button`
+- Documentation: https://rithmui.com/docs/follow-button
+- Verified install command: `npx shadcn@latest add @rithmui/follow-button`
 
 ### Hold to Confirm
 
 A press-and-hold button that fills a progress ring before confirming destructive actions.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/hold-to-confirm
-- Verified install command: `npx shadcn@latest add @spectrumui/hold-to-confirm`
+- Documentation: https://rithmui.com/docs/hold-to-confirm
+- Verified install command: `npx shadcn@latest add @rithmui/hold-to-confirm`
 
 ### Image Preview
 
 An image preview component with zoom, lightbox, and gallery support.
 
 - Category: Media
-- Documentation: https://ui.spectrumhq.in/docs/imagepreview
-- Verified install command: `npx shadcn@latest add @spectrumui/image-preview`
+- Documentation: https://rithmui.com/docs/imagepreview
+- Verified install command: `npx shadcn@latest add @rithmui/image-preview`
 
 ### Infinite Scroll
 
 An infinite scroll container that loads more content using the IntersectionObserver API.
 
 - Category: Data
-- Documentation: https://ui.spectrumhq.in/docs/infinite-scroll
-- Verified install command: `npx shadcn@latest add @spectrumui/infinite-scroll-demo`
+- Documentation: https://rithmui.com/docs/infinite-scroll
+- Verified install command: `npx shadcn@latest add @rithmui/infinite-scroll-demo`
 
 ### Input Model
 
 A modal dialog with an input form for quick data entry.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/input-model
-- Verified install command: `npx shadcn@latest add @spectrumui/input-model`
+- Documentation: https://rithmui.com/docs/input-model
+- Verified install command: `npx shadcn@latest add @rithmui/input-model`
 
 ### Kanban Board
 
 A drag-and-drop kanban board for organizing tasks into columns.
 
 - Category: Data
-- Documentation: https://ui.spectrumhq.in/docs/kanban
-- Verified install command: `npx shadcn@latest add @spectrumui/kanbanboard`
+- Documentation: https://rithmui.com/docs/kanban
+- Verified install command: `npx shadcn@latest add @rithmui/kanbanboard`
 
 ### Kbd Key
 
 A 3D keycap that physically depresses when the matching key is pressed.
 
 - Category: Input
-- Documentation: https://ui.spectrumhq.in/docs/kbd-key
-- Verified install command: `npx shadcn@latest add @spectrumui/kbd-key`
+- Documentation: https://rithmui.com/docs/kbd-key
+- Verified install command: `npx shadcn@latest add @rithmui/kbd-key`
 
 ### Like Button
 
 A heart button that pops with a particle burst and rolling count.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/like-button
-- Verified install command: `npx shadcn@latest add @spectrumui/like-button`
+- Documentation: https://rithmui.com/docs/like-button
+- Verified install command: `npx shadcn@latest add @rithmui/like-button`
 
 ### Loading Button
 
 A shadcn/ui button with a built-in loading spinner state.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/loading-button
-- Verified install command: `npx shadcn@latest add @spectrumui/loading-button-demo`
+- Documentation: https://rithmui.com/docs/loading-button
+- Verified install command: `npx shadcn@latest add @rithmui/loading-button-demo`
 
 ### Login Card
 
 A login form card for authentication pages and SaaS apps.
 
 - Category: Auth
-- Documentation: https://ui.spectrumhq.in/docs/login
-- Verified install command: `npx shadcn@latest add @spectrumui/login-card`
+- Documentation: https://rithmui.com/docs/login
+- Verified install command: `npx shadcn@latest add @rithmui/login-card`
 
 ### Morph Button
 
 An async button that morphs between idle, loading, success, and error states.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/morph-button
-- Verified install command: `npx shadcn@latest add @spectrumui/morph-button`
+- Documentation: https://rithmui.com/docs/morph-button
+- Verified install command: `npx shadcn@latest add @rithmui/morph-button`
 
 ### Multiple Selector
 
 A multi-select input with async search, grouping, and creatable options.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/multiple-selector
-- Verified install command: `npx shadcn@latest add @spectrumui/multiple-selector-demo`
+- Documentation: https://rithmui.com/docs/multiple-selector
+- Verified install command: `npx shadcn@latest add @rithmui/multiple-selector-demo`
 
 ### Multistep Form
 
 A multi-step form with progress indicators for registration and checkout flows.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/multistepform
-- Verified install command: `npx shadcn@latest add @spectrumui/multiple-step-form-demo`
+- Documentation: https://rithmui.com/docs/multistepform
+- Verified install command: `npx shadcn@latest add @rithmui/multiple-step-form-demo`
 
 ### Notification Bell
 
 A bell button that swings on new notifications with a rolling unread badge.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/notification-bell
-- Verified install command: `npx shadcn@latest add @spectrumui/notification-bell`
+- Documentation: https://rithmui.com/docs/notification-bell
+- Verified install command: `npx shadcn@latest add @rithmui/notification-bell`
 
 ### Password Strength
 
 A password input with an animated strength meter and requirements checklist.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/password-strength
-- Verified install command: `npx shadcn@latest add @spectrumui/password-strength`
+- Documentation: https://rithmui.com/docs/password-strength
+- Verified install command: `npx shadcn@latest add @rithmui/password-strength`
 
 ### Profile Dropdown
 
 A user profile dropdown menu with avatar, settings, and logout actions.
 
 - Category: Profile
-- Documentation: https://ui.spectrumhq.in/docs/profile
-- Verified install command: `npx shadcn@latest add @spectrumui/profile-dropdown`
+- Documentation: https://rithmui.com/docs/profile
+- Verified install command: `npx shadcn@latest add @rithmui/profile-dropdown`
 
 ### Progress With Value
 
 A progress bar that displays the current value.
 
 - Category: Progress
-- Documentation: https://ui.spectrumhq.in/docs/progress-with-value
-- Verified install command: `npx shadcn@latest add @spectrumui/progress-with-value`
+- Documentation: https://rithmui.com/docs/progress-with-value
+- Verified install command: `npx shadcn@latest add @rithmui/progress-with-value`
 
 ### Quantity Stepper
 
 A quantity input with rolling digits, hold-to-repeat buttons, and boundary shake.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/quantity-stepper
-- Verified install command: `npx shadcn@latest add @spectrumui/quantity-stepper`
+- Documentation: https://rithmui.com/docs/quantity-stepper
+- Verified install command: `npx shadcn@latest add @rithmui/quantity-stepper`
 
 ### Reaction Bar
 
 A Slack-style emoji reaction bar with animated chips and rolling counts.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/reaction-bar
-- Verified install command: `npx shadcn@latest add @spectrumui/reaction-bar`
+- Documentation: https://rithmui.com/docs/reaction-bar
+- Verified install command: `npx shadcn@latest add @rithmui/reaction-bar`
 
 ### Scratch Card
 
 A scratch-to-reveal card that wipes away a canvas foil overlay on drag.
 
 - Category: Media
-- Documentation: https://ui.spectrumhq.in/docs/scratch-card
-- Verified install command: `npx shadcn@latest add @spectrumui/scratch-card`
+- Documentation: https://rithmui.com/docs/scratch-card
+- Verified install command: `npx shadcn@latest add @rithmui/scratch-card`
 
 ### Share Button
 
 A share button that fans out into copy-link and custom share actions.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/share-button
-- Verified install command: `npx shadcn@latest add @spectrumui/share-button`
+- Documentation: https://rithmui.com/docs/share-button
+- Verified install command: `npx shadcn@latest add @rithmui/share-button`
 
 ### Spinner
 
 A loading spinner with multiple sizes and variants for async states.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/spinner
-- Verified install command: `npx shadcn@latest add @spectrumui/spinner-demo`
+- Documentation: https://rithmui.com/docs/spinner
+- Verified install command: `npx shadcn@latest add @rithmui/spinner-demo`
 
 ### Star Rating
 
 An animated star rating input with hover preview and sparkle burst effects.
 
 - Category: Rating
-- Documentation: https://ui.spectrumhq.in/docs/star-rating
-- Verified install command: `npx shadcn@latest add @spectrumui/star-rating`
+- Documentation: https://rithmui.com/docs/star-rating
+- Verified install command: `npx shadcn@latest add @rithmui/star-rating`
 
 ### Status Badge
 
 A status badge with icon and color variants for success, error, warning, and pending states.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/status-badge
-- Verified install command: `npx shadcn@latest add @spectrumui/status-badge`
+- Documentation: https://rithmui.com/docs/status-badge
+- Verified install command: `npx shadcn@latest add @rithmui/status-badge`
 
 ### Swipe to Delete
 
 A swipeable list item that reveals an iOS-style delete action on drag.
 
 - Category: Action
-- Documentation: https://ui.spectrumhq.in/docs/swipe-to-delete
-- Verified install command: `npx shadcn@latest add @spectrumui/swipe-to-delete`
+- Documentation: https://rithmui.com/docs/swipe-to-delete
+- Verified install command: `npx shadcn@latest add @rithmui/swipe-to-delete`
 
 ### Task Checkbox
 
 A todo checkbox that celebrates completion with a confetti burst and strikethrough.
 
 - Category: Form
-- Documentation: https://ui.spectrumhq.in/docs/task-checkbox
-- Verified install command: `npx shadcn@latest add @spectrumui/task-checkbox`
+- Documentation: https://rithmui.com/docs/task-checkbox
+- Verified install command: `npx shadcn@latest add @rithmui/task-checkbox`
 
 ### 3D Tilt Card
 
 A 3D card that tilts toward the pointer with parallax depth and glare.
 
 - Category: Card
-- Documentation: https://ui.spectrumhq.in/docs/tilt-card
-- Verified install command: `npx shadcn@latest add @spectrumui/tilt-card`
+- Documentation: https://rithmui.com/docs/tilt-card
+- Verified install command: `npx shadcn@latest add @rithmui/tilt-card`
 
 ### Undo Pill
 
 An inline undo pill with a draining countdown ring that pauses on hover.
 
 - Category: Feedback
-- Documentation: https://ui.spectrumhq.in/docs/undo-pill
-- Verified install command: `npx shadcn@latest add @spectrumui/undo-pill`
+- Documentation: https://rithmui.com/docs/undo-pill
+- Verified install command: `npx shadcn@latest add @rithmui/undo-pill`
 
 ## AI Assistant block reference (27)
 
-Composed interface sections for AI products. All are presentational — data in, callbacks out — and share one message contract, so they compose into a working chat surface. Every block renders live at https://ui.spectrumhq.in/blocks/ai-assistants.
+Composed interface sections for AI products. All are presentational — data in, callbacks out — and share one message contract, so they compose into a working chat surface. Every block renders live at https://rithmui.com/blocks/ai-assistants.
 
 ### Loading State
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#loading-state
+- URL: https://rithmui.com/blocks/ai-assistants#loading-state
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/loading-state
+- Install: npx shadcn@latest add @rithmui/loading-state
 - Variants: Drive, Dots, Orbit
 - Dependencies: none
 - Added: 2026-07-29
@@ -451,9 +451,9 @@ What makes it hard to build well:
 
 ### Reasoning Trace
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#reasoning-trace
+- URL: https://rithmui.com/blocks/ai-assistants#reasoning-trace
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/reasoning-trace
+- Install: npx shadcn@latest add @rithmui/reasoning-trace
 - Variants: Steps, Reasoning
 - Dependencies: lucide-react
 - Added: 2026-07-29
@@ -469,9 +469,9 @@ What makes it hard to build well:
 
 ### Streaming Text
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#streaming-text
+- URL: https://rithmui.com/blocks/ai-assistants#streaming-text
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/streaming-text
+- Install: npx shadcn@latest add @rithmui/streaming-text
 - Variants: Answer, Sources
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -487,9 +487,9 @@ What makes it hard to build well:
 
 ### Prompt Composer
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#prompt-composer
+- URL: https://rithmui.com/blocks/ai-assistants#prompt-composer
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/prompt-composer
+- Install: npx shadcn@latest add @rithmui/prompt-composer
 - Variants: Default, Minimal
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -505,9 +505,9 @@ What makes it hard to build well:
 
 ### Chat Empty State
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#chat-empty-state
+- URL: https://rithmui.com/blocks/ai-assistants#chat-empty-state
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/chat-empty-state
+- Install: npx shadcn@latest add @rithmui/chat-empty-state
 - Variants: Default, Centered
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -523,9 +523,9 @@ What makes it hard to build well:
 
 ### Message Actions
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#message-actions
+- URL: https://rithmui.com/blocks/ai-assistants#message-actions
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/message-actions
+- Install: npx shadcn@latest add @rithmui/message-actions
 - Variants: Ghost, Pill
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -541,9 +541,9 @@ What makes it hard to build well:
 
 ### Citation Sources
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#citation-sources
+- URL: https://rithmui.com/blocks/ai-assistants#citation-sources
 - Category: ai-assistants / Sources
-- Install: npx shadcn@latest add @spectrumui/citation-sources
+- Install: npx shadcn@latest add @rithmui/citation-sources
 - Variants: Inline, Footnotes
 - Dependencies: none
 - Added: 2026-07-31
@@ -559,9 +559,9 @@ What makes it hard to build well:
 
 ### Agent Steps
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#agent-steps
+- URL: https://rithmui.com/blocks/ai-assistants#agent-steps
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/agent-steps
+- Install: npx shadcn@latest add @rithmui/agent-steps
 - Variants: Default, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -577,9 +577,9 @@ What makes it hard to build well:
 
 ### Tool Chips
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#tool-chips
+- URL: https://rithmui.com/blocks/ai-assistants#tool-chips
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/tool-chips
+- Install: npx shadcn@latest add @rithmui/tool-chips
 - Variants: Row, Stack
 - Dependencies: none
 - Added: 2026-07-31
@@ -595,9 +595,9 @@ What makes it hard to build well:
 
 ### Approval Card
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#approval-card
+- URL: https://rithmui.com/blocks/ai-assistants#approval-card
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/approval-card
+- Install: npx shadcn@latest add @rithmui/approval-card
 - Variants: Default
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -613,9 +613,9 @@ What makes it hard to build well:
 
 ### Model Selector
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#model-selector
+- URL: https://rithmui.com/blocks/ai-assistants#model-selector
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/model-selector
+- Install: npx shadcn@latest add @rithmui/model-selector
 - Variants: List, Segmented
 - Dependencies: none
 - Added: 2026-07-31
@@ -631,9 +631,9 @@ What makes it hard to build well:
 
 ### Usage Meter
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#usage-meter
+- URL: https://rithmui.com/blocks/ai-assistants#usage-meter
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/usage-meter
+- Install: npx shadcn@latest add @rithmui/usage-meter
 - Variants: Bar, Inline
 - Dependencies: none
 - Added: 2026-07-31
@@ -649,9 +649,9 @@ What makes it hard to build well:
 
 ### Voice Input
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#voice-input
+- URL: https://rithmui.com/blocks/ai-assistants#voice-input
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/voice-input
+- Install: npx shadcn@latest add @rithmui/voice-input
 - Variants: Default
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -667,9 +667,9 @@ What makes it hard to build well:
 
 ### Inline Edit
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#inline-edit
+- URL: https://rithmui.com/blocks/ai-assistants#inline-edit
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/inline-edit
+- Install: npx shadcn@latest add @rithmui/inline-edit
 - Variants: Default
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -685,9 +685,9 @@ What makes it hard to build well:
 
 ### Thinking Dots
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#thinking-dots
+- URL: https://rithmui.com/blocks/ai-assistants#thinking-dots
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/thinking-dots
+- Install: npx shadcn@latest add @rithmui/thinking-dots
 - Variants: Dots, Bar
 - Dependencies: none
 - Added: 2026-07-31
@@ -703,9 +703,9 @@ What makes it hard to build well:
 
 ### Task Rows
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#task-rows
+- URL: https://rithmui.com/blocks/ai-assistants#task-rows
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/task-rows
+- Install: npx shadcn@latest add @rithmui/task-rows
 - Variants: Default, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -721,9 +721,9 @@ What makes it hard to build well:
 
 ### Agent Plan
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#agent-plan
+- URL: https://rithmui.com/blocks/ai-assistants#agent-plan
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/agent-plan
+- Install: npx shadcn@latest add @rithmui/agent-plan
 - Variants: Default, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -739,9 +739,9 @@ What makes it hard to build well:
 
 ### Web Search
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#web-search
+- URL: https://rithmui.com/blocks/ai-assistants#web-search
 - Category: ai-assistants / Sources
-- Install: npx shadcn@latest add @spectrumui/web-search
+- Install: npx shadcn@latest add @rithmui/web-search
 - Variants: Default, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -757,9 +757,9 @@ What makes it hard to build well:
 
 ### Diff View
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#diff-view
+- URL: https://rithmui.com/blocks/ai-assistants#diff-view
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/diff-view
+- Install: npx shadcn@latest add @rithmui/diff-view
 - Variants: Default, Summary
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -775,9 +775,9 @@ What makes it hard to build well:
 
 ### Code Block
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#code-block
+- URL: https://rithmui.com/blocks/ai-assistants#code-block
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/code-block
+- Install: npx shadcn@latest add @rithmui/code-block
 - Variants: Default, Numbered
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -793,9 +793,9 @@ What makes it hard to build well:
 
 ### Insight Cards
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#insight-cards
+- URL: https://rithmui.com/blocks/ai-assistants#insight-cards
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/insight-cards
+- Install: npx shadcn@latest add @rithmui/insight-cards
 - Variants: Grid, Row
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -811,9 +811,9 @@ What makes it hard to build well:
 
 ### Error State
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#error-state
+- URL: https://rithmui.com/blocks/ai-assistants#error-state
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/error-state
+- Install: npx shadcn@latest add @rithmui/error-state
 - Variants: Card, Inline
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -829,9 +829,9 @@ What makes it hard to build well:
 
 ### Quota Banner
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#quota-banner
+- URL: https://rithmui.com/blocks/ai-assistants#quota-banner
 - Category: ai-assistants / Feedback
-- Install: npx shadcn@latest add @spectrumui/quota-banner
+- Install: npx shadcn@latest add @rithmui/quota-banner
 - Variants: Banner, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -847,9 +847,9 @@ What makes it hard to build well:
 
 ### Memory Chips
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#memory-chips
+- URL: https://rithmui.com/blocks/ai-assistants#memory-chips
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/memory-chips
+- Install: npx shadcn@latest add @rithmui/memory-chips
 - Variants: Panel, Row
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -865,9 +865,9 @@ What makes it hard to build well:
 
 ### Suggestion Banner
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#suggestion-banner
+- URL: https://rithmui.com/blocks/ai-assistants#suggestion-banner
 - Category: ai-assistants / Input
-- Install: npx shadcn@latest add @spectrumui/suggestion-banner
+- Install: npx shadcn@latest add @rithmui/suggestion-banner
 - Variants: Inline, Floating
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -883,9 +883,9 @@ What makes it hard to build well:
 
 ### Status Tracker
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#status-tracker
+- URL: https://rithmui.com/blocks/ai-assistants#status-tracker
 - Category: ai-assistants / Reasoning & Agents
-- Install: npx shadcn@latest add @spectrumui/status-tracker
+- Install: npx shadcn@latest add @rithmui/status-tracker
 - Variants: Default, Minimal
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -901,9 +901,9 @@ What makes it hard to build well:
 
 ### Conversation List
 
-- URL: https://ui.spectrumhq.in/blocks/ai-assistants#conversation-list
+- URL: https://rithmui.com/blocks/ai-assistants#conversation-list
 - Category: ai-assistants / Conversation
-- Install: npx shadcn@latest add @spectrumui/conversation-list
+- Install: npx shadcn@latest add @rithmui/conversation-list
 - Variants: Default, Compact
 - Dependencies: lucide-react
 - Added: 2026-07-31
@@ -919,31 +919,31 @@ What makes it hard to build well:
 
 ## Other public pages
 
-- Home: https://ui.spectrumhq.in
-- LLM info (official facts for AI assistants): https://ui.spectrumhq.in/llm-info
-- Component index: https://ui.spectrumhq.in/docs
-- Installation: https://ui.spectrumhq.in/docs/installation
-- Guides: https://ui.spectrumhq.in/docs/guides
-- MCP server: https://ui.spectrumhq.in/docs/mcp
-- AI Assistant blocks: https://ui.spectrumhq.in/blocks/ai-assistants
-- Changelog: https://ui.spectrumhq.in/changelog
-- Blog: https://ui.spectrumhq.in/blog
-- Charts gallery: https://ui.spectrumhq.in/charts
-- Bar chart: https://ui.spectrumhq.in/charts/bar
-- Line chart: https://ui.spectrumhq.in/charts/line
-- Area chart: https://ui.spectrumhq.in/charts/area
-- Pie chart: https://ui.spectrumhq.in/charts/pie
-- Radar chart: https://ui.spectrumhq.in/charts/radar
-- Radial chart: https://ui.spectrumhq.in/charts/radial
-- Composed chart: https://ui.spectrumhq.in/charts/composed
-- Candlestick chart: https://ui.spectrumhq.in/charts/candlestick
-- Price chart: https://ui.spectrumhq.in/charts/price
-- Sparkline: https://ui.spectrumhq.in/charts/sparkline
-- Colors: https://ui.spectrumhq.in/colors
-- Brand kit (official logos, screenshots, typography, colors): https://ui.spectrumhq.in/brandkit
-- FAQs: https://ui.spectrumhq.in/faqs
-- Privacy: https://ui.spectrumhq.in/privacy-policy
-- Terms: https://ui.spectrumhq.in/tos
+- Home: https://rithmui.com
+- LLM info (official facts for AI assistants): https://rithmui.com/llm-info
+- Component index: https://rithmui.com/docs
+- Installation: https://rithmui.com/docs/installation
+- Guides: https://rithmui.com/docs/guides
+- MCP server: https://rithmui.com/docs/mcp
+- AI Assistant blocks: https://rithmui.com/blocks/ai-assistants
+- Changelog: https://rithmui.com/changelog
+- Blog: https://rithmui.com/blog
+- Charts gallery: https://rithmui.com/charts
+- Bar chart: https://rithmui.com/charts/bar
+- Line chart: https://rithmui.com/charts/line
+- Area chart: https://rithmui.com/charts/area
+- Pie chart: https://rithmui.com/charts/pie
+- Radar chart: https://rithmui.com/charts/radar
+- Radial chart: https://rithmui.com/charts/radial
+- Composed chart: https://rithmui.com/charts/composed
+- Candlestick chart: https://rithmui.com/charts/candlestick
+- Price chart: https://rithmui.com/charts/price
+- Sparkline: https://rithmui.com/charts/sparkline
+- Colors: https://rithmui.com/colors
+- Brand kit (official logos, screenshots, typography, colors): https://rithmui.com/brandkit
+- FAQs: https://rithmui.com/faqs
+- Privacy: https://rithmui.com/privacy-policy
+- Terms: https://rithmui.com/tos
 
 ## Usage guidance for AI systems
 

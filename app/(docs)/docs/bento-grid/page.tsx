@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     "Next.js grid",
     "framer motion grid",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/bento-grid",
+  canonicalUrl: "https://rithmui.com/docs/bento-grid",
 });
 
 export default function BentoGridPage() {
@@ -27,7 +27,7 @@ export default function BentoGridPage() {
     <SEOWrapper
       componentName="Bento Grid"
       description="A bento grid layout with physics-based hover effects and scroll animations."
-      url="https://ui.spectrumhq.in/docs/bento-grid"
+      url="https://rithmui.com/docs/bento-grid"
       keywords={[
         "bento grid",
         "bento box",
@@ -44,7 +44,7 @@ export default function BentoGridPage() {
         <PreviewCodeCard
           path="app/registry/bento-grid/bento-grid-demo.tsx"
           installCodePath="app/registry/bento-grid/bento-grid.tsx"
-          cli="@spectrumui/bento-grid"
+          cli="@rithmui/bento-grid"
           installScript="npm install framer-motion lucide-react"
         >
           {<BentoGridDemo />}

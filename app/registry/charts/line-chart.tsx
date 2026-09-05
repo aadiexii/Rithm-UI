@@ -39,7 +39,7 @@ import {
 
 export type LineCurve = 'monotone' | 'bump' | 'step' | 'linear';
 
-export interface SpectrumLineChartProps {
+export interface RithmLineChartProps {
   className?: string;
   data?: typeof MONTHLY_TRAFFIC;
   curveType?: LineCurve;
@@ -65,7 +65,7 @@ export function LineChart({
   isLoading = false,
   showLegend = true,
   showDots = true,
-}: SpectrumLineChartProps) {
+}: RithmLineChartProps) {
   const id = useChartId('line');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -172,26 +172,26 @@ export function LineChart({
   );
 }
 
-export function DefaultLineChart(props: SpectrumLineChartProps) {
+export function DefaultLineChart(props: RithmLineChartProps) {
   return <LineChart {...props} />;
 }
 
-export function DashedLineChart(props: SpectrumLineChartProps) {
+export function DashedLineChart(props: RithmLineChartProps) {
   return <LineChart strokeVariant="animated-dashed" {...props} />;
 }
 
-export function BumpLineChart(props: SpectrumLineChartProps) {
+export function BumpLineChart(props: RithmLineChartProps) {
   return <LineChart curveType="bump" {...props} />;
 }
 
-export function StepLineChart(props: SpectrumLineChartProps) {
+export function StepLineChart(props: RithmLineChartProps) {
   return <LineChart curveType="step" {...props} />;
 }
 
-export function GlowingLineChart(props: SpectrumLineChartProps) {
+export function GlowingLineChart(props: RithmLineChartProps) {
   return <LineChart glowing {...props} />;
 }
 
-export function GradientLineChart(props: SpectrumLineChartProps) {
+export function GradientLineChart(props: RithmLineChartProps) {
   return <LineChart gradientStroke {...props} />;
 }

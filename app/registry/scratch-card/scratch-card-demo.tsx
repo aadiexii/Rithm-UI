@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useCallback, useState } from "react"
-import { ScratchCard } from "@/components/spectrumui/scratch-card"
+import { ScratchCard } from "@/components/rithmui/scratch-card"
 import { Check, Copy, RotateCcw, Ticket } from "lucide-react"
 
 export function ScratchCardDemo() {
@@ -10,7 +10,7 @@ export function ScratchCardDemo() {
   const [isCopied, setIsCopied] = useState(false)
 
   const handleCopy = useCallback(() => {
-    navigator.clipboard.writeText("SPECTRUM20").then(() => {
+    navigator.clipboard.writeText("RITHM20").then(() => {
       setIsCopied(true)
       setTimeout(() => setIsCopied(false), 2000)
     })
@@ -28,7 +28,7 @@ export function ScratchCardDemo() {
         key={resetKey}
         className="w-full max-w-[320px]"
         ariaLabel="Scratch to reveal your coupon code. Press Enter to reveal."
-        revealAnnouncement="Coupon revealed: SPECTRUM20 for 20% off"
+        revealAnnouncement="Coupon revealed: RITHM20 for 20% off"
         onReveal={() => setIsRevealed(true)}
       >
         <div className="flex flex-col items-center gap-3 px-6 py-10 text-center">
@@ -49,7 +49,7 @@ export function ScratchCardDemo() {
             onClick={handleCopy}
             className="mt-1 flex items-center gap-2 rounded-xl border border-dashed border-neutral-300 px-4 py-2 font-mono text-sm text-neutral-700 transition-colors hover:bg-neutral-100 focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-neutral-950 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus-visible:ring-neutral-300"
           >
-            SPECTRUM20
+            RITHM20
             {isCopied ? (
               <Check className="h-3.5 w-3.5" aria-hidden="true" />
             ) : (

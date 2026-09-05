@@ -33,7 +33,7 @@ export interface BlockCatalogItem {
   hardParts: string[];
   variants: string[];
   complexity: 'simple' | 'composed' | 'advanced';
-  /** Spectrum or shadcn components this block is built from. */
+  /** Rithm or shadcn components this block is built from. */
   composedOf: string[];
   dependencies: string[];
   /**
@@ -85,7 +85,7 @@ export function blockPath(categorySlug: string, blockSlug: string) {
 
 /** The install command shown on cards and detail pages. */
 export function blockCliCommand(blockSlug: string) {
-  return `npx shadcn@latest add @spectrumui/${blockSlug}`;
+  return `npx shadcn@latest add @rithmui/${blockSlug}`;
 }
 
 export function findBlockCategory(categorySlug: string) {

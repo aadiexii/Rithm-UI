@@ -18,7 +18,7 @@ import { cn } from '@/lib/utils';
 import posthog from 'posthog-js';
 
 interface InstallFigureProps {
-  /** Registry slug, e.g. "@spectrumui/chat-thread". */
+  /** Registry slug, e.g. "@rithmui/chat-thread". */
   cli: string;
   componentName?: string;
   className?: string;

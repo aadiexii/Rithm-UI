@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { LikeButton } from "@/components/spectrumui/like-button"
+import { LikeButton } from "@/components/rithmui/like-button"
 
 export default function LikeButtonSizesDemo() {
   return (

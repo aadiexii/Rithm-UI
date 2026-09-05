@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { FaceRating } from "@/components/spectrumui/face-rating"
+import { FaceRating } from "@/components/rithmui/face-rating"
 
 export default function FaceRatingDemo() {
   const [rating, setRating] = useState(0)

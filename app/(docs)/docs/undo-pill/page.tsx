@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion countdown",
     "Next.js undo pill",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/undo-pill",
+  canonicalUrl: "https://rithmui.com/docs/undo-pill",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Undo Pill"
       description={description}
-      url="https://ui.spectrumhq.in/docs/undo-pill"
+      url="https://rithmui.com/docs/undo-pill"
       keywords={[
         "undo pill component",
         "undo toast component",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/undo-pill/undo-pill-demo.tsx"
-          installCodePath="components/spectrumui/undo-pill.tsx"
-          cli="@spectrumui/undo-pill"
+          installCodePath="components/rithmui/undo-pill.tsx"
+          cli="@rithmui/undo-pill"
           installScript="npm i framer-motion"
         >
           <UndoPillDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { UndoPill } from "@/components/spectrumui/undo-pill"`}
+            code={`import { UndoPill } from "@/components/rithmui/undo-pill"`}
             requireAuth={false}
           />
           <CodeHighlight

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { UndoPill } from "@/components/spectrumui/undo-pill"
+import { UndoPill } from "@/components/rithmui/undo-pill"
 
 export default function UndoPillDurationDemo() {
   const [status, setStatus] = useState<"idle" | "pending" | "archived">("idle")

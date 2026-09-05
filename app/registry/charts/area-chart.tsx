@@ -44,7 +44,7 @@ export type { AreaFillVariant };
 export type AreaCurve = 'monotone' | 'bump' | 'step' | 'linear';
 export type AreaStackType = 'none' | 'stacked' | 'expanded';
 
-export interface SpectrumAreaChartProps {
+export interface RithmAreaChartProps {
   className?: string;
   data?: typeof MONTHLY_TRAFFIC;
   variant?: AreaFillVariant;
@@ -70,7 +70,7 @@ export function AreaChart({
   glowing = false,
   isLoading = false,
   showLegend = true,
-}: SpectrumAreaChartProps) {
+}: RithmAreaChartProps) {
   const id = useChartId('area');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -152,30 +152,30 @@ export function AreaChart({
   );
 }
 
-export function DefaultAreaChart(props: SpectrumAreaChartProps) {
+export function DefaultAreaChart(props: RithmAreaChartProps) {
   return <AreaChart variant="gradient" {...props} />;
 }
 
-export function HatchedAreaChart(props: SpectrumAreaChartProps) {
+export function HatchedAreaChart(props: RithmAreaChartProps) {
   return <AreaChart variant="hatched" {...props} />;
 }
 
-export function DottedAreaChart(props: SpectrumAreaChartProps) {
+export function DottedAreaChart(props: RithmAreaChartProps) {
   return <AreaChart variant="dotted" {...props} />;
 }
 
-export function SolidAreaChart(props: SpectrumAreaChartProps) {
+export function SolidAreaChart(props: RithmAreaChartProps) {
   return <AreaChart variant="solid" {...props} />;
 }
 
-export function StackedAreaChart(props: SpectrumAreaChartProps) {
+export function StackedAreaChart(props: RithmAreaChartProps) {
   return <AreaChart stackType="stacked" {...props} />;
 }
 
-export function BumpAreaChart(props: SpectrumAreaChartProps) {
+export function BumpAreaChart(props: RithmAreaChartProps) {
   return <AreaChart curveType="bump" {...props} />;
 }
 
-export function DashedAreaChart(props: SpectrumAreaChartProps) {
+export function DashedAreaChart(props: RithmAreaChartProps) {
   return <AreaChart strokeVariant="animated-dashed" {...props} />;
 }

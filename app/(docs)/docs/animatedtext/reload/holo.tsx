@@ -18,7 +18,7 @@ export function ReloadableHologram() {
       >
         <RotateCcw />
       </Button>
-      <HologramText key={reloadKey} text="SPECTRUM UI" scanDuration={1800} chromaJitter={0.8} />
+      <HologramText key={reloadKey} text="RITHM UI" scanDuration={1800} chromaJitter={0.8} />
     </>
   );
 }

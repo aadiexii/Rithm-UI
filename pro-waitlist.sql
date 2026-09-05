@@ -1,4 +1,4 @@
--- Spectrum Pro paid waitlist table
+-- Rithm Pro paid waitlist table
 -- Run this in Supabase before enabling Pro waitlist checkout.
 
 CREATE TABLE IF NOT EXISTS pro_waitlist (

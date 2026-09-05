@@ -1,17 +1,17 @@
 /**
- * Guards the install path: `npx shadcn add @spectrumui/<name>`.
+ * Guards the install path: `npx shadcn add @rithmui/<name>`.
  *
- * The @spectrumui namespace is registered in shadcn's public registry index
+ * The @rithmui namespace is registered in shadcn's public registry index
  * (https://ui.shadcn.com/r/registries.json) pointing at
- * https://ui.spectrumhq.in/r/{name}.json — so the CLI reads per-item payloads,
+ * https://rithmui.com/r/{name}.json — so the CLI reads per-item payloads,
  * while the MCP server reads the public/r/registry.json index. Both must agree
  * with registry.json or installs 404 and the MCP recommends the wrong component.
  *
  * Every failure below shipped to production at least once:
- *   - image-preview declared @spectrumui/image-preview-dependencies, but that
+ *   - image-preview declared @rithmui/image-preview-dependencies, but that
  *     item was misnamed image-preview (duplicating the component name)
- *   - footer declared @spectrumui/icon-dependencies, which did not exist
- *   - multiple-selector-with-form declared @spectrumui/loading-button, which
+ *   - footer declared @rithmui/icon-dependencies, which did not exist
+ *   - multiple-selector-with-form declared @rithmui/loading-button, which
  *     did not exist (the real item is loading-button-dependencies)
  *   - disclose-image and github-profile-card had no payload at all
  *   - the index sat at 116 items against registry.json's 154, so the MCP server
@@ -39,11 +39,11 @@ const nameSet = new Set(names);
 const duplicates = names.filter((name, i) => names.indexOf(name) !== i);
 if (duplicates.length) fail(`duplicate item names: ${[...new Set(duplicates)].join(', ')}`);
 
-// 2. Every @spectrumui registryDependency resolves to a real item.
+// 2. Every @rithmui registryDependency resolves to a real item.
 for (const item of registry.items) {
   for (const dep of item.registryDependencies ?? []) {
-    if (!dep.startsWith('@spectrumui/')) continue;
-    const target = dep.slice('@spectrumui/'.length);
+    if (!dep.startsWith('@rithmui/')) continue;
+    const target = dep.slice('@rithmui/'.length);
     if (!nameSet.has(target)) {
       fail(`${item.name} depends on ${dep}, which is not in registry.json`);
     }

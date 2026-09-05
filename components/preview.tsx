@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ResponsiveInputShowcase from "./spectrumui/form";
+import ResponsiveInputShowcase from "./rithmui/form";
 
 export function Tabspreview() {
   return (

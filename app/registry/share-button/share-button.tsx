@@ -13,7 +13,7 @@
  *
  * @example
  * <ShareButton
- *   copyValue="https://ui.spectrumhq.in"
+ *   copyValue="https://rithmui.com"
  *   actions={[
  *     { icon: <Twitter size={15} />, label: "Share on X", onSelect: shareOnX },
  *   ]}

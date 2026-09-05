@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion"
-import { FollowButton } from "@/components/spectrumui/follow-button"
+import { FollowButton } from "@/components/rithmui/follow-button"
 
 const BASE_FOLLOWERS = 2847
 

@@ -9,8 +9,8 @@ export interface ComponentDetail {
   dependencies: string[];
   registryDependencies: string[];
   files: Array<{ path: string; target: string }>;
-  cliCommand: string;      // bunx --bun shadcn@latest add @spectrumui/<name>
-  cliCommandNpx: string;  // npx shadcn@latest add @spectrumui/<name>
+  cliCommand: string;      // bunx --bun shadcn@latest add @rithmui/<name>
+  cliCommandNpx: string;  // npx shadcn@latest add @rithmui/<name>
   docsUrl: string;
   previewUrl: string;
   installInstructions: string;
@@ -45,8 +45,8 @@ export async function getComponent(
   // failed to find, but not what they actually used.
   track({ event: "get_component", component: item.name, query: nameOrQuery, found: true });
 
-  const cliCommand = `bunx --bun shadcn@latest add @spectrumui/${item.name}`;
-  const cliCommandNpx = `npx shadcn@latest add @spectrumui/${item.name}`;
+  const cliCommand = `bunx --bun shadcn@latest add @rithmui/${item.name}`;
+  const cliCommandNpx = `npx shadcn@latest add @rithmui/${item.name}`;
 
   return {
     name: item.name,
@@ -58,8 +58,8 @@ export async function getComponent(
     files: item.files.map((f) => ({ path: f.path, target: f.target })),
     cliCommand,
     cliCommandNpx,
-    docsUrl: item.docsUrl ?? "https://ui.spectrumhq.in/docs",
-    previewUrl: item.docsUrl ?? "https://ui.spectrumhq.in/docs",
+    docsUrl: item.docsUrl ?? "https://rithmui.com/docs",
+    previewUrl: item.docsUrl ?? "https://rithmui.com/docs",
     installInstructions: [
       `## Installing ${item.title}`,
       ``,
@@ -81,7 +81,7 @@ export async function getComponent(
       ...item.files.map((f) => `- \`${f.target}\``),
       ``,
       `### Documentation`,
-      `${item.docsUrl ?? "https://ui.spectrumhq.in/docs"}`,
+      `${item.docsUrl ?? "https://rithmui.com/docs"}`,
     ].join("\n"),
   };
 }

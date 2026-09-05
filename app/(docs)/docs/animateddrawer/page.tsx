@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "mobile drawer",
     "animated sidebar",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animateddrawer",
+  canonicalUrl: "https://rithmui.com/docs/animateddrawer",
 });
 
 const Loginpage = () => {
@@ -28,7 +28,7 @@ const Loginpage = () => {
     <SEOWrapper
       componentName="Animated Drawer"
       description="A drawer panel that slides in smoothly for menus, settings, and sidebars."
-      url="https://ui.spectrumhq.in/docs/animateddrawer"
+      url="https://rithmui.com/docs/animateddrawer"
       keywords={[
         "animated drawer",
         "drawer component",
@@ -46,7 +46,7 @@ const Loginpage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/animateddrawer/demo.tsx"
-        cli="@spectrumui/animated-drawer"
+        cli="@rithmui/animated-drawer"
       
         installScript="npm i lucide-react motion vaul react-use-measure"
         installCodePath="app/(docs)/docs/animateddrawer/demo.tsx"

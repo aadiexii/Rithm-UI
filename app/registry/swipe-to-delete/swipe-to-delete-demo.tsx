@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { SwipeToDelete } from "@/components/spectrumui/swipe-to-delete"
+import { SwipeToDelete } from "@/components/rithmui/swipe-to-delete"
 
 const EMAILS = [
   {

@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { MorphButton } from "@/components/spectrumui/morph-button"
+import { MorphButton } from "@/components/rithmui/morph-button"
 
 const fakeFail = () =>
   new Promise<void>((_, reject) =>

@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadingButton } from "@/app/registry/spectrumui/loading-button-dependencies";
+import { LoadingButton } from "@/app/registry/rithmui/loading-button-dependencies";
 import Link from "next/link";
 
 const LoadingButtonAsChild = () => {

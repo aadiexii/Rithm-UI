@@ -89,15 +89,15 @@ function installedComponentPaths(commands) {
     visitedRegistryItems.add(name);
 
     const item = registry.items.find((candidate) => candidate.name === name);
-    assert.ok(item, `Unknown Spectrum UI registry item: ${name}`);
+    assert.ok(item, `Unknown Rithm UI registry item: ${name}`);
 
     for (const file of item.files ?? []) {
       if (file.target) installedPaths.add(normalizeComponentPath(file.target));
     }
 
     for (const dependency of item.registryDependencies ?? []) {
-      if (dependency.startsWith('@spectrumui/')) {
-        addRegistryItem(dependency.slice('@spectrumui/'.length));
+      if (dependency.startsWith('@rithmui/')) {
+        addRegistryItem(dependency.slice('@rithmui/'.length));
       } else {
         installedPaths.add(`components/ui/${dependency}`);
       }
@@ -109,8 +109,8 @@ function installedComponentPaths(commands) {
     assert.ok(additions, `Unrecognized shadcn install command: ${command}`);
 
     for (const addition of additions.trim().split(/\s+/)) {
-      if (addition.startsWith('@spectrumui/')) {
-        addRegistryItem(addition.slice('@spectrumui/'.length));
+      if (addition.startsWith('@rithmui/')) {
+        addRegistryItem(addition.slice('@rithmui/'.length));
       } else {
         installedPaths.add(`components/ui/${addition}`);
       }

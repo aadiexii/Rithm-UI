@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-// import { Dock, DockIcon } from "@/components/spectrumui/dock";
-import { Dock, DockIcon } from "@/app/registry/spectrumui/dock";
+// import { Dock, DockIcon } from "@/components/rithmui/dock";
+import { Dock, DockIcon } from "@/app/registry/rithmui/dock";
 import {
   Home,
   User,

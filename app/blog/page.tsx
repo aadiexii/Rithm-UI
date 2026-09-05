@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: [`${siteConfig.url}/og.png`],
   },
   alternates: {
-    canonical: 'https://ui.spectrumhq.in/blog',
+    canonical: 'https://rithmui.com/blog',
   },
   robots: {
     index: true,
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
 export default async function BlogPage() {
   const blogPosts = await getAllBlogPosts();
 
-  const baseUrl = 'https://ui.spectrumhq.in';
+  const baseUrl = 'https://rithmui.com';
 
   const structuredData = generateBlogListingStructuredData(
     blogPosts.map((post) => ({

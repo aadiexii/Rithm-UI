@@ -30,7 +30,7 @@ export const metadata: Metadata = baseMetadata({
     "footer design",
     "responsive footer",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/footer",
+  canonicalUrl: "https://rithmui.com/docs/footer",
 });
 
 const DualRangeSliderPage = () => {
@@ -38,7 +38,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Footer"
       description="A collection of footers with wave, stacked, and particle animation styles."
-      url="https://ui.spectrumhq.in/docs/footer"
+      url="https://rithmui.com/docs/footer"
       keywords={[
         "footer component",
         "React footer",
@@ -56,7 +56,7 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/footer/footerdemo.tsx"
-        cli="@spectrumui/footers-demo"
+        cli="@rithmui/footers-demo"
       
         installScript="npm i lucide-react"
         installCodePath="app/(docs)/docs/footer/footerdemo.tsx"
@@ -74,21 +74,21 @@ const DualRangeSliderPage = () => {
       <Usage
         title="StackedCircular Footer"
         path="app/(docs)/docs/footer/usage/stackedfooter.tsx"
-        cli="@spectrumui/stackedcircular-footer"
+        cli="@rithmui/stackedcircular-footer"
       >
         <StackedCircularFooter />
       </Usage>
       <Usage
         title="Gradient Footer"
         path="app/(docs)/docs/footer/usage/particlefooter.tsx"
-        cli="@spectrumui/floatingparticle-footer"
+        cli="@rithmui/floatingparticle-footer"
       >
         <GradientFooter />
       </Usage>
       <Usage
         title="Footer"
         path="components/footer.tsx"
-        cli="@spectrumui/footer"
+        cli="@rithmui/footer"
       >
         <Footer />
       </Usage>

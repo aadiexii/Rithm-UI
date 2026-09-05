@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { TaskCheckbox } from "@/components/spectrumui/task-checkbox"
+import { TaskCheckbox } from "@/components/rithmui/task-checkbox"
 
 export default function TaskCheckboxSizesDemo() {
   return (

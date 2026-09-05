@@ -24,7 +24,7 @@ export const metadata: Metadata = baseMetadata({
     "message alert",
     "Framer Motion alert",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/alert",
+  canonicalUrl: "https://rithmui.com/docs/alert",
 });
 
 const page = () => {
@@ -32,7 +32,7 @@ const page = () => {
     <SEOWrapper
       componentName="Animated Alert"
       description="An animated alert that displays notifications, warnings, and success messages."
-      url="https://ui.spectrumhq.in/docs/alert"
+      url="https://rithmui.com/docs/alert"
       keywords={[
         "animated alert",
         "alert component",
@@ -52,7 +52,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/alert/alertdemo.tsx"
-          cli="@spectrumui/alert-1"
+          cli="@rithmui/alert-1"
         
         installScript="npm i framer-motion lucide-react"
         installCodePath="lib/utils.ts"
@@ -66,19 +66,19 @@ const page = () => {
 
         <Usage
           path="app/(docs)/docs/alert/usage/alertthree.tsx"
-          cli="@spectrumui/alert-2"
+          cli="@rithmui/alert-2"
         >
           <Alert02 />
         </Usage>
         <Usage
           path="app/(docs)/docs/alert/usage/alertthree.tsx"
-          cli="@spectrumui/alert-3"
+          cli="@rithmui/alert-3"
         >
           <Alert03 />
         </Usage>
         <Usage
           path="app/(docs)/docs/alert/usage/alertfour.tsx"
-          cli="@spectrumui/alert-4"
+          cli="@rithmui/alert-4"
         >
           <Alert04 />
         </Usage>

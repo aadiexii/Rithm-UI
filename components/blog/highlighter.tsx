@@ -16,7 +16,7 @@ import { createPortal } from 'react-dom';
 
 type Range2 = { start: number; end: number };
 
-const KEY_PREFIX = 'spectrum-blog-highlights:';
+const KEY_PREFIX = 'rithm-blog-highlights:';
 
 function load(key: string): Range2[] {
   try {

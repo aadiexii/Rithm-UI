@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion checkbox",
     "Next.js checkbox",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/task-checkbox",
+  canonicalUrl: "https://rithmui.com/docs/task-checkbox",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Task Checkbox"
       description={description}
-      url="https://ui.spectrumhq.in/docs/task-checkbox"
+      url="https://rithmui.com/docs/task-checkbox"
       keywords={[
         "task checkbox component",
         "todo list checkbox",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/task-checkbox/task-checkbox-demo.tsx"
-          installCodePath="components/spectrumui/task-checkbox.tsx"
-          cli="@spectrumui/task-checkbox"
+          installCodePath="components/rithmui/task-checkbox.tsx"
+          cli="@rithmui/task-checkbox"
           installScript="npm i framer-motion"
         >
           <TaskCheckboxDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { TaskCheckbox } from "@/components/spectrumui/task-checkbox"`}
+            code={`import { TaskCheckbox } from "@/components/rithmui/task-checkbox"`}
             requireAuth={false}
           />
           <CodeHighlight

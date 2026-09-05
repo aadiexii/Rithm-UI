@@ -1,5 +1,5 @@
 export const PRO_CONFIG = {
-  name: 'Spectrum Pro',
+  name: 'Rithm Pro',
   tagline: 'Premium templates, components, and support for serious builders.',
   /** Full launch price shown on the card */
   launchPriceUsd: Number(process.env.NEXT_PUBLIC_PRO_LAUNCH_PRICE ?? 199),

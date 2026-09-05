@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import MultipleSelector, {
   Option,
-} from "@/app/registry/spectrumui/multiple-selector-dependencies";
+} from "@/app/registry/rithmui/multiple-selector-dependencies";
 
-import { LoadingButton } from "@/app/registry/spectrumui/loading-button-dependencies";
+import { LoadingButton } from "@/app/registry/rithmui/loading-button-dependencies";
 
 const REACT_OPTIONS: Option[] = [
   { label: "nextjs", value: "nextjs" },

@@ -2,8 +2,8 @@
 import React from "react";
 import MultipleSelector, {
   Option,
-} from "@/app/registry/spectrumui/multiple-selector-dependencies";
-import { H4 } from "@/app/registry/spectrumui/heading-with-anchor";
+} from "@/app/registry/rithmui/multiple-selector-dependencies";
+import { H4 } from "@/app/registry/rithmui/heading-with-anchor";
 
 const OPTIONS: Option[] = [
   { label: "nextjs", value: "nextjs" },

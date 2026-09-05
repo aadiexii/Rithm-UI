@@ -3,21 +3,21 @@
  *
  * The index lists every installable item; the shadcn CLI fetches per-item
  * payloads separately. Blocks and components share one flat namespace, because
- * `@spectrumui/<name>` resolves to https://ui.spectrumhq.in/r/<name>.json — so
+ * `@rithmui/<name>` resolves to https://rithmui.com/r/<name>.json — so
  * `type` is what distinguishes them, not the URL.
  */
 /**
- * Canonical host. Was previously the apex (spectrumhq.in), which only worked
+ * Canonical host. Was previously the apex (rithmui.com), which only worked
  * because it redirects to www; registry.json's own `homepage` and
  * config/site.ts both use the ui. subdomain.
  */
-const DEFAULT_REGISTRY_URL = "https://ui.spectrumhq.in/r/registry.json";
+const DEFAULT_REGISTRY_URL = "https://rithmui.com/r/registry.json";
 /**
  * Override to point at a local or staging registry — a file:// URL or an
  * absolute path both work. Lets the registry be verified before it is deployed,
  * which is how the 38-missing-items drift went unnoticed for so long.
  */
-const REGISTRY_URL = process.env.SPECTRUM_REGISTRY_URL || DEFAULT_REGISTRY_URL;
+const REGISTRY_URL = process.env.RITHM_REGISTRY_URL || DEFAULT_REGISTRY_URL;
 /**
  * A stdio session lives as long as the editor does. The previous cache never
  * expired, so a long-running session never saw newly published items.
@@ -68,7 +68,7 @@ export async function loadRegistry() {
     }
     try {
         const res = await fetch(REGISTRY_URL, {
-            headers: { "User-Agent": "spectrumui-mcp" },
+            headers: { "User-Agent": "rithmui-mcp" },
             signal: AbortSignal.timeout(10_000),
         });
         if (!res.ok)

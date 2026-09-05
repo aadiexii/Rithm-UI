@@ -1,4 +1,4 @@
-import DiscloseImage from '@/components/spectrumui/discloseimage';
+import DiscloseImage from '@/components/rithmui/discloseimage';
 
 export default function DiscloseImageDemo() {
   return (

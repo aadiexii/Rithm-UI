@@ -18,7 +18,7 @@ export const metadata: Metadata = baseMetadata({
     "gamified discount component",
     "coupon reveal component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/scratch-card",
+  canonicalUrl: "https://rithmui.com/docs/scratch-card",
 })
 
 export default function ScratchCardDocsPage() {
@@ -29,7 +29,7 @@ export default function ScratchCardDocsPage() {
     <SEOWrapper
       componentName="Scratch Card"
       description={description}
-      url="https://ui.spectrumhq.in/docs/scratch-card"
+      url="https://rithmui.com/docs/scratch-card"
       keywords={[
         "scratch card component",
         "scratch to reveal",
@@ -40,8 +40,8 @@ export default function ScratchCardDocsPage() {
       <PageTemplate title="Scratch Card" description={description}>
         <PreviewCodeCard
           path="app/(docs)/docs/scratch-card/scratch-card-demo.tsx"
-          installCodePath="components/spectrumui/scratch-card.tsx"
-          cli="@spectrumui/scratch-card"
+          installCodePath="components/rithmui/scratch-card.tsx"
+          cli="@rithmui/scratch-card"
           installScript="npm i framer-motion lucide-react"
         >
           <ScratchCardDemo />

@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "accessible star rating",
     "Next.js star rating",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/star-rating",
+  canonicalUrl: "https://rithmui.com/docs/star-rating",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Star Rating"
       description={description}
-      url="https://ui.spectrumhq.in/docs/star-rating"
+      url="https://rithmui.com/docs/star-rating"
       keywords={[
         "star rating component",
         "rating input animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/star-rating/star-rating-demo.tsx"
-          installCodePath="components/spectrumui/star-rating.tsx"
-          cli="@spectrumui/star-rating"
+          installCodePath="components/rithmui/star-rating.tsx"
+          cli="@rithmui/star-rating"
           installScript="npm i framer-motion"
         >
           <StarRatingDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { StarRating } from "@/components/spectrumui/star-rating"`}
+            code={`import { StarRating } from "@/components/rithmui/star-rating"`}
             requireAuth={false}
           />
           <CodeHighlight

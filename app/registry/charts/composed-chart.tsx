@@ -53,7 +53,7 @@ import {
 
 const BAR_RADIUS = [4, 4, 0, 0] as [number, number, number, number];
 
-export interface SpectrumComposedChartProps {
+export interface RithmComposedChartProps {
   className?: string;
   data?: typeof MONTHLY_TRAFFIC;
   barVariant?: BarFillVariant;
@@ -73,7 +73,7 @@ export function ComposedChart({
   glowing = false,
   isLoading = false,
   showLegend = true,
-}: SpectrumComposedChartProps) {
+}: RithmComposedChartProps) {
   const id = useChartId('composed');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -180,22 +180,22 @@ export function ComposedChart({
   );
 }
 
-export function DefaultComposedChart(props: SpectrumComposedChartProps) {
+export function DefaultComposedChart(props: RithmComposedChartProps) {
   return <ComposedChart {...props} />;
 }
 
-export function HatchedComposedChart(props: SpectrumComposedChartProps) {
+export function HatchedComposedChart(props: RithmComposedChartProps) {
   return <ComposedChart barVariant="hatched" {...props} />;
 }
 
-export function DuotoneComposedChart(props: SpectrumComposedChartProps) {
+export function DuotoneComposedChart(props: RithmComposedChartProps) {
   return <ComposedChart barVariant="duotone" {...props} />;
 }
 
-export function DashedComposedChart(props: SpectrumComposedChartProps) {
+export function DashedComposedChart(props: RithmComposedChartProps) {
   return <ComposedChart lineStroke="animated-dashed" {...props} />;
 }
 
-export function GlowingComposedChart(props: SpectrumComposedChartProps) {
+export function GlowingComposedChart(props: RithmComposedChartProps) {
   return <ComposedChart glowing {...props} />;
 }

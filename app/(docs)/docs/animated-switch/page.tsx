@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "accessible switch component",
     "Next.js switch component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animated-switch",
+  canonicalUrl: "https://rithmui.com/docs/animated-switch",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Animated Switch"
       description={description}
-      url="https://ui.spectrumhq.in/docs/animated-switch"
+      url="https://rithmui.com/docs/animated-switch"
       keywords={[
         "animated switch component",
         "iOS switch animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/animated-switch/animated-switch-demo.tsx"
-          installCodePath="components/spectrumui/animated-switch.tsx"
-          cli="@spectrumui/animated-switch"
+          installCodePath="components/rithmui/animated-switch.tsx"
+          cli="@rithmui/animated-switch"
           installScript="npm i framer-motion"
         >
           <AnimatedSwitchDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { AnimatedSwitch } from "@/components/spectrumui/animated-switch"`}
+            code={`import { AnimatedSwitch } from "@/components/rithmui/animated-switch"`}
             requireAuth={false}
           />
           <CodeHighlight

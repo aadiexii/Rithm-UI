@@ -24,7 +24,7 @@ export const metadata: Metadata = baseMetadata({
     "skeleton UI",
     "content placeholder",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/skeleton",
+  canonicalUrl: "https://rithmui.com/docs/skeleton",
 });
 
 const SkeletonLoadingPage = () => {
@@ -32,7 +32,7 @@ const SkeletonLoadingPage = () => {
     <SEOWrapper
       componentName="Skeleton"
       description="A loading placeholder that shimmer-animates while content is fetching."
-      url="https://ui.spectrumhq.in/docs/skeleton"
+      url="https://rithmui.com/docs/skeleton"
       keywords={[
         "skeleton loader",
         "skeleton component",
@@ -50,7 +50,7 @@ const SkeletonLoadingPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/skeleton/skeleton-demo.tsx"
-        cli="@spectrumui/skeleton"
+        cli="@rithmui/skeleton"
       
         installCodePath="components/ui/skeleton.tsx"
       >
@@ -61,7 +61,7 @@ const SkeletonLoadingPage = () => {
       <Usage
         title="Card"
         path="app/(docs)/docs//skeleton/usage/skeleton-card.tsx"
-        cli="@spectrumui/skeleton-card"
+        cli="@rithmui/skeleton-card"
       >
         <SkeletonCard />
       </Usage>

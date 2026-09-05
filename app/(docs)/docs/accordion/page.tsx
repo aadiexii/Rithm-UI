@@ -21,7 +21,7 @@ export const metadata: Metadata = baseMetadata({
     "accessible accordion",
     "Radix UI accordion",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/accordion",
+  canonicalUrl: "https://rithmui.com/docs/accordion",
 });
 
 const SkeletonLoadingPage = () => {
@@ -29,7 +29,7 @@ const SkeletonLoadingPage = () => {
     <SEOWrapper
       componentName="Accordion"
       description="A vertically stacked set of interactive headings that each reveal a section of content."
-      url="https://ui.spectrumhq.in/docs/accordion"
+      url="https://rithmui.com/docs/accordion"
       keywords={[
         "accordion component",
         "React accordion",
@@ -48,7 +48,7 @@ const SkeletonLoadingPage = () => {
       <PreviewCodeCard
         path="app/(docs)/docs/accordion/accordion-demo.tsx"
         installCodePath="components/ui/accordion.tsx"
-        cli="@spectrumui/accordion"
+        cli="@rithmui/accordion"
       >
         {<AccordionDemo />}
       </PreviewCodeCard>

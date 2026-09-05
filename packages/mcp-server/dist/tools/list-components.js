@@ -6,9 +6,9 @@ function toSummary(item) {
         description: item.description,
         category: inferCategory(item),
         // Primary: bunx (bun users) — Secondary: npx (everyone else)
-        cliCommand: `bunx --bun shadcn@latest add @spectrumui/${item.name}`,
-        cliCommandNpx: `npx shadcn@latest add @spectrumui/${item.name}`,
-        docsUrl: item.docsUrl ?? "https://ui.spectrumhq.in/docs",
+        cliCommand: `bunx --bun shadcn@latest add @rithmui/${item.name}`,
+        cliCommandNpx: `npx shadcn@latest add @rithmui/${item.name}`,
+        docsUrl: item.docsUrl ?? "https://rithmui.com/docs",
         dependencies: item.dependencies ?? [],
     };
 }

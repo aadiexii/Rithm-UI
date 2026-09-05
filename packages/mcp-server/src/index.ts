@@ -6,14 +6,14 @@
  * and install Rithm UI components directly into user projects.
  *
  * Usage:
- *   npx @spectrumui/mcp
+ *   npx @rithmui/mcp
  *
  * Claude Desktop config:
  *   {
  *     "mcpServers": {
- *       "spectrum-ui": {
+ *       "rithm-ui": {
  *         "command": "npx",
- *         "args": ["-y", "@spectrumui/mcp"]
+ *         "args": ["-y", "@rithmui/mcp"]
  *       }
  *     }
  *   }
@@ -30,7 +30,7 @@ import { listCategories } from "./tools/list-categories.js";
 import { installComponent } from "./tools/install-component.js";
 
 const server = new McpServer({
-  name: "spectrum-ui",
+  name: "rithm-ui",
   version: "0.2.0",
 });
 

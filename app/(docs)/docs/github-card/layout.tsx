@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     "Next.js GitHub card",
     "developer portfolio card",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/github-card",
+  canonicalUrl: "https://rithmui.com/docs/github-card",
 });
 
 export default function GitHubCardLayout({
@@ -31,7 +31,7 @@ export default function GitHubCardLayout({
     <SEOWrapper
       componentName="GitHub Profile Card"
       description="A GitHub profile card generator with stats, contribution graph, and social links."
-      url="https://ui.spectrumhq.in/docs/github-card"
+      url="https://rithmui.com/docs/github-card"
       keywords={[
         "GitHub profile card",
         "GitHub card generator",

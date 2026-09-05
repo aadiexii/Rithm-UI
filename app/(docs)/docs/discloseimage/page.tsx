@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     'image animation',
     'reveal component',
   ],
-  canonicalUrl: 'https://ui.spectrumhq.in/docs/discloseimage',
+  canonicalUrl: 'https://rithmui.com/docs/discloseimage',
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="Disclose Image"
       description="An image that reveals its content behind animated sliding door panels."
-      url="https://ui.spectrumhq.in/docs/discloseimage"
+      url="https://rithmui.com/docs/discloseimage"
       keywords={[
         'disclose image',
         'image reveal',
@@ -46,8 +46,8 @@ const page = () => {
       >
         <PreviewCodeCard
           path="app/(docs)/docs/discloseimage/disclose-image-demo.tsx"
-          cli="@spectrumui/disclose-image"
-          installCodePath="components/spectrumui/discloseimage.tsx"
+          cli="@rithmui/disclose-image"
+          installCodePath="components/rithmui/discloseimage.tsx"
         >
           <DiscloseImageDemo />
         </PreviewCodeCard>

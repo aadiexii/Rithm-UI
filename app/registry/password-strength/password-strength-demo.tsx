@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { PasswordStrengthInput } from "@/components/spectrumui/password-strength"
+import { PasswordStrengthInput } from "@/components/rithmui/password-strength"
 
 export default function PasswordStrengthDemo() {
   return (

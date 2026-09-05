@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 /** The code shown and copied is the file the CLI installs, read off disk. */
 async function readSource(category: string, slug: string) {
-  const relative = path.join('components', 'spectrumui', 'blocks', category, `${slug}.tsx`);
+  const relative = path.join('components', 'rithmui', 'blocks', category, `${slug}.tsx`);
   try {
     return await fs.readFile(path.join(process.cwd(), relative), 'utf8');
   } catch {
@@ -104,7 +104,7 @@ export default async function BlockCategoryPage({ params }: PageProps) {
     isAccessibleForFree: true,
     dateCreated: block.addedAt,
     keywords: [block.category, block.subcategory, ...block.variants].join(', '),
-    installUrl: `https://ui.spectrumhq.in/r/${block.slug}.json`,
+    installUrl: `https://rithmui.com/r/${block.slug}.json`,
   }));
 
   return (

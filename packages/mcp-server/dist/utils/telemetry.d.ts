@@ -3,7 +3,7 @@
  *
  * Fires-and-forgets — never blocks the user response.
  * No personal data is collected (no IP, no user ID, no machine info).
- * Opt-out: set SPECTRUM_NO_TELEMETRY=1 in your environment.
+ * Opt-out: set RITHM_NO_TELEMETRY=1 in your environment.
  *
  * What is collected:
  *  - event name (search, search_no_results, get_component, component_not_found, install)

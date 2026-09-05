@@ -28,7 +28,7 @@ export const metadata: Metadata = baseMetadata({
     "animated spinner",
     "loading state",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/spinner",
+  canonicalUrl: "https://rithmui.com/docs/spinner",
 });
 
 const SpinnerPage = () => {
@@ -36,7 +36,7 @@ const SpinnerPage = () => {
     <SEOWrapper
       componentName="Spinner"
       description="A loading spinner with multiple sizes and variants for async states."
-      url="https://ui.spectrumhq.in/docs/spinner"
+      url="https://rithmui.com/docs/spinner"
       keywords={[
         "spinner component",
         "loading spinner",
@@ -54,7 +54,7 @@ const SpinnerPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/spinner/spinner-demo.tsx"
-        cli="@spectrumui/spinner-demo"
+        cli="@rithmui/spinner-demo"
       
         installCodePath="components/ui/spinner.tsx"
       >
@@ -65,14 +65,14 @@ const SpinnerPage = () => {
       <Usage
         title="Size"
         path="app/(docs)/docs//spinner/usage/spinner-size.tsx"
-        cli="@spectrumui/spinner-size"
+        cli="@rithmui/spinner-size"
       >
         <SpinnerSize />
       </Usage>
       <Usage
         title="With text and custom style"
         path="app/(docs)/docs//spinner/usage/spinner-with-text.tsx"
-        cli="@spectrumui/spinner-with-text"
+        cli="@rithmui/spinner-with-text"
       >
         <SpinnerWithText />
       </Usage>
@@ -80,7 +80,7 @@ const SpinnerPage = () => {
       <Usage
         title="Toggle spinner"
         path="app/(docs)/docs//spinner/usage/spinner-toggle.tsx"
-        cli="@spectrumui/spinner-toggle"
+        cli="@rithmui/spinner-toggle"
       >
         <SpinnerToggle />
       </Usage>

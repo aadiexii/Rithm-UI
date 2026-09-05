@@ -1,9 +1,9 @@
 /**
  * Generates public/r/<name>.json — the per-item payloads the shadcn CLI fetches.
  *
- * `npx shadcn add @spectrumui/<name>` resolves to
- * https://ui.spectrumhq.in/r/<name>.json (that URL template is registered for
- * the @spectrumui namespace in shadcn's public registry index), so every item in
+ * `npx shadcn add @rithmui/<name>` resolves to
+ * https://rithmui.com/r/<name>.json (that URL template is registered for
+ * the @rithmui namespace in shadcn's public registry index), so every item in
  * registry.json needs a file here with its source inlined as `content`.
  *
  * These were hand-written before, which is why `disclose-image` and

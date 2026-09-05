@@ -91,11 +91,11 @@ function importedSourcePaths(source, routeDirectory) {
 
   while ((match = expression.exec(source)) !== null) {
     const importPath = match[1];
-    if (!importPath.startsWith('@/components/spectrumui/') && !importPath.startsWith('.')) continue;
+    if (!importPath.startsWith('@/components/rithmui/') && !importPath.startsWith('.')) continue;
     const resolved = resolveSourcePath(importPath, routeDirectory);
     if (
       resolved &&
-      (importPath.startsWith('@/components/spectrumui/') ||
+      (importPath.startsWith('@/components/rithmui/') ||
         resolved.startsWith(`${routeDirectory}${path.sep}`))
     ) {
       values.push(resolved);
@@ -229,8 +229,8 @@ function buildComponentDocs(component) {
   ]);
   const demoPaths = unique([...collectAttributes(routeSource, 'path')]);
   const registryItems = cliValues
-    .filter((value) => value.startsWith('@spectrumui/'))
-    .map((value) => value.slice('@spectrumui/'.length))
+    .filter((value) => value.startsWith('@rithmui/'))
+    .map((value) => value.slice('@rithmui/'.length))
     .map((name) => registry.items.find((item) => item.name.toLowerCase() === name.toLowerCase()))
     .filter(Boolean);
   const registryFiles = registryItems.flatMap((item) => item.files || []);
@@ -253,7 +253,7 @@ function buildComponentDocs(component) {
     ...registryFiles.map((file) => resolveSourcePath(file.path, routeDirectory)),
     ...registryFiles.map((file) => resolveSourcePath(file.target, routeDirectory)),
     ...importedPaths.filter((filePath) =>
-      filePath.includes(`${path.sep}components${path.sep}spectrumui${path.sep}`),
+      filePath.includes(`${path.sep}components${path.sep}rithmui${path.sep}`),
     ),
   ]);
   const sourceText = sourcePaths.map((filePath) => readFileSync(filePath, 'utf8')).join('\n');
@@ -261,7 +261,7 @@ function buildComponentDocs(component) {
     registryItems.flatMap((item) => item.registryDependencies || []),
   );
   const shadcnDependencies = registryDependencies.filter(
-    (dependency) => !dependency.startsWith('@spectrumui/'),
+    (dependency) => !dependency.startsWith('@rithmui/'),
   );
   const dependencies = unique([
     ...registryItems.flatMap((item) => item.dependencies || []),
@@ -276,8 +276,8 @@ function buildComponentDocs(component) {
     ...collectAttributes(routeSource, 'installCodePath'),
     ...collectAttributes(routeSource, 'codePath'),
     ...registryFiles.map((file) => file.target || file.path),
-    ...[...routeSource.matchAll(/from\s+["']@\/components\/spectrumui\/([^"']+)["']/g)].map(
-      (match) => `components/spectrumui/${match[1]}.tsx`,
+    ...[...routeSource.matchAll(/from\s+["']@\/components\/rithmui\/([^"']+)["']/g)].map(
+      (match) => `components/rithmui/${match[1]}.tsx`,
     ),
   ]);
   if (!manualPaths.length && existsSync(fallbackPage)) {
@@ -322,9 +322,9 @@ function buildComponentDocs(component) {
     hasShadcn
       ? `shadcn/ui dependencies: ${shadcnDependencies.join(', ') || 'local UI primitives'}`
       : undefined,
-    registryDependencies.some((dependency) => dependency.startsWith('@spectrumui/'))
+    registryDependencies.some((dependency) => dependency.startsWith('@rithmui/'))
       ? `Rithm UI registry dependencies: ${registryDependencies
-          .filter((dependency) => dependency.startsWith('@spectrumui/'))
+          .filter((dependency) => dependency.startsWith('@rithmui/'))
           .join(', ')}`
       : undefined,
     hasResponsiveClasses ? 'Responsive Tailwind variants present in the source' : undefined,

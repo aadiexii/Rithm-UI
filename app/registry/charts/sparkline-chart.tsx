@@ -30,7 +30,7 @@ import {
   useIntroStartedAt,
 } from './chart-kit';
 
-export interface SpectrumSparklineProps {
+export interface RithmSparklineProps {
   className?: string;
   data?: SparkPoint[] | { price: number }[];
   filled?: boolean;
@@ -51,14 +51,14 @@ export function Sparkline({
   filled = false,
   glowing = false,
   framed = true,
-}: SpectrumSparklineProps) {
+}: RithmSparklineProps) {
   const id = useChartId('spark');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
   const rows = toSparkData(data ?? SOL_PRICE);
   const delta = seriesDelta(rows.map((row) => row.value));
   const up = delta >= 0;
-  const color = up ? 'var(--spectrum-chart-up)' : 'var(--spectrum-chart-down)';
+  const color = up ? 'var(--rithm-chart-up)' : 'var(--rithm-chart-down)';
   const glowId = `${id}-glow`;
   const maskId = `${id}-reveal`;
   const maskStyle = reduce ? undefined : { mask: `url(#${maskId})` };
@@ -108,15 +108,15 @@ export function Sparkline({
   return <ChartFrame className={cn('h-16', className)}>{plot}</ChartFrame>;
 }
 
-export function DefaultSparkline(props: SpectrumSparklineProps) {
+export function DefaultSparkline(props: RithmSparklineProps) {
   return <Sparkline {...props} />;
 }
 
-export function AreaSparkline(props: SpectrumSparklineProps) {
+export function AreaSparkline(props: RithmSparklineProps) {
   return <Sparkline filled {...props} />;
 }
 
-export function GlowingSparkline(props: SpectrumSparklineProps) {
+export function GlowingSparkline(props: RithmSparklineProps) {
   return <Sparkline glowing filled {...props} />;
 }
 

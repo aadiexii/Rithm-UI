@@ -30,7 +30,7 @@ export default function ColorsLayout({
               aren't sliced by the tight leading; the margins subtract the same
               amount to keep the layout unchanged. */}
           <h1 className="chroma-text chroma-text-animate mt-[calc(1rem-0.12em)] mb-[calc(1rem-0.25em)] max-w-[620px] pt-[0.12em] pb-[0.25em] font-spectral text-[30px] font-light capitalize leading-[0.95] tracking-[-0.06em] text-black dark:text-white sm:text-[40px] lg:text-[50px] lg:leading-[48px] lg:tracking-[-3.5px]">
-            Every color of the spectrum,
+            Every shade across the palette,
             <br />
             one click away.
           </h1>

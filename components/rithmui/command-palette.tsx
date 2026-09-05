@@ -73,7 +73,7 @@ export function CommandPalette({ isOpen, onClose, className }: CommandPalettePro
 
   // Copy CLI command action
   const handleCopyCommand = useCallback(() => {
-    navigator.clipboard.writeText("npx -y @spectrumui/mcp").then(() => {
+    navigator.clipboard.writeText("npx -y @rithmui/mcp").then(() => {
       setIsCopied(true)
       setTimeout(() => setIsCopied(false), 2000)
     })
@@ -157,7 +157,7 @@ export function CommandPalette({ isOpen, onClose, className }: CommandPalettePro
       {
         id: "cmd-copy",
         title: isCopied ? "CLI Command Copied!" : "Copy CLI Install Command",
-        description: "Copy npx spectrum-ui installer to clipboard",
+        description: "Copy npx rithm-ui installer to clipboard",
         category: "Repository",
         shortcut: ["C", "C"],
         icon: <Copy className="h-4 w-4" />,
@@ -384,7 +384,7 @@ export function CommandPalette({ isOpen, onClose, className }: CommandPalettePro
                 <span>and</span>
                 <kbd className="rounded border border-neutral-200 dark:border-neutral-800 bg-neutral-100/50 dark:bg-neutral-900 px-1 font-mono text-[9px]">Enter</kbd>
               </div>
-              <div>Spectrum Palette</div>
+              <div>Rithm Palette</div>
             </div>
 
           </motion.div>

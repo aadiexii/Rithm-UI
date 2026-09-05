@@ -30,7 +30,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion card",
     "Next.js 3d card",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/tilt-card",
+  canonicalUrl: "https://rithmui.com/docs/tilt-card",
 })
 
 const page = () => {
@@ -41,7 +41,7 @@ const page = () => {
     <SEOWrapper
       componentName="3D Tilt Card"
       description={description}
-      url="https://ui.spectrumhq.in/docs/tilt-card"
+      url="https://rithmui.com/docs/tilt-card"
       keywords={[
         "3d card effect",
         "tilt card component",
@@ -53,8 +53,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/tilt-card/tilt-card-demo.tsx"
-          installCodePath="components/spectrumui/tilt-card.tsx"
-          cli="@spectrumui/tilt-card"
+          installCodePath="components/rithmui/tilt-card.tsx"
+          cli="@rithmui/tilt-card"
           installScript="npm i framer-motion"
         >
           <TiltCardDemo />
@@ -64,7 +64,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { TiltCard, TiltCardItem } from "@/components/spectrumui/tilt-card"`}
+            code={`import { TiltCard, TiltCardItem } from "@/components/rithmui/tilt-card"`}
             requireAuth={false}
           />
           <CodeHighlight

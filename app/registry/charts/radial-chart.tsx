@@ -35,7 +35,7 @@ import {
 
 export type RadialVariant = 'full' | 'semi';
 
-export interface SpectrumRadialChartProps {
+export interface RithmRadialChartProps {
   className?: string;
   data?: typeof BROWSER_SHARE;
   variant?: RadialVariant;
@@ -51,7 +51,7 @@ export function RadialChart({
   glowing = false,
   isLoading = false,
   showLegend = true,
-}: SpectrumRadialChartProps) {
+}: RithmRadialChartProps) {
   const id = useChartId('radial');
   const { isAnimationActive, animationDuration } = useChartMotion();
   const [activeName, setActiveName] = React.useState<string | null>(null);
@@ -103,7 +103,7 @@ export function RadialChart({
                   <Cell
                     key={item.name}
                     fill={item.fill}
-                    stroke="var(--spectrum-chart-surface)"
+                    stroke="var(--rithm-chart-surface)"
                     strokeWidth={1}
                     style={{
                       opacity: markOpacity(activeName, item.name),
@@ -122,14 +122,14 @@ export function RadialChart({
   );
 }
 
-export function DefaultRadialChart(props: SpectrumRadialChartProps) {
+export function DefaultRadialChart(props: RithmRadialChartProps) {
   return <RadialChart variant="full" {...props} />;
 }
 
-export function SemiRadialChart(props: SpectrumRadialChartProps) {
+export function SemiRadialChart(props: RithmRadialChartProps) {
   return <RadialChart variant="semi" {...props} />;
 }
 
-export function GlowingRadialChart(props: SpectrumRadialChartProps) {
+export function GlowingRadialChart(props: RithmRadialChartProps) {
   return <RadialChart glowing {...props} />;
 }

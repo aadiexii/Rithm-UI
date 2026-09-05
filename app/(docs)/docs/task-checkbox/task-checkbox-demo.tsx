@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
-import { TaskCheckbox } from "@/components/spectrumui/task-checkbox"
+import { TaskCheckbox } from "@/components/rithmui/task-checkbox"
 
 const SOFT_SPRING = { type: "spring", stiffness: 260, damping: 22 } as const
 

@@ -38,7 +38,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
     })
   }
 
-  const baseUrl = "https://ui.spectrumhq.in"
+  const baseUrl = "https://rithmui.com"
   const blogUrl = `${baseUrl}/blog/${post.slug}`
   const metadataTitle = formatMetadataTitle(post.title)
   const metadataDescription = formatMetadataDescription(post.excerpt)
@@ -56,7 +56,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       "frontend development",
       post.category?.toLowerCase() || "",
     ].filter(Boolean),
-    authors: [{ name: post.author.name, url: "https://ui.spectrumhq.in" }],
+    authors: [{ name: post.author.name, url: "https://rithmui.com" }],
     creator: post.author.name,
     publisher: "Rithm UI",
     openGraph: {
@@ -117,7 +117,7 @@ export default async function BlogPostPage(props: { params: Promise<{ slug: stri
     notFound()
   }
 
-  const baseUrl = "https://ui.spectrumhq.in"
+  const baseUrl = "https://rithmui.com"
   const blogUrl = `${baseUrl}/blog/${post.slug}`
   const isoDate = toIsoDate(post.date)
 

@@ -24,7 +24,7 @@ export const metadata: Metadata = baseMetadata({
     "pagination component",
     "load more",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/infinite-scroll",
+  canonicalUrl: "https://rithmui.com/docs/infinite-scroll",
 });
 
 const InfiniteScrollPage = () => {
@@ -32,7 +32,7 @@ const InfiniteScrollPage = () => {
     <SEOWrapper
       componentName="Infinite Scroll"
       description="An infinite scroll container that loads more content using the IntersectionObserver API."
-      url="https://ui.spectrumhq.in/docs/infinite-scroll"
+      url="https://rithmui.com/docs/infinite-scroll"
       keywords={[
         "infinite scroll",
         "scroll component",
@@ -50,7 +50,7 @@ const InfiniteScrollPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/infinite-scroll/infinite-scroll-demo.tsx"
-        cli="@spectrumui/infinite-scroll-demo"
+        cli="@rithmui/infinite-scroll-demo"
       
         installCodePath="components/ui/infinite-scroll.tsx"
       >

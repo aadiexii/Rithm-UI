@@ -5,14 +5,14 @@ import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata'
 export const metadata: Metadata = baseMetadata({
   title: 'Terms of Service — Rithm UI',
   description: 'Read the Rithm UI Terms of Service covering usage, licensing, payments, and refund policy.',
-  canonicalUrl: 'https://ui.spectrumhq.in/tos',
+  canonicalUrl: 'https://rithmui.com/tos',
 })
 
 const sections = [
   {
     id: 'acceptance',
     title: '1. Acceptance of Terms',
-    content: `By accessing or using Rithm UI (spectrumhq.in), you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform. These terms apply to all visitors, users, and anyone who accesses the service — including both the free component library and Rithm UI Pro paid templates.`,
+    content: `By accessing or using Rithm UI (rithmui.com), you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform. These terms apply to all visitors, users, and anyone who accesses the service — including both the free component library and Rithm UI Pro paid templates.`,
   },
   {
     id: 'free-library',

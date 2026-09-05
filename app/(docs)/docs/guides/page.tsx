@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     'modern UI development',
     'React design patterns',
   ],
-  canonicalUrl: 'https://ui.spectrumhq.in/docs/guides',
+  canonicalUrl: 'https://rithmui.com/docs/guides',
 });
 
 const GUIDES = [
@@ -88,7 +88,7 @@ export default function GuidesPage() {
     <SEOWrapper
       componentName="Guides & Tutorials"
       description="Learn how to build modern React applications with Rithm UI. Step-by-step tutorials, best practices, and real-world examples."
-      url="https://ui.spectrumhq.in/docs/guides"
+      url="https://rithmui.com/docs/guides"
       schemaType="collectionPage"
       keywords={[
         'React tutorials',
@@ -190,7 +190,7 @@ export default function GuidesPage() {
 
         {/* Why Rithm UI */}
         <section className="animate-fade-up" style={{ animationDelay: '180ms' }}>
-          <h2 id="why-spectrum-ui" className={`mt-14 ${sectionTitle}`}>
+          <h2 id="why-rithm-ui" className={`mt-14 ${sectionTitle}`}>
             Why Rithm UI?
           </h2>
           <p className="mt-4 max-w-2xl text-sm leading-6 tracking-wide text-neutral-500 dark:text-neutral-400">

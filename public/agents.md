@@ -28,7 +28,7 @@ guidance is in /llms-full.txt.
 
 - CLI (preferred when available on the docs page):
   `npx shadcn@latest add @rithmui/<package>`
-- Manual: copy the component file shown on the docs page into the user's project (usually `components/spectrumui/` or `components/ui/`).
+- Manual: copy the component file shown on the docs page into the user's project (usually `components/rithmui/` or `components/ui/`).
 - Dependencies: install only packages listed on that component's docs page (commonly `framer-motion`, Radix primitives, etc.).
 
 ## Coding rules when adding Rithm UI

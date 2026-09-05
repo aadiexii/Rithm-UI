@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "circular navbar",
     "tab navigation",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/navbar",
+  canonicalUrl: "https://rithmui.com/docs/navbar",
 });
 
 const DualRangeSliderPage = () => {
@@ -37,7 +37,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Navbar"
       description="A collection of responsive navbars with circular, tab, floating, and sidebar patterns."
-      url="https://ui.spectrumhq.in/docs/navbar"
+      url="https://rithmui.com/docs/navbar"
       keywords={[
         "React navbar",
         "Next.js navbar",
@@ -57,7 +57,7 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/navbar/navbardemo.tsx"
-        cli="@spectrumui/navbar-demo"
+        cli="@rithmui/navbar-demo"
       
         installScript="npm i lucide-react"
         installCodePath="app/(docs)/docs/navbar/navbardemo.tsx"
@@ -69,28 +69,28 @@ const DualRangeSliderPage = () => {
       <Usage
         title="Circular Navbar"
         path="app/(docs)/docs/navbar/usage/circular.tsx"
-        cli="@spectrumui/circular-navbar"
+        cli="@rithmui/circular-navbar"
       >
         <CircularNavbar />
       </Usage>
       <Usage
         title="Tab Navbar"
         path="app/(docs)/docs/navbar/usage/tabnavbar.tsx"
-        cli="@spectrumui/tab-navbar"
+        cli="@rithmui/tab-navbar"
       >
         <Tabnavbar />
       </Usage>
       <Usage
         title="Floating Navbar"
         path="app/(docs)/docs/navbar/usage/floatingnavbar.tsx"
-        cli="@spectrumui/floating-navbar"
+        cli="@rithmui/floating-navbar"
       >
         <Floatingnavbar />
       </Usage>
       <Usage
         title="Sidebar Navbar"
         path="app/(docs)/docs/navbar/usage/sidenav.tsx"
-        cli="@spectrumui/sidebar-navbar"
+        cli="@rithmui/sidebar-navbar"
       >
         <Sidenavbar />
       </Usage>

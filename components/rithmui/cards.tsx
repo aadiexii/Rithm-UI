@@ -550,12 +550,12 @@ export function StatCard() {
           className="mt-3 h-8 w-full overflow-visible"
         >
           <defs>
-            <linearGradient id="spectrum-stat-area" x1="0" y1="0" x2="0" y2="1">
+            <linearGradient id="rithm-stat-area" x1="0" y1="0" x2="0" y2="1">
               <stop stopColor="hsl(var(--primary))" stopOpacity="0.25" />
               <stop offset="1" stopColor="hsl(var(--primary))" stopOpacity="0" />
             </linearGradient>
           </defs>
-          <polygon points={`0,28 ${path} 100,28`} fill="url(#spectrum-stat-area)" />
+          <polygon points={`0,28 ${path} 100,28`} fill="url(#rithm-stat-area)" />
           <polyline
             points={path}
             fill="none"
@@ -619,7 +619,7 @@ export function GoalProgressCard() {
         <div className="relative size-24">
           <svg viewBox="0 0 80 80" className="size-full -rotate-90">
             <defs>
-              <linearGradient id="spectrum-goal-ring" x1="0" y1="0" x2="1" y2="1">
+              <linearGradient id="rithm-goal-ring" x1="0" y1="0" x2="1" y2="1">
                 <stop stopColor="hsl(var(--primary))" />
                 <stop offset="1" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
               </linearGradient>
@@ -630,7 +630,7 @@ export function GoalProgressCard() {
               cy="40"
               r="34"
               fill="none"
-              stroke="url(#spectrum-goal-ring)"
+              stroke="url(#rithm-goal-ring)"
               strokeWidth="6"
               strokeLinecap="round"
               strokeDasharray={circumference}

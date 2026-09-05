@@ -10,7 +10,7 @@ export async function validateGithubUsername(username: string): Promise<boolean>
       {
         headers: {
           Accept: 'application/vnd.github+json',
-          'User-Agent': 'SpectrumUI',
+          'User-Agent': 'RithmUI',
         },
         signal: AbortSignal.timeout(2500),
       }

@@ -196,7 +196,7 @@ export default function InstallationPage() {
           </p>
           <CommandFigure
             className="mt-4"
-            cli="@spectrumui/accordion"
+            cli="@rithmui/accordion"
             componentName="Accordion"
             requireAuth
           />

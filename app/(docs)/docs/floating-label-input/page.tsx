@@ -31,11 +31,11 @@ export const metadata: Metadata = baseMetadata({
     "material design input",
     "animated label",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/floating-label-input",
+  canonicalUrl: "https://rithmui.com/docs/floating-label-input",
 });
 
 const FloatingLabelPage = () => {
-  const componentUrl = "https://ui.spectrumhq.in/docs/floating-label-input";
+  const componentUrl = "https://rithmui.com/docs/floating-label-input";
   const componentName = "Floating Label Input";
   const componentDescription = "An input whose label floats above the field when focused or filled.";
   const componentKeywords = [
@@ -66,7 +66,7 @@ const FloatingLabelPage = () => {
       </ReferenceBorder>
       <PreviewCodeCard
         path="app/(docs)/docs/floating-label-input/floating-label-input-demo.tsx"
-        cli="@spectrumui/floating-label-input-demo"
+        cli="@rithmui/floating-label-input-demo"
       
         installScript="npx shadcn@latest add label input"
         installCodePath="components/ui/floating-label-input.tsx"
@@ -78,7 +78,7 @@ const FloatingLabelPage = () => {
       <Usage
         title="Customize"
         path="app/(docs)/docs/floating-label-input/usage/floating-label-customize.tsx"
-        cli="@spectrumui/floating-label-customize"
+        cli="@rithmui/floating-label-customize"
         description={
           <p className="text-muted-foreground">
             You have fully control of the <InlineCode>FloatingLabel</InlineCode>{" "}
@@ -92,7 +92,7 @@ const FloatingLabelPage = () => {
       <Usage
         title="Form"
         path="app/(docs)/docs/floating-label-input/usage/floating-label-input-form.tsx"
-        cli="@spectrumui/floating-label-form"
+        cli="@rithmui/floating-label-form"
       >
         <FloatingLabelInputForm />
       </Usage>

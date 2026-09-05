@@ -5,14 +5,14 @@
   "title": "Autosize Textarea",
   "description": "component for the Autosize Textarea",
   "registryDependencies": [
-    "@spectrumui/autosize-textarea-dependecies"
+    "@rithmui/autosize-textarea-dependecies"
   ],
   "files": [
     {
       "path": "app/registry/autosize-textarea/autosize-textarea-demo.tsx",
-      "content": "import React from 'react';\r\n// import { AutosizeTextarea } from '@/components/ui/autosize-textarea';\r\nimport { AutosizeTextarea } from '@/app/registry/spectrumui/autosize-textarea';\r\n\r\nconst AutosizeTextareaDemo = () => {\r\n  return (\r\n    <div className=\"w-full px-10\">\r\n      <AutosizeTextarea placeholder=\"This textarea with min height 52 and unlimited max height.\" />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default AutosizeTextareaDemo;\r\n",
+      "content": "import React from 'react';\r\n// import { AutosizeTextarea } from '@/components/ui/autosize-textarea';\r\nimport { AutosizeTextarea } from '@/app/registry/rithmui/autosize-textarea';\r\n\r\nconst AutosizeTextareaDemo = () => {\r\n  return (\r\n    <div className=\"w-full px-10\">\r\n      <AutosizeTextarea placeholder=\"This textarea with min height 52 and unlimited max height.\" />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default AutosizeTextareaDemo;\r\n",
       "type": "registry:ui",
-      "target": "components/spectrumui/autosize-textarea.tsx"
+      "target": "components/rithmui/autosize-textarea.tsx"
     }
   ]
 }

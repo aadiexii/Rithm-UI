@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion keycap",
     "Next.js kbd component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/kbd-key",
+  canonicalUrl: "https://rithmui.com/docs/kbd-key",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Kbd Key"
       description={description}
-      url="https://ui.spectrumhq.in/docs/kbd-key"
+      url="https://rithmui.com/docs/kbd-key"
       keywords={[
         "kbd component",
         "keyboard key component",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/kbd-key/kbd-key-demo.tsx"
-          installCodePath="components/spectrumui/kbd-key.tsx"
-          cli="@spectrumui/kbd-key"
+          installCodePath="components/rithmui/kbd-key.tsx"
+          cli="@rithmui/kbd-key"
           installScript="npm i framer-motion"
         >
           <KbdKeyDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { KbdKey, KbdCombo } from "@/components/spectrumui/kbd-key"`}
+            code={`import { KbdKey, KbdCombo } from "@/components/rithmui/kbd-key"`}
             requireAuth={false}
           />
           <CodeHighlight

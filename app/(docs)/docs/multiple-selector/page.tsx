@@ -49,7 +49,7 @@ export const metadata: Metadata = baseMetadata({
     "Radix UI selector",
     "combobox component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/multiple-selector",
+  canonicalUrl: "https://rithmui.com/docs/multiple-selector",
 });
 
 const MultipleSelectorPage = () => {
@@ -57,7 +57,7 @@ const MultipleSelectorPage = () => {
     <SEOWrapper
       componentName="Multiple Selector"
       description="A multi-select input with async search, grouping, and creatable options."
-      url="https://ui.spectrumhq.in/docs/multiple-selector"
+      url="https://rithmui.com/docs/multiple-selector"
       keywords={[
         "multiple selector",
         "multi select",
@@ -76,7 +76,7 @@ const MultipleSelectorPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/multiple-selector/multiple-selector-demo.tsx"
-        cli="@spectrumui/multiple-selector-demo"
+        cli="@rithmui/multiple-selector-demo"
       
         installScript="npx shadcn@latest add command badge"
         installCodePath="components/ui/multiple-selector.tsx"
@@ -88,20 +88,20 @@ const MultipleSelectorPage = () => {
       <Usage
         title="Disable Option"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-disable-options.tsx"
-        cli="@spectrumui/multiple-selector-with-disable-options"
+        cli="@rithmui/multiple-selector-with-disable-options"
       >
         <MultipleSelectorWithDisabledOption />
       </Usage>
       <Usage
         title="Disabled"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-disabled.tsx"
-        cli="@spectrumui/multiple-selector-disabled"
+        cli="@rithmui/multiple-selector-disabled"
       >
         <MultipleSelectorDisabled />
       </Usage>
       <Usage
         title="Disable First Item selected"
-        cli="@spectrumui/multiple-selector-no-default-select"
+        cli="@rithmui/multiple-selector-no-default-select"
         description={
           <>
             <P className="text-muted-foreground">
@@ -127,14 +127,14 @@ const MultipleSelectorPage = () => {
       <Usage
         title="Controlled Component"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-controlled.tsx"
-        cli="@spectrumui/multiple-selector-controlled"
+        cli="@rithmui/multiple-selector-controlled"
       >
         <MultipleSelectorControlled />
       </Usage>
       <Usage
         title="Hide Clear All Button"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-hide-clear-all.tsx"
-        cli="@spectrumui/multiple-selector-hide-clear-all"
+        cli="@rithmui/multiple-selector-hide-clear-all"
       >
         <MultipleSelectorHideClearAll />
       </Usage>
@@ -146,7 +146,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-creatable.tsx"
-        cli="@spectrumui/multiple-selector-creatable"
+        cli="@rithmui/multiple-selector-creatable"
       >
         <MultipleSelectorCreatable />
       </Usage>
@@ -172,7 +172,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search"
+        cli="@rithmui/multiple-selector-with-async-search"
       >
         <MultipleSelectorWithAsyncSearch />
       </Usage>
@@ -194,7 +194,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-onfocus.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-onfocus"
+        cli="@rithmui/multiple-selector-with-async-search-and-onfocus"
       >
         <MultipleSelectorWithAsyncSearchAndOnFocus />
       </Usage>
@@ -209,7 +209,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-creatable.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-creatable"
+        cli="@rithmui/multiple-selector-with-async-search-and-creatable"
       >
         <MultipleSelectorWithAsyncSearchAndCreatable />
       </Usage>
@@ -224,7 +224,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-creatable-and-group.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-creatable-and-group"
+        cli="@rithmui/multiple-selector-with-async-search-and-creatable-and-group"
       >
         <MultipleSelectorWithAsyncSearchAndCreatableAndGroup />
       </Usage>
@@ -243,7 +243,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-sync-search.tsx"
-        cli="@spectrumui/multiple-selector-with-sync-search"
+        cli="@rithmui/multiple-selector-with-sync-search"
       >
         <MultipleSelectorWithSyncSearch />
       </Usage>
@@ -263,7 +263,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-manually-controlled.tsx"
-        cli="@spectrumui/multiple-selector-manually-controlled"
+        cli="@rithmui/multiple-selector-manually-controlled"
       >
         <MultipleSelectorManuallyControlledOptions />
       </Usage>
@@ -278,7 +278,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-group.tsx"
-        cli="@spectrumui/multiple-selector-with-group"
+        cli="@rithmui/multiple-selector-with-group"
       >
         <MultipleSelectorWithGroup />
       </Usage>
@@ -291,7 +291,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-max-selected.tsx"
-        cli="@spectrumui/multiple-selector-max-selected"
+        cli="@rithmui/multiple-selector-max-selected"
       >
         <MultipleSelectorWithMaxSelected />
       </Usage>
@@ -303,7 +303,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-max-text-length.tsx"
-        cli="@spectrumui/multiple-selector-max-text-length"
+        cli="@rithmui/multiple-selector-max-text-length"
       >
         <MultipleSelectorMaxTextLength />
       </Usage>
@@ -322,7 +322,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-no-placeholder-when-selected.tsx"
-        cli="@spectrumui/multiple-selector-no-placeholder-when-selected"
+        cli="@rithmui/multiple-selector-no-placeholder-when-selected"
       >
         <MultipleSelectorNoPlaceholderWhenSelected />
       </Usage>
@@ -335,28 +335,28 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-fixed-option.tsx"
-        cli="@spectrumui/multiple-selector-fixed-option"
+        cli="@rithmui/multiple-selector-fixed-option"
       >
         <MultipleSelectorWithFixedOption />
       </Usage>
       <Usage
         title="ref"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-ref.tsx"
-        cli="@spectrumui/multiple-selector-ref"
+        cli="@rithmui/multiple-selector-ref"
       >
         <MultipleSelectorRef />
       </Usage>
       <Usage
         title="CommandProps and CommandInputProps Customization"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-commandprops.tsx"
-        cli="@spectrumui/multiple-selector-commandprops"
+        cli="@rithmui/multiple-selector-commandprops"
       >
         <MultipleSelectorCommandProps />
       </Usage>
       <Usage
         title="Form"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-form.tsx"
-        cli="@spectrumui/multiple-selector-with-form"
+        cli="@rithmui/multiple-selector-with-form"
       >
         <MultipleSelectorWithForm />
       </Usage>

@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const siteUrl = 'https://ui.spectrumhq.in';
+const siteUrl = 'https://rithmui.com';
 const repositoryUrl = 'https://github.com/aadiexii/Rithm-UI';
 const licenseUrl = 'https://github.com/aadiexii/Rithm-UI/blob/main/LICENSE';
 const canonicalStatement =
@@ -43,7 +43,7 @@ function blockReference() {
         '',
         '- URL: ' + blockUrl(block),
         '- Category: ' + block.category + ' / ' + block.subcategory,
-        '- Install: npx shadcn@latest add @spectrumui/' + block.slug,
+        '- Install: npx shadcn@latest add @rithmui/' + block.slug,
         '- Variants: ' + block.variants.join(', '),
         '- Dependencies: ' + (block.dependencies.length ? block.dependencies.join(', ') : 'none'),
         '- Added: ' + block.addedAt,
@@ -127,7 +127,7 @@ function buildCompactFile() {
     '- Animated out of the box — built with Framer Motion, so you get motion without wiring it yourself.',
     '- Installs with the shadcn CLI: ' +
       tick +
-      'npx shadcn add @spectrumui/<component>' +
+      'npx shadcn add @rithmui/<component>' +
       tick +
       '. Drops into any existing shadcn/ui project.',
     '- Accessible — built on Radix UI primitives.',
@@ -141,13 +141,13 @@ function buildCompactFile() {
       '/compare): Side-by-side comparisons with other React component libraries.',
     '- [Rithm UI vs Aceternity UI](' +
       siteUrl +
-      '/compare/spectrum-ui-vs-aceternity): Animated React components compared; Rithm UI adds shadcn-CLI installs, an MCP server, and Radix accessibility.',
+      '/compare/rithm-ui-vs-aceternity): Animated React components compared; Rithm UI adds shadcn-CLI installs, an MCP server, and Radix accessibility.',
     '- [Rithm UI vs Magic UI](' +
       siteUrl +
-      '/compare/spectrum-ui-vs-magic-ui): Two free animated libraries that work alongside shadcn/ui.',
+      '/compare/rithm-ui-vs-magic-ui): Two free animated libraries that work alongside shadcn/ui.',
     '- [Rithm UI vs shadcn/ui](' +
       siteUrl +
-      '/compare/spectrum-ui-vs-shadcn): Rithm UI extends shadcn/ui with animated, production-ready components — use them together.',
+      '/compare/rithm-ui-vs-shadcn): Rithm UI extends shadcn/ui with animated, production-ready components — use them together.',
     '- [Best animated React component libraries (2026)](' +
       siteUrl +
       '/best-animated-react-component-libraries): Roundup of Rithm UI, Aceternity UI, Magic UI, shadcn/ui, React Bits, and Animate UI.',
@@ -184,7 +184,7 @@ function buildCompactFile() {
     '',
     fence + 'bash',
     'npx shadcn@latest init',
-    'npx shadcn@latest add @spectrumui/accordion',
+    'npx shadcn@latest add @rithmui/accordion',
     fence,
     '',
     'Components can also be copied manually from their documentation source. Install only the dependencies listed for that component.',
@@ -214,7 +214,7 @@ function buildCompactFile() {
 const usageExamples = [
   {
     title: 'Accordion',
-    command: 'npx shadcn@latest add @spectrumui/accordion',
+    command: 'npx shadcn@latest add @rithmui/accordion',
     language: 'tsx',
     source: [
       'import {',
@@ -238,10 +238,10 @@ const usageExamples = [
   },
   {
     title: 'Animated Switch',
-    command: 'npx shadcn@latest add @spectrumui/animated-switch',
+    command: 'npx shadcn@latest add @rithmui/animated-switch',
     language: 'tsx',
     source: [
-      'import { AnimatedSwitch } from "@/components/spectrumui/animated-switch";',
+      'import { AnimatedSwitch } from "@/components/rithmui/animated-switch";',
       '',
       'export function NotificationSetting() {',
       '  return (',

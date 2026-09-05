@@ -41,7 +41,7 @@ import {
   useIntroStartedAt,
 } from './chart-kit';
 
-export interface SpectrumPriceChartProps {
+export interface RithmPriceChartProps {
   className?: string;
   data?: PricePoint[];
   symbol?: string;
@@ -63,7 +63,7 @@ function rebase(data: PricePoint[]): PricePoint[] {
   return data.map((row) => ({ time: row.time, price: (row.price / base) * 100 }));
 }
 
-function mergeCompare(data: PricePoint[], compare?: SpectrumPriceChartProps['compare']) {
+function mergeCompare(data: PricePoint[], compare?: RithmPriceChartProps['compare']) {
   if (!compare) return data.map((row) => ({ ...row }));
   const byTime = new Map(compare.data.map((row) => [row.time, row.price]));
   return data.map((row) => ({ ...row, compare: byTime.get(row.time) }));
@@ -127,7 +127,7 @@ export function PriceChart({
   compare,
   glowing = false,
   isLoading = false,
-}: SpectrumPriceChartProps) {
+}: RithmPriceChartProps) {
   const id = useChartId('price');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -139,7 +139,7 @@ export function PriceChart({
   const last = prices[prices.length - 1] ?? 0;
   const delta = seriesDelta(prices);
   const up = delta >= 0;
-  const color = up ? 'var(--spectrum-chart-up)' : 'var(--spectrum-chart-down)';
+  const color = up ? 'var(--rithm-chart-up)' : 'var(--rithm-chart-down)';
   const rows = mergeCompare(data, compare);
 
   return (
@@ -207,12 +207,12 @@ export function PriceChart({
                   type="monotone"
                   dataKey="compare"
                   name={compare.label}
-                  stroke="var(--spectrum-chart-2)"
+                  stroke="var(--rithm-chart-2)"
                   strokeWidth={1.75}
                   strokeDasharray={strokeDasharray('dashed')}
                   dot={false}
                   activeDot={(props: ChartDotRenderProps) => (
-                    <ChartActiveDot cx={props.cx} cy={props.cy} color="var(--spectrum-chart-2)" />
+                    <ChartActiveDot cx={props.cx} cy={props.cy} color="var(--rithm-chart-2)" />
                   )}
                   isAnimationActive={false}
                   style={maskStyle}
@@ -226,19 +226,19 @@ export function PriceChart({
   );
 }
 
-export function DefaultPriceChart(props: SpectrumPriceChartProps) {
+export function DefaultPriceChart(props: RithmPriceChartProps) {
   return <PriceChart {...props} />;
 }
 
-export function StockPriceChart(props: SpectrumPriceChartProps) {
+export function StockPriceChart(props: RithmPriceChartProps) {
   return <PriceChart data={NVDA_PRICE} symbol="NVDA" name="NVIDIA" {...props} />;
 }
 
-export function TvlPriceChart(props: SpectrumPriceChartProps) {
+export function TvlPriceChart(props: RithmPriceChartProps) {
   return <PriceChart data={SOLANA_TVL} symbol="TVL" name="Solana DeFi" compact {...props} />;
 }
 
-export function ComparePriceChart(props: SpectrumPriceChartProps) {
+export function ComparePriceChart(props: RithmPriceChartProps) {
   return (
     <PriceChart
       data={rebase(SOL_PRICE)}
@@ -251,6 +251,6 @@ export function ComparePriceChart(props: SpectrumPriceChartProps) {
   );
 }
 
-export function GlowingPriceChart(props: SpectrumPriceChartProps) {
+export function GlowingPriceChart(props: RithmPriceChartProps) {
   return <PriceChart glowing {...props} />;
 }

@@ -4,7 +4,7 @@ import React from "react"
 import {
   AvatarStack,
   type AvatarItem,
-} from "@/components/spectrumui/avatar-stack"
+} from "@/components/rithmui/avatar-stack"
 
 const TEAM: AvatarItem[] = [
   { name: "Arjun Mehta", src: "/avatars/01.png" },

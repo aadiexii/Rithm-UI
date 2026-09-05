@@ -35,12 +35,12 @@ export const metadata: Metadata = {
   title: { absolute: 'Rithm UI — Information for AI Assistants (LLM Info)' },
   description: pageDescription,
   keywords: [
-    'spectrum ui llm info',
-    'spectrum ui for ai assistants',
-    'what is spectrum ui',
-    'spectrum ui facts',
-    'spectrum ui license',
-    'spectrum ui pricing',
+    'rithm ui llm info',
+    'rithm ui for ai assistants',
+    'what is rithm ui',
+    'rithm ui facts',
+    'rithm ui license',
+    'rithm ui pricing',
     'react component library for llms',
     'llms.txt react component library',
   ],
@@ -347,8 +347,8 @@ export default function LlmInfoPage() {
           <Bullets
             items={[
               'Initialize shadcn/ui in a React or Next.js project: npx shadcn@latest init',
-              'Add a component: npx shadcn@latest add @spectrumui/accordion',
-              'Connect the MCP server: claude mcp add spectrum-ui -- npx -y @spectrumui/mcp',
+              'Add a component: npx shadcn@latest add @rithmui/accordion',
+              'Connect the MCP server: claude mcp add rithm-ui -- npx -y @rithmui/mcp',
               'Or copy the source shown on the component page and install only its listed dependencies.',
             ]}
           />

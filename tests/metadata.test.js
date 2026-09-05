@@ -6,7 +6,7 @@ const ts = require('typescript');
 
 const projectRoot = path.resolve(__dirname, '..');
 const catalog = require(path.join(projectRoot, 'content', 'component-catalog.json'));
-const titleSuffix = ' | Spectrum UI';
+const titleSuffix = ' | Rithm UI';
 
 const originalResolveFilename = Module._resolveFilename;
 Module._resolveFilename = function resolveAlias(request, parent, isMain, options) {
@@ -82,7 +82,7 @@ function readBlogStringProperty(filePath, propertyName) {
 }
 
 const componentTitles = catalog.map(
-  (component) => `${component.name} — React ${component.category} Component | Spectrum UI`,
+  (component) => `${component.name} — React ${component.category} Component | Rithm UI`,
 );
 const componentDescriptions = catalog.map(
   (component) => `${component.description} Copy-paste React source for Next.js and Tailwind CSS.`,
@@ -98,43 +98,43 @@ const blogDescriptions = blogFiles.map((fileName) =>
 );
 
 const staticTitles = [
-  'Spectrum UI — Animated React Components & Blocks',
-  'Components | Spectrum UI',
-  'Installation | Spectrum UI',
-  'Guides & Tutorials | Spectrum UI',
-  'MCP Server | Spectrum UI',
-  'Blog | Spectrum UI',
-  'Animated React Charts | Spectrum UI',
-  'Color Palette | Spectrum UI',
-  'Frequently Asked Questions | Spectrum UI',
-  'Why Spectrum UI Exists | Spectrum UI',
-  'Privacy Policy | Spectrum UI',
-  'Spectrum UI Pro — Early-Bird Waitlist',
-  'Sponsor Spectrum UI | Frontend Developer Audience',
-  'React Dashboard Templates | Spectrum UI',
-  'Newsletter Dashboard — React Template | Spectrum UI',
-  'Pharmacy Dashboard — React Template | Spectrum UI',
-  'Terms of Service — Spectrum UI',
+  'Rithm UI — Animated React Components & Blocks',
+  'Components | Rithm UI',
+  'Installation | Rithm UI',
+  'Guides & Tutorials | Rithm UI',
+  'MCP Server | Rithm UI',
+  'Blog | Rithm UI',
+  'Animated React Charts | Rithm UI',
+  'Color Palette | Rithm UI',
+  'Frequently Asked Questions | Rithm UI',
+  'Why Rithm UI Exists | Rithm UI',
+  'Privacy Policy | Rithm UI',
+  'Rithm UI Pro — Early-Bird Waitlist',
+  'Sponsor Rithm UI | Frontend Developer Audience',
+  'React Dashboard Templates | Rithm UI',
+  'Newsletter Dashboard — React Template | Rithm UI',
+  'Pharmacy Dashboard — React Template | Rithm UI',
+  'Terms of Service — Rithm UI',
 ];
 
 const staticDescriptions = [
   'Open-source, animation-ready React components and blocks built with Next.js, Tailwind CSS, Motion, TypeScript, and shadcn/ui for SaaS and AI apps.',
-  'Browse Spectrum UI’s animation-ready React components and blocks, with copy-paste source for Next.js, Tailwind CSS, Motion, and shadcn/ui projects.',
-  'Install Spectrum UI in a Next.js project with Tailwind CSS and shadcn/ui. Step-by-step setup so you can copy-paste React components in minutes.',
-  'Learn how to build modern React applications with Spectrum UI. Step-by-step tutorials, best practices, and real-world examples.',
-  'Use Spectrum UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @spectrumui/mcp server.',
-  'UI components, React, design systems, and frontend engineering from Spectrum UI. Practical guides for shipping better Next.js interfaces.',
-  'A full-viewport gallery of Spectrum UI chart components. Copy-paste React source for Next.js, Tailwind CSS, Recharts, and Motion. Built for product, trading, and onchain dashboards.',
+  'Browse Rithm UI’s animation-ready React components and blocks, with copy-paste source for Next.js, Tailwind CSS, Motion, and shadcn/ui projects.',
+  'Install Rithm UI in a Next.js project with Tailwind CSS and shadcn/ui. Step-by-step setup so you can copy-paste React components in minutes.',
+  'Learn how to build modern React applications with Rithm UI. Step-by-step tutorials, best practices, and real-world examples.',
+  'Use Rithm UI with AI coding assistants like Claude, Cursor, and Windsurf. Browse, search, and install components directly from your AI editor via the @rithmui/mcp server.',
+  'UI components, React, design systems, and frontend engineering from Rithm UI. Practical guides for shipping better Next.js interfaces.',
+  'A full-viewport gallery of Rithm UI chart components. Copy-paste React source for Next.js, Tailwind CSS, Recharts, and Motion. Built for product, trading, and onchain dashboards.',
   'Explore curated color palettes for React and Next.js. Copy Tailwind CSS and CSS variable values for your design system.',
-  'Answers about installing Spectrum UI, using its MCP server, shadcn/ui compatibility, code ownership, updates, and commercial projects.',
-  'Read the founder story behind Spectrum UI, from repeated interface work to an open-source library of animation-ready React components and blocks.',
-  'Learn what personal, payment, and account data Spectrum UI collects, how third-party processors are used, and how to request access or deletion.',
-  'Join the Spectrum UI Pro waitlist. Lock early-bird pricing for premium Next.js templates, pro components, and founder support.',
-  'Reach developers while they browse Spectrum UI documentation and components. Review available sponsor placements across the site and newsletter.',
-  'Browse Spectrum UI dashboard templates with copyable Next.js, TypeScript, Tailwind CSS, and shadcn/ui source for product interfaces.',
+  'Answers about installing Rithm UI, using its MCP server, shadcn/ui compatibility, code ownership, updates, and commercial projects.',
+  'Read the founder story behind Rithm UI, from repeated interface work to an open-source library of animation-ready React components and blocks.',
+  'Learn what personal, payment, and account data Rithm UI collects, how third-party processors are used, and how to request access or deletion.',
+  'Join the Rithm UI Pro waitlist. Lock early-bird pricing for premium Next.js templates, pro components, and founder support.',
+  'Reach developers while they browse Rithm UI documentation and components. Review available sponsor placements across the site and newsletter.',
+  'Browse Rithm UI dashboard templates with copyable Next.js, TypeScript, Tailwind CSS, and shadcn/ui source for product interfaces.',
   'Preview and copy a React newsletter dashboard with subscriber data, campaign analytics, charts, and a responsive Next.js layout.',
   'Preview and copy a React pharmacy dashboard for inventory, prescriptions, sales, and operational data in a responsive Next.js layout.',
-  'Read the Spectrum UI Terms of Service covering usage, licensing, payments, and refund policy.',
+  'Read the Rithm UI Terms of Service covering usage, licensing, payments, and refund policy.',
 ].map(formatDescription);
 
 const topicHubTitles = TOPIC_HUBS.map((hub) => formatBlogTitle(hub.metadataTitle));

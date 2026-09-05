@@ -46,7 +46,7 @@ import {
   useIntroStartedAt,
 } from './chart-kit';
 
-export interface SpectrumCandlestickChartProps {
+export interface RithmCandlestickChartProps {
   className?: string;
   data?: CandlePoint[];
   showVolume?: boolean;
@@ -122,7 +122,7 @@ function CandleLayer({
         if (![yHigh, yLow, yOpen, yClose].every(Number.isFinite)) return null;
 
         const up = row.close >= row.open;
-        const color = up ? 'var(--spectrum-chart-up)' : 'var(--spectrum-chart-down)';
+        const color = up ? 'var(--rithm-chart-up)' : 'var(--rithm-chart-down)';
         const bodyTop = Math.min(yOpen, yClose);
         const bodyH = Math.max(1, Math.abs(yClose - yOpen));
         const dimmed = activeIndex != null && activeIndex !== index;
@@ -154,7 +154,7 @@ function CandleLayer({
               width={bodyW}
               height={bodyH}
               rx={1}
-              fill={hollowUp && up ? 'var(--spectrum-chart-surface)' : color}
+              fill={hollowUp && up ? 'var(--rithm-chart-surface)' : color}
               stroke={color}
               strokeWidth={hollowUp && up ? 1.25 : 0}
             />
@@ -234,7 +234,7 @@ export function CandlestickChart({
   hollowUp = false,
   glowing = false,
   isLoading = false,
-}: SpectrumCandlestickChartProps) {
+}: RithmCandlestickChartProps) {
   const id = useChartId('candle');
   const { reduce } = useChartMotion();
   const introStartedAt = useIntroStartedAt();
@@ -324,7 +324,7 @@ export function CandlestickChart({
                     yAxisId="volume"
                     dataKey="volume"
                     name="Volume"
-                    fill="var(--spectrum-chart-3)"
+                    fill="var(--rithm-chart-3)"
                     fillOpacity={0.28}
                     radius={[2, 2, 0, 0]}
                     isAnimationActive={!reduce}
@@ -343,22 +343,22 @@ export function CandlestickChart({
   );
 }
 
-export function DefaultCandlestickChart(props: SpectrumCandlestickChartProps) {
+export function DefaultCandlestickChart(props: RithmCandlestickChartProps) {
   return <CandlestickChart {...props} />;
 }
 
-export function StockCandlestickChart(props: SpectrumCandlestickChartProps) {
+export function StockCandlestickChart(props: RithmCandlestickChartProps) {
   return <CandlestickChart data={AAPL_CANDLES} {...props} />;
 }
 
-export function VolumeCandlestickChart(props: SpectrumCandlestickChartProps) {
+export function VolumeCandlestickChart(props: RithmCandlestickChartProps) {
   return <CandlestickChart showVolume {...props} />;
 }
 
-export function HollowCandlestickChart(props: SpectrumCandlestickChartProps) {
+export function HollowCandlestickChart(props: RithmCandlestickChartProps) {
   return <CandlestickChart hollowUp {...props} />;
 }
 
-export function GlowingCandlestickChart(props: SpectrumCandlestickChartProps) {
+export function GlowingCandlestickChart(props: RithmCandlestickChartProps) {
   return <CandlestickChart glowing {...props} />;
 }

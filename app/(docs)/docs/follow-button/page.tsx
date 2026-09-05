@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion button",
     "Next.js follow button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/follow-button",
+  canonicalUrl: "https://rithmui.com/docs/follow-button",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Follow Button"
       description={description}
-      url="https://ui.spectrumhq.in/docs/follow-button"
+      url="https://rithmui.com/docs/follow-button"
       keywords={[
         "follow button component",
         "unfollow button animation",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/follow-button/follow-button-demo.tsx"
-          installCodePath="components/spectrumui/follow-button.tsx"
-          cli="@spectrumui/follow-button"
+          installCodePath="components/rithmui/follow-button.tsx"
+          cli="@rithmui/follow-button"
           installScript="npm i framer-motion lucide-react"
         >
           <FollowButtonDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { FollowButton } from "@/components/spectrumui/follow-button"`}
+            code={`import { FollowButton } from "@/components/rithmui/follow-button"`}
             requireAuth={false}
           />
           <CodeHighlight

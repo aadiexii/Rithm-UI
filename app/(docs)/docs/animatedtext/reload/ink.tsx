@@ -21,7 +21,7 @@ export function ReloadableInk() {
       </Button>
       <InkMorphText
         key={reloadKey}
-        text="SPECTRUM UI"
+        text="RITHM UI"
         intensityFrom={0.28}
         intensityTo={0.002}
         settleMs={2000}

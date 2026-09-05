@@ -1,33 +1,33 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { LoadingState } from '@/components/spectrumui/blocks/ai-assistants/loading-state';
-import { ReasoningTrace } from '@/components/spectrumui/blocks/ai-assistants/reasoning-trace';
-import { StreamingText } from '@/components/spectrumui/blocks/ai-assistants/streaming-text';
-import { PromptComposer } from '@/components/spectrumui/blocks/ai-assistants/prompt-composer';
-import { ChatEmptyState } from '@/components/spectrumui/blocks/ai-assistants/chat-empty-state';
-import { MessageActions } from '@/components/spectrumui/blocks/ai-assistants/message-actions';
-import { CitationSources } from '@/components/spectrumui/blocks/ai-assistants/citation-sources';
-import { AgentSteps } from '@/components/spectrumui/blocks/ai-assistants/agent-steps';
-import { ToolChips } from '@/components/spectrumui/blocks/ai-assistants/tool-chips';
-import { ApprovalCard } from '@/components/spectrumui/blocks/ai-assistants/approval-card';
-import { ModelSelector } from '@/components/spectrumui/blocks/ai-assistants/model-selector';
-import { UsageMeter } from '@/components/spectrumui/blocks/ai-assistants/usage-meter';
-import { VoiceInput } from '@/components/spectrumui/blocks/ai-assistants/voice-input';
-import { InlineEdit } from '@/components/spectrumui/blocks/ai-assistants/inline-edit';
-import { ThinkingDots } from '@/components/spectrumui/blocks/ai-assistants/thinking-dots';
-import { TaskRows, type TaskRow } from '@/components/spectrumui/blocks/ai-assistants/task-rows';
-import { AgentPlan } from '@/components/spectrumui/blocks/ai-assistants/agent-plan';
-import { WebSearch, type SearchResult } from '@/components/spectrumui/blocks/ai-assistants/web-search';
-import { DiffView } from '@/components/spectrumui/blocks/ai-assistants/diff-view';
-import { CodeBlock } from '@/components/spectrumui/blocks/ai-assistants/code-block';
-import { InsightCards } from '@/components/spectrumui/blocks/ai-assistants/insight-cards';
-import { ErrorState } from '@/components/spectrumui/blocks/ai-assistants/error-state';
-import { QuotaBanner } from '@/components/spectrumui/blocks/ai-assistants/quota-banner';
-import { MemoryChips, type MemoryItem } from '@/components/spectrumui/blocks/ai-assistants/memory-chips';
-import { SuggestionBanner, type SuggestionState } from '@/components/spectrumui/blocks/ai-assistants/suggestion-banner';
-import { StatusTracker } from '@/components/spectrumui/blocks/ai-assistants/status-tracker';
-import { ConversationList } from '@/components/spectrumui/blocks/ai-assistants/conversation-list';
+import { LoadingState } from '@/components/rithmui/blocks/ai-assistants/loading-state';
+import { ReasoningTrace } from '@/components/rithmui/blocks/ai-assistants/reasoning-trace';
+import { StreamingText } from '@/components/rithmui/blocks/ai-assistants/streaming-text';
+import { PromptComposer } from '@/components/rithmui/blocks/ai-assistants/prompt-composer';
+import { ChatEmptyState } from '@/components/rithmui/blocks/ai-assistants/chat-empty-state';
+import { MessageActions } from '@/components/rithmui/blocks/ai-assistants/message-actions';
+import { CitationSources } from '@/components/rithmui/blocks/ai-assistants/citation-sources';
+import { AgentSteps } from '@/components/rithmui/blocks/ai-assistants/agent-steps';
+import { ToolChips } from '@/components/rithmui/blocks/ai-assistants/tool-chips';
+import { ApprovalCard } from '@/components/rithmui/blocks/ai-assistants/approval-card';
+import { ModelSelector } from '@/components/rithmui/blocks/ai-assistants/model-selector';
+import { UsageMeter } from '@/components/rithmui/blocks/ai-assistants/usage-meter';
+import { VoiceInput } from '@/components/rithmui/blocks/ai-assistants/voice-input';
+import { InlineEdit } from '@/components/rithmui/blocks/ai-assistants/inline-edit';
+import { ThinkingDots } from '@/components/rithmui/blocks/ai-assistants/thinking-dots';
+import { TaskRows, type TaskRow } from '@/components/rithmui/blocks/ai-assistants/task-rows';
+import { AgentPlan } from '@/components/rithmui/blocks/ai-assistants/agent-plan';
+import { WebSearch, type SearchResult } from '@/components/rithmui/blocks/ai-assistants/web-search';
+import { DiffView } from '@/components/rithmui/blocks/ai-assistants/diff-view';
+import { CodeBlock } from '@/components/rithmui/blocks/ai-assistants/code-block';
+import { InsightCards } from '@/components/rithmui/blocks/ai-assistants/insight-cards';
+import { ErrorState } from '@/components/rithmui/blocks/ai-assistants/error-state';
+import { QuotaBanner } from '@/components/rithmui/blocks/ai-assistants/quota-banner';
+import { MemoryChips, type MemoryItem } from '@/components/rithmui/blocks/ai-assistants/memory-chips';
+import { SuggestionBanner, type SuggestionState } from '@/components/rithmui/blocks/ai-assistants/suggestion-banner';
+import { StatusTracker } from '@/components/rithmui/blocks/ai-assistants/status-tracker';
+import { ConversationList } from '@/components/rithmui/blocks/ai-assistants/conversation-list';
 import {
   PORTSIDE_CITATIONS,
   PORTSIDE_GREETING,
@@ -36,12 +36,12 @@ import {
   PORTSIDE_SUGGESTED_PROMPTS,
   PORTSIDE_TOOL_CALLS,
   PORTSIDE_USAGE,
-} from '@/components/spectrumui/blocks/ai-assistants/_fixtures/conversation';
+} from '@/components/rithmui/blocks/ai-assistants/_fixtures/conversation';
 import type {
   Attachment,
   ToolCall,
   ToolCallStatus,
-} from '@/components/spectrumui/blocks/ai-assistants/types';
+} from '@/components/rithmui/blocks/ai-assistants/types';
 
 /**
  * Live demos, keyed by block slug. The specimen page renders these full-size on

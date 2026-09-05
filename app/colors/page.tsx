@@ -17,7 +17,7 @@ export const metadata: Metadata = baseMetadata({
     "design system colors",
     "React color palette",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/colors",
+  canonicalUrl: "https://rithmui.com/colors",
 });
 
 const colors = getColors();

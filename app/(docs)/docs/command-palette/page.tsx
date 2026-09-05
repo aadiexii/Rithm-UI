@@ -18,7 +18,7 @@ export const metadata: Metadata = baseMetadata({
     "keyboard navigation",
     "Framer Motion command menu",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/command-palette",
+  canonicalUrl: "https://rithmui.com/docs/command-palette",
 })
 
 export default function CommandPaletteDocsPage() {
@@ -29,7 +29,7 @@ export default function CommandPaletteDocsPage() {
     <SEOWrapper
       componentName="Command Palette"
       description={description}
-      url="https://ui.spectrumhq.in/docs/command-palette"
+      url="https://rithmui.com/docs/command-palette"
       keywords={[
         "command palette component",
         "React command menu",
@@ -43,8 +43,8 @@ export default function CommandPaletteDocsPage() {
       >
         <PreviewCodeCard
           path="app/(docs)/docs/command-palette/command-palette-demo.tsx"
-          installCodePath="components/spectrumui/command-palette.tsx"
-          cli="@spectrumui/command-palette"
+          installCodePath="components/rithmui/command-palette.tsx"
+          cli="@rithmui/command-palette"
           installScript="npm i framer-motion lucide-react next-themes"
         >
           <CommandPaletteDemo />

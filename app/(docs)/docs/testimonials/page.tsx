@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     "Next.js testimonials",
     "animated testimonials",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/testimonials",
+  canonicalUrl: "https://rithmui.com/docs/testimonials",
 });
 
 const DualRangeSliderPage = () => {
@@ -27,7 +27,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Testimonials"
       description="A testimonials section for showcasing customer reviews and social proof."
-      url="https://ui.spectrumhq.in/docs/testimonials"
+      url="https://rithmui.com/docs/testimonials"
       keywords={[
         "testimonials component",
         "React testimonials",
@@ -46,9 +46,9 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/testimonials/testimonialsdemo.tsx"
-        cli="@spectrumui/testimonials"
+        cli="@rithmui/testimonials"
       
-        installScript="npx shadcn@latest add @spectrumui/testimonials"
+        installScript="npx shadcn@latest add @rithmui/testimonials"
         installCodePath="app/(docs)/docs/testimonials/testimonialsdemo.tsx"
       >
         <Testimonial />

@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion input",
     "Next.js password input",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/password-strength",
+  canonicalUrl: "https://rithmui.com/docs/password-strength",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Password Strength"
       description={description}
-      url="https://ui.spectrumhq.in/docs/password-strength"
+      url="https://rithmui.com/docs/password-strength"
       keywords={[
         "password strength component",
         "password strength meter",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/password-strength/password-strength-demo.tsx"
-          installCodePath="components/spectrumui/password-strength.tsx"
-          cli="@spectrumui/password-strength"
+          installCodePath="components/rithmui/password-strength.tsx"
+          cli="@rithmui/password-strength"
           installScript="npm i framer-motion lucide-react"
         >
           <PasswordStrengthDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { PasswordStrengthInput } from "@/components/spectrumui/password-strength"`}
+            code={`import { PasswordStrengthInput } from "@/components/rithmui/password-strength"`}
             requireAuth={false}
           />
           <CodeHighlight

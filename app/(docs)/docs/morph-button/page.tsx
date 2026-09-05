@@ -29,7 +29,7 @@ export const metadata: Metadata = baseMetadata({
     "framer motion button",
     "Next.js submit button",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/morph-button",
+  canonicalUrl: "https://rithmui.com/docs/morph-button",
 })
 
 const page = () => {
@@ -40,7 +40,7 @@ const page = () => {
     <SEOWrapper
       componentName="Morph Button"
       description={description}
-      url="https://ui.spectrumhq.in/docs/morph-button"
+      url="https://rithmui.com/docs/morph-button"
       keywords={[
         "morph button component",
         "React async button",
@@ -52,8 +52,8 @@ const page = () => {
         {/* Preview + Installation (CLI | Manual) */}
         <PreviewCodeCard
           path="app/(docs)/docs/morph-button/morph-button-demo.tsx"
-          installCodePath="components/spectrumui/morph-button.tsx"
-          cli="@spectrumui/morph-button"
+          installCodePath="components/rithmui/morph-button.tsx"
+          cli="@rithmui/morph-button"
           installScript="npm i framer-motion"
         >
           <MorphButtonDemo />
@@ -63,7 +63,7 @@ const page = () => {
         <PageSubTitle>Usage</PageSubTitle>
         <div className="flex flex-col gap-6">
           <CodeHighlight
-            code={`import { MorphButton } from "@/components/spectrumui/morph-button"`}
+            code={`import { MorphButton } from "@/components/rithmui/morph-button"`}
             requireAuth={false}
           />
           <CodeHighlight

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { ReactionBar, type Reaction } from "@/components/spectrumui/reaction-bar"
+import { ReactionBar, type Reaction } from "@/components/rithmui/reaction-bar"
 
 export default function ReactionBarControlledDemo() {
   const [reactions, setReactions] = useState<Reaction[]>([

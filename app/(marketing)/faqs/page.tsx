@@ -10,7 +10,7 @@ export const metadata: Metadata = baseMetadata({
   title: 'Frequently Asked Questions',
   description:
     'Answers about installing Rithm UI, using its MCP server, shadcn/ui compatibility, code ownership, updates, and commercial projects.',
-  canonicalUrl: 'https://ui.spectrumhq.in/faqs',
+  canonicalUrl: 'https://rithmui.com/faqs',
 });
 
 export default function FAQPage() {

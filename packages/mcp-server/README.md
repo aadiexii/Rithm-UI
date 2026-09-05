@@ -1,6 +1,6 @@
-# @spectrumui/mcp
+# @rithmui/mcp
 
-**Model Context Protocol server for [Rithm UI](https://spectrumhq.in)**
+**Model Context Protocol server for [Rithm UI](https://rithmui.com)**
 
 Lets AI assistants (Claude, Cursor, Windsurf, Zed) browse, search, and install Rithm UI components directly into your codebase — no copy-pasting.
 
@@ -8,10 +8,10 @@ Lets AI assistants (Claude, Cursor, Windsurf, Zed) browse, search, and install R
 You: "Add the AnimatedDrawer from Rithm UI to my project"
 
 Claude (via MCP):
-  → calls spectrum_ui.search_components("animated drawer")
-  → calls spectrum_ui.get_component("animateddrawer")
-  → calls spectrum_ui.install_component("animateddrawer")
-     runs: bunx --bun shadcn@latest add @spectrumui/animateddrawer
+  → calls rithm_ui.search_components("animated drawer")
+  → calls rithm_ui.get_component("animateddrawer")
+  → calls rithm_ui.install_component("animateddrawer")
+     runs: bunx --bun shadcn@latest add @rithmui/animateddrawer
   → component installed, import ready ✅
 ```
 
@@ -26,15 +26,15 @@ Add to `~/.claude/claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }
 ```
 
-Restart Claude Desktop. You'll see "spectrum-ui" in the tools list.
+Restart Claude Desktop. You'll see "rithm-ui" in the tools list.
 
 ### Cursor
 
@@ -43,9 +43,9 @@ Add to `.cursor/mcp.json` in your project root:
 ```json
 {
   "mcpServers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }
@@ -58,9 +58,9 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 ```json
 {
   "mcpServers": {
-    "spectrum-ui": {
+    "rithm-ui": {
       "command": "npx",
-      "args": ["-y", "@spectrumui/mcp"]
+      "args": ["-y", "@rithmui/mcp"]
     }
   }
 }
@@ -99,8 +99,8 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 
 ## Links
 
-- **Website**: https://spectrumhq.in
-- **Docs**: https://spectrumhq.in/docs
+- **Website**: https://rithmui.com
+- **Docs**: https://rithmui.com/docs
 - **GitHub**: https://github.com/aadiexii/Rithm-UI
 
 ---

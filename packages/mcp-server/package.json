@@ -1,11 +1,11 @@
 {
-  "name": "@spectrumui/mcp",
+  "name": "@rithmui/mcp",
   "version": "0.2.0",
   "description": "MCP server for Rithm UI — lets AI assistants browse, search, and install Rithm UI components directly into your codebase",
-  "keywords": ["mcp", "spectrum-ui", "components", "ai", "claude", "cursor"],
-  "author": "Aman Jain <aman.044063@tmu.ac.in>",
+  "keywords": ["mcp", "rithm-ui", "components", "ai", "claude", "cursor"],
+  "author": "Shivam O Sharma <sharmashivam32622@gmail.com>",
   "license": "MIT",
-  "homepage": "https://spectrumhq.in",
+  "homepage": "https://rithmui.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/aadiexii/Rithm-UI"
@@ -13,7 +13,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "spectrumui-mcp": "dist/index.js"
+    "rithmui-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

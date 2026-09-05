@@ -107,7 +107,7 @@ export function HeroSection({ className }: HeroSectionProps) {
               <div className="flex-1 mx-3">
                 <div className="h-5 bg-white dark:bg-black border border-neutral-100 dark:border-neutral-800 rounded-md w-52 mx-auto flex items-center justify-center">
                   <span className="text-[9px] text-neutral-400 font-mono">
-                    ui.spectrumhq.in/docs/button
+                    rithmui.com/docs/button
                   </span>
                 </div>
               </div>

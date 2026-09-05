@@ -12,7 +12,7 @@ export async function GET() {
       {
         headers: {
           Accept: "application/vnd.github+json",
-          "User-Agent": "spectrum-ui",
+          "User-Agent": "rithm-ui",
         },
         next: { revalidate: 3600 },
       },

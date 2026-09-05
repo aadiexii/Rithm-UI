@@ -6,7 +6,7 @@ import CommandFigure from "@/app/(docs)/docs/components/code-card/parts/command-
 import CodeHighlight from "@/app/(docs)/docs/components/code-card/parts/code-highlight";
 
 interface InstallationTabsProps {
-  /** Registry slug, e.g. "@spectrumui/input" */
+  /** Registry slug, e.g. "@rithmui/input" */
   cli?: string;
   /** Raw dependency install command, e.g. "npm i framer-motion" */
   installScript?: string;

@@ -16,7 +16,7 @@ const MARK_PATHS = [
   'M17.641 6.67098L23.719 12.749C28.0181 17.0481 35.2821 14.0091 35.2821 7.93105V0H0V24.312L17.641 6.67098Z',
 ];
 
-// "SPECTRUM UI" outlined from GeistMono-Medium.ttf (node_modules/geist) at
+// "RITHM UI" outlined from GeistMono-Medium.ttf (node_modules/geist) at
 // 64px with +2px tracking, baseline pre-positioned for the lockup below —
 // the navbar brand treatment at 4x scale (28px chip / 16px text becomes
 // 112px chip / 64px text). Regenerate with fontTools if the name or type
@@ -67,35 +67,35 @@ const PNG_WORDMARK = { width: 2400, height: 452 };
 
 const ASSETS = [
   {
-    file: 'spectrum-ui-mark-dark.svg',
+    file: 'rithm-ui-mark-dark.svg',
     svg: markSvg({ fill: INK }),
   },
   {
-    file: 'spectrum-ui-mark-dark.png',
+    file: 'rithm-ui-mark-dark.png',
     svg: markSvg({ fill: INK, ...PNG_MARK }),
   },
   {
-    file: 'spectrum-ui-mark-light.svg',
+    file: 'rithm-ui-mark-light.svg',
     svg: markSvg({ fill: PAPER }),
   },
   {
-    file: 'spectrum-ui-mark-light.png',
+    file: 'rithm-ui-mark-light.png',
     svg: markSvg({ fill: PAPER, ...PNG_MARK }),
   },
   {
-    file: 'spectrum-ui-wordmark-dark.svg',
+    file: 'rithm-ui-wordmark-dark.svg',
     svg: wordmarkSvg({ chip: INK, glyph: PAPER, text: INK }),
   },
   {
-    file: 'spectrum-ui-wordmark-dark.png',
+    file: 'rithm-ui-wordmark-dark.png',
     svg: wordmarkSvg({ chip: INK, glyph: PAPER, text: INK, ...PNG_WORDMARK }),
   },
   {
-    file: 'spectrum-ui-wordmark-light.svg',
+    file: 'rithm-ui-wordmark-light.svg',
     svg: wordmarkSvg({ chip: PAPER, glyph: INK, text: PAPER }),
   },
   {
-    file: 'spectrum-ui-wordmark-light.png',
+    file: 'rithm-ui-wordmark-light.png',
     svg: wordmarkSvg({ chip: PAPER, glyph: INK, text: PAPER, ...PNG_WORDMARK }),
   },
 ];
@@ -105,13 +105,13 @@ const README = `Rithm UI brand assets
 
 Logo mark and wordmark, each in dark (for light backgrounds) and light
 (for dark backgrounds), as SVG and transparent PNG, plus press-quality
-product screenshots (spectrum-ui-screenshot-*.png, light and dark).
+product screenshots (rithm-ui-screenshot-*.png, light and dark).
 
 Please keep the mark's shape, proportions, and colors as shipped — don't
 redraw, recolor, or add effects.
 
-Website  https://ui.spectrumhq.in
-Brand    https://ui.spectrumhq.in/brandkit
+Website  https://rithmui.com
+Brand    https://rithmui.com/brandkit
 GitHub   https://github.com/aadiexii/Rithm-UI
 X        https://x.com/aadiexii
 `;
@@ -137,11 +137,11 @@ async function main() {
   }
 
   // Product screenshots are captured by hand, not generated: production site
-  // at a 1440x900 viewport, @2x, chat widget (#spectrum-chat) hidden, saved
-  // as public/brand/spectrum-ui-screenshot-<page>-<light|dark>.png. Bundle
+  // at a 1440x900 viewport, @2x, chat widget hidden, saved
+  // as public/brand/rithm-ui-screenshot-<page>-<light|dark>.png. Bundle
   // whatever captures are present so the zip stays complete.
   for (const file of readdirSync(outputDir).sort()) {
-    if (!/^spectrum-ui-screenshot-.*\.png$/.test(file)) continue;
+    if (!/^rithm-ui-screenshot-.*\.png$/.test(file)) continue;
     const contents = readFileSync(path.join(outputDir, file));
     zip.file(file, contents, { date: zipDate });
     console.log(`bundled public/brand/${file} (${contents.length} bytes)`);
@@ -152,8 +152,8 @@ async function main() {
     compression: 'DEFLATE',
     compressionOptions: { level: 9 },
   });
-  writeFileSync(path.join(outputDir, 'spectrum-ui-brand-kit.zip'), zipBuffer);
-  console.log(`wrote public/brand/spectrum-ui-brand-kit.zip (${zipBuffer.length} bytes)`);
+  writeFileSync(path.join(outputDir, 'rithm-ui-brand-kit.zip'), zipBuffer);
+  console.log(`wrote public/brand/rithm-ui-brand-kit.zip (${zipBuffer.length} bytes)`);
 }
 
 await main();

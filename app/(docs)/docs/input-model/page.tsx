@@ -19,7 +19,7 @@ export const metadata: Metadata = baseMetadata({
     "input dialog",
     "modal form",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/input-model",
+  canonicalUrl: "https://rithmui.com/docs/input-model",
 });
 
 const DualRangeSliderPage = () => {
@@ -27,7 +27,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Input Model"
       description="A modal dialog with an input form for quick data entry."
-      url="https://ui.spectrumhq.in/docs/input-model"
+      url="https://rithmui.com/docs/input-model"
       keywords={[
         "input modal",
         "modal input",
@@ -45,9 +45,9 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/input-model/input-model.tsx"
-        cli="@spectrumui/input-model"
+        cli="@rithmui/input-model"
       
-        installScript="npx shadcn@latest add @spectrumui/input-model"
+        installScript="npx shadcn@latest add @rithmui/input-model"
         installCodePath="app/(docs)/docs/input-model/input-model.tsx"
       >
         <InputModel />

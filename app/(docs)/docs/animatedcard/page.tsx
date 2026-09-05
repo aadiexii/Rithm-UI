@@ -22,7 +22,7 @@ export const metadata: Metadata = baseMetadata({
     "Framer Motion card",
     "interactive card",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/animatedcard",
+  canonicalUrl: "https://rithmui.com/docs/animatedcard",
 });
 
 const DualRangeSliderPage = () => {
@@ -30,7 +30,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Animated Card"
       description="A card that animates on hover to showcase tools, technologies, and features."
-      url="https://ui.spectrumhq.in/docs/animatedcard"
+      url="https://rithmui.com/docs/animatedcard"
       keywords={[
         "animated card",
         "card component",
@@ -48,7 +48,7 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/animatedcard/animatedcarddemo.tsx"
-        cli="@spectrumui/animated-card"
+        cli="@rithmui/animated-card"
         installScript="npm i lucide-react framer-motion"
         installCodePath="app/(docs)/docs/animatedcard/animatedcard.tsx"
       >

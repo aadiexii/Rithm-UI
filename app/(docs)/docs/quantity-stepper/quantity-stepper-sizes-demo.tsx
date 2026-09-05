@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { QuantityStepper } from "@/components/spectrumui/quantity-stepper"
+import { QuantityStepper } from "@/components/rithmui/quantity-stepper"
 
 export default function QuantityStepperSizesDemo() {
   return (

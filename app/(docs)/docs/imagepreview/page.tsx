@@ -20,7 +20,7 @@ export const metadata: Metadata = baseMetadata({
     "image viewer",
     "gallery component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/imagepreview",
+  canonicalUrl: "https://rithmui.com/docs/imagepreview",
 });
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
     <SEOWrapper
       componentName="Image Preview"
       description="An image preview component with zoom, lightbox, and gallery support."
-      url="https://ui.spectrumhq.in/docs/imagepreview"
+      url="https://rithmui.com/docs/imagepreview"
       keywords={[
         "image preview",
         "image gallery",
@@ -48,7 +48,7 @@ const page = () => {
         >
         <PreviewCodeCard
           path="app/(docs)/docs/imagepreview/usages/useone.tsx"
-          cli="@spectrumui/image-preview"
+          cli="@rithmui/image-preview"
         
         installScript="npm i lucide-react"
         installCodePath="app/(docs)/docs/imagepreview/ImagePreview.tsx"

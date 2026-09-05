@@ -28,7 +28,7 @@ const tokenClass = (tokens: string[], index: number) => {
 };
 
 interface CommandFigureProps {
-  /** Registry slug, e.g. "@spectrumui/input" — renders package-manager tabs */
+  /** Registry slug, e.g. "@rithmui/input" — renders package-manager tabs */
   cli?: string;
   /** Raw command shown as-is when no cli slug is given, e.g. "npm i framer-motion" */
   command?: string;

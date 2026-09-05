@@ -68,8 +68,8 @@ export async function searchComponents(
       description: item.description,
       category: inferCategory(item),
       score: score(item, query),
-      cliCommand: `bunx --bun shadcn@latest add @spectrumui/${item.name}`,
-      docsUrl: item.docsUrl ?? "https://ui.spectrumhq.in/docs",
+      cliCommand: `bunx --bun shadcn@latest add @rithmui/${item.name}`,
+      docsUrl: item.docsUrl ?? "https://rithmui.com/docs",
     }))
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score)

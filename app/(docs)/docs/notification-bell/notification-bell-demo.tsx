@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
-import { NotificationBell } from "@/components/spectrumui/notification-bell"
+import { NotificationBell } from "@/components/rithmui/notification-bell"
 
 export default function NotificationBellDemo() {
   const [count, setCount] = useState(0)

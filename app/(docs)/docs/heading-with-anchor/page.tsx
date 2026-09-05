@@ -28,7 +28,7 @@ export const metadata: Metadata = baseMetadata({
     "typography component",
     "heading component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/heading-with-anchor",
+  canonicalUrl: "https://rithmui.com/docs/heading-with-anchor",
 });
 
 const HeadingWithAnchorPage = () => {
@@ -36,7 +36,7 @@ const HeadingWithAnchorPage = () => {
     <SEOWrapper
       componentName="Heading With Anchor"
       description="A heading component that adds clickable anchor links for section sharing."
-      url="https://ui.spectrumhq.in/docs/heading-with-anchor"
+      url="https://rithmui.com/docs/heading-with-anchor"
       keywords={[
         "heading anchor",
         "anchor heading",
@@ -55,7 +55,7 @@ const HeadingWithAnchorPage = () => {
       <PreviewCodeCard path="app/(docs)/docs/heading-with-anchor/heading-with-anchor-demo.tsx"
         installScript="npm i @radix-ui/react-slot class-variance-authority"
         installCodePath="components/ui/heading-with-anchor.tsx"
-        cli="@spectrumui/heading-with-anchor"
+        cli="@rithmui/heading-with-anchor"
       >
         <HeadingDemo />
       </PreviewCodeCard>

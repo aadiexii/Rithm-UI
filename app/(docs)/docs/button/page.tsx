@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import React from "react";
-import ButtonCollection from "@/components/spectrumui/ButtonCollection";
+import ButtonCollection from "@/components/rithmui/ButtonCollection";
 import { PageSubTitle, PageTemplate } from "../components/page-template";
 import { Steppers } from "@/components/ui/steppers";
 import { Metadata } from "next";
@@ -23,7 +23,7 @@ export const metadata: Metadata = baseMetadata({
     "UI button component",
     "React button styles",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/button",
+  canonicalUrl: "https://rithmui.com/docs/button",
 });
 
 const page = () => {
@@ -31,7 +31,7 @@ const page = () => {
     <SEOWrapper
       componentName="Button"
       description="A set of pre-designed buttons including gradient, outline, loading, and icon styles."
-      url="https://ui.spectrumhq.in/docs/button"
+      url="https://rithmui.com/docs/button"
       keywords={[
         "React button",
         "Next.js button",
@@ -53,7 +53,7 @@ const page = () => {
           <PageSubTitle>Installation</PageSubTitle>
           <Steppers
             withInstall
-            codePath="components/spectrumui/ButtonCollection.tsx"
+            codePath="components/rithmui/ButtonCollection.tsx"
             installScript="npx shadcn@latest add button"
             withEnd
           />

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { LoadingButton } from "@/app/registry/spectrumui/loading-button-dependencies";
+import { LoadingButton } from "@/app/registry/rithmui/loading-button-dependencies";
 
 const LoadingButtonUsage = () => {
   const [loading, setLoading] = React.useState(false);

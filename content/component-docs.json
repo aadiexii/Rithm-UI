@@ -17,12 +17,12 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/accordion"
+        "npx shadcn@latest add @rithmui/accordion"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/accordion.tsx",
-        "components/spectrumui/accordion-demo.tsx"
+        "components/rithmui/accordion-demo.tsx"
       ]
     },
     "coverage": {
@@ -79,7 +79,7 @@
       },
       {
         "question": "How do I install Accordion?",
-        "answer": "Run npx shadcn@latest add @spectrumui/accordion. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/accordion. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Accordion require Motion?",
@@ -123,20 +123,20 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/alert-1",
-        "npx shadcn@latest add @spectrumui/alert-2",
-        "npx shadcn@latest add @spectrumui/alert-3",
-        "npx shadcn@latest add @spectrumui/alert-4"
+        "npx shadcn@latest add @rithmui/alert-1",
+        "npx shadcn@latest add @rithmui/alert-2",
+        "npx shadcn@latest add @rithmui/alert-3",
+        "npx shadcn@latest add @rithmui/alert-4"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
         "lib/utils.ts",
-        "components/spectrumui/alertdemo.tsx",
-        "components/spectrumui/alerttwo.tsx",
-        "components/spectrumui/alertthree.tsx",
-        "components/spectrumui/alertfour.tsx"
+        "components/rithmui/alertdemo.tsx",
+        "components/rithmui/alerttwo.tsx",
+        "components/rithmui/alertthree.tsx",
+        "components/rithmui/alertfour.tsx"
       ]
     },
     "coverage": {
@@ -203,7 +203,7 @@
       },
       {
         "question": "How do I install Animated Alert?",
-        "answer": "Run npx shadcn@latest add @spectrumui/alert-1 or npx shadcn@latest add @spectrumui/alert-2 or npx shadcn@latest add @spectrumui/alert-3 or npx shadcn@latest add @spectrumui/alert-4. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/alert-1 or npx shadcn@latest add @rithmui/alert-2 or npx shadcn@latest add @rithmui/alert-3 or npx shadcn@latest add @rithmui/alert-4. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Animated Alert require Motion?",
@@ -240,13 +240,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/animated-switch"
+        "npx shadcn@latest add @rithmui/animated-switch"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/animated-switch.tsx"
+        "components/rithmui/animated-switch.tsx"
       ]
     },
     "coverage": {
@@ -362,7 +362,7 @@
       },
       {
         "question": "How do I install Animated Switch?",
-        "answer": "Run npx shadcn@latest add @spectrumui/animated-switch. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/animated-switch. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Animated Switch require Motion?",
@@ -401,15 +401,15 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/animated-card"
+        "npx shadcn@latest add @rithmui/animated-card"
       ],
       "dependencyCommands": [
         "npm i lucide-react framer-motion"
       ],
       "manualPaths": [
         "app/(docs)/docs/animatedcard/animatedcard.tsx",
-        "components/spectrumui/animatedcard.tsx",
-        "components/spectrumui/animatedcarddemo.tsx"
+        "components/rithmui/animatedcard.tsx",
+        "components/rithmui/animatedcarddemo.tsx"
       ]
     },
     "coverage": {
@@ -468,7 +468,7 @@
       },
       {
         "question": "How do I install Animated Card?",
-        "answer": "Run npx shadcn@latest add @spectrumui/animated-card. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/animated-card. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Animated Card require Motion?",
@@ -507,14 +507,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/animated-SVG-chart"
+        "npx shadcn@latest add @rithmui/animated-SVG-chart"
       ],
       "dependencyCommands": [
         "npm i framer-motion mini-svg-data-uri"
       ],
       "manualPaths": [
         "lib/sample.ts",
-        "components/spectrumui/animatedemo.tsx"
+        "components/rithmui/animatedemo.tsx"
       ]
     },
     "coverage": {
@@ -572,7 +572,7 @@
       },
       {
         "question": "How do I install Animated SVG Chart?",
-        "answer": "Run npx shadcn@latest add @spectrumui/animated-SVG-chart. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/animated-SVG-chart. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Animated SVG Chart require Motion?",
@@ -614,14 +614,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/animated-drawer"
+        "npx shadcn@latest add @rithmui/animated-drawer"
       ],
       "dependencyCommands": [
         "npm i lucide-react motion vaul react-use-measure"
       ],
       "manualPaths": [
         "app/(docs)/docs/animateddrawer/demo.tsx",
-        "components/spectrumui/animateddrawer.tsx"
+        "components/rithmui/animateddrawer.tsx"
       ]
     },
     "coverage": {
@@ -681,7 +681,7 @@
       },
       {
         "question": "How do I install Animated Drawer?",
-        "answer": "Run npx shadcn@latest add @spectrumui/animated-drawer. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/animated-drawer. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Animated Drawer require Motion?",
@@ -714,24 +714,24 @@
     ],
     "dependencies": [],
     "registryDependencies": [
-      "@spectrumui/autosize-textarea-dependecies"
+      "@rithmui/autosize-textarea-dependecies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/autosize-textarea-demo",
-        "npx shadcn@latest add @spectrumui/autosize-textarea-max-height",
-        "npx shadcn@latest add @spectrumui/autosize-textarea-ref",
-        "npx shadcn@latest add @spectrumui/autosize-textarea-form",
-        "npx shadcn@latest add @spectrumui/autosize-textarea-customize"
+        "npx shadcn@latest add @rithmui/autosize-textarea-demo",
+        "npx shadcn@latest add @rithmui/autosize-textarea-max-height",
+        "npx shadcn@latest add @rithmui/autosize-textarea-ref",
+        "npx shadcn@latest add @rithmui/autosize-textarea-form",
+        "npx shadcn@latest add @rithmui/autosize-textarea-customize"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/autosize-textarea.tsx",
-        "components/spectrumui/autosize-textarea-demo.tsx",
-        "components/spectrumui/autosize-textarea-with-max-height.tsx",
-        "components/spectrumui/autosize-textarea-with-ref.tsx",
-        "components/spectrumui/autosize-textarea-form.tsx",
-        "components/spectrumui/autosize-textarea-customize.tsx"
+        "components/rithmui/autosize-textarea-demo.tsx",
+        "components/rithmui/autosize-textarea-with-max-height.tsx",
+        "components/rithmui/autosize-textarea-with-ref.tsx",
+        "components/rithmui/autosize-textarea-form.tsx",
+        "components/rithmui/autosize-textarea-customize.tsx"
       ]
     },
     "coverage": {
@@ -775,7 +775,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/autosize-textarea-dependecies"
+      "Rithm UI registry dependencies: @rithmui/autosize-textarea-dependecies"
     ],
     "accessibility": [
       "Test focus order, keyboard operation, labels, contrast, and screen-reader output in the final application context."
@@ -813,7 +813,7 @@
       },
       {
         "question": "How do I install Autosize Textarea?",
-        "answer": "Run npx shadcn@latest add @spectrumui/autosize-textarea-demo or npx shadcn@latest add @spectrumui/autosize-textarea-max-height or npx shadcn@latest add @spectrumui/autosize-textarea-ref or npx shadcn@latest add @spectrumui/autosize-textarea-form or npx shadcn@latest add @spectrumui/autosize-textarea-customize. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/autosize-textarea-demo or npx shadcn@latest add @rithmui/autosize-textarea-max-height or npx shadcn@latest add @rithmui/autosize-textarea-ref or npx shadcn@latest add @rithmui/autosize-textarea-form or npx shadcn@latest add @rithmui/autosize-textarea-customize. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Autosize Textarea require Motion?",
@@ -851,13 +851,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/avatar-stack"
+        "npx shadcn@latest add @rithmui/avatar-stack"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/avatar-stack.tsx"
+        "components/rithmui/avatar-stack.tsx"
       ]
     },
     "coverage": {
@@ -956,7 +956,7 @@
       },
       {
         "question": "How do I install Avatar Stack?",
-        "answer": "Run npx shadcn@latest add @spectrumui/avatar-stack. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/avatar-stack. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Avatar Stack require Motion?",
@@ -996,14 +996,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/event-badge-3d"
+        "npx shadcn@latest add @rithmui/event-badge-3d"
       ],
       "dependencyCommands": [
         "npm install three @react-three/fiber @react-three/drei @react-three/rapier meshline"
       ],
       "manualPaths": [
         "app/(docs)/docs/badge/badgedemo.tsx",
-        "components/spectrumui/event_badge-3d.tsx"
+        "components/rithmui/event_badge-3d.tsx"
       ]
     },
     "coverage": {
@@ -1089,7 +1089,7 @@
       },
       {
         "question": "How do I install 3D Event Badge?",
-        "answer": "Run npx shadcn@latest add @spectrumui/event-badge-3d. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/event-badge-3d. The page also exposes the source for manual installation."
       },
       {
         "question": "Does 3D Event Badge require Motion?",
@@ -1128,7 +1128,7 @@
       ],
       "dependencyCommands": [],
       "manualPaths": [
-        "components/spectrumui/ButtonCollection.tsx"
+        "components/rithmui/ButtonCollection.tsx"
       ]
     },
     "coverage": {
@@ -1225,7 +1225,7 @@
       ],
       "dependencyCommands": [],
       "manualPaths": [
-        "components/spectrumui/cards.tsx"
+        "components/rithmui/cards.tsx"
       ]
     },
     "coverage": {
@@ -1321,35 +1321,35 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/datetime-picker-demo",
-        "npx shadcn@latest add @spectrumui/datetime-picker-hour-cycle",
-        "npx shadcn@latest add @spectrumui/datetime-picker-and-time-input",
-        "npx shadcn@latest add @spectrumui/datetime-picker-year-range",
-        "npx shadcn@latest add @spectrumui/datetime-picker-locale",
-        "npx shadcn@latest add @spectrumui/datetime-picker-calendar-settings",
-        "npx shadcn@latest add @spectrumui/datetime-picker-display-format",
-        "npx shadcn@latest add @spectrumui/datetime-picker-placeholder",
-        "npx shadcn@latest add @spectrumui/datetime-picker-granularity",
-        "npx shadcn@latest add @spectrumui/datetime-picker-disabled",
-        "npx shadcn@latest add @spectrumui/datetime-picker-ref",
-        "npx shadcn@latest add @spectrumui/datetime-picker-form",
+        "npx shadcn@latest add @rithmui/datetime-picker-demo",
+        "npx shadcn@latest add @rithmui/datetime-picker-hour-cycle",
+        "npx shadcn@latest add @rithmui/datetime-picker-and-time-input",
+        "npx shadcn@latest add @rithmui/datetime-picker-year-range",
+        "npx shadcn@latest add @rithmui/datetime-picker-locale",
+        "npx shadcn@latest add @rithmui/datetime-picker-calendar-settings",
+        "npx shadcn@latest add @rithmui/datetime-picker-display-format",
+        "npx shadcn@latest add @rithmui/datetime-picker-placeholder",
+        "npx shadcn@latest add @rithmui/datetime-picker-granularity",
+        "npx shadcn@latest add @rithmui/datetime-picker-disabled",
+        "npx shadcn@latest add @rithmui/datetime-picker-ref",
+        "npx shadcn@latest add @rithmui/datetime-picker-form",
         "npx shadcn@latest add calendar select input popover"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/datetime-picker.tsx",
-        "components/spectrumui/autosize-textarea-customize.tsx",
-        "components/spectrumui/datetime-picker-form.tsx",
-        "components/spectrumui/date-picker-and-time-input.tsx",
-        "components/spectrumui/datetime-picker-year-range.tsx",
-        "components/spectrumui/datetime-picker-locale.tsx",
-        "components/spectrumui/datetime-picker-calendar-settings.tsx",
-        "components/spectrumui/datetime-picker-display-format.tsx",
-        "components/spectrumui/date-picker-placeholder.tsx",
-        "components/spectrumui/date-picker-granularity.tsx",
-        "components/spectrumui/date-picker-disabled.tsx",
-        "components/spectrumui/date-picker-ref.tsx",
-        "components/spectrumui/date-picker-form.tsx"
+        "components/rithmui/autosize-textarea-customize.tsx",
+        "components/rithmui/datetime-picker-form.tsx",
+        "components/rithmui/date-picker-and-time-input.tsx",
+        "components/rithmui/datetime-picker-year-range.tsx",
+        "components/rithmui/datetime-picker-locale.tsx",
+        "components/rithmui/datetime-picker-calendar-settings.tsx",
+        "components/rithmui/datetime-picker-display-format.tsx",
+        "components/rithmui/date-picker-placeholder.tsx",
+        "components/rithmui/date-picker-granularity.tsx",
+        "components/rithmui/date-picker-disabled.tsx",
+        "components/rithmui/date-picker-ref.tsx",
+        "components/rithmui/date-picker-form.tsx"
       ]
     },
     "coverage": {
@@ -1505,7 +1505,7 @@
       },
       {
         "question": "How do I install Datetime Picker?",
-        "answer": "Run npx shadcn@latest add @spectrumui/datetime-picker-demo or npx shadcn@latest add @spectrumui/datetime-picker-hour-cycle or npx shadcn@latest add @spectrumui/datetime-picker-and-time-input or npx shadcn@latest add @spectrumui/datetime-picker-year-range or npx shadcn@latest add @spectrumui/datetime-picker-locale or npx shadcn@latest add @spectrumui/datetime-picker-calendar-settings or npx shadcn@latest add @spectrumui/datetime-picker-display-format or npx shadcn@latest add @spectrumui/datetime-picker-placeholder or npx shadcn@latest add @spectrumui/datetime-picker-granularity or npx shadcn@latest add @spectrumui/datetime-picker-disabled or npx shadcn@latest add @spectrumui/datetime-picker-ref or npx shadcn@latest add @spectrumui/datetime-picker-form or npx shadcn@latest add calendar select input popover. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/datetime-picker-demo or npx shadcn@latest add @rithmui/datetime-picker-hour-cycle or npx shadcn@latest add @rithmui/datetime-picker-and-time-input or npx shadcn@latest add @rithmui/datetime-picker-year-range or npx shadcn@latest add @rithmui/datetime-picker-locale or npx shadcn@latest add @rithmui/datetime-picker-calendar-settings or npx shadcn@latest add @rithmui/datetime-picker-display-format or npx shadcn@latest add @rithmui/datetime-picker-placeholder or npx shadcn@latest add @rithmui/datetime-picker-granularity or npx shadcn@latest add @rithmui/datetime-picker-disabled or npx shadcn@latest add @rithmui/datetime-picker-ref or npx shadcn@latest add @rithmui/datetime-picker-form or npx shadcn@latest add calendar select input popover. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Datetime Picker require Motion?",
@@ -1541,24 +1541,24 @@
       "@radix-ui/react-slider"
     ],
     "registryDependencies": [
-      "@spectrumui/dual-range-slider-dependecies"
+      "@rithmui/dual-range-slider-dependecies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/dual-range-slider-demo",
-        "npx shadcn@latest add @spectrumui/dual-range-slider-custom-label",
-        "npx shadcn@latest add @spectrumui/dual-range-slider-label-position",
-        "npx shadcn@latest add @spectrumui/dual-range-slider-single"
+        "npx shadcn@latest add @rithmui/dual-range-slider-demo",
+        "npx shadcn@latest add @rithmui/dual-range-slider-custom-label",
+        "npx shadcn@latest add @rithmui/dual-range-slider-label-position",
+        "npx shadcn@latest add @rithmui/dual-range-slider-single"
       ],
       "dependencyCommands": [
         "npm i @radix-ui/react-slider"
       ],
       "manualPaths": [
         "components/ui/dual-range-slider.tsx",
-        "components/spectrumui/dual-range-slider-demo.tsx",
-        "components/spectrumui/dual-range-slider-custom-label.tsx",
-        "components/spectrumui/dual-range-slider-label-position.tsx",
-        "components/spectrumui/dual-range-slider-single.tsx"
+        "components/rithmui/dual-range-slider-demo.tsx",
+        "components/rithmui/dual-range-slider-custom-label.tsx",
+        "components/rithmui/dual-range-slider-label-position.tsx",
+        "components/rithmui/dual-range-slider-single.tsx"
       ]
     },
     "coverage": {
@@ -1590,7 +1590,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/dual-range-slider-dependecies"
+      "Rithm UI registry dependencies: @rithmui/dual-range-slider-dependecies"
     ],
     "accessibility": [
       "The source uses Radix UI primitives for the interactions detected on this component.",
@@ -1629,7 +1629,7 @@
       },
       {
         "question": "How do I install Dual Range Slider?",
-        "answer": "Run npx shadcn@latest add @spectrumui/dual-range-slider-demo or npx shadcn@latest add @spectrumui/dual-range-slider-custom-label or npx shadcn@latest add @spectrumui/dual-range-slider-label-position or npx shadcn@latest add @spectrumui/dual-range-slider-single. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/dual-range-slider-demo or npx shadcn@latest add @rithmui/dual-range-slider-custom-label or npx shadcn@latest add @rithmui/dual-range-slider-label-position or npx shadcn@latest add @rithmui/dual-range-slider-single. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Dual Range Slider require Motion?",
@@ -1667,13 +1667,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/face-rating"
+        "npx shadcn@latest add @rithmui/face-rating"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/face-rating.tsx"
+        "components/rithmui/face-rating.tsx"
       ]
     },
     "coverage": {
@@ -1784,7 +1784,7 @@
       },
       {
         "question": "How do I install Face Rating?",
-        "answer": "Run npx shadcn@latest add @spectrumui/face-rating. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/face-rating. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Face Rating require Motion?",
@@ -1823,14 +1823,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/feedback-demo"
+        "npx shadcn@latest add @rithmui/feedback-demo"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
         "lib/utils.ts",
-        "components/spectrumui/feedback-demo.tsx"
+        "components/rithmui/feedback-demo.tsx"
       ]
     },
     "coverage": {
@@ -1889,7 +1889,7 @@
       },
       {
         "question": "How do I install Feedback Card?",
-        "answer": "Run npx shadcn@latest add @spectrumui/feedback-demo. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/feedback-demo. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Feedback Card require Motion?",
@@ -1922,21 +1922,21 @@
     ],
     "dependencies": [],
     "registryDependencies": [
-      "@spectrumui/floating-label-input"
+      "@rithmui/floating-label-input"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/floating-label-input-demo",
-        "npx shadcn@latest add @spectrumui/floating-label-customize",
-        "npx shadcn@latest add @spectrumui/floating-label-form",
+        "npx shadcn@latest add @rithmui/floating-label-input-demo",
+        "npx shadcn@latest add @rithmui/floating-label-customize",
+        "npx shadcn@latest add @rithmui/floating-label-form",
         "npx shadcn@latest add label input"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/floating-label-input.tsx",
-        "components/spectrumui/floating-label-input-demo.tsx",
-        "components/spectrumui/floating-label-customize.tsx",
-        "components/spectrumui/floating-label-input-form.tsx"
+        "components/rithmui/floating-label-input-demo.tsx",
+        "components/rithmui/floating-label-customize.tsx",
+        "components/rithmui/floating-label-input-form.tsx"
       ]
     },
     "coverage": {
@@ -1962,7 +1962,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/floating-label-input"
+      "Rithm UI registry dependencies: @rithmui/floating-label-input"
     ],
     "accessibility": [
       "Test focus order, keyboard operation, labels, contrast, and screen-reader output in the final application context."
@@ -2000,7 +2000,7 @@
       },
       {
         "question": "How do I install Floating Label Input?",
-        "answer": "Run npx shadcn@latest add @spectrumui/floating-label-input-demo or npx shadcn@latest add @spectrumui/floating-label-customize or npx shadcn@latest add @spectrumui/floating-label-form or npx shadcn@latest add label input. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/floating-label-input-demo or npx shadcn@latest add @rithmui/floating-label-customize or npx shadcn@latest add @rithmui/floating-label-form or npx shadcn@latest add label input. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Floating Label Input require Motion?",
@@ -2039,13 +2039,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/follow-button"
+        "npx shadcn@latest add @rithmui/follow-button"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/follow-button.tsx"
+        "components/rithmui/follow-button.tsx"
       ]
     },
     "coverage": {
@@ -2161,7 +2161,7 @@
       },
       {
         "question": "How do I install Follow Button?",
-        "answer": "Run npx shadcn@latest add @spectrumui/follow-button. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/follow-button. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Follow Button require Motion?",
@@ -2200,13 +2200,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/hold-to-confirm"
+        "npx shadcn@latest add @rithmui/hold-to-confirm"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/hold-to-confirm.tsx"
+        "components/rithmui/hold-to-confirm.tsx"
       ]
     },
     "coverage": {
@@ -2323,7 +2323,7 @@
       },
       {
         "question": "How do I install Hold to Confirm?",
-        "answer": "Run npx shadcn@latest add @spectrumui/hold-to-confirm. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/hold-to-confirm. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Hold to Confirm require Motion?",
@@ -2359,18 +2359,18 @@
       "lucide-react"
     ],
     "registryDependencies": [
-      "@spectrumui/image-preview-dependencies"
+      "@rithmui/image-preview-dependencies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/image-preview"
+        "npx shadcn@latest add @rithmui/image-preview"
       ],
       "dependencyCommands": [
         "npm i lucide-react"
       ],
       "manualPaths": [
         "app/(docs)/docs/imagepreview/ImagePreview.tsx",
-        "components/spectrumui/image-preview.tsx"
+        "components/rithmui/image-preview.tsx"
       ]
     },
     "coverage": {
@@ -2419,7 +2419,7 @@
       "Copy-paste source that remains in your repository",
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
-      "Rithm UI registry dependencies: @spectrumui/image-preview-dependencies"
+      "Rithm UI registry dependencies: @rithmui/image-preview-dependencies"
     ],
     "accessibility": [
       "The source uses Radix UI primitives for the interactions detected on this component.",
@@ -2458,7 +2458,7 @@
       },
       {
         "question": "How do I install Image Preview?",
-        "answer": "Run npx shadcn@latest add @spectrumui/image-preview. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/image-preview. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Image Preview require Motion?",
@@ -2491,16 +2491,16 @@
     ],
     "dependencies": [],
     "registryDependencies": [
-      "@spectrumui/infinite-scroll-dependecies"
+      "@rithmui/infinite-scroll-dependecies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/infinite-scroll-demo"
+        "npx shadcn@latest add @rithmui/infinite-scroll-demo"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/infinite-scroll.tsx",
-        "components/spectrumui/infinite-scroll.tsx"
+        "components/rithmui/infinite-scroll.tsx"
       ]
     },
     "coverage": {
@@ -2568,7 +2568,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/infinite-scroll-dependecies"
+      "Rithm UI registry dependencies: @rithmui/infinite-scroll-dependecies"
     ],
     "accessibility": [
       "Test focus order, keyboard operation, labels, contrast, and screen-reader output in the final application context."
@@ -2606,7 +2606,7 @@
       },
       {
         "question": "How do I install Infinite Scroll?",
-        "answer": "Run npx shadcn@latest add @spectrumui/infinite-scroll-demo. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/infinite-scroll-demo. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Infinite Scroll require Motion?",
@@ -2649,12 +2649,12 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/input-model"
+        "npx shadcn@latest add @rithmui/input-model"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "app/(docs)/docs/input-model/input-model.tsx",
-        "components/spectrumui/inputmodel.tsx"
+        "components/rithmui/inputmodel.tsx"
       ]
     },
     "coverage": {
@@ -2711,7 +2711,7 @@
       },
       {
         "question": "How do I install Input Model?",
-        "answer": "Run npx shadcn@latest add @spectrumui/input-model. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/input-model. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Input Model require Motion?",
@@ -2758,12 +2758,12 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/kanbanboard"
+        "npx shadcn@latest add @rithmui/kanbanboard"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "app/(docs)/docs/kanban/kanban01.tsx",
-        "components/spectrumui/kanbanboard.tsx"
+        "components/rithmui/kanbanboard.tsx"
       ]
     },
     "coverage": {
@@ -2823,7 +2823,7 @@
       },
       {
         "question": "How do I install Kanban Board?",
-        "answer": "Run npx shadcn@latest add @spectrumui/kanbanboard. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/kanbanboard. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Kanban Board require Motion?",
@@ -2860,13 +2860,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/kbd-key"
+        "npx shadcn@latest add @rithmui/kbd-key"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/kbd-key.tsx"
+        "components/rithmui/kbd-key.tsx"
       ]
     },
     "coverage": {
@@ -2977,7 +2977,7 @@
       },
       {
         "question": "How do I install Kbd Key?",
-        "answer": "Run npx shadcn@latest add @spectrumui/kbd-key. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/kbd-key. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Kbd Key require Motion?",
@@ -3015,13 +3015,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/like-button"
+        "npx shadcn@latest add @rithmui/like-button"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/like-button.tsx"
+        "components/rithmui/like-button.tsx"
       ]
     },
     "coverage": {
@@ -3143,7 +3143,7 @@
       },
       {
         "question": "How do I install Like Button?",
-        "answer": "Run npx shadcn@latest add @spectrumui/like-button. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/like-button. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Like Button require Motion?",
@@ -3181,22 +3181,22 @@
       "@radix-ui/react-slot"
     ],
     "registryDependencies": [
-      "@spectrumui/loading-button-dependencies"
+      "@rithmui/loading-button-dependencies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/loading-button-demo",
-        "npx shadcn@latest add @spectrumui/loading-button-usage",
-        "npx shadcn@latest add @spectrumui/loading-button-as-child"
+        "npx shadcn@latest add @rithmui/loading-button-demo",
+        "npx shadcn@latest add @rithmui/loading-button-usage",
+        "npx shadcn@latest add @rithmui/loading-button-as-child"
       ],
       "dependencyCommands": [
         "npm i class-variance-authority @radix-ui/react-slot"
       ],
       "manualPaths": [
         "components/ui/loading-button.tsx",
-        "components/spectrumui/loading-button-demo.tsx",
-        "components/spectrumui/loading-button-usage.tsx",
-        "components/spectrumui/loading-button-as-child.tsx"
+        "components/rithmui/loading-button-demo.tsx",
+        "components/rithmui/loading-button-usage.tsx",
+        "components/rithmui/loading-button-as-child.tsx"
       ]
     },
     "coverage": {
@@ -3228,7 +3228,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/loading-button-dependencies",
+      "Rithm UI registry dependencies: @rithmui/loading-button-dependencies",
       "Responsive Tailwind variants present in the source"
     ],
     "accessibility": [
@@ -3268,7 +3268,7 @@
       },
       {
         "question": "How do I install Loading Button?",
-        "answer": "Run npx shadcn@latest add @spectrumui/loading-button-demo or npx shadcn@latest add @spectrumui/loading-button-usage or npx shadcn@latest add @spectrumui/loading-button-as-child. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/loading-button-demo or npx shadcn@latest add @rithmui/loading-button-usage or npx shadcn@latest add @rithmui/loading-button-as-child. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Loading Button require Motion?",
@@ -3307,14 +3307,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/login-card"
+        "npx shadcn@latest add @rithmui/login-card"
       ],
       "dependencyCommands": [
         "npm i lucide-react framer-motion"
       ],
       "manualPaths": [
         "app/(docs)/docs/login/login-demo.tsx",
-        "components/spectrumui/logincard.tsx"
+        "components/rithmui/logincard.tsx"
       ]
     },
     "coverage": {
@@ -3372,7 +3372,7 @@
       },
       {
         "question": "How do I install Login Card?",
-        "answer": "Run npx shadcn@latest add @spectrumui/login-card. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/login-card. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Login Card require Motion?",
@@ -3409,13 +3409,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/morph-button"
+        "npx shadcn@latest add @rithmui/morph-button"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/morph-button.tsx"
+        "components/rithmui/morph-button.tsx"
       ]
     },
     "coverage": {
@@ -3555,7 +3555,7 @@
       },
       {
         "question": "How do I install Morph Button?",
-        "answer": "Run npx shadcn@latest add @spectrumui/morph-button. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/morph-button. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Morph Button require Motion?",
@@ -3592,62 +3592,62 @@
       "@hookform/resolvers"
     ],
     "registryDependencies": [
-      "@spectrumui/multiple-selector-dependencies",
-      "@spectrumui/inline-code",
-      "@spectrumui/heading-with-anchor",
-      "@spectrumui/loading-button-dependencies",
-      "@spectrumui/use-toast",
+      "@rithmui/multiple-selector-dependencies",
+      "@rithmui/inline-code",
+      "@rithmui/heading-with-anchor",
+      "@rithmui/loading-button-dependencies",
+      "@rithmui/use-toast",
       "form"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/multiple-selector-demo",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-disable-options",
-        "npx shadcn@latest add @spectrumui/multiple-selector-disabled",
-        "npx shadcn@latest add @spectrumui/multiple-selector-no-default-select",
-        "npx shadcn@latest add @spectrumui/multiple-selector-controlled",
-        "npx shadcn@latest add @spectrumui/multiple-selector-hide-clear-all",
-        "npx shadcn@latest add @spectrumui/multiple-selector-creatable",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-async-search",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-onfocus",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-creatable",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-creatable-and-group",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-sync-search",
-        "npx shadcn@latest add @spectrumui/multiple-selector-manually-controlled",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-group",
-        "npx shadcn@latest add @spectrumui/multiple-selector-max-selected",
-        "npx shadcn@latest add @spectrumui/multiple-selector-max-text-length",
-        "npx shadcn@latest add @spectrumui/multiple-selector-no-placeholder-when-selected",
-        "npx shadcn@latest add @spectrumui/multiple-selector-fixed-option",
-        "npx shadcn@latest add @spectrumui/multiple-selector-ref",
-        "npx shadcn@latest add @spectrumui/multiple-selector-commandprops",
-        "npx shadcn@latest add @spectrumui/multiple-selector-with-form",
+        "npx shadcn@latest add @rithmui/multiple-selector-demo",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-disable-options",
+        "npx shadcn@latest add @rithmui/multiple-selector-disabled",
+        "npx shadcn@latest add @rithmui/multiple-selector-no-default-select",
+        "npx shadcn@latest add @rithmui/multiple-selector-controlled",
+        "npx shadcn@latest add @rithmui/multiple-selector-hide-clear-all",
+        "npx shadcn@latest add @rithmui/multiple-selector-creatable",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-async-search",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-onfocus",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-creatable",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-creatable-and-group",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-sync-search",
+        "npx shadcn@latest add @rithmui/multiple-selector-manually-controlled",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-group",
+        "npx shadcn@latest add @rithmui/multiple-selector-max-selected",
+        "npx shadcn@latest add @rithmui/multiple-selector-max-text-length",
+        "npx shadcn@latest add @rithmui/multiple-selector-no-placeholder-when-selected",
+        "npx shadcn@latest add @rithmui/multiple-selector-fixed-option",
+        "npx shadcn@latest add @rithmui/multiple-selector-ref",
+        "npx shadcn@latest add @rithmui/multiple-selector-commandprops",
+        "npx shadcn@latest add @rithmui/multiple-selector-with-form",
         "npx shadcn@latest add command badge"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/multiple-selector.tsx",
-        "components/spectrumui/multiple-selector-demo.tsx",
-        "components/spectrumui/multiple-selector-with-disable-options.tsx",
-        "components/spectrumui/multiple-selector-disabled.tsx",
-        "components/spectrumui/multiple-selector-no-default-select.tsx",
-        "components/spectrumui/multiple-selector-controlled.tsx",
-        "components/spectrumui/multiple-selector-hide-clear-all.tsx",
-        "components/spectrumui/multiple-selector-creatable.tsx",
-        "components/spectrumui/multiple-selector-with-async-search.tsx",
-        "components/spectrumui/multiple-selector-with-async-search-and-onfocus.tsx",
-        "components/spectrumui/multiple-selector-with-async-search-and-creatable.tsx",
-        "components/spectrumui/multiple-selector-with-async-search-and-creatable-and-group.tsx",
-        "components/spectrumui/multiple-selector-with-sync-search.tsx",
-        "components/spectrumui/multiple-selector-manually-controlled.tsx",
-        "components/spectrumui/multiple-selector-with-group.tsx",
-        "components/spectrumui/multiple-selector-max-selected.tsx",
-        "components/spectrumui/multiple-selector-max-text-length.tsx",
-        "components/spectrumui/multiple-selector-no-placeholder-when-selected.tsx",
-        "components/spectrumui/multiple-selector-fixed-option.tsx",
-        "components/spectrumui/multiple-selector-ref.tsx",
-        "components/spectrumui/multiple-selector-commandprops.tsx",
-        "components/spectrumui/multiple-selector-with-form.tsx"
+        "components/rithmui/multiple-selector-demo.tsx",
+        "components/rithmui/multiple-selector-with-disable-options.tsx",
+        "components/rithmui/multiple-selector-disabled.tsx",
+        "components/rithmui/multiple-selector-no-default-select.tsx",
+        "components/rithmui/multiple-selector-controlled.tsx",
+        "components/rithmui/multiple-selector-hide-clear-all.tsx",
+        "components/rithmui/multiple-selector-creatable.tsx",
+        "components/rithmui/multiple-selector-with-async-search.tsx",
+        "components/rithmui/multiple-selector-with-async-search-and-onfocus.tsx",
+        "components/rithmui/multiple-selector-with-async-search-and-creatable.tsx",
+        "components/rithmui/multiple-selector-with-async-search-and-creatable-and-group.tsx",
+        "components/rithmui/multiple-selector-with-sync-search.tsx",
+        "components/rithmui/multiple-selector-manually-controlled.tsx",
+        "components/rithmui/multiple-selector-with-group.tsx",
+        "components/rithmui/multiple-selector-max-selected.tsx",
+        "components/rithmui/multiple-selector-max-text-length.tsx",
+        "components/rithmui/multiple-selector-no-placeholder-when-selected.tsx",
+        "components/rithmui/multiple-selector-fixed-option.tsx",
+        "components/rithmui/multiple-selector-ref.tsx",
+        "components/rithmui/multiple-selector-commandprops.tsx",
+        "components/rithmui/multiple-selector-with-form.tsx"
       ]
     },
     "coverage": {
@@ -3787,7 +3787,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: form",
-      "Rithm UI registry dependencies: @spectrumui/multiple-selector-dependencies, @spectrumui/inline-code, @spectrumui/heading-with-anchor, @spectrumui/loading-button-dependencies, @spectrumui/use-toast"
+      "Rithm UI registry dependencies: @rithmui/multiple-selector-dependencies, @rithmui/inline-code, @rithmui/heading-with-anchor, @rithmui/loading-button-dependencies, @rithmui/use-toast"
     ],
     "accessibility": [
       "The source includes ARIA attributes or roles; preserve them when customizing the component.",
@@ -3827,7 +3827,7 @@
       },
       {
         "question": "How do I install Multiple Selector?",
-        "answer": "Run npx shadcn@latest add @spectrumui/multiple-selector-demo or npx shadcn@latest add @spectrumui/multiple-selector-with-disable-options or npx shadcn@latest add @spectrumui/multiple-selector-disabled or npx shadcn@latest add @spectrumui/multiple-selector-no-default-select or npx shadcn@latest add @spectrumui/multiple-selector-controlled or npx shadcn@latest add @spectrumui/multiple-selector-hide-clear-all or npx shadcn@latest add @spectrumui/multiple-selector-creatable or npx shadcn@latest add @spectrumui/multiple-selector-with-async-search or npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-onfocus or npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-creatable or npx shadcn@latest add @spectrumui/multiple-selector-with-async-search-and-creatable-and-group or npx shadcn@latest add @spectrumui/multiple-selector-with-sync-search or npx shadcn@latest add @spectrumui/multiple-selector-manually-controlled or npx shadcn@latest add @spectrumui/multiple-selector-with-group or npx shadcn@latest add @spectrumui/multiple-selector-max-selected or npx shadcn@latest add @spectrumui/multiple-selector-max-text-length or npx shadcn@latest add @spectrumui/multiple-selector-no-placeholder-when-selected or npx shadcn@latest add @spectrumui/multiple-selector-fixed-option or npx shadcn@latest add @spectrumui/multiple-selector-ref or npx shadcn@latest add @spectrumui/multiple-selector-commandprops or npx shadcn@latest add @spectrumui/multiple-selector-with-form or npx shadcn@latest add command badge. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/multiple-selector-demo or npx shadcn@latest add @rithmui/multiple-selector-with-disable-options or npx shadcn@latest add @rithmui/multiple-selector-disabled or npx shadcn@latest add @rithmui/multiple-selector-no-default-select or npx shadcn@latest add @rithmui/multiple-selector-controlled or npx shadcn@latest add @rithmui/multiple-selector-hide-clear-all or npx shadcn@latest add @rithmui/multiple-selector-creatable or npx shadcn@latest add @rithmui/multiple-selector-with-async-search or npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-onfocus or npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-creatable or npx shadcn@latest add @rithmui/multiple-selector-with-async-search-and-creatable-and-group or npx shadcn@latest add @rithmui/multiple-selector-with-sync-search or npx shadcn@latest add @rithmui/multiple-selector-manually-controlled or npx shadcn@latest add @rithmui/multiple-selector-with-group or npx shadcn@latest add @rithmui/multiple-selector-max-selected or npx shadcn@latest add @rithmui/multiple-selector-max-text-length or npx shadcn@latest add @rithmui/multiple-selector-no-placeholder-when-selected or npx shadcn@latest add @rithmui/multiple-selector-fixed-option or npx shadcn@latest add @rithmui/multiple-selector-ref or npx shadcn@latest add @rithmui/multiple-selector-commandprops or npx shadcn@latest add @rithmui/multiple-selector-with-form or npx shadcn@latest add command badge. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Multiple Selector require Motion?",
@@ -3875,13 +3875,13 @@
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/multiple-step-form-demo",
+        "npx shadcn@latest add @rithmui/multiple-step-form-demo",
         "npx shadcn@latest add sonner card input label textarea select checkbox radio-group"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "lib/utils.ts",
-        "components/spectrumui/multistepformdemo.tsx"
+        "components/rithmui/multistepformdemo.tsx"
       ]
     },
     "coverage": {
@@ -3941,7 +3941,7 @@
       },
       {
         "question": "How do I install Multistep Form?",
-        "answer": "Run npx shadcn@latest add @spectrumui/multiple-step-form-demo or npx shadcn@latest add sonner card input label textarea select checkbox radio-group. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/multiple-step-form-demo or npx shadcn@latest add sonner card input label textarea select checkbox radio-group. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Multistep Form require Motion?",
@@ -3979,13 +3979,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/notification-bell"
+        "npx shadcn@latest add @rithmui/notification-bell"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/notification-bell.tsx"
+        "components/rithmui/notification-bell.tsx"
       ]
     },
     "coverage": {
@@ -4089,7 +4089,7 @@
       },
       {
         "question": "How do I install Notification Bell?",
-        "answer": "Run npx shadcn@latest add @spectrumui/notification-bell. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/notification-bell. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Notification Bell require Motion?",
@@ -4128,13 +4128,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/password-strength"
+        "npx shadcn@latest add @rithmui/password-strength"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/password-strength.tsx"
+        "components/rithmui/password-strength.tsx"
       ]
     },
     "coverage": {
@@ -4280,7 +4280,7 @@
       },
       {
         "question": "How do I install Password Strength?",
-        "answer": "Run npx shadcn@latest add @spectrumui/password-strength. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/password-strength. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Password Strength require Motion?",
@@ -4320,14 +4320,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/profile-dropdown"
+        "npx shadcn@latest add @rithmui/profile-dropdown"
       ],
       "dependencyCommands": [
         "npm i lucide-react framer-motion"
       ],
       "manualPaths": [
         "app/(docs)/docs/profile/profiledemo.tsx",
-        "components/spectrumui/profiledropdown.tsx"
+        "components/rithmui/profiledropdown.tsx"
       ]
     },
     "coverage": {
@@ -4385,7 +4385,7 @@
       },
       {
         "question": "How do I install Profile Dropdown?",
-        "answer": "Run npx shadcn@latest add @spectrumui/profile-dropdown. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/profile-dropdown. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Profile Dropdown require Motion?",
@@ -4421,22 +4421,22 @@
       "@radix-ui/react-progress"
     ],
     "registryDependencies": [
-      "@spectrumui/progress-with-value-dependencies"
+      "@rithmui/progress-with-value-dependencies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/progress-with-value",
-        "npx shadcn@latest add @spectrumui/value-position",
-        "npx shadcn@latest add @spectrumui/custom-label"
+        "npx shadcn@latest add @rithmui/progress-with-value",
+        "npx shadcn@latest add @rithmui/value-position",
+        "npx shadcn@latest add @rithmui/custom-label"
       ],
       "dependencyCommands": [
         "npm i @radix-ui/react-progress"
       ],
       "manualPaths": [
         "components/ui/progress-with-value.tsx",
-        "components/spectrumui/progresswithvalue.tsx",
-        "components/spectrumui/progress-with-value-position.tsx",
-        "components/spectrumui/progress-with-value-label.tsx"
+        "components/rithmui/progresswithvalue.tsx",
+        "components/rithmui/progress-with-value-position.tsx",
+        "components/rithmui/progress-with-value-label.tsx"
       ]
     },
     "coverage": {
@@ -4474,7 +4474,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/progress-with-value-dependencies"
+      "Rithm UI registry dependencies: @rithmui/progress-with-value-dependencies"
     ],
     "accessibility": [
       "The source uses Radix UI primitives for the interactions detected on this component.",
@@ -4513,7 +4513,7 @@
       },
       {
         "question": "How do I install Progress With Value?",
-        "answer": "Run npx shadcn@latest add @spectrumui/progress-with-value or npx shadcn@latest add @spectrumui/value-position or npx shadcn@latest add @spectrumui/custom-label. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/progress-with-value or npx shadcn@latest add @rithmui/value-position or npx shadcn@latest add @rithmui/custom-label. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Progress With Value require Motion?",
@@ -4551,13 +4551,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/quantity-stepper"
+        "npx shadcn@latest add @rithmui/quantity-stepper"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/quantity-stepper.tsx"
+        "components/rithmui/quantity-stepper.tsx"
       ]
     },
     "coverage": {
@@ -4674,7 +4674,7 @@
       },
       {
         "question": "How do I install Quantity Stepper?",
-        "answer": "Run npx shadcn@latest add @spectrumui/quantity-stepper. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/quantity-stepper. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Quantity Stepper require Motion?",
@@ -4713,13 +4713,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/reaction-bar"
+        "npx shadcn@latest add @rithmui/reaction-bar"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/reaction-bar.tsx"
+        "components/rithmui/reaction-bar.tsx"
       ]
     },
     "coverage": {
@@ -4823,7 +4823,7 @@
       },
       {
         "question": "How do I install Reaction Bar?",
-        "answer": "Run npx shadcn@latest add @spectrumui/reaction-bar. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/reaction-bar. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Reaction Bar require Motion?",
@@ -4862,13 +4862,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/scratch-card"
+        "npx shadcn@latest add @rithmui/scratch-card"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/scratch-card.tsx"
+        "components/rithmui/scratch-card.tsx"
       ]
     },
     "coverage": {
@@ -5002,7 +5002,7 @@
       },
       {
         "question": "How do I install Scratch Card?",
-        "answer": "Run npx shadcn@latest add @spectrumui/scratch-card. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/scratch-card. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Scratch Card require Motion?",
@@ -5040,13 +5040,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/share-button"
+        "npx shadcn@latest add @rithmui/share-button"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/share-button.tsx"
+        "components/rithmui/share-button.tsx"
       ]
     },
     "coverage": {
@@ -5151,7 +5151,7 @@
       },
       {
         "question": "How do I install Share Button?",
-        "answer": "Run npx shadcn@latest add @spectrumui/share-button. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/share-button. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Share Button require Motion?",
@@ -5184,22 +5184,22 @@
     ],
     "dependencies": [],
     "registryDependencies": [
-      "@spectrumui/spinner-dependencies"
+      "@rithmui/spinner-dependencies"
     ],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/spinner-demo",
-        "npx shadcn@latest add @spectrumui/spinner-size",
-        "npx shadcn@latest add @spectrumui/spinner-with-text",
-        "npx shadcn@latest add @spectrumui/spinner-toggle"
+        "npx shadcn@latest add @rithmui/spinner-demo",
+        "npx shadcn@latest add @rithmui/spinner-size",
+        "npx shadcn@latest add @rithmui/spinner-with-text",
+        "npx shadcn@latest add @rithmui/spinner-toggle"
       ],
       "dependencyCommands": [],
       "manualPaths": [
         "components/ui/spinner.tsx",
-        "components/spectrumui/spinner-demo.tsx",
-        "components/spectrumui/spinner-size.tsx",
-        "components/spectrumui/spinner-with-text.tsx",
-        "components/spectrumui/spinner-toggle.tsx"
+        "components/rithmui/spinner-demo.tsx",
+        "components/rithmui/spinner-size.tsx",
+        "components/rithmui/spinner-with-text.tsx",
+        "components/rithmui/spinner-toggle.tsx"
       ]
     },
     "coverage": {
@@ -5231,7 +5231,7 @@
       "TypeScript source included with the component",
       "Tailwind CSS classes editable in the component source",
       "shadcn/ui dependencies: local UI primitives",
-      "Rithm UI registry dependencies: @spectrumui/spinner-dependencies"
+      "Rithm UI registry dependencies: @rithmui/spinner-dependencies"
     ],
     "accessibility": [
       "Test focus order, keyboard operation, labels, contrast, and screen-reader output in the final application context."
@@ -5269,7 +5269,7 @@
       },
       {
         "question": "How do I install Spinner?",
-        "answer": "Run npx shadcn@latest add @spectrumui/spinner-demo or npx shadcn@latest add @spectrumui/spinner-size or npx shadcn@latest add @spectrumui/spinner-with-text or npx shadcn@latest add @spectrumui/spinner-toggle. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/spinner-demo or npx shadcn@latest add @rithmui/spinner-size or npx shadcn@latest add @rithmui/spinner-with-text or npx shadcn@latest add @rithmui/spinner-toggle. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Spinner require Motion?",
@@ -5307,13 +5307,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/star-rating"
+        "npx shadcn@latest add @rithmui/star-rating"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/star-rating.tsx"
+        "components/rithmui/star-rating.tsx"
       ]
     },
     "coverage": {
@@ -5442,7 +5442,7 @@
       },
       {
         "question": "How do I install Star Rating?",
-        "answer": "Run npx shadcn@latest add @spectrumui/star-rating. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/star-rating. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Star Rating require Motion?",
@@ -5478,14 +5478,14 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/status-badge"
+        "npx shadcn@latest add @rithmui/status-badge"
       ],
       "dependencyCommands": [
         "npm i lucide-react"
       ],
       "manualPaths": [
         "app/(docs)/docs/status-badge/statusdemo.tsx",
-        "components/spectrumui/statusdemo.tsx"
+        "components/rithmui/statusdemo.tsx"
       ]
     },
     "coverage": {
@@ -5541,7 +5541,7 @@
       },
       {
         "question": "How do I install Status Badge?",
-        "answer": "Run npx shadcn@latest add @spectrumui/status-badge. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/status-badge. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Status Badge require Motion?",
@@ -5580,13 +5580,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/swipe-to-delete"
+        "npx shadcn@latest add @rithmui/swipe-to-delete"
       ],
       "dependencyCommands": [
         "npm i framer-motion lucide-react"
       ],
       "manualPaths": [
-        "components/spectrumui/swipe-to-delete.tsx"
+        "components/rithmui/swipe-to-delete.tsx"
       ]
     },
     "coverage": {
@@ -5696,7 +5696,7 @@
       },
       {
         "question": "How do I install Swipe to Delete?",
-        "answer": "Run npx shadcn@latest add @spectrumui/swipe-to-delete. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/swipe-to-delete. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Swipe to Delete require Motion?",
@@ -5734,13 +5734,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/task-checkbox"
+        "npx shadcn@latest add @rithmui/task-checkbox"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/task-checkbox.tsx"
+        "components/rithmui/task-checkbox.tsx"
       ]
     },
     "coverage": {
@@ -5850,7 +5850,7 @@
       },
       {
         "question": "How do I install Task Checkbox?",
-        "answer": "Run npx shadcn@latest add @spectrumui/task-checkbox. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/task-checkbox. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Task Checkbox require Motion?",
@@ -5889,13 +5889,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/tilt-card"
+        "npx shadcn@latest add @rithmui/tilt-card"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/tilt-card.tsx"
+        "components/rithmui/tilt-card.tsx"
       ]
     },
     "coverage": {
@@ -6016,7 +6016,7 @@
       },
       {
         "question": "How do I install 3D Tilt Card?",
-        "answer": "Run npx shadcn@latest add @spectrumui/tilt-card. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/tilt-card. The page also exposes the source for manual installation."
       },
       {
         "question": "Does 3D Tilt Card require Motion?",
@@ -6054,13 +6054,13 @@
     "registryDependencies": [],
     "installation": {
       "cliCommands": [
-        "npx shadcn@latest add @spectrumui/undo-pill"
+        "npx shadcn@latest add @rithmui/undo-pill"
       ],
       "dependencyCommands": [
         "npm i framer-motion"
       ],
       "manualPaths": [
-        "components/spectrumui/undo-pill.tsx"
+        "components/rithmui/undo-pill.tsx"
       ]
     },
     "coverage": {
@@ -6170,7 +6170,7 @@
       },
       {
         "question": "How do I install Undo Pill?",
-        "answer": "Run npx shadcn@latest add @spectrumui/undo-pill. The page also exposes the source for manual installation."
+        "answer": "Run npx shadcn@latest add @rithmui/undo-pill. The page also exposes the source for manual installation."
       },
       {
         "question": "Does Undo Pill require Motion?",

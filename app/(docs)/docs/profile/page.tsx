@@ -23,7 +23,7 @@ export const metadata: Metadata = baseMetadata({
     "profile menu",
     "account menu",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/profile",
+  canonicalUrl: "https://rithmui.com/docs/profile",
 });
 
 const DualRangeSliderPage = () => {
@@ -31,7 +31,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Profile Dropdown"
       description="A user profile dropdown menu with avatar, settings, and logout actions."
-      url="https://ui.spectrumhq.in/docs/profile"
+      url="https://rithmui.com/docs/profile"
       keywords={[
         "profile dropdown",
         "user menu",
@@ -49,7 +49,7 @@ const DualRangeSliderPage = () => {
       >
       <PreviewCodeCard
         path="app/(docs)/docs/profile/profiledemo.tsx"
-        cli="@spectrumui/profile-dropdown"
+        cli="@rithmui/profile-dropdown"
       
         installScript="npm i lucide-react framer-motion"
         installCodePath="app/(docs)/docs/profile/profiledemo.tsx"

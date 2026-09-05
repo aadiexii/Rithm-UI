@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { AnimatedSwitch } from "@/components/spectrumui/animated-switch"
+import { AnimatedSwitch } from "@/components/rithmui/animated-switch"
 
 const SETTINGS = [
   {

@@ -1,6 +1,6 @@
 /**
  * ─────────────────────────────────────────────────────────────
- *  Spectrum — Manual Purchase Simulator
+ *  Rithm — Manual Purchase Simulator
  *  
  *  Usage: bun scripts/simulate-purchase.ts
  * ───────────────────────────────────────────────────────────── */

@@ -52,7 +52,7 @@ export const CHANGELOG: ChangelogEntry[] = [
         ],
       },
     ],
-    media: { kind: 'terminal', command: 'npx shadcn@latest add @spectrumui/agent-steps' },
+    media: { kind: 'terminal', command: 'npx shadcn@latest add @rithmui/agent-steps' },
   },
   {
     slug: 'jul-28-2026',
@@ -105,7 +105,7 @@ export const CHANGELOG: ChangelogEntry[] = [
         ],
       },
     ],
-    media: { kind: 'terminal', command: 'claude mcp add spectrum-ui -- npx -y @spectrumui/mcp' },
+    media: { kind: 'terminal', command: 'claude mcp add rithm-ui -- npx -y @rithmui/mcp' },
   },
 ];
 

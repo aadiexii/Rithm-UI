@@ -14,7 +14,7 @@ export const metadata: Metadata = baseMetadata({
   title: "Sponsor Rithm UI | Frontend Developer Audience",
   description:
     "Reach developers while they browse Rithm UI documentation and components. Review available sponsor placements across the site and newsletter.",
-  canonicalUrl: "https://ui.spectrumhq.in/sponsor",
+  canonicalUrl: "https://rithmui.com/sponsor",
 })
 
 export default function SponsorPage() {

@@ -58,7 +58,7 @@ interface Entry {
 const entries: Entry[] = [
   {
     name: "Rithm UI",
-    url: "https://ui.spectrumhq.in",
+    url: "https://rithmui.com",
     internalHref: "/docs",
     summary:
       "Ship polished, animated interfaces in minutes — production-ready React & Next.js components that already move, so you skip wiring Framer Motion by hand. You own every line (copy-pasted into your repo) and they're accessible out of the box via Radix. Install with the shadcn CLI, or let Cursor and Claude add them straight from your editor through the MCP server. Free and open source (MIT).",
@@ -68,7 +68,7 @@ const entries: Entry[] = [
   {
     name: "Aceternity UI",
     url: "https://ui.aceternity.com",
-    internalHref: "/compare/spectrum-ui-vs-aceternity",
+    internalHref: "/compare/rithm-ui-vs-aceternity",
     summary:
       "Free, animation-heavy React components known for bold hero and landing-page effects, built with Tailwind and Framer Motion. Paid Pro templates available.",
     bestFor: "Marketing pages and eye-catching hero sections",
@@ -77,7 +77,7 @@ const entries: Entry[] = [
   {
     name: "Magic UI",
     url: "https://magicui.design",
-    internalHref: "/compare/spectrum-ui-vs-magic-ui",
+    internalHref: "/compare/rithm-ui-vs-magic-ui",
     summary:
       "Free, open-source collection of animated components and effects that complements shadcn/ui, built with Tailwind and Framer Motion. Paid Pro templates available.",
     bestFor: "A broad catalog of animated effects",
@@ -86,7 +86,7 @@ const entries: Entry[] = [
   {
     name: "shadcn/ui",
     url: "https://ui.shadcn.com",
-    internalHref: "/compare/spectrum-ui-vs-shadcn",
+    internalHref: "/compare/rithm-ui-vs-shadcn",
     summary:
       "The widely adopted, unstyled foundation of copy-paste React components on Radix UI and Tailwind CSS. Minimal by design — pair it with an animated layer like Rithm UI for motion.",
     bestFor: "Your unopinionated base component layer",
@@ -124,7 +124,7 @@ const faqs = [
   {
     question: "Can I use these libraries with shadcn/ui and Next.js?",
     answer:
-      "Yes. Rithm UI, Magic UI, and Animate UI are designed to work alongside shadcn/ui, and all of these ship copy-paste React and Tailwind components that drop into a Next.js project. Rithm UI installs with the shadcn CLI (npx shadcn add @spectrumui/…).",
+      "Yes. Rithm UI, Magic UI, and Animate UI are designed to work alongside shadcn/ui, and all of these ship copy-paste React and Tailwind components that drop into a Next.js project. Rithm UI installs with the shadcn CLI (npx shadcn add @rithmui/…).",
   },
   {
     question: "Which library works best with AI coding assistants?",

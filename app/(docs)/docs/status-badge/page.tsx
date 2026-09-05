@@ -22,7 +22,7 @@ export const metadata: Metadata = baseMetadata({
     "badge UI",
     "status component",
   ],
-  canonicalUrl: "https://ui.spectrumhq.in/docs/status-badge",
+  canonicalUrl: "https://rithmui.com/docs/status-badge",
 });
 
 const DualRangeSliderPage = () => {
@@ -30,7 +30,7 @@ const DualRangeSliderPage = () => {
     <SEOWrapper
       componentName="Status Badge"
       description="A status badge with icon and color variants for success, error, warning, and pending states."
-      url="https://ui.spectrumhq.in/docs/status-badge"
+      url="https://rithmui.com/docs/status-badge"
       keywords={[
         "status badge",
         "badge component",
@@ -47,7 +47,7 @@ const DualRangeSliderPage = () => {
         description="A status badge with icon and color variants for success, error, warning, and pending states."
       >
       <PreviewCodeCard
-        cli="@spectrumui/status-badge"
+        cli="@rithmui/status-badge"
         path="app/(docs)/docs/status-badge/statusdemo.tsx"
       
         installScript="npm i lucide-react"
